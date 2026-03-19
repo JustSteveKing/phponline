@@ -1,7 +1,27 @@
 ---
 import "@/styles/main.css";
-
+import { ClientRouter } from "astro:transitions";
 import { Footer, Navigation } from "@/components";
+
+interface Props {
+    title?: string;
+    description?: string;
+    ogImage?: string;
+    canonical?: string;
+    sd?: object;
+}
+
+const { 
+    title = "phponline.dev | The PHP Community Pulse", 
+    description = "The modern homepage for the PHP community. Aggregating the best news, RFCs, podcasts, and articles.",
+    ogImage,
+    canonical,
+    sd
+} = Astro.props;
+
+const siteUrl = "https://www.phponline.dev";
+const resolvedOgImage = ogImage ? `${siteUrl}${ogImage}` : `${siteUrl}/og-default.png`;
+const sdArray = Array.isArray(sd) ? sd : sd ? [sd] : [];
 ---
 
 <!doctype html>
@@ -12,11 +32,51 @@ import { Footer, Navigation } from "@/components";
         <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
         <link rel="icon" href="/favicon.ico" />
         <meta name="generator" content={Astro.generator} />
-        <title>Astro Basics</title>
+        
+        {canonical && <link rel="canonical" href={canonical} />}
+        
+        <!-- Primary Meta Tags -->
+        <title>{title}</title>
+        <meta name="title" content={title} />
+        <meta name="description" content={description} />
+
+        <!-- Open Graph / Facebook -->
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content={Astro.url} />
+        <meta property="og:title" content={title} />
+        <meta property="og:description" content={description} />
+        <meta property="og:image" content={resolvedOgImage} />
+
+        <!-- Twitter -->
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content={Astro.url} />
+        <meta property="twitter:title" content={title} />
+        <meta property="twitter:description" content={description} />
+        <meta property="twitter:image" content={resolvedOgImage} />
+
+        {sdArray.map(data => (
+            <script type="application/ld+json" set:html={JSON.stringify(data)} />
+        ))}
+
+        <ClientRouter />
+        <script is:inline>
+            const getTheme = () => {
+                if (typeof localStorage !== 'undefined' && localStorage.getItem('theme')) {
+                    return localStorage.getItem('theme');
+                }
+                return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+            };
+            const theme = getTheme();
+            if (theme === 'dark') {
+                document.documentElement.classList.add('dark');
+            } else {
+                document.documentElement.classList.remove('dark');
+            }
+        </script>
     </head>
-    <body>
+    <body class="bg-slate-50 dark:bg-[#020617] text-slate-900 dark:text-slate-300 antialiased selection:bg-red-200 selection:text-red-900 flex flex-col min-h-screen transition-colors duration-500">
         <Navigation />
-        <main data-pagefind-body class="max-w-6xl mx-auto px-4 py-8">
+        <main data-pagefind-body class="flex-grow max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 w-full">
             <slot />
         </main>
         <Footer />

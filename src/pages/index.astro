@@ -1,6 +1,13 @@
 ---
 import Layout from "../layouts/Layout.astro";
-import { BentoCard, HealthCheck, NewsCard } from "@/components";
+import {
+    BentoCard,
+    NewsCard,
+    Hero,
+    SectionHeading,
+    Grid,
+    FeatureCard,
+} from "@/components";
 import type { CollectionEntry } from "astro:content";
 import { getCollection } from "astro:content";
 
@@ -9,86 +16,110 @@ const sorted = allNews.sort(
     (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
 );
 
-// Logic for our Bento Grid
+// Logic for our Layout
 const heroPost = sorted[0];
-const secondaryPosts = sorted.slice(1, 3);
-const sidebarPosts = sorted.slice(3, 10);
+const subHeroPosts = sorted.slice(1, 4);
+const latestStories = sorted.slice(4, 10);
+
+const sd = {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    name: "phponline.dev",
+    url: "https://www.phponline.dev",
+    description: "The modern homepage for the PHP community.",
+};
 ---
 
-<Layout title="phponline.dev | The PHP Community Pulse">
-    <header class="mb-12 flex justify-between items-end">
-        <div>
-            <h1 class="text-5xl font-black tracking-tighter text-slate-900">
-                PHP<span class="text-blue-600">ONLINE</span>.DEV
-            </h1>
-            <p class="text-slate-500 font-medium">
-                The heartbeat of the PHP ecosystem.
-            </p>
-        </div>
-        <div class="text-right hidden md:block">
-            <span
-                class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-green-100 text-green-700 text-xs font-bold"
-            >
-                <span class="h-2 w-2 rounded-full bg-green-500 animate-pulse"
-                ></span>
-                LIVE UPDATES
-            </span>
-        </div>
-    </header>
+<Layout
+    title="phponline.dev | The PHP Community Pulse"
+    sd={sd}
+    ogImage="/og/home.png"
+>
+    <!-- Polished Hero Section -->
+    <Hero item={heroPost} />
 
-    <div class="grid grid-cols-1 md:grid-cols-12 gap-6 mb-12">
-        <div class="md:col-span-8 h-[500px]">
-            <BentoCard item={heroPost} class="h-full" />
-        </div>
-
-        <div
-            class="md:col-span-4 bg-white rounded-3xl border border-slate-200 p-6 shadow-sm"
-        >
-            <h3
-                class="font-black text-slate-900 uppercase tracking-widest text-xs mb-6 flex justify-between"
-            >
-                Latest Stories
-                <span class="text-blue-600">01 — 07</span>
-            </h3>
-            <div class="space-y-4">
-                {sidebarPosts.map((post) => <NewsCard item={post} />)}
+    <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 mb-20">
+        <!-- Main Content Area -->
+        <div class="lg:col-span-8">
+            <SectionHeading title="Trending Now" viewAllHref="/archive/1" />
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                {
+                    subHeroPosts.map((post, i) => (
+                        <BentoCard
+                            item={post}
+                            class={
+                                i === 0
+                                    ? "md:col-span-2 h-[400px]"
+                                    : "h-[300px]"
+                            }
+                        />
+                    ))
+                }
             </div>
-            <a
-                href="/archive"
-                class="block w-full text-center mt-6 py-3 border-t border-slate-100 text-sm font-bold text-blue-600 hover:text-blue-800 transition"
-            >
-                Browse All 700+ Stories →
-            </a>
         </div>
 
-        {
-            secondaryPosts.map((post) => (
-                <div class="md:col-span-6 h-[300px]">
-                    <BentoCard item={post} class="h-full" />
+        <!-- Refined Sidebar -->
+        <div class="lg:col-span-4">
+            <div class="sticky top-8">
+                <div
+                    class="bg-slate-50 dark:bg-[#0f172a] rounded-[32px] border border-slate-100 dark:border-slate-800/50 p-8 shadow-xs dark:shadow-black/20"
+                >
+                    <div class="flex items-center justify-between mb-8">
+                        <h3
+                            class="font-black text-slate-900 dark:text-white uppercase tracking-widest text-xs"
+                        >
+                            The Pulse
+                        </h3>
+                        <span
+                            class="flex h-2 w-2 rounded-full bg-red-500 animate-ping"
+                        ></span>
+                    </div>
+
+                    <div class="space-y-6">
+                        {latestStories.map((post) => <NewsCard item={post} />)}
+                    </div>
+
+                    <a
+                        href="/archive/1"
+                        class="group mt-8 flex items-center justify-center w-full py-4 rounded-2xl bg-slate-900 text-white text-sm font-bold hover:bg-red-600 border-red-600 border hover:border-slate-900 dark:hover:border-white transition-all"
+                    >
+                        Explore Archive
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="18"
+                            height="18"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="3"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            class="ml-2 transition-transform group-hover:translate-x-1"
+                            ><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"
+                            ></path></svg
+                        >
+                    </a>
                 </div>
-            ))
-        }
+            </div>
+        </div>
     </div>
 
-    <section class="grid grid-cols-1 md:grid-cols-3 gap-6 opacity-80">
-        <div class="bg-slate-100 p-6 rounded-2xl">
-            <h4 class="font-bold text-slate-900 mb-2">RFC Tracker</h4>
-            <p class="text-sm text-slate-600">
-                PHP 8.5 is in active development. 4 RFCs are currently under
-                vote.
-            </p>
-        </div>
-        <div class="bg-slate-100 p-6 rounded-2xl text-center">
-            <HealthCheck client:load />
-        </div>
-        <div
-            class="bg-slate-100 p-6 rounded-2xl flex flex-col justify-center items-center"
-        >
-            <p class="text-sm font-bold">Want your blog here?</p>
-            <button
-                class="mt-2 text-xs bg-slate-900 text-white px-4 py-2 rounded-lg"
-                >Submit a PR</button
-            >
-        </div>
-    </section>
+    <!-- Ecosystem Pulse -->
+    <div class="mb-20">
+        <SectionHeading title="Ecosystem Pulse" />
+        <Grid columns={2} gap="large">
+            <FeatureCard
+                title="RFC Tracker"
+                description="PHP 8.5 is in active development. Stay updated with the latest language proposals and voting results."
+                badge="Development"
+                href="/rfcs"
+            />
+            <FeatureCard
+                title="Community Podcasts"
+                description="Listen to the experts. We curate the best PHP podcasts to keep you informed on the go."
+                badge="Audio"
+                href="/podcasts"
+            />
+        </Grid>
+    </div>
 </Layout>

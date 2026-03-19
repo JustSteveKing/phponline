@@ -1,0 +1,82 @@
+---
+import { Image } from "astro:assets";
+import defaultCover from "@/assets/default-php-cover.png";
+
+interface Props {
+	title: string;
+	description: string;
+	href?: string;
+	image?: string | any;
+	badge?: string;
+}
+
+const { title, description, href, image, badge } = Astro.props;
+
+const Tag = href ? "a" : "div";
+---
+
+<Tag
+	href={href}
+	class:list={[
+		"group relative block overflow-hidden rounded-[32px] bg-white dark:bg-[#0f172a] border border-slate-100 dark:border-slate-800/50 p-8 transition-all duration-500",
+		href && "hover:shadow-2xl hover:-translate-y-2 hover:border-red-100 dark:hover:border-red-900/30",
+	]}
+>
+	{
+		image && (
+			<div class="mb-8 overflow-hidden rounded-2xl aspect-video relative">
+				<Image
+					src={image || defaultCover}
+					alt={title}
+					width={600}
+					height={400}
+					decoding="async"
+					loading="lazy"
+					class="h-full w-full object-cover transition-transform duration-700 group-hover:scale-110 opacity-90 group-hover:opacity-100"
+				/>
+                <div class="absolute inset-0 bg-linear-to-t from-slate-900/20 to-transparent"></div>
+			</div>
+		)
+	}
+
+	<div class="flex flex-col h-full relative z-10">
+		{
+			badge && (
+				<span class="mb-4 w-fit rounded-full bg-red-50 dark:bg-red-900/20 px-3 py-1 text-[9px] font-black uppercase tracking-[0.2em] text-red-600 dark:text-red-500 border border-red-100/50 dark:border-red-900/30">
+					{badge}
+				</span>
+			)
+		}
+		<h3 class="text-2xl font-black text-slate-900 dark:text-white mb-3 leading-tight group-hover:text-red-600 dark:group-hover:text-red-500 transition-colors">
+			{title}
+		</h3>
+		<p class="text-slate-500 dark:text-slate-400 text-sm leading-relaxed mb-8 font-medium">
+			{description}
+		</p>
+		{
+			href && (
+				<div class="mt-auto flex items-center text-xs font-black uppercase tracking-widest text-red-600 dark:text-red-500 group-hover:text-red-700 dark:group-hover:text-red-400 transition-colors">
+					Discover More
+					<svg
+						xmlns="http://www.w3.org/2000/svg"
+						width="16"
+						height="16"
+						viewBox="0 0 24 24"
+						fill="none"
+						stroke="currentColor"
+						stroke-width="3"
+						stroke-linecap="round"
+						stroke-linejoin="round"
+						class="ml-2 group-hover:translate-x-1 transition-transform"
+					>
+						<path d="M5 12h14" />
+						<path d="m12 5 7 7-7 7" />
+					</svg>
+				</div>
+			)
+		}
+	</div>
+    
+    <!-- Background subtle gradient on hover -->
+    <div class="absolute inset-0 bg-linear-to-br from-red-50/0 to-red-50/0 group-hover:from-red-50/50 dark:group-hover:from-red-950/10 group-hover:to-transparent transition-all duration-500 pointer-events-none"></div>
+</Tag>

@@ -1,3 +1,9 @@
-export { default as NewsCard } from "./NewsCard.astro";
 export { default as BentoCard } from "./BentoCard.astro";
+export { default as NewsCard } from "./NewsCard.astro";
 export { default as StatusBadge } from "./StatusBadge.astro";
+export { default as PageHeader } from "./PageHeader.astro";
+export { default as SectionHeading } from "./SectionHeading.astro";
+export { default as Grid } from "./Grid.astro";
+export { default as FeatureCard } from "./FeatureCard.astro";
+export { default as Hero } from "./Hero.astro";
+export { default as Logo } from "./Logo.astro";

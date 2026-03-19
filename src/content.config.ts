@@ -14,6 +14,7 @@ export const collections = {
       content: z.string().optional(),
       source: z.string(),
       author: z.string().optional(),
+      status: z.string().optional(),
     }),
   }),
 };

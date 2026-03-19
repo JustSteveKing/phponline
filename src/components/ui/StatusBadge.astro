@@ -1,32 +1,27 @@
 ---
 interface Props {
-    title?: string;
+    status?: string;
 }
 
-const { title = "" } = Astro.props as Props;
+const { status = "Discussion" } = Astro.props;
 
-// Logic to determine status based on title patterns
-let status = "Discussion";
-let colorClass = "bg-slate-100 text-slate-600"; // Default
+const themes: Record<string, string> = {
+    "Accepted": "bg-green-100 text-green-700 border-green-200 dark:bg-green-900/30 dark:text-green-400 dark:border-green-800/50",
+    "Implemented": "bg-green-100 text-green-700 border-green-200 dark:bg-green-900/30 dark:text-green-400 dark:border-green-800/50",
+    "Voting": "bg-blue-100 text-blue-700 border-blue-200 dark:bg-blue-900/30 dark:text-blue-400 dark:border-blue-800/50",
+    "Discussion": "bg-slate-100 text-slate-600 border-slate-200 dark:bg-slate-800 dark:text-slate-400 dark:border-slate-700",
+    "RFC": "bg-red-100 text-red-700 border-red-200 dark:bg-red-900/30 dark:text-red-400 dark:border-red-800/50",
+    "Declined": "bg-red-50 text-red-600 border-red-100 dark:bg-red-950/30 dark:text-red-500 dark:border-red-900/50",
+};
 
-if (title.toLowerCase().includes("[voting]")) {
-    status = "Voting";
-    colorClass =
-        "bg-purple-100 text-purple-700 border-purple-200 animate-pulse";
-} else if (title.toLowerCase().includes("[accepted]")) {
-    status = "Accepted";
-    colorClass = "bg-green-100 text-green-700 border-green-200";
-} else if (title.toLowerCase().includes("[declined]")) {
-    status = "Declined";
-    colorClass = "bg-red-100 text-red-700 border-red-200 opacity-70";
-} else if (title.toLowerCase().includes("[implemented]")) {
-    status = "Implemented";
-    colorClass = "bg-blue-100 text-blue-700 border-blue-200";
-}
+const themeClass = themes[status] || themes["Discussion"];
 ---
 
 <span
-    class={`inline-flex items-center px-2.5 py-0.5 rounded-full text-[10px] font-bold uppercase tracking-wider border ${colorClass}`}
+    class:list={[
+        "inline-flex items-center px-2.5 py-0.5 rounded-full text-[10px] font-black uppercase tracking-wider border transition-colors",
+        themeClass
+    ]}
 >
     {status}
 </span>

@@ -13,7 +13,7 @@
 
 <div class="bg-white border border-slate-200 rounded-3xl p-6 shadow-sm">
   <div class="flex items-center gap-3 mb-4">
-    <div class="p-2 bg-blue-100 rounded-lg text-blue-600">
+    <div class="p-2 bg-red-100 rounded-lg text-red-600">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="20"
@@ -30,7 +30,7 @@
 
   <select
     bind:value={selectedVersion}
-    class="w-full bg-slate-50 border border-slate-200 rounded-xl px-4 py-3 text-sm font-semibold outline-none focus:ring-2 focus:ring-blue-500"
+    class="w-full bg-slate-50 border border-slate-200 rounded-xl px-4 py-3 text-sm font-semibold outline-none focus:ring-2 focus:ring-red-500"
   >
     <option value="">Select Version</option>
     {#each Object.keys(PHP_STATUS) as v}

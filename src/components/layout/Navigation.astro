@@ -1,61 +1,64 @@
 ---
-import { Search } from "../interactive";
+import { Logo } from "../ui";
 
 const navItems = [
     { name: "The Pulse", href: "/" },
     { name: "Archive", href: "/archive/1" },
-    { name: "RFC Tracker", href: "/rfcs" }, // Future Phase
-    { name: "Podcasts", href: "/podcasts" }, // Future Phase
+    { name: "RFC Tracker", href: "/rfcs" },
+    { name: "Podcasts", href: "/podcasts" },
+    { name: "About", href: "/about" },
 ];
 
 const currentPath = Astro.url.pathname;
+
+// JSON-LD for Site Navigation
+const siteUrl = "https://www.phponline.dev";
+const navigationSchema = {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    itemListElement: navItems.map((item, index) => ({
+        "@type": "SiteNavigationElement",
+        position: index + 1,
+        name: item.name,
+        url: `${siteUrl}${item.href}`,
+    })),
+};
 ---
 
+<script
+    type="application/ld+json"
+    set:html={JSON.stringify(navigationSchema)}
+/>
+
 <nav
-    class="sticky top-0 z-50 w-full border-b border-slate-200/60 bg-white/80 backdrop-blur-md"
+    class="sticky top-0 z-50 w-full border-b border-slate-100 dark:border-slate-800 bg-white/80 dark:bg-slate-900/80 backdrop-blur-xl shadow-sm transition-colors duration-300"
+    id="main-nav"
 >
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="flex justify-between h-16 items-center">
+        <div class="flex justify-between h-20 items-center">
             <div class="flex items-center gap-2">
-                <a href="/" class="group flex items-center gap-2">
-                    <div
-                        class="bg-blue-600 text-white p-1.5 rounded-lg group-hover:rotate-12 transition-transform"
-                    >
-                        <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            width="20"
-                            height="20"
-                            viewBox="0 0 24 24"
-                            fill="none"
-                            stroke="currentColor"
-                            stroke-width="2.5"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            ><path
-                                d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"
-                            ></path></svg
-                        >
-                    </div>
-                    <span
-                        class="font-black text-xl tracking-tighter text-slate-900 uppercase"
-                    >
-                        php<span class="text-blue-600">online</span>
-                    </span>
+                <a
+                    href="/"
+                    class="group flex items-center gap-2 transition-transform hover:scale-105"
+                >
+                    <Logo class="h-8 w-auto text-slate-900 dark:text-white" />
                 </a>
             </div>
 
-            <div class="hidden md:flex items-center gap-8">
+            <!-- Desktop Menu -->
+            <div class="hidden lg:flex items-center gap-8">
                 {
                     navItems.map((item) => (
                         <a
                             href={item.href}
-                            class={`text-sm font-bold transition-colors ${
+                            class:list={[
+                                "text-sm font-bold transition-all relative py-2",
                                 currentPath === item.href ||
                                 (currentPath.startsWith(item.href) &&
                                     item.href !== "/")
-                                    ? "text-blue-600"
-                                    : "text-slate-500 hover:text-slate-900"
-                            }`}
+                                    ? "text-red-600 after:absolute after:bottom-0 after:left-0 after:w-full after:h-1 after:bg-red-600 after:rounded-t-full"
+                                    : "text-slate-500 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white",
+                            ]}
                         >
                             {item.name}
                         </a>
@@ -64,16 +67,114 @@ const currentPath = Astro.url.pathname;
             </div>
 
             <div class="flex items-center gap-4">
-                <Search client:load />
-
-                <a
-                    href="https://github.com/your-username/phponline"
-                    target="_blank"
-                    class="bg-slate-900 text-white px-4 py-2 rounded-full text-xs font-bold hover:bg-slate-800 transition-all"
+                <!-- Mobile Menu Button -->
+                <button
+                    id="mobile-menu-button"
+                    class="lg:hidden p-2 rounded-xl bg-slate-100 dark:bg-[#0f172a] text-slate-600 dark:text-slate-400 border border-slate-200/60 dark:border-slate-800/50"
+                    aria-label="Toggle Menu"
                 >
-                    Submit Link
-                </a>
+                    <svg
+                        id="menu-icon"
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="20"
+                        height="20"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2.5"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        ><line x1="4" x2="20" y1="12" y2="12"></line><line
+                            x1="4"
+                            x2="20"
+                            y1="6"
+                            y2="6"></line><line x1="4" x2="20" y1="18" y2="18"
+                        ></line></svg
+                    >
+                    <svg
+                        id="close-icon"
+                        class="hidden"
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="20"
+                        height="20"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2.5"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        ><path d="M18 6 6 18"></path><path d="m6 6 12 12"
+                        ></path></svg
+                    >
+                </button>
             </div>
         </div>
     </div>
+
+    <!-- Mobile Menu Interface -->
+    <div
+        id="mobile-menu"
+        class="hidden lg:hidden border-t border-slate-100 dark:border-slate-800 bg-white dark:bg-slate-900 overflow-hidden"
+    >
+        <div class="px-4 pt-2 pb-6 space-y-1">
+            {
+                navItems.map((item) => (
+                    <a
+                        href={item.href}
+                        class:list={[
+                            "block px-4 py-4 rounded-2xl text-base font-bold transition-all",
+                            currentPath === item.href ||
+                            (currentPath.startsWith(item.href) &&
+                                item.href !== "/")
+                                ? "bg-red-50 dark:bg-red-900/20 text-red-600 dark:text-red-500"
+                                : "text-slate-600 dark:text-slate-400 hover:bg-slate-50 dark:hover:bg-slate-800",
+                        ]}
+                    >
+                        {item.name}
+                    </a>
+                ))
+            }
+        </div>
+    </div>
 </nav>
+
+<script>
+    function setupMobileMenu() {
+        const button = document.getElementById("mobile-menu-button");
+        const menu = document.getElementById("mobile-menu");
+        const menuIcon = document.getElementById("menu-icon");
+        const closeIcon = document.getElementById("close-icon");
+
+        if (!button || !menu) return;
+
+        button.addEventListener("click", () => {
+            const isExpanded = menu.classList.contains("hidden");
+
+            if (isExpanded) {
+                menu.classList.remove("hidden");
+                menuIcon?.classList.add("hidden");
+                closeIcon?.classList.remove("hidden");
+            } else {
+                menu.classList.add("hidden");
+                menuIcon?.classList.remove("hidden");
+                closeIcon?.classList.add("hidden");
+            }
+        });
+
+        // Close menu when a link is clicked (important for View Transitions)
+        const links = menu.querySelectorAll("a");
+        links.forEach((link) => {
+            link.addEventListener("click", () => {
+                menu.classList.add("hidden");
+                menuIcon?.classList.remove("hidden");
+                closeIcon?.classList.add("hidden");
+            });
+        });
+    }
+
+    // Initialize on page load
+    setupMobileMenu();
+
+    // Re-initialize after Astro view transitions
+    document.addEventListener("astro:after-swap", setupMobileMenu);
+</script>

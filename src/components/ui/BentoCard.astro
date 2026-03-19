@@ -10,43 +10,63 @@ interface Props {
 }
 
 const { item, class: className = "" } = Astro.props as Props;
+const { title, source, pubDate, coverImage } = item.data;
 
 // Use a local image if the feed didn't provide an image
-const imageSrc = item.data.coverImage || defaultCover;
+const imageSrc = coverImage || defaultCover;
+
+const formattedDate = pubDate.toLocaleDateString("en-US", {
+    month: "long",
+    day: "numeric",
+    year: "numeric"
+});
 ---
 
 <a
-    href={item.data.link}
+    href={`/news/${item.id}`}
     class={clsx(
-        "group relative overflow-hidden rounded-3xl bg-slate-900",
+        "group relative overflow-hidden rounded-[32px] bg-slate-900 dark:bg-slate-950 flex flex-col justify-end border border-transparent dark:border-slate-800/50",
         className,
     )}
 >
-    <Image
-        src={imageSrc}
-        alt=""
-        width={800}
-        height={600}
-        class="absolute inset-0 h-full w-full object-cover opacity-60 transition-transform duration-500 group-hover:scale-105"
-    />
-    <div
-        class="absolute inset-0 bg-linear-to-t from-slate-900 via-slate-900/20 to-transparent"
-    >
+    <!-- Background Image -->
+    <div class="absolute inset-0">
+        <Image
+            src={imageSrc}
+            alt={title}
+            width={800}
+            height={600}
+            decoding="async"
+            loading="lazy"
+            class="h-full w-full object-cover opacity-60 dark:opacity-40 transition-transform duration-700 group-hover:scale-110"
+        />
+        <!-- Multi-layered overlay for depth -->
+        <div class="absolute inset-0 bg-linear-to-t from-slate-950 via-slate-900/40 dark:via-slate-950/60 to-transparent"></div>
+        <div class="absolute inset-0 opacity-0 group-hover:opacity-20 bg-red-600 transition-opacity duration-500"></div>
     </div>
 
-    <div class="relative h-full flex flex-col justify-end p-6">
-        <span
-            class="mb-2 w-fit rounded-full bg-blue-500/20 px-3 py-1 text-[10px] font-bold uppercase tracking-widest text-blue-400 backdrop-blur-md"
-        >
-            {item.data.source}
-        </span>
+    <!-- Content -->
+    <div class="relative p-8 md:p-10">
+        <div class="flex items-center gap-3 mb-4">
+            <span
+                class="px-3 py-1 rounded-full bg-white/10 backdrop-blur-md border border-white/20 text-[9px] font-black uppercase tracking-[0.2em] text-white shadow-2xl"
+            >
+                {source}
+            </span>
+            <time class="text-[10px] font-bold text-slate-300 uppercase tracking-widest">
+                {formattedDate}
+            </time>
+        </div>
+        
         <h2
-            class="text-2xl font-bold text-white leading-tight group-hover:text-blue-300"
+            class="text-2xl md:text-3xl font-black text-white leading-[1.2] tracking-tight group-hover:text-red-200 transition-colors duration-300"
         >
-            {item.data.title}
+            {title}
         </h2>
-        <p class="mt-2 text-sm text-slate-300 line-clamp-2 italic">
-            {item.data.pubDate.toLocaleDateString()}
-        </p>
+        
+        <div class="mt-6 flex items-center gap-2 text-white/0 group-hover:text-white/100 transition-all duration-500 translate-y-4 group-hover:translate-y-0">
+            <span class="text-xs font-black uppercase tracking-widest">Read Article</span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+        </div>
     </div>
 </a>

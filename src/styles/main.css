@@ -1,3 +1,9 @@
 @import "tailwindcss";
 
 @plugin "@tailwindcss/typography";
+
+@layer base {
+  .prose {
+    @apply dark:prose-invert transition-colors duration-300;
+  }
+}
