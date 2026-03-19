@@ -6,18 +6,27 @@
     let isReady = $state(false);
     let pagefind = $state(null);
     let highlightedIndex = $state(-1);
+    let error = $state(null);
+    const isDev = import.meta.env.DEV;
 
     onMount(async () => {
+        // Skip in dev mode to avoid noisy 404s in the console
+        if (isDev) {
+            error = "Search unavailable in dev mode";
+            return;
+        }
+
         try {
-            // Dynamically load the generated script
-            // This path is created by Pagefind during the build process
+            // Use a variable to prevent Vite from statically analyzing the import path
+            const pagefindPath = "/pagefind/pagefind.js";
             // @ts-ignore
-            pagefind = await import(/* @vite-ignore */ "/pagefind/pagefind.js");
+            pagefind = await import(/* @vite-ignore */ pagefindPath);
             await pagefind.options({
                 // Optional: Configure ranking or metadata here
             });
             isReady = true;
         } catch (e) {
+            error = "Search failed to load";
             console.warn(
                 "Pagefind not found. Search is disabled in dev mode unless you build.",
             );
@@ -67,8 +76,8 @@
         bind:value={query}
         oninput={handleSearch}
         onkeydown={handleKeyDown}
-        disabled={!isReady}
-        placeholder={isReady ? "Search PHP news..." : "Initializing search..."}
+        disabled={!isReady || isDev}
+        placeholder={isReady ? "Search PHP news..." : (error || "Initializing search...")}
         class="w-full bg-slate-100 disabled:opacity-50 border-none rounded-2xl px-5 py-3 text-sm focus:ring-2 focus:ring-blue-500 transition-all"
     />
 
