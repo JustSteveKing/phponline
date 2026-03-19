@@ -1,0 +1,52 @@
+---
+import { Image } from "astro:assets";
+import type { CollectionEntry } from "astro:content";
+import clsx from "clsx";
+import defaultCover from "@/assets/default-php-cover.png";
+
+interface Props {
+    item: CollectionEntry<"news">;
+    class?: string;
+}
+
+const { item, class: className = "" } = Astro.props as Props;
+
+// Use a local image if the feed didn't provide an image
+const imageSrc = item.data.coverImage || defaultCover;
+---
+
+<a
+    href={item.data.link}
+    class={clsx(
+        "group relative overflow-hidden rounded-3xl bg-slate-900",
+        className,
+    )}
+>
+    <Image
+        src={imageSrc}
+        alt=""
+        width={800}
+        height={600}
+        class="absolute inset-0 h-full w-full object-cover opacity-60 transition-transform duration-500 group-hover:scale-105"
+    />
+    <div
+        class="absolute inset-0 bg-linear-to-t from-slate-900 via-slate-900/20 to-transparent"
+    >
+    </div>
+
+    <div class="relative h-full flex flex-col justify-end p-6">
+        <span
+            class="mb-2 w-fit rounded-full bg-blue-500/20 px-3 py-1 text-[10px] font-bold uppercase tracking-widest text-blue-400 backdrop-blur-md"
+        >
+            {item.data.source}
+        </span>
+        <h2
+            class="text-2xl font-bold text-white leading-tight group-hover:text-blue-300"
+        >
+            {item.data.title}
+        </h2>
+        <p class="mt-2 text-sm text-slate-300 line-clamp-2 italic">
+            {item.data.pubDate.toLocaleDateString()}
+        </p>
+    </div>
+</a>

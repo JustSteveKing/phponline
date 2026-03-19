@@ -1,0 +1,32 @@
+---
+interface Props {
+    title?: string;
+}
+
+const { title = "" } = Astro.props as Props;
+
+// Logic to determine status based on title patterns
+let status = "Discussion";
+let colorClass = "bg-slate-100 text-slate-600"; // Default
+
+if (title.toLowerCase().includes("[voting]")) {
+    status = "Voting";
+    colorClass =
+        "bg-purple-100 text-purple-700 border-purple-200 animate-pulse";
+} else if (title.toLowerCase().includes("[accepted]")) {
+    status = "Accepted";
+    colorClass = "bg-green-100 text-green-700 border-green-200";
+} else if (title.toLowerCase().includes("[declined]")) {
+    status = "Declined";
+    colorClass = "bg-red-100 text-red-700 border-red-200 opacity-70";
+} else if (title.toLowerCase().includes("[implemented]")) {
+    status = "Implemented";
+    colorClass = "bg-blue-100 text-blue-700 border-blue-200";
+}
+---
+
+<span
+    class={`inline-flex items-center px-2.5 py-0.5 rounded-full text-[10px] font-bold uppercase tracking-wider border ${colorClass}`}
+>
+    {status}
+</span>

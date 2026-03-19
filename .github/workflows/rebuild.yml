@@ -1,0 +1,12 @@
+name: Hourly Content Sync
+on:
+  schedule:
+    - cron: "0 * * * *" # Every hour
+  workflow_dispatch: # Allows you to trigger it manually
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger Deploy
+        run: curl -X POST ${{ secrets.DEPLOY_HOOK_URL }}

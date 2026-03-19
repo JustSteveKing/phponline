@@ -1,0 +1,81 @@
+---
+import Layout from "@/layouts/Layout.astro";
+import { getCollection, type CollectionEntry } from "astro:content";
+import { StatusBadge } from "@/components";
+
+const allItems: CollectionEntry<"news">[] = await getCollection("news");
+const rfcs = allItems
+    .filter(
+        (item) =>
+            item.data.source === "RFC" ||
+            item.data.link.includes("wiki.php.net/rfc"),
+    )
+    .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+---
+
+<Layout title="PHP RFC Tracker | phponline.dev">
+    <div
+        class="bg-blue-600 rounded-3xl p-10 mb-12 text-white relative overflow-hidden"
+    >
+        <div class="relative z-10">
+            <h1 class="text-4xl font-black tracking-tight">RFC Tracker</h1>
+            <p class="text-blue-100 mt-2 max-w-md">
+                Monitoring the proposals shaping the future of PHP 8.5 and
+                beyond.
+            </p>
+        </div>
+        <div
+            class="absolute -right-10 -bottom-10 opacity-10 text-[160px] font-black rotate-12 select-none"
+        >
+            PHP
+        </div>
+    </div>
+
+    <div class="space-y-6">
+        {
+            rfcs.map((rfc) => (
+                <div class="relative pl-8 border-l-2 border-slate-200 py-2 group">
+                    <div class="absolute -left-[9px] top-6 h-4 w-4 rounded-full border-2 border-white bg-slate-300 group-hover:bg-blue-600 transition-colors" />
+
+                    <div class="bg-white p-6 rounded-2xl border border-slate-200 hover:shadow-md transition-shadow">
+                        <div class="flex justify-between items-start mb-2">
+                            <StatusBadge title={rfc.data.title} />
+                            <span class="text-xs font-medium text-slate-400">
+                                {rfc.data.pubDate.toDateString()}
+                            </span>
+                        </div>
+                        <h2 class="text-lg font-bold text-slate-900">
+                            <a href={rfc.data.link} class="hover:text-blue-600">
+                                {rfc.data.title.replace("PHP RFC: ", "")}
+                            </a>
+                        </h2>
+                        <div class="mt-4 flex gap-4">
+                            <a
+                                href={rfc.data.link}
+                                class="text-xs font-bold text-blue-600 hover:underline"
+                            >
+                                View Discussion →
+                            </a>
+                            <a
+                                href="https://wiki.php.net/rfc"
+                                class="text-xs font-bold text-slate-400 hover:underline"
+                            >
+                                Externals.io
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            ))
+        }
+    </div>
+
+    {
+        rfcs.length === 0 && (
+            <div class="text-center py-20 bg-slate-50 rounded-3xl border-2 border-dashed border-slate-200">
+                <p class="text-slate-400 font-medium">
+                    No active RFCs found in the current feed sync.
+                </p>
+            </div>
+        )
+    }
+</Layout>

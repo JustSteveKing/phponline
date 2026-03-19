@@ -1,0 +1,67 @@
+---
+import Layout from "@/layouts/Layout.astro";
+import { getCollection, type CollectionEntry } from "astro:content";
+import { Image } from "astro:assets";
+
+const allItems: CollectionEntry<"news">[] = await getCollection("news");
+
+// Filter for items where the source is a known podcast
+const podcasts = allItems
+    .filter(
+        (item) =>
+            item.data.source === "Podcast" ||
+            item.data.link.includes("podcast"),
+    )
+    .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+---
+
+<Layout title="PHP Podcasts | phponline.dev">
+    <header class="mb-12">
+        <h1 class="text-4xl font-black text-slate-900 tracking-tight">
+            Community Podcasts
+        </h1>
+        <p class="text-slate-500 mt-2 text-lg">
+            Tune into the latest discussions from the PHP ecosystem.
+        </p>
+    </header>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        {
+            podcasts.map((episode) => (
+                <a
+                    href={episode.data.link}
+                    class="group bg-white border border-slate-200 rounded-3xl p-6 flex gap-6 hover:shadow-xl hover:border-blue-200 transition-all"
+                >
+                    <div class="h-24 w-24 shrink-0 bg-slate-100 rounded-2xl overflow-hidden relative">
+                        {episode.data.coverImage ? (
+                            <Image
+                                src={episode.data.coverImage}
+                                alt=""
+                                width={100}
+                                height={100}
+                                class="object-cover h-full w-full"
+                            />
+                        ) : (
+                            <div class="flex items-center justify-center h-full text-2xl">
+                                🎙️
+                            </div>
+                        )}
+                        <div class="absolute inset-0 bg-blue-600/10 group-hover:bg-transparent transition-colors" />
+                    </div>
+
+                    <div class="flex flex-col justify-center">
+                        <span class="text-[10px] font-bold text-blue-600 uppercase tracking-widest">
+                            {episode.data.author}
+                        </span>
+                        <h2 class="text-xl font-bold text-slate-900 group-hover:text-blue-600 transition-colors mt-1">
+                            {episode.data.title}
+                        </h2>
+                        <p class="text-sm text-slate-500 mt-2 italic">
+                            {episode.data.pubDate.toLocaleDateString()}
+                        </p>
+                    </div>
+                </a>
+            ))
+        }
+    </div>
+</Layout>

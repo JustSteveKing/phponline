@@ -1,0 +1,51 @@
+export const PHP_STATUS = {
+  "8.5": {
+    status: "active",
+    initialRelease: "2025-11-20",
+    activeUntil: "2027-12-31",
+    securityUntil: "2029-12-31",
+    color: "text-green-600",
+  },
+  "8.4": {
+    status: "active",
+    initialRelease: "2024-11-21",
+    activeUntil: "2026-12-31",
+    securityUntil: "2028-12-31",
+    color: "text-green-600",
+  },
+  "8.3": {
+    status: "security",
+    initialRelease: "2023-11-23",
+    activeUntil: "2025-12-31",
+    securityUntil: "2027-12-31",
+    color: "text-amber-600",
+  },
+  "8.2": {
+    status: "security",
+    initialRelease: "2022-12-08",
+    activeUntil: "2024-12-31",
+    securityUntil: "2026-12-31",
+    color: "text-amber-600",
+  },
+  "8.1": {
+    status: "eol",
+    initialRelease: "2021-11-25",
+    activeUntil: "2023-11-25",
+    securityUntil: "2025-11-25",
+    color: "text-red-600",
+  },
+  "8.0": {
+    status: "eol",
+    initialRelease: "2020-11-26",
+    activeUntil: "2022-11-26",
+    securityUntil: "2023-11-26",
+    color: "text-red-600",
+  },
+  "7.4": {
+    status: "eol",
+    initialRelease: "2019-11-28",
+    activeUntil: "2021-11-28",
+    securityUntil: "2022-11-28",
+    color: "text-red-600",
+  },
+};
