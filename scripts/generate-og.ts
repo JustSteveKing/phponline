@@ -10,6 +10,7 @@ const STATIC_PAGES = [
     { id: "home", title: "The PHP Community Pulse", source: "Home" },
     { id: "archive", title: "Community Archive", source: "Resources" },
     { id: "rfcs", title: "RFC Tracker", source: "Core Dev" },
+    { id: "events", title: "Upcoming Events", source: "Calendar" },
     { id: "podcasts", title: "Community Podcasts", source: "Audio" },
     { id: "videos", title: "Community Videos", source: "Video" },
     { id: "creators", title: "Community Creators", source: "Directory" },

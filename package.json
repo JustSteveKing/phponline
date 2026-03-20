@@ -7,8 +7,9 @@
   },
   "scripts": {
     "dev": "astro dev",
-    "prepare": "bun run generate-og && bun run build",
+    "prepare": "bun run validate-config && bun run generate-og && bun run build",
     "build": "astro build && pagefind --site dist",
+    "validate-config": "bun scripts/validate-config.ts",
     "generate-og": "bun scripts/generate-og.ts",
     "generate-default-cover": "bun scripts/generate-default-cover.ts",
     "generate-favicons": "bun scripts/generate-favicons.ts",

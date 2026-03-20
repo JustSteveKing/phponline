@@ -1,0 +1,48 @@
+name: "👤 Submit a Creator Profile"
+description: "Feature yourself or a team in the community directory."
+title: "[Creator]: "
+labels: ["creator-submission"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        We want to highlight the amazing work being done in the PHP ecosystem.
+  - type: input
+    id: name
+    attributes:
+      label: Creator Name
+      placeholder: "e.g., Larasts or Aaron Francis"
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      placeholder: "What do you do for the community?"
+    validations:
+      required: true
+  - type: input
+    id: website
+    attributes:
+      label: Website / Portfolio
+      placeholder: "https://..."
+  - type: input
+    id: rss_feed
+    attributes:
+      label: RSS Feed URL (Optional)
+      placeholder: "https://yourblog.com/feed"
+  - type: input
+    id: youtube_id
+    attributes:
+      label: YouTube Channel ID (Optional)
+      placeholder: "e.g., UCxxxxxxxxxxxx"
+  - type: input
+    id: podcast_feed
+    attributes:
+      label: Podcast RSS Feed (Optional)
+      placeholder: "https://anchor.fm/s/..."
+  - type: input
+    id: twitter
+    attributes:
+      label: Twitter Handle (Optional)
+      placeholder: "@..."

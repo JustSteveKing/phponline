@@ -36,3 +36,16 @@ export interface YouTubeChannel {
   avatar?: string;
   creatorId?: string;
 }
+
+export interface CommunityEvent {
+  id: string;
+  title: string;
+  description: string;
+  location: string;
+  startDate: Date;
+  endDate: Date;
+  url: string;
+  cfpUrl?: string;
+  type: 'conference' | 'meetup' | 'workshop';
+  creatorId?: string;
+}

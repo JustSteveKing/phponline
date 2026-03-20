@@ -1,0 +1,56 @@
+name: "🗓️ Submit an Event"
+description: "Add a conference or meetup to the community calendar."
+title: "[Event]: "
+labels: ["event-submission"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping grow the PHP community! Please provide the details below.
+  - type: input
+    id: title
+    attributes:
+      label: Event Title
+      placeholder: "e.g., Laracon US 2026"
+    validations:
+      required: true
+  - type: input
+    id: location
+    attributes:
+      label: Location
+      placeholder: "e.g., Dallas, TX or Online"
+    validations:
+      required: true
+  - type: input
+    id: start_date
+    attributes:
+      label: Start Date
+      placeholder: "YYYY-MM-DD"
+    validations:
+      required: true
+  - type: input
+    id: end_date
+    attributes:
+      label: End Date
+      placeholder: "YYYY-MM-DD"
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: Event Website
+      placeholder: "https://..."
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      placeholder: "A short blurb about the event..."
+    validations:
+      required: true
+  - type: input
+    id: cfp_url
+    attributes:
+      label: CFP URL (Optional)
+      placeholder: "Link to Sessionize, etc."

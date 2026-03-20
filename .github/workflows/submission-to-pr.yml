@@ -1,0 +1,43 @@
+name: "Process Submissions"
+
+on:
+  issues:
+    types: [opened, edited]
+
+jobs:
+  create-pr:
+    runs-on: ubuntu-latest
+    if: contains(github.event.issue.labels.*.name, 'event-submission') || contains(github.event.issue.labels.*.name, 'creator-submission')
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Parse Issue
+        id: parse
+        uses: stefanbuck/github-issue-parser@v3
+        with:
+          template-path: ${{ contains(github.event.issue.labels.*.name, 'event-submission') && '.github/ISSUE_TEMPLATE/submit-event.yml' || '.github/ISSUE_TEMPLATE/submit-creator.yml' }}
+
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v1
+
+      - name: Update Config Files
+        env:
+          ISSUE_TYPE: ${{ contains(github.event.issue.labels.*.name, 'event-submission') && 'event' || 'creator' }}
+          ISSUE_JSON_PATH: ${{ steps.parse.outputs.json_path }}
+        run: bun scripts/process-issue.ts
+
+      - name: Run Validation
+        run: bun run validate-config
+
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v6
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: "feat: add submission from issue #${{ github.event.issue.number }}"
+          title: "Submission from Issue #${{ github.event.issue.number }}"
+          body: |
+            Automatically generated from issue #${{ github.event.issue.number }}.
+            This PR adds a new ${{ contains(github.event.issue.labels.*.name, 'event-submission') && 'event' || 'creator' }} to the configuration.
+          branch: "submission-${{ github.event.issue.number }}"
+          base: main
+          delete-branch: true

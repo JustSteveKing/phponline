@@ -11,3 +11,4 @@ export { default as VideoCard } from "./VideoCard.astro";
 export { default as CreatorPill } from "./CreatorPill.astro";
 export { default as BannerCTA } from "./BannerCTA.astro";
 export { default as PHPHealthBanner } from "./PHPHealthBanner.astro";
+export { default as EventCard } from "./EventCard.astro";

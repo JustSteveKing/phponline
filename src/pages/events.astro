@@ -1,0 +1,55 @@
+---
+import Layout from "@/layouts/Layout.astro";
+import { PageHeader, EventCard, BannerCTA } from "@/components";
+import { EVENTS } from "@/config/events";
+import { SITE_CONFIG } from "@/config/site";
+
+// Filter only future events and sort chronologically
+const upcomingEvents = EVENTS
+    .filter(event => event.endDate >= new Date())
+    .sort((a, b) => a.startDate.getTime() - b.startDate.getTime());
+
+const breadcrumbs = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.phponline.dev" },
+        { "@type": "ListItem", "position": 2, "name": "Events", "item": "https://www.phponline.dev/events" }
+    ]
+};
+---
+
+<Layout 
+    title="PHP Community Events & Conferences | phponline.dev"
+    description="Stay updated with upcoming PHP and Laravel conferences, meetups, and workshops around the world."
+    ogImage="/og/home.png"
+    sd={[breadcrumbs]}
+>
+	<PageHeader
+		title="COMMUNITY EVENTS"
+		description="Find your next PHP conference, local meetup, or technical workshop."
+        badge="Calendar"
+	/>
+
+    <div class="space-y-12">
+        {upcomingEvents.length > 0 ? (
+            <div class="grid grid-cols-1 gap-6">
+                {upcomingEvents.map((event) => (
+                    <EventCard event={event} />
+                ))}
+            </div>
+        ) : (
+            <div class="text-center py-20 bg-slate-50 dark:bg-slate-900/50 rounded-3xl border border-slate-100 dark:border-slate-800">
+                <p class="text-slate-500 font-medium">No upcoming events found. Check back later!</p>
+            </div>
+        )}
+    </div>
+
+	<BannerCTA 
+        title="Organizing an event?"
+        description="We want to help you reach more developers. Submit your conference or meetup to our community calendar via a simple Pull Request."
+        buttonText="Submit an Event"
+        href={SITE_CONFIG.links.github}
+        variant="dark"
+    />
+</Layout>

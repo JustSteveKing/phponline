@@ -1,0 +1,70 @@
+---
+import type { CommunityEvent } from "@/types";
+
+interface Props {
+    event: CommunityEvent;
+}
+
+const { event } = Astro.props;
+
+const startMonth = event.startDate.toLocaleDateString("en-US", { month: "short" });
+const startDay = event.startDate.toLocaleDateString("en-US", { day: "numeric" });
+const isSameDay = event.startDate.toDateString() === event.endDate.toDateString();
+---
+
+<div class="group relative bg-white dark:bg-[#0f172a] border border-slate-100 dark:border-slate-800/50 rounded-2xl p-8 hover:shadow-2xl hover:border-red-100 dark:hover:border-red-900/30 transition-all duration-500">
+    <div class="flex flex-col md:flex-row gap-8 items-start">
+        <!-- Date Badge -->
+        <div class="flex flex-col items-center justify-center w-20 h-20 bg-slate-50 dark:bg-slate-900 rounded-2xl border border-slate-100 dark:border-slate-800 shrink-0 group-hover:bg-red-600 transition-colors duration-500 group-hover:border-red-600">
+            <span class="text-[10px] font-black uppercase tracking-[0.2em] text-slate-400 group-hover:text-red-100">{startMonth}</span>
+            <span class="text-3xl font-black text-slate-900 dark:text-white group-hover:text-white">{startDay}</span>
+        </div>
+
+        <div class="flex-1">
+            <div class="flex flex-wrap items-center gap-3 mb-4">
+                <span class="px-3 py-1 rounded-full bg-red-50 dark:bg-red-950/30 text-red-600 dark:text-red-500 text-[10px] font-black uppercase tracking-widest border border-red-100/50 dark:border-red-900/30">
+                    {event.type}
+                </span>
+                <span class="text-[10px] font-black uppercase tracking-widest text-slate-400 flex items-center gap-1">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+                    {event.location}
+                </span>
+            </div>
+
+            <h3 class="text-2xl font-black text-slate-900 dark:text-white mb-4 uppercase tracking-tight group-hover:text-red-600 transition-colors">
+                {event.title}
+            </h3>
+
+            <p class="text-slate-500 dark:text-slate-400 text-sm font-medium leading-relaxed mb-6 line-clamp-2">
+                {event.description}
+            </p>
+
+            <div class="flex flex-wrap items-center gap-6">
+                <a 
+                    href={event.url} 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    class="inline-flex items-center gap-2 text-[10px] font-black uppercase tracking-widest text-red-600 hover:text-red-700 transition-colors"
+                >
+                    Official Website
+                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                </a>
+
+                {event.cfpUrl && (
+                    <a 
+                        href={event.cfpUrl} 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        class="inline-flex items-center gap-2 text-[10px] font-black uppercase tracking-widest text-emerald-600 hover:text-emerald-700 transition-colors"
+                    >
+                        Call for Papers Open
+                        <span class="relative flex h-2 w-2">
+                            <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
+                            <span class="relative inline-flex rounded-full h-2 w-2 bg-emerald-500"></span>
+                        </span>
+                    </a>
+                )}
+            </div>
+        </div>
+    </div>
+</div>
