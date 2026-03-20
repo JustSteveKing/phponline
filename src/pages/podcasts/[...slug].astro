@@ -24,6 +24,17 @@ export async function getStaticPaths() {
 }
 
 const { podcast, episodes } = Astro.props;
+const slug = slugify(podcast.title);
+const ogImage = `/og/podcasts/${slug}.png`;
+
+const podcastSeries = {
+    "@context": "https://schema.org",
+    "@type": "PodcastSeries",
+    name: podcast.title,
+    description: podcast.description,
+    url: `https://www.phponline.dev/podcasts/${slug}`,
+    webFeed: podcast.feed,
+};
 
 const breadcrumbs = {
     "@context": "https://schema.org",
@@ -51,12 +62,12 @@ const breadcrumbs = {
 };
 ---
 
-<Layout
+<Layout 
     title={`${podcast.title} | PHP Podcasts`}
     description={podcast.description}
-    sd={[breadcrumbs]}
->
-    <PageHeader
+    ogImage={ogImage}
+    sd={[breadcrumbs, podcastSeries]}
+>    <PageHeader
         title={podcast.title}
         description={podcast.description}
         badge={podcast.badge}

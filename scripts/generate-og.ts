@@ -45,7 +45,14 @@ async function generate() {
         generateImage(page.id, page.title, page.source, fontData)
     ));
 
-    // 2. Generate for Feed Items
+    // 2. Generate for Podcasts
+    console.log("🎙️ Generating for Podcasts...");
+    const { PODCAST_FEEDS } = await import("../src/config/feeds");
+    await Promise.all(PODCAST_FEEDS.map(podcast => 
+        generateImage(`podcasts/${slugify(podcast.title)}`, podcast.title, "Podcast", fontData)
+    ));
+
+    // 3. Generate for Feed Items
     for (const feed of PHP_FEEDS) {
         try {
             console.log(`📡 Fetching ${feed.label}...`);
