@@ -1,0 +1,11 @@
+{
+  "name": "PHP Internals",
+  "description": "The core development discussions and RFCs for the PHP language.",
+  "avatar": "https://externals.io/assets/images/logo.svg",
+  "website": "https://externals.io",
+  "sources": {
+    "feeds": [
+      { "url": "https://externals.io/rss-rfc", "label": "rfc", "type": "rfc" }
+    ]
+  }
+}

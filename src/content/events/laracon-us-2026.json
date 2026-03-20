@@ -1,0 +1,10 @@
+{
+  "title": "Laracon US 2026",
+  "description": "The flagship Laravel conference in the United States. Experience the latest Laravel releases and community announcements.",
+  "location": "Dallas, TX",
+  "startDate": "2026-07-15",
+  "endDate": "2026-07-16",
+  "url": "https://laracon.us",
+  "type": "conference",
+  "creatorId": "laravel"
+}

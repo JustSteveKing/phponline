@@ -1,0 +1,16 @@
+{
+  "name": "NorthMeetSouth",
+  "description": "A show about the PHP community, parenting, and everything in between.",
+  "avatar": "https://www.northmeetssouth.audio/assets/img/logo.png",
+  "website": "https://www.northmeetssouth.audio",
+  "sources": {
+    "podcasts": [
+      {
+        "feed": "https://feeds.transistor.fm/north-meets-south-web-podcast",
+        "title": "NorthMeetSouth",
+        "href": "https://northmeetsouth.audio/",
+        "badge": "Casual Chat"
+      }
+    ]
+  }
+}

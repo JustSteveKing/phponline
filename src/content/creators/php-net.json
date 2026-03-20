@@ -1,0 +1,11 @@
+{
+  "name": "PHP.net",
+  "description": "The official home of the PHP programming language.",
+  "avatar": "https://github.com/php.png",
+  "website": "https://www.php.net",
+  "sources": {
+    "feeds": [
+      { "url": "https://www.php.net/feed.atom", "label": "php", "type": "news" }
+    ]
+  }
+}

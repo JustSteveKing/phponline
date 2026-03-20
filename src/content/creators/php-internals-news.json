@@ -1,0 +1,15 @@
+{
+  "name": "PHP Internals News",
+  "description": "A podcast about what's happening in PHP internals, hosted by Derick Rethans.",
+  "avatar": "https://phpinternals.news/images/logo.png",
+  "website": "https://phpinternals.news",
+  "sources": {
+    "feeds": [
+      {
+        "url": "https://phpinternals.news/feed.rss",
+        "label": "internals",
+        "type": "news"
+      }
+    ]
+  }
+}

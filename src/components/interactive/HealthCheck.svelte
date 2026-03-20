@@ -1,12 +1,12 @@
 <script lang="ts">
-  import { PHP_STATUS } from "@/config/versions";
+  let { phpStatus } = $props();
 
   let selectedVersion = $state("");
 
   // Derived state: automatically updates when selectedVersion changes
   let info = $derived(
     selectedVersion
-      ? PHP_STATUS[selectedVersion as keyof typeof PHP_STATUS]
+      ? phpStatus[selectedVersion as keyof typeof phpStatus]
       : null,
   );
 </script>
@@ -33,7 +33,7 @@
     class="w-full bg-slate-50 border border-slate-200 rounded-xl px-4 py-3 text-sm font-semibold outline-none focus:ring-2 focus:ring-red-500"
   >
     <option value="">Select Version</option>
-    {#each Object.keys(PHP_STATUS) as v}
+    {#each Object.keys(phpStatus) as v}
       <option value={v}>PHP {v}</option>
     {/each}
   </select>

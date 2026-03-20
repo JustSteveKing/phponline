@@ -1,0 +1,16 @@
+{
+  "name": "The PHP Foundation",
+  "description": "A non-profit organization focused on ensuring the long-term prosperity of the PHP language.",
+  "avatar": "https://github.com/php-foundation.png",
+  "website": "https://thephp.foundation",
+  "twitter": "ThePHPFoundation",
+  "sources": {
+    "feeds": [
+      {
+        "url": "https://thephp.foundation/atom.xml",
+        "label": "foundation",
+        "type": "internals"
+      }
+    ]
+  }
+}

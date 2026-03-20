@@ -14,6 +14,11 @@ async function run() {
         process.exit(1);
     }
 
+    if (!fs.existsSync(issueDataPath)) {
+        console.error(`Issue JSON file not found at ${issueDataPath}`);
+        process.exit(1);
+    }
+
     const rawData = fs.readFileSync(issueDataPath, 'utf8');
     const data = JSON.parse(rawData);
 
@@ -25,64 +30,66 @@ async function run() {
 }
 
 function processEvent(data: any) {
-    const filePath = path.join("src/config/events.ts");
-    const content = fs.readFileSync(filePath, 'utf8');
-    
     const id = slugify(data.title);
+    const filePath = path.join("src/content/events", `${id}.json`);
     
     // Check if ID already exists
-    if (content.includes(`id: "${id}"`)) {
+    if (fs.existsSync(filePath)) {
         console.error(`Event with ID ${id} already exists!`);
         process.exit(1);
     }
 
-    const newEvent = `  {
-    id: "${id}",
-    title: "${data.title}",
-    description: "${data.description.replace(/\n/g, ' ')}",
-    location: "${data.location}",
-    startDate: new Date("${data.start_date}"),
-    endDate: new Date("${data.end_date}"),
-    url: "${data.url}",
-    type: "conference"${data.cfp_url ? `,\n    cfpUrl: "${data.cfp_url}"` : ""}
-  },
-];`;
+    const newEvent = {
+        title: data.title,
+        description: data.description.replace(/\n/g, ' '),
+        location: data.location,
+        startDate: data.start_date,
+        endDate: data.end_date,
+        url: data.url,
+        type: "conference",
+        creatorId: data.creator_id || undefined
+    };
 
-    const updatedContent = content.replace(/\];\s*$/, newEvent);
-    fs.writeFileSync(filePath, updatedContent);
+    fs.writeFileSync(filePath, JSON.stringify(newEvent, null, 2));
     console.log(`✅ Added event: ${id}`);
 }
 
 function processCreator(data: any) {
-    const filePath = path.join("src/config/creators.ts");
-    const content = fs.readFileSync(filePath, 'utf8');
-    
     const id = slugify(data.name);
+    const filePath = path.join("src/content/creators", `${id}.json`);
     
-    if (content.includes(`id: "${id}"`)) {
+    if (fs.existsSync(filePath)) {
         console.error(`Creator with ID ${id} already exists!`);
         process.exit(1);
     }
 
     // Basic sources object
     const sources: any = {};
-    if (data.rss_feed) sources.feeds = [{ url: data.rss_feed, label: id, type: 'news' }];
-    if (data.podcast_feed) sources.podcasts = [{ feed: data.podcast_feed, title: data.name, href: data.website || '', badge: 'Community' }];
-    if (data.youtube_id) sources.youtube = [{ id: data.youtube_id, label: data.name }];
+    if (data.rss_feed) {
+        sources.feeds = [{ url: data.rss_feed, label: id, type: 'news' }];
+    }
+    if (data.podcast_feed) {
+        sources.podcasts = [{ 
+            feed: data.podcast_feed, 
+            title: data.name, 
+            href: data.website || 'https://phponline.dev', 
+            badge: 'Community' 
+        }];
+    }
+    if (data.youtube_id) {
+        sources.youtube = [{ id: data.youtube_id, label: data.name }];
+    }
 
-    const newCreator = `  {
-    id: "${id}",
-    name: "${data.name}",
-    description: "${data.description.replace(/\n/g, ' ')}",
-    avatar: "https://github.com/${data.twitter?.replace('@', '') || 'php'}.png", // Dynamic fallback
-    ${data.website ? `website: "${data.website}",` : ""}
-    ${data.twitter ? `twitter: "${data.twitter.replace('@', '')}",` : ""}
-    sources: ${JSON.stringify(sources, null, 6).replace(/\}/, '      }')}
-  },
-];`;
+    const newCreator = {
+        name: data.name,
+        description: data.description.replace(/\n/g, ' '),
+        avatar: `https://github.com/${data.twitter?.replace('@', '') || 'php'}.png`, // Dynamic fallback
+        website: data.website || undefined,
+        twitter: data.twitter ? data.twitter.replace('@', '') : undefined,
+        sources: sources
+    };
 
-    const updatedContent = content.replace(/\];\s*$/, newCreator);
-    fs.writeFileSync(filePath, updatedContent);
+    fs.writeFileSync(filePath, JSON.stringify(newCreator, null, 2));
     console.log(`✅ Added creator: ${id}`);
 }
 

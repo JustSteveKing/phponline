@@ -1,0 +1,10 @@
+{
+  "title": "Laracon EU 2026",
+  "description": "The official European Laravel conference. Join developers from all over the world for two days of learning and networking.",
+  "location": "Amsterdam, Netherlands",
+  "startDate": "2026-02-05",
+  "endDate": "2026-02-06",
+  "url": "https://laracon.eu",
+  "type": "conference",
+  "creatorId": "laravel"
+}

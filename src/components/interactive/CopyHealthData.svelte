@@ -1,5 +1,5 @@
 <script lang="ts">
-    import { PHP_STATUS } from "@/config/versions";
+    let { phpStatus } = $props();
 
     let copied = false;
 
@@ -7,7 +7,7 @@
         let markdown = "| Version | Status | Released | Active Support Until | Security Support Until |\n";
         markdown += "| :--- | :--- | :--- | :--- | :--- |\n";
 
-        Object.entries(PHP_STATUS).forEach(([version, data]) => {
+        Object.entries(phpStatus).forEach(([version, data]: [string, any]) => {
             markdown += `| PHP ${version} | ${data.status.toUpperCase()} | ${data.initialRelease} | ${data.activeUntil} | ${data.securityUntil} |\n`;
         });
 

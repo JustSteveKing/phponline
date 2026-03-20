@@ -1,0 +1,13 @@
+{
+  "name": "Laravel",
+  "description": "The PHP Framework for Web Artisans. Created by Taylor Otwell.",
+  "avatar": "https://github.com/laravel.png",
+  "website": "https://laravel.com",
+  "twitter": "laravelphp",
+  "sources": {
+    "feeds": [
+      { "url": "https://laravel.com/feed", "label": "laravel", "type": "news" }
+    ],
+    "youtube": [{ "id": "UCfO2GiQwb-cwJTb1CuRSkwg", "label": "Laravel" }]
+  }
+}

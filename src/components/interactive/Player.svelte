@@ -60,6 +60,17 @@
         <div
             class="absolute -top-1 left-0 right-0 h-1 bg-slate-100 dark:bg-slate-800 cursor-pointer group"
             on:click={handleSeek}
+            role="slider"
+            aria-label="Seek track"
+            aria-valuemin="0"
+            aria-valuemax={$duration}
+            aria-valuenow={$currentTime}
+            aria-valuetext={formatTime($currentTime)}
+            tabindex="0"
+            on:keydown={(e) => {
+                if (e.key === "ArrowLeft") audio.currentTime -= 5;
+                if (e.key === "ArrowRight") audio.currentTime += 5;
+            }}
         >
             <div
                 class="h-full bg-red-600 transition-all duration-100 relative"
@@ -117,6 +128,7 @@
                     <button
                         class="text-slate-400 hover:text-slate-600 dark:hover:text-slate-200 transition-colors"
                         on:click={() => (audio.currentTime -= 15)}
+                        aria-label="Skip back 15 seconds"
                     >
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -137,6 +149,7 @@
                     <button
                         on:click={togglePlayback}
                         class="w-12 h-12 bg-slate-900 dark:bg-white text-white dark:text-slate-900 rounded-full flex items-center justify-center hover:scale-105 active:scale-95 transition-all"
+                        aria-label={$isPlaying ? "Pause" : "Play"}
                     >
                         {#if $isPlaying}
                             <svg
@@ -167,6 +180,7 @@
                     <button
                         class="text-slate-400 hover:text-slate-600 dark:hover:text-slate-200 transition-colors"
                         on:click={() => (audio.currentTime += 30)}
+                        aria-label="Skip forward 30 seconds"
                     >
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -198,6 +212,7 @@
                 <button
                     on:click={() => currentTrack.set(null)}
                     class="p-2 text-slate-400 hover:text-red-600 transition-colors"
+                    aria-label="Close player"
                 >
                     <svg
                         xmlns="http://www.w3.org/2000/svg"

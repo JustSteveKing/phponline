@@ -1,0 +1,17 @@
+{
+  "name": "JustSteveKing",
+  "description": "Technical writer, developer, and speaker focusing on Laravel and PHP architecture.",
+  "avatar": "https://github.com/juststeveking.png",
+  "website": "https://www.juststeveking.com",
+  "twitter": "JustSteveKing",
+  "sources": {
+    "feeds": [
+      {
+        "url": "https://www.juststeveking.com/rss.xml",
+        "label": "juststeveking",
+        "type": "community"
+      }
+    ],
+    "youtube": [{ "id": "UCBnj7HfncAygGeyymgydZxQ", "label": "JustSteveKing" }]
+  }
+}

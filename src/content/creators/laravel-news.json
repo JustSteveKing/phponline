@@ -1,0 +1,24 @@
+{
+  "name": "Laravel News",
+  "description": "The official blog of the Laravel ecosystem, covering releases, tutorials, and community events.",
+  "avatar": "https://github.com/laravelnews.png",
+  "website": "https://laravel-news.com",
+  "twitter": "laravelnews",
+  "sources": {
+    "feeds": [
+      {
+        "url": "https://feed.laravel-news.com",
+        "label": "laravel-news",
+        "type": "news"
+      }
+    ],
+    "podcasts": [
+      {
+        "feed": "https://feeds.transistor.fm/laravelnews",
+        "title": "Laravel News Podcast",
+        "href": "https://podcast.laravel-news.com/",
+        "badge": "Weekly Show"
+      }
+    ]
+  }
+}

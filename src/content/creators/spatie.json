@@ -1,0 +1,17 @@
+{
+  "name": "Spatie",
+  "description": "A digital agency from Belgium that has released hundreds of open-source PHP and Laravel packages.",
+  "avatar": "https://github.com/spatie.png",
+  "website": "https://spatie.be",
+  "twitter": "spatie_be",
+  "sources": {
+    "feeds": [
+      {
+        "url": "https://spatie.be/feeds/blog",
+        "label": "spatie",
+        "type": "community"
+      }
+    ],
+    "youtube": [{ "id": "UCoBbei3S9JLTcS2VeEOWDeQ", "label": "Spatie" }]
+  }
+}
