@@ -11,7 +11,7 @@ body:
     id: name
     attributes:
       label: Creator Name
-      placeholder: "e.g., Larasts or Aaron Francis"
+      placeholder: "e.g., Who are you adding?"
     validations:
       required: true
   - type: textarea
