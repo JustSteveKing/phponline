@@ -15,6 +15,7 @@ export const collections = {
       source: z.string(),
       author: z.string().optional(),
       status: z.string().optional(),
+      creatorId: z.string().optional(),
     }),
   }),
   episodes: defineCollection({
@@ -29,6 +30,7 @@ export const collections = {
       duration: z.string().optional(),
       episode: z.string().optional(),
       season: z.string().optional(),
+      creatorId: z.string().optional(),
     }),
   }),
   videos: defineCollection({
@@ -41,6 +43,7 @@ export const collections = {
       channel: z.string(),
       videoId: z.string(),
       thumbnail: z.string().url(),
+      creatorId: z.string().optional(),
     }),
   }),
 };

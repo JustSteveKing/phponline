@@ -7,6 +7,7 @@
   },
   "scripts": {
     "dev": "astro dev",
+    "prepare": "bun run generate-og && bun run build",
     "build": "astro build && pagefind --site dist",
     "generate-og": "bun scripts/generate-og.ts",
     "generate-default-cover": "bun scripts/generate-default-cover.ts",

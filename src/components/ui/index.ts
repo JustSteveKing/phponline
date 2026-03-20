@@ -9,3 +9,5 @@ export { default as Hero } from "./Hero.astro";
 export { default as Logo } from "./Logo.astro";
 export { default as VideoCard } from "./VideoCard.astro";
 export { default as CreatorPill } from "./CreatorPill.astro";
+export { default as BannerCTA } from "./BannerCTA.astro";
+export { default as PHPHealthBanner } from "./PHPHealthBanner.astro";

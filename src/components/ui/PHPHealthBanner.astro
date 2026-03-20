@@ -1,0 +1,43 @@
+---
+import { PHP_STATUS } from "@/config/versions";
+
+// Get the latest active version
+const latestActiveVersion = Object.entries(PHP_STATUS)
+    .filter(([_, data]) => data.status === "active")
+    .sort(([vA], [vB]) => parseFloat(vB) - parseFloat(vA))[0]?.[0] || "8.x";
+---
+
+<div class="mb-12">
+    <a 
+        href="/health"
+        class="group relative flex items-center justify-between p-4 px-6 bg-white dark:bg-slate-900 border border-slate-100 dark:border-slate-800 rounded-2xl hover:border-green-200 dark:hover:border-green-900/30 transition-all duration-300 shadow-sm hover:shadow-xl hover:shadow-green-500/5 overflow-hidden"
+    >
+        <div class="flex items-center gap-4 relative z-10">
+            <div class="relative flex h-3 w-3">
+                <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
+                <span class="relative inline-flex rounded-full h-3 w-3 bg-green-500"></span>
+            </div>
+            <div class="flex flex-col md:flex-row md:items-center gap-1 md:gap-3">
+                <span class="text-[10px] font-black uppercase tracking-[0.2em] text-slate-900 dark:text-white">
+                    PHP {latestActiveVersion} Stable
+                </span>
+                <span class="hidden md:block text-slate-300 dark:text-slate-700">|</span>
+                <span class="text-[10px] font-bold uppercase tracking-widest text-slate-400 group-hover:text-slate-600 transition-colors">
+                    Check the health and support status of all active PHP versions
+                </span>
+            </div>
+        </div>
+
+        <div class="flex items-center gap-2 relative z-10">
+            <span class="text-[10px] font-black uppercase tracking-widest text-green-600 opacity-0 group-hover:opacity-100 transition-all translate-x-4 group-hover:translate-x-0">
+                View Health Report
+            </span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="text-slate-300 group-hover:text-green-600 transition-all">
+                <path d="M5 12h14"/><path d="m12 5 7 7-7 7"/>
+            </svg>
+        </div>
+
+        <!-- Subtle Background Glow -->
+        <div class="absolute right-0 top-0 bottom-0 w-64 bg-linear-to-l from-green-50/50 dark:from-green-900/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+    </a>
+</div>

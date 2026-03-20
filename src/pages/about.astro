@@ -1,6 +1,7 @@
 ---
 import Layout from "@/layouts/Layout.astro";
 import { PageHeader, Grid, FeatureCard } from "@/components";
+import { SITE_CONFIG } from "@/config/site";
 
 const values = [
     {
@@ -99,7 +100,7 @@ const breadcrumbs = {
                         Want to add your blog, suggest a feature, or fix a bug?
                     </p>
                     <a 
-                        href="https://github.com/juststeveking/phponline" 
+                        href={SITE_CONFIG.links.github} 
                         target="_blank"
                         class="flex items-center justify-center gap-2 w-full py-3 rounded-full bg-white text-slate-900 font-black text-xs uppercase tracking-widest hover:bg-red-50 transition-colors"
                     >

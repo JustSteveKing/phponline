@@ -1,6 +1,5 @@
 import { Resvg } from "@resvg/resvg-js";
 import fs from "node:fs";
-import path from "node:path";
 
 async function generate() {
     console.log("🚀 Generating Favicons...");

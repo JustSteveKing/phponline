@@ -4,6 +4,7 @@ import fs from "node:fs";
 import path from "node:path";
 import Parser from "rss-parser";
 import { PHP_FEEDS } from "../src/config/feeds";
+import { slugify } from "../src/utils/slugify";
 
 const STATIC_PAGES = [
     { id: "home", title: "The PHP Community Pulse", source: "Home" },
@@ -11,20 +12,11 @@ const STATIC_PAGES = [
     { id: "rfcs", title: "RFC Tracker", source: "Core Dev" },
     { id: "podcasts", title: "Community Podcasts", source: "Audio" },
     { id: "videos", title: "Community Videos", source: "Video" },
+    { id: "creators", title: "Community Creators", source: "Directory" },
     { id: "about", title: "About the Project", source: "Project" },
 ];
 
 const parser = new Parser();
-
-function slugify(text: string): string {
-    return text
-        .toString()
-        .toLowerCase()
-        .trim()
-        .replace(/\s+/g, '-')
-        .replace(/[^\w-]+/g, '')
-        .replace(/--+/g, '-');
-}
 
 async function generate() {
     console.log("🚀 Starting OG Image Generation...");
@@ -60,7 +52,14 @@ async function generate() {
         generateImage(`videos/${slugify(channel.label)}`, channel.label, "YouTube", fontData)
     ));
 
-    // 4. Generate for Feed Items
+    // 4. Generate for Creator Profiles
+    console.log("👤 Generating for Creator Profiles...");
+    const { CREATORS } = await import("../src/config/creators");
+    await Promise.all(CREATORS.map(creator => 
+        generateImage(`creators/${creator.id}`, creator.name, "Creator", fontData)
+    ));
+
+    // 5. Generate for Feed Items
     for (const feed of PHP_FEEDS) {
         try {
             console.log(`📡 Fetching ${feed.label}...`);

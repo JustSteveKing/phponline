@@ -1,0 +1,72 @@
+---
+import Layout from "@/layouts/Layout.astro";
+import { PageHeader, Grid, FeatureCard, BannerCTA } from "@/components";
+import { CREATORS } from "@/config/creators";
+import { SITE_CONFIG } from "@/config/site";
+import type { GetStaticPaths } from "astro";
+
+export const getStaticPaths = (({ paginate }) => {
+  return paginate(CREATORS, { pageSize: 12 });
+}) satisfies GetStaticPaths;
+
+const { page } = Astro.props;
+
+const breadcrumbs = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.phponline.dev" },
+        { "@type": "ListItem", "position": 2, "name": "Creators", "item": `https://www.phponline.dev/creators/${page.currentPage}` }
+    ]
+};
+---
+
+<Layout 
+    title={`Community Creators - Page ${page.currentPage} | phponline.dev`}
+    description="Meet the people and organizations shaping the PHP ecosystem."
+    ogImage="/og/home.png"
+    sd={[breadcrumbs]}
+>
+	<PageHeader
+		title="COMMUNITY CREATORS"
+		description="The individuals and teams behind your favorite PHP content, packages, and frameworks."
+        badge="Directory"
+	/>
+
+	<Grid columns={3} gap="large">
+		{page.data.map((creator) => (
+			<FeatureCard 
+                title={creator.name}
+                description={creator.description}
+                image={creator.avatar}
+                href={`/creators/${creator.id}`}
+                badge="Creator Profile"
+            />
+		))}
+	</Grid>
+
+    <!-- Pagination -->
+    <div class="mt-20 flex items-center justify-center gap-4">
+        {page.url.prev && (
+            <a href={page.url.prev} class="px-6 py-3 rounded-xl bg-white dark:bg-slate-900 border border-slate-100 dark:border-slate-800 font-bold text-xs uppercase tracking-widest text-slate-600 dark:text-slate-400 hover:text-red-600 hover:border-red-100 transition-all">
+                Previous
+            </a>
+        )}
+        <span class="text-xs font-black uppercase tracking-widest text-slate-400">
+            Page {page.currentPage} of {page.lastPage}
+        </span>
+        {page.url.next && (
+            <a href={page.url.next} class="px-6 py-3 rounded-xl bg-white dark:bg-slate-900 border border-slate-100 dark:border-slate-800 font-bold text-xs uppercase tracking-widest text-slate-600 dark:text-slate-400 hover:text-red-600 hover:border-red-100 transition-all">
+                Next
+            </a>
+        )}
+    </div>
+
+	<BannerCTA 
+        title="Join the Directory"
+        description="Are you creating content for the PHP community? We'd love to feature your work and aggregate your feeds."
+        buttonText="Submit your Profile"
+        href={SITE_CONFIG.links.github}
+        variant="red"
+    />
+</Layout>

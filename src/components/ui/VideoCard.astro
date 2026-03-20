@@ -1,5 +1,4 @@
 ---
-import { Image } from "astro:assets";
 import type { CollectionEntry } from "astro:content";
 
 interface Props {
@@ -7,7 +6,7 @@ interface Props {
 }
 
 const { video } = Astro.props;
-const { title, channel, pubDate, thumbnail, videoId } = video.data;
+const { title, channel, pubDate, thumbnail } = video.data;
 
 const formattedDate = pubDate.toLocaleDateString("en-US", {
     month: "short",

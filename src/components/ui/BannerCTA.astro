@@ -1,0 +1,53 @@
+---
+interface Props {
+    title: string;
+    description: string;
+    buttonText: string;
+    href: string;
+    variant?: "dark" | "red";
+}
+
+const {
+    title,
+    description,
+    buttonText,
+    href,
+    variant = "dark"
+} = Astro.props;
+
+const containerClasses = variant === "dark"
+    ? "bg-slate-900"
+    : "bg-red-600";
+
+const textClasses = variant === "dark"
+    ? "text-slate-400"
+    : "text-red-100";
+
+const buttonClasses = variant === "dark"
+    ? "bg-red-600 text-white hover:bg-red-700"
+    : "bg-white text-red-600 hover:bg-red-50";
+
+const dotClasses = variant === "dark"
+    ? "bg-red-600"
+    : "bg-white";
+---
+
+<div class:list={["mt-32 rounded-3xl p-12 md:p-20 text-center text-white relative overflow-hidden", containerClasses]}>
+    <div class="absolute inset-0 opacity-10 pointer-events-none">
+        <div class:list={["absolute -top-24 -left-24 w-96 h-96 rounded-full blur-3xl", dotClasses]}></div>
+    </div>
+
+    <div class="relative z-10 max-w-2xl mx-auto">
+        <h3 class="text-3xl md:text-5xl font-black mb-6 tracking-tight uppercase">{title}</h3>
+        <p class:list={["text-lg mb-10 font-medium leading-relaxed", textClasses]}>
+            {description}
+        </p>
+        <a
+            href={href}
+            target="_blank"
+            class:list={["inline-block px-12 py-5 rounded-full font-black uppercase tracking-widest text-sm transition-all", buttonClasses]}
+        >
+            {buttonText}
+        </a>
+    </div>
+</div>

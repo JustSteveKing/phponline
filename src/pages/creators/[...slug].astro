@@ -1,0 +1,130 @@
+---
+import Layout from "@/layouts/Layout.astro";
+import { Grid, NewsCard, VideoCard } from "@/components";
+import { CREATORS } from "@/config/creators";
+import { getCollection } from "astro:content";
+import { slugify } from "@/utils/slugify";
+
+export async function getStaticPaths() {
+    return CREATORS.map((creator) => ({
+        params: { slug: creator.id },
+        props: { creator },
+    }));
+}
+
+const { creator } = Astro.props;
+
+// Fetch all content for this creator
+const news = await getCollection("news", ({ data }) => data.creatorId === creator.id);
+const episodes = await getCollection("episodes", ({ data }) => data.creatorId === creator.id);
+const videos = await getCollection("videos", ({ data }) => data.creatorId === creator.id);
+
+// Combine all content for a master timeline if needed, but let's show them by section first
+const sortedNews = news.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+const sortedEpisodes = episodes.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+const sortedVideos = videos.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+
+const latestNews = sortedNews.slice(0, 5);
+const latestVideos = sortedVideos.slice(0, 5);
+
+const breadcrumbs = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.phponline.dev" },
+        { "@type": "ListItem", "position": 2, "name": "Creators", "item": "https://www.phponline.dev/creators" },
+        { "@type": "ListItem", "position": 3, "name": creator.name, "item": `https://www.phponline.dev/creators/${creator.id}` }
+    ]
+};
+---
+
+<Layout
+    title={`${creator.name} Profile | phponline.dev`}
+    description={creator.description}
+    ogImage={creator.avatar}
+    sd={[breadcrumbs]}
+>
+    <div class="mb-16 flex flex-col md:flex-row gap-8 items-center md:items-start text-center md:text-left">
+        <div class="w-32 h-32 rounded-3xl overflow-hidden shadow-2xl bg-slate-100 shrink-0">
+            <img src={creator.avatar} alt={creator.name} class="w-full h-full object-cover" />
+        </div>
+        <div class="flex-1">
+            <div class="flex flex-col md:flex-row md:items-center justify-between gap-4 mb-4">
+                <h1 class="text-4xl md:text-6xl font-black text-slate-900 dark:text-white uppercase tracking-tight">
+                    {creator.name}
+                </h1>
+                <div class="flex items-center justify-center gap-3">
+                    {creator.website && (
+                        <a href={creator.website} target="_blank" class="p-3 rounded-xl bg-white dark:bg-slate-900 border border-slate-100 dark:border-slate-800 text-slate-400 hover:text-red-600 transition-all">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+                        </a>
+                    )}
+                    {creator.twitter && (
+                        <a href={`https://twitter.com/${creator.twitter}`} target="_blank" class="p-3 rounded-xl bg-white dark:bg-slate-900 border border-slate-100 dark:border-slate-800 text-slate-400 hover:text-blue-400 transition-all">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"/></svg>
+                        </a>
+                    )}
+                </div>
+            </div>
+            <p class="text-xl text-slate-500 dark:text-slate-400 font-medium leading-relaxed max-w-3xl">
+                {creator.description}
+            </p>
+        </div>
+    </div>
+
+    <div class="space-y-20">
+        {latestNews.length > 0 && (
+            <section>
+                <div class="flex items-center justify-between mb-8 border-b border-slate-100 dark:border-slate-800/60 pb-4">
+                    <h2 class="text-2xl font-black text-slate-900 dark:text-white uppercase tracking-tight flex items-center gap-3">
+                        <span class="w-8 h-1 bg-red-600 rounded-full"></span>
+                        Latest News
+                    </h2>
+                    <a href="/archive/1" class="text-[10px] font-black uppercase tracking-[0.2em] text-slate-400 hover:text-red-600 transition-colors">
+                        View All News
+                    </a>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                    {latestNews.map(item => <NewsCard item={item} />)}
+                </div>
+            </section>
+        )}
+
+        {latestVideos.length > 0 && (
+            <section>
+                <div class="flex items-center justify-between mb-8 border-b border-slate-100 dark:border-slate-800/60 pb-4">
+                    <h2 class="text-2xl font-black text-slate-900 dark:text-white uppercase tracking-tight flex items-center gap-3">
+                        <span class="w-8 h-1 bg-red-600 rounded-full"></span>
+                        YouTube Content
+                    </h2>
+                    <a href={`/videos/${creator.id}`} class="text-[10px] font-black uppercase tracking-[0.2em] text-slate-400 hover:text-red-600 transition-colors">
+                        View Creator Videos
+                    </a>
+                </div>
+                <Grid columns={3} gap="large">
+                    {latestVideos.map(video => <VideoCard video={video} />)}
+                </Grid>
+            </section>
+        )}
+
+        {sortedEpisodes.length > 0 && (
+            <section>
+                <h2 class="text-2xl font-black text-slate-900 dark:text-white uppercase tracking-tight mb-8 flex items-center gap-3">
+                    <span class="w-8 h-1 bg-red-600 rounded-full"></span>
+                    Podcast Episodes
+                </h2>
+                <div class="grid grid-cols-1 gap-4">
+                    {sortedEpisodes.map(episode => (
+                        <a href={`/podcasts/${slugify(episode.data.podcast)}`} class="p-6 bg-white dark:bg-slate-900 border border-slate-100 dark:border-slate-800 rounded-2xl flex items-center justify-between hover:border-red-200 transition-all group">
+                            <div class="min-w-0">
+                                <h3 class="font-bold text-slate-900 dark:text-white truncate group-hover:text-red-600 transition-colors uppercase text-sm">{episode.data.title}</h3>
+                                <p class="text-xs text-slate-400 mt-1 uppercase font-black tracking-widest">{episode.data.pubDate.toLocaleDateString()}</p>
+                            </div>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="text-slate-200 group-hover:text-red-600 transition-all"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+                        </a>
+                    ))}
+                </div>
+            </section>
+        )}
+    </div>
+</Layout>

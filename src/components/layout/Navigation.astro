@@ -7,6 +7,8 @@ const navItems = [
     { name: "RFC Tracker", href: "/rfcs" },
     { name: "Podcasts", href: "/podcasts" },
     { name: "Videos", href: "/videos" },
+    { name: "Creators", href: "/creators/1" },
+    { name: "Health", href: "/health" },
     { name: "About", href: "/about" },
 ];
 
@@ -27,6 +29,7 @@ const navigationSchema = {
 ---
 
 <script
+    is:inline
     type="application/ld+json"
     set:html={JSON.stringify(navigationSchema)}
 />

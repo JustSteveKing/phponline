@@ -81,7 +81,8 @@ export function phpCommunityLoader(feedUrls: typeof PHP_FEEDS): Loader {
                 content: content,
                 source: feed.label,
                 author: item.creator || data.title,
-                status: feed.id === 'php-rfcs' ? (item.title?.match(/\[(.*?)\]/)?.[1] || 'Discussion') : undefined,
+                status: feed.id?.includes('rfc') ? (item.title?.match(/\[(.*?)\]/)?.[1] || 'Discussion') : undefined,
+                creatorId: feed.creatorId,
               },
             });
           });
@@ -122,6 +123,7 @@ export function phpPodcastLoader(podcasts: typeof PODCAST_FEEDS): Loader {
                 duration: (item as any).duration,
                 episode: (item as any).episode,
                 season: (item as any).season,
+                creatorId: podcast.creatorId,
               },
             });
           });
@@ -152,7 +154,6 @@ export function phpYouTubeLoader(channels: typeof YOUTUBE_CHANNELS): Loader {
             const channelSlug = slugify(channel.label);
             const id = `${channelSlug}/${videoSlug}`;
 
-            // Extract thumbnail from mediaGroup if available, otherwise fallback
             let thumbnail = `https://i.ytimg.com/vi/${videoId}/maxresdefault.jpg`;
             if (item.mediaGroup && item.mediaGroup['media:thumbnail']) {
                 thumbnail = item.mediaGroup['media:thumbnail'][0].$.url;
@@ -168,6 +169,7 @@ export function phpYouTubeLoader(channels: typeof YOUTUBE_CHANNELS): Loader {
                 channel: channel.label,
                 videoId: videoId,
                 thumbnail: thumbnail,
+                creatorId: channel.creatorId,
               },
             });
           });

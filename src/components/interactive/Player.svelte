@@ -7,7 +7,7 @@
         currentTime,
         duration,
     } from "./playerStore";
-    import { slide } from "svelte/transition";
+    import { fade } from "svelte/transition";
 
     let audio: HTMLAudioElement;
 
@@ -22,15 +22,18 @@
     }
 
     function handleTimeUpdate() {
+        if (!audio) return;
         currentTime.set(audio.currentTime);
         progress.set((audio.currentTime / audio.duration) * 100);
     }
 
     function handleLoadedMetadata() {
+        if (!audio) return;
         duration.set(audio.duration);
     }
 
     function handleSeek(e: MouseEvent) {
+        if (!audio) return;
         const rect = (
             e.currentTarget as HTMLDivElement
         ).getBoundingClientRect();
@@ -50,7 +53,7 @@
 
 {#if $currentTrack}
     <div
-        transition:slide={{ axis: "y" }}
+        transition:fade
         class="fixed bottom-0 left-0 right-0 z-100 bg-white dark:bg-[#0f172a] border-t border-slate-100 dark:border-slate-800 shadow-2xl safe-area-inset-bottom"
     >
         <!-- Progress Bar -->
@@ -63,7 +66,7 @@
                 style="width: {$progress}%"
             >
                 <div
-                    class="absolute right-0 top-1/2 -translate-y-1/2 w-3 h-3 bg-red-600 rounded-full scale-0 group-hover:scale-100 transition-transform shadow-lg shadow-red-200"
+                    class="absolute right-0 top-1/2 -translate-y-1/2 w-3 h-3 bg-red-600 rounded-full scale-0 group-hover:scale-100 transition-transform"
                 ></div>
             </div>
         </div>
@@ -133,7 +136,7 @@
 
                     <button
                         on:click={togglePlayback}
-                        class="w-12 h-12 bg-slate-900 dark:bg-white text-white dark:text-slate-900 rounded-full flex items-center justify-center hover:scale-105 active:scale-95 transition-all shadow-xl shadow-slate-200 dark:shadow-black/20"
+                        class="w-12 h-12 bg-slate-900 dark:bg-white text-white dark:text-slate-900 rounded-full flex items-center justify-center hover:scale-105 active:scale-95 transition-all"
                     >
                         {#if $isPlaying}
                             <svg

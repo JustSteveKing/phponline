@@ -7,11 +7,17 @@ import {
     SectionHeading,
     Grid,
     FeatureCard,
+    CreatorPill,
+    PHPHealthBanner,
 } from "@/components";
 import type { CollectionEntry } from "astro:content";
 import { getCollection } from "astro:content";
+import { YOUTUBE_CHANNELS } from "@/config/feeds";
+import { SITE_CONFIG } from "@/config/site";
 
 const allNews: CollectionEntry<"news">[] = await getCollection("news");
+const allVideos = await getCollection("videos");
+
 const sorted = allNews.sort(
     (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
 );
@@ -21,22 +27,32 @@ const heroPost = sorted[0];
 const subHeroPosts = sorted.slice(1, 4);
 const latestStories = sorted.slice(4, 10);
 
+const channelData = YOUTUBE_CHANNELS.map((channel) => {
+    const videoCount = allVideos.filter(v => v.data.channel === channel.label).length;
+    return {
+        ...channel,
+        videoCount,
+    };
+}).slice(0, 8); // Just show top 8 on home
+
 const sd = {
     "@context": "https://schema.org",
     "@type": "WebSite",
-    name: "phponline.dev",
-    url: "https://www.phponline.dev",
-    description: "The modern homepage for the PHP community.",
+    name: SITE_CONFIG.name,
+    url: SITE_CONFIG.url,
+    description: SITE_CONFIG.description,
 };
 ---
 
 <Layout
-    title="phponline.dev | The PHP Community Pulse"
+    title={`${SITE_CONFIG.name} | The PHP Community Pulse`}
     sd={sd}
     ogImage="/og/home.png"
 >
     <!-- Polished Hero Section -->
     <Hero item={heroPost} />
+
+    <PHPHealthBanner />
 
     <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 mb-20">
         <!-- Main Content Area -->
@@ -101,6 +117,20 @@ const sd = {
                     </a>
                 </div>
             </div>
+        </div>
+    </div>
+
+    <!-- Community Creators Section -->
+    <div class="mb-20">
+        <SectionHeading title="Community Creators" viewAllHref="/creators/1" />
+        <div class="flex flex-wrap gap-4 mt-8">
+            {channelData.map((channel) => (
+                <CreatorPill 
+                    label={channel.label}
+                    count={channel.videoCount}
+                    avatar={channel.avatar}
+                />
+            ))}
         </div>
     </div>
 

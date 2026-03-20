@@ -1,8 +1,8 @@
 ---
 import { getCollection, type CollectionEntry } from "astro:content";
 import Layout from "@/layouts/Layout.astro";
-import { Image } from "astro:assets";
-import defaultCover from "@/assets/default-php-cover.png";
+import { BannerCTA } from "@/components";
+import { SITE_CONFIG } from "@/config/site";
 import { getReadingTime } from "@/utils/readingTime";
 
 export async function getStaticPaths() {
@@ -89,7 +89,7 @@ const breadcrumbs = {
         <header class="mb-16">
             <div class="flex flex-wrap items-center gap-4 mb-8">
                 <span
-                    class="px-4 py-1.5 bg-red-600 text-slate-900 dark:text-white text-[10px] font-black uppercase tracking-[0.2em] rounded-full shadow-lg shadow-red-500/20"
+                    class="px-4 py-1.5 bg-red-600 text-white text-[10px] font-black uppercase tracking-[0.2em] rounded-full shadow-lg shadow-red-500/20"
                 >
                     {source}
                 </span>
@@ -105,7 +105,7 @@ const breadcrumbs = {
             </div>
 
             <h1
-                class="text-4xl md:text-6xl font-semibold text-slate-900 dark:text-white leading-[1.1] tracking-tight mb-10"
+                class="text-4xl md:text-6xl font-black text-slate-900 dark:text-white leading-[1.1] tracking-tight mb-10 uppercase"
             >
                 {title}
             </h1>
@@ -143,7 +143,7 @@ const breadcrumbs = {
             {
                 coverImage && (
                     <div class="rounded-3xl overflow-hidden shadow-2xl mb-16 relative group">
-                        <Image
+                        <img
                             src={coverImage}
                             alt={title}
                             width={1200}
@@ -152,7 +152,7 @@ const breadcrumbs = {
                             loading="lazy"
                             class="w-full h-auto object-cover aspect-video transition-transform duration-700 group-hover:scale-105"
                         />
-                        <div class="absolute inset-0 bg-linear-to-t from-slate-900/20 dark:grom-slate-100/20 to-transparent" />
+                        <div class="absolute inset-0 bg-linear-to-t from-slate-900/20 dark:from-slate-100/20 to-transparent" />
                     </div>
                 )
             }
@@ -162,7 +162,7 @@ const breadcrumbs = {
             <!-- Sidebar for article info -->
             <aside class="lg:col-span-3 hidden lg:block">
                 <div class="sticky top-32 space-y-12">
-                    <div class="pt-32">
+                    <div>
                         <h4
                             class="text-[10px] font-black text-slate-900 dark:text-white uppercase tracking-[0.2em] mb-4"
                         >
@@ -171,7 +171,7 @@ const breadcrumbs = {
                         <a
                             href={link}
                             target="_blank"
-                            class="text-xs font-bold text-red-600 hover:underline wrap-break-words block"
+                            class="text-xs font-bold text-red-600 hover:underline break-words block"
                         >
                             {new URL(link || "https://phponline.dev").hostname}
                         </a>
@@ -187,47 +187,13 @@ const breadcrumbs = {
                     <div set:html={content} />
                 </div>
 
-                <div
-                    class="bg-red-50 rounded-3xl p-10 md:p-16 text-center border border-red-100 relative overflow-hidden"
-                >
-                    <div class="relative z-10">
-                        <h3 class="text-3xl font-black mb-4 text-red-900">
-                            Read the full story?
-                        </h3>
-                        <p
-                            class="text-red-700 mb-10 text-lg font-medium max-w-lg mx-auto leading-relaxed"
-                        >
-                            This article was originally published on {source}.
-                            Supporting original authors is key to a healthy
-                            community.
-                        </p>
-                        <a
-                            href={link}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            class="inline-flex items-center gap-3 bg-red-600 text-white px-10 py-5 rounded-full font-black hover:bg-red-700 transition-all shadow-2xl shadow-red-500/40 group/btn"
-                        >
-                            Continue on {source}
-                            <svg
-                                xmlns="http://www.w3.org/2000/svg"
-                                width="20"
-                                height="20"
-                                viewBox="0 0 24 24"
-                                fill="none"
-                                stroke="currentColor"
-                                stroke-width="3"
-                                stroke-linecap="round"
-                                stroke-linejoin="round"
-                                class="transition-transform group-hover/btn:translate-x-1"
-                                ><path
-                                    d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"
-                                ></path><polyline points="15 3 21 3 21 9"
-                                ></polyline><line x1="10" y1="14" x2="21" y2="3"
-                                ></line></svg
-                            >
-                        </a>
-                    </div>
-                </div>
+                <BannerCTA 
+                    title="Read the full story?"
+                    description={`This article was originally published on ${source}. Supporting original authors is key to a healthy community.`}
+                    buttonText={`Continue on ${source}`}
+                    href={link || SITE_CONFIG.links.github}
+                    variant="red"
+                />
             </div>
         </div>
 

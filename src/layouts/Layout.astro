@@ -55,10 +55,11 @@ const sdArray = Array.isArray(sd) ? sd : sd ? [sd] : [];
         <meta property="twitter:description" content={description} />
         <meta property="twitter:image" content={resolvedOgImage} />
 
-        {sdArray.map(data => (
-            <script type="application/ld+json" set:html={JSON.stringify(data)} />
-        ))}
-
+        {
+            sdArray.map((data) => (
+                <script is:inline type="application/ld+json" set:html={JSON.stringify(data)} />
+            ))
+        }
         <ClientRouter />
         <script is:inline>
             const getTheme = () => {
