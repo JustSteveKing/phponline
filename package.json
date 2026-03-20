@@ -7,8 +7,10 @@
   },
   "scripts": {
     "dev": "astro dev",
-    "build": "bun run generate-og && astro build && pagefind --site dist",
+    "build": "astro build && pagefind --site dist",
     "generate-og": "bun scripts/generate-og.ts",
+    "generate-default-cover": "bun scripts/generate-default-cover.ts",
+    "generate-favicons": "bun scripts/generate-favicons.ts",
     "preview": "astro preview",
     "astro": "astro"
   },
