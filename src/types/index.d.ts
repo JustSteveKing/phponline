@@ -12,3 +12,8 @@ export interface Podcast {
   badge: string;
   feed: string;
 }
+
+export interface YouTubeChannel {
+  id: string;
+  label: string;
+}

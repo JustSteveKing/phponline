@@ -1,7 +1,7 @@
 import { defineCollection } from "astro:content";
 import { z } from "zod";
-import { phpCommunityLoader, phpPodcastLoader } from "@/loaders/rss";
-import { PHP_FEEDS, PODCAST_FEEDS } from "@/config/feeds";
+import { phpCommunityLoader, phpPodcastLoader, phpYouTubeLoader } from "@/loaders/rss";
+import { PHP_FEEDS, PODCAST_FEEDS, YOUTUBE_CHANNELS } from "@/config/feeds";
 
 export const collections = {
   news: defineCollection({
@@ -29,6 +29,18 @@ export const collections = {
       duration: z.string().optional(),
       episode: z.string().optional(),
       season: z.string().optional(),
+    }),
+  }),
+  videos: defineCollection({
+    loader: phpYouTubeLoader(YOUTUBE_CHANNELS),
+    schema: z.object({
+      title: z.string(),
+      link: z.string().url(),
+      pubDate: z.date(),
+      content: z.string().optional(),
+      channel: z.string(),
+      videoId: z.string(),
+      thumbnail: z.string().url(),
     }),
   }),
 };

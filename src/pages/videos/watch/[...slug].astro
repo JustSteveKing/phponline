@@ -1,0 +1,116 @@
+---
+import Layout from "@/layouts/Layout.astro";
+import { PageHeader, Grid, VideoCard } from "@/components";
+import { getCollection } from "astro:content";
+import { slugify } from "@/utils/slugify";
+
+export async function getStaticPaths() {
+    const allVideos = await getCollection("videos");
+    
+    return allVideos.map((video) => ({
+        params: { slug: video.id },
+        props: { video, allVideos },
+    }));
+}
+
+const { video, allVideos } = Astro.props;
+const { title, channel, pubDate, videoId, content } = video.data;
+
+const moreFromChannel = allVideos
+    .filter((v) => v.data.channel === channel && v.id !== video.id)
+    .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
+    .slice(0, 4);
+
+const breadcrumbs = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.phponline.dev" },
+        { "@type": "ListItem", "position": 2, "name": "Videos", "item": "https://www.phponline.dev/videos" },
+        { "@type": "ListItem", "position": 3, "name": channel, "item": `https://www.phponline.dev/videos/${slugify(channel)}` },
+        { "@type": "ListItem", "position": 4, "name": title, "item": `https://www.phponline.dev/videos/watch/${video.id}` }
+    ]
+};
+---
+
+<Layout 
+    title={`${title} | phponline.dev`}
+    description={`Watch ${title} from ${channel} on phponline.dev`}
+    sd={[breadcrumbs]}
+>
+    <div class="max-w-6xl mx-auto">
+        <!-- Video Player Section -->
+        <div class="relative aspect-video w-full rounded-3xl overflow-hidden bg-slate-900 shadow-2xl mb-12">
+            <iframe
+                src={`https://www.youtube.com/embed/${videoId}?autoplay=1`}
+                title={title}
+                class="absolute inset-0 w-full h-full border-0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+            ></iframe>
+        </div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-12">
+            <!-- Main Content -->
+            <div class="lg:col-span-8">
+                <div class="flex items-center gap-4 mb-6">
+                    <span class="px-4 py-1.5 rounded-full bg-red-600 text-white text-[10px] font-black uppercase tracking-[0.2em] shadow-lg shadow-red-500/30">
+                        Now Playing
+                    </span>
+                    <a href={`/videos/${slugify(channel)}`} class="text-slate-400 hover:text-red-600 font-bold text-xs uppercase tracking-widest transition-colors">
+                        {channel}
+                    </a>
+                    <span class="text-slate-300 dark:text-slate-600">•</span>
+                    <time class="text-slate-400 font-bold text-xs uppercase tracking-widest">
+                        {pubDate.toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}
+                    </time>
+                </div>
+
+                <h1 class="text-3xl md:text-5xl font-black text-slate-900 dark:text-white leading-tight mb-8">
+                    {title}
+                </h1>
+
+                <div class="bg-white dark:bg-[#0f172a] border border-slate-100 dark:border-slate-800/50 rounded-2xl p-8 md:p-10 mb-12">
+                    <h2 class="text-xs font-black uppercase tracking-[0.2em] text-slate-400 mb-6">About this Video</h2>
+                    <div class="text-slate-600 dark:text-slate-400 leading-relaxed font-medium space-y-4 whitespace-pre-wrap">
+                        {content || "No description provided for this video."}
+                    </div>
+                </div>
+            </div>
+
+            <!-- Sidebar -->
+            <div class="lg:col-span-4">
+                <div class="sticky top-8 space-y-8">
+                    <div>
+                        <h3 class="text-xs font-black uppercase tracking-[0.2em] text-slate-400 mb-6">More from {channel}</h3>
+                        <div class="space-y-6">
+                            {moreFromChannel.map((v) => (
+                                <a href={`/videos/watch/${v.id}`} class="group flex gap-4">
+                                    <div class="relative w-32 shrink-0 aspect-video rounded-xl overflow-hidden bg-slate-100 dark:bg-slate-800 border border-slate-200/50 dark:border-slate-800/50">
+                                        <img src={v.data.thumbnail} alt="" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" />
+                                        <div class="absolute inset-0 bg-red-600/0 group-hover:bg-red-600/10 transition-colors"></div>
+                                    </div>
+                                    <div class="min-w-0">
+                                        <h4 class="text-xs font-black text-slate-900 dark:text-white line-clamp-2 group-hover:text-red-600 transition-colors uppercase leading-tight">
+                                            {v.data.title}
+                                        </h4>
+                                        <time class="text-[9px] font-bold text-slate-400 uppercase tracking-widest mt-2 block">
+                                            {v.data.pubDate.toLocaleDateString('en-US', { month: 'short', day: 'numeric' })}
+                                        </time>
+                                    </div>
+                                </a>
+                            ))}
+                        </div>
+                    </div>
+
+                    <a 
+                        href={`/videos/${slugify(channel)}`}
+                        class="flex items-center justify-center w-full py-4 rounded-2xl border-2 border-slate-100 dark:border-slate-800 text-slate-900 dark:text-white text-[10px] font-black uppercase tracking-widest hover:bg-slate-50 dark:hover:bg-slate-800 transition-all"
+                    >
+                        View Channel Feed
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</Layout>

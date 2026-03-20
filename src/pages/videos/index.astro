@@ -1,0 +1,85 @@
+---
+import Layout from "@/layouts/Layout.astro";
+import { PageHeader, Grid, VideoCard, CreatorPill } from "@/components";
+import { YOUTUBE_CHANNELS } from "@/config/feeds";
+import { getCollection } from "astro:content";
+import { slugify } from "@/utils/slugify";
+
+const allVideos = await getCollection("videos");
+const sortedVideos = allVideos.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+const latestVideos = sortedVideos.slice(0, 12);
+
+const channelData = YOUTUBE_CHANNELS.map((channel) => {
+    const videoCount = allVideos.filter(v => v.data.channel === channel.label).length;
+    return {
+        ...channel,
+        videoCount,
+        slug: slugify(channel.label)
+    };
+});
+
+const breadcrumbs = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.phponline.dev" },
+        { "@type": "ListItem", "position": 2, "name": "Videos", "item": "https://www.phponline.dev/videos" }
+    ]
+};
+---
+
+<Layout 
+    title="PHP Videos & Tutorials | phponline.dev"
+    description="Watch the latest PHP and Laravel tutorials from the community's top creators. Curated videos for modern developers."
+    ogImage="/og/home.png"
+    sd={[breadcrumbs]}
+>
+	<PageHeader
+		title="COMMUNITY VIDEOS"
+		description="Learn from the best in the PHP ecosystem. High-quality tutorials and updates from top YouTube creators."
+        badge="Video Directory"
+	/>
+
+    <div class="mb-20">
+        <h2 class="text-3xl font-black text-slate-900 dark:text-white uppercase tracking-tight mb-10 text-center">Featured Creators</h2>
+        <div class="flex flex-wrap justify-center gap-4 max-w-5xl mx-auto">
+            {channelData.map((channel) => (
+                <CreatorPill 
+                    label={channel.label}
+                    count={channel.videoCount}
+                    id={channel.id}
+                />
+            ))}
+        </div>
+    </div>
+
+    <div class="space-y-8">
+        <h2 class="text-3xl font-black text-slate-900 dark:text-white uppercase tracking-tight">Latest Uploads</h2>
+        <Grid columns={3} gap="large">
+            {latestVideos.map((video) => (
+                <VideoCard video={video} />
+            ))}
+        </Grid>
+    </div>
+
+	<div class="mt-32 bg-slate-900 rounded-3xl p-12 md:p-20 text-center text-white relative overflow-hidden shadow-2xl">
+		<div class="absolute inset-0 opacity-10 pointer-events-none">
+            <div class="absolute -top-24 -left-24 w-96 h-96 bg-red-600 rounded-full blur-3xl"></div>
+        </div>
+        
+        <div class="relative z-10 max-w-2xl mx-auto">
+            <h3 class="text-3xl md:text-5xl font-black mb-6 tracking-tight uppercase">Are you a creator?</h3>
+            <p class="text-slate-400 text-lg mb-10 font-medium leading-relaxed">
+                If you run a PHP or Laravel-focused YouTube channel, we want to hear from you. 
+                Let us know so we can add your feed to our directory.
+            </p>
+            <a 
+                href="https://github.com/juststeveking/phponline.dev"
+                target="_blank"
+                class="inline-block bg-red-600 text-white px-12 py-5 rounded-full font-black uppercase tracking-widest text-sm hover:bg-red-700 transition-all shadow-xl shadow-red-500/20"
+            >
+                Submit your Channel
+            </a>
+        </div>
+	</div>
+</Layout>

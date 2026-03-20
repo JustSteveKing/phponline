@@ -7,3 +7,5 @@ export { default as Grid } from "./Grid.astro";
 export { default as FeatureCard } from "./FeatureCard.astro";
 export { default as Hero } from "./Hero.astro";
 export { default as Logo } from "./Logo.astro";
+export { default as VideoCard } from "./VideoCard.astro";
+export { default as CreatorPill } from "./CreatorPill.astro";

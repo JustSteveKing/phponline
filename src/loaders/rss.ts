@@ -1,8 +1,9 @@
 import Parser from "rss-parser";
 import type { Loader, LoaderContext } from "astro:loaders";
 import { load as loadCheerio } from "cheerio";
-import type { PHP_FEEDS, PODCAST_FEEDS } from "@/config/feeds";
+import type { PHP_FEEDS, PODCAST_FEEDS, YOUTUBE_CHANNELS } from "@/config/feeds";
 import { extractImageFromHtml } from "@/utils/extractImage";
+import { slugify } from "@/utils/slugify";
 
 const parser = new Parser({
     customFields: {
@@ -11,20 +12,11 @@ const parser = new Parser({
             ['itunes:episode', 'episode'],
             ['itunes:season', 'season'],
             ['itunes:summary', 'summary'],
+            ['yt:videoId', 'videoId'],
+            ['media:group', 'mediaGroup'],
         ],
     },
 });
-
-function slugify(text: string): string {
-    if (!text) return '';
-    return text
-        .toString()
-        .toLowerCase()
-        .trim()
-        .replace(/\s+/g, '-')     // Replace spaces with -
-        .replace(/[^\w-]+/g, '')  // Remove all non-word chars
-        .replace(/--+/g, '-');    // Replace multiple - with single -
-}
 
 export function phpCommunityLoader(feedUrls: typeof PHP_FEEDS): Loader {
   return {
@@ -135,6 +127,52 @@ export function phpPodcastLoader(podcasts: typeof PODCAST_FEEDS): Loader {
           });
         } catch (e) {
           logger.error(`Failed to load podcast ${podcast.title}: ${e}`);
+        }
+      }
+    },
+  };
+}
+
+export function phpYouTubeLoader(channels: typeof YOUTUBE_CHANNELS): Loader {
+  return {
+    name: "php-youtube-loader",
+    load: async ({ store, logger }: LoaderContext) => {
+      logger.info("Fetching PHP YouTube videos...");
+      
+      store.clear();
+
+      for (const channel of channels) {
+        try {
+          const feedUrl = `https://www.youtube.com/feeds/videos.xml?channel_id=${channel.id}`;
+          const data = await parser.parseURL(feedUrl);
+
+          data.items.forEach((item: any) => {
+            const videoId = item.videoId || item.id?.split(':')?.pop();
+            const videoSlug = slugify(item.title || 'video');
+            const channelSlug = slugify(channel.label);
+            const id = `${channelSlug}/${videoSlug}`;
+
+            // Extract thumbnail from mediaGroup if available, otherwise fallback
+            let thumbnail = `https://i.ytimg.com/vi/${videoId}/maxresdefault.jpg`;
+            if (item.mediaGroup && item.mediaGroup['media:thumbnail']) {
+                thumbnail = item.mediaGroup['media:thumbnail'][0].$.url;
+            }
+
+            store.set({
+              id,
+              data: {
+                title: item.title,
+                link: item.link,
+                pubDate: new Date(item.pubDate || ""),
+                content: item.contentSnippet || item.content || "",
+                channel: channel.label,
+                videoId: videoId,
+                thumbnail: thumbnail,
+              },
+            });
+          });
+        } catch (e) {
+          logger.error(`Failed to load YouTube channel ${channel.label}: ${e}`);
         }
       }
     },

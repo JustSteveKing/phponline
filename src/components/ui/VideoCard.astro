@@ -1,0 +1,68 @@
+---
+import { Image } from "astro:assets";
+import type { CollectionEntry } from "astro:content";
+
+interface Props {
+    video: CollectionEntry<"videos">;
+}
+
+const { video } = Astro.props;
+const { title, channel, pubDate, thumbnail, videoId } = video.data;
+
+const formattedDate = pubDate.toLocaleDateString("en-US", {
+    month: "short",
+    day: "numeric",
+    year: "numeric"
+});
+---
+
+<a 
+    href={`/videos/watch/${video.id}`}
+    class="group flex flex-col bg-white dark:bg-[#0f172a] border border-slate-100 dark:border-slate-800/50 rounded-2xl overflow-hidden hover:shadow-2xl hover:-translate-y-2 transition-all duration-500"
+>
+    <div class="relative aspect-video overflow-hidden">
+        <img 
+            src={thumbnail} 
+            alt={title}
+            class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+            loading="lazy"
+        />
+        <div class="absolute inset-0 bg-slate-900/20 group-hover:bg-slate-900/0 transition-colors duration-500"></div>
+        
+        <!-- Play Icon Overlay -->
+        <div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+            <div class="w-16 h-16 bg-red-600 text-white rounded-full flex items-center justify-center shadow-2xl shadow-red-500/50 transform scale-75 group-hover:scale-100 transition-transform duration-500">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+            </div>
+        </div>
+
+        <!-- Duration Badge (Simulated as we don't have real duration from RSS) -->
+        <div class="absolute bottom-4 right-4 bg-slate-900/80 backdrop-blur-md text-white text-[10px] font-black px-2 py-1 rounded uppercase tracking-widest">
+            YouTube
+        </div>
+    </div>
+
+    <div class="p-8 flex-1 flex flex-col">
+        <div class="flex items-center gap-3 mb-4">
+            <span class="text-[10px] font-black uppercase tracking-widest text-red-600 bg-red-50 dark:bg-red-900/20 px-2 py-1 rounded">
+                {channel}
+            </span>
+            <span class="text-[10px] font-black uppercase tracking-widest text-slate-400">
+                {formattedDate}
+            </span>
+        </div>
+
+        <h3 class="text-xl font-black text-slate-900 dark:text-white mb-4 line-clamp-2 group-hover:text-red-600 transition-colors leading-tight">
+            {title}
+        </h3>
+
+        <div class="mt-auto pt-6 border-t border-slate-50 dark:border-slate-800/50 flex items-center justify-between">
+            <span class="text-[10px] font-black uppercase tracking-widest text-slate-400 group-hover:text-red-600 transition-colors">
+                Watch on YouTube
+            </span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="text-slate-300 group-hover:text-red-600 transition-all group-hover:translate-x-1">
+                <path d="M5 12h14"/><path d="m12 5 7 7-7 7"/>
+            </svg>
+        </div>
+    </div>
+</a>

@@ -10,6 +10,7 @@ const STATIC_PAGES = [
     { id: "archive", title: "Community Archive", source: "Resources" },
     { id: "rfcs", title: "RFC Tracker", source: "Core Dev" },
     { id: "podcasts", title: "Community Podcasts", source: "Audio" },
+    { id: "videos", title: "Community Videos", source: "Video" },
     { id: "about", title: "About the Project", source: "Project" },
 ];
 
@@ -52,7 +53,14 @@ async function generate() {
         generateImage(`podcasts/${slugify(podcast.title)}`, podcast.title, "Podcast", fontData)
     ));
 
-    // 3. Generate for Feed Items
+    // 3. Generate for Video Channels
+    console.log("📺 Generating for Video Channels...");
+    const { YOUTUBE_CHANNELS } = await import("../src/config/feeds");
+    await Promise.all(YOUTUBE_CHANNELS.map(channel => 
+        generateImage(`videos/${slugify(channel.label)}`, channel.label, "YouTube", fontData)
+    ));
+
+    // 4. Generate for Feed Items
     for (const feed of PHP_FEEDS) {
         try {
             console.log(`📡 Fetching ${feed.label}...`);
