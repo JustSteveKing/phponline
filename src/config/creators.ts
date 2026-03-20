@@ -1,8 +1,19 @@
-import { getCollection } from "astro:content";
+import fs from 'node:fs';
+import path from 'node:path';
 
-const creators = await getCollection("creators");
+function getCreators() {
+    const creatorsDir = path.resolve('./src/content/creators');
+    if (!fs.existsSync(creatorsDir)) return [];
+    
+    return fs.readdirSync(creatorsDir)
+        .filter(file => file.endsWith('.json'))
+        .map(file => {
+            const content = fs.readFileSync(path.join(creatorsDir, file), 'utf-8');
+            return {
+                id: file.replace('.json', ''),
+                ...JSON.parse(content)
+            };
+        });
+}
 
-export const CREATORS = creators.map(c => ({
-    id: c.id,
-    ...c.data
-}));
+export const CREATORS = getCreators();

@@ -1,7 +1,25 @@
-import { getCollection } from "astro:content";
+import fs from 'node:fs';
+import path from 'node:path';
 
-const versions = await getCollection("versions");
+const versionColors = {
+    active: "text-green-600",
+    security: "text-amber-600",
+    eol: "text-red-600",
+};
 
-export const PHP_STATUS = Object.fromEntries(
-  versions.map((v) => [v.data.version, v.data]),
-);
+function getVersions() {
+    const filePath = path.resolve('./src/content/versions.json');
+    if (!fs.existsSync(filePath)) return {};
+    
+    const content = fs.readFileSync(filePath, 'utf-8');
+    const data = JSON.parse(content);
+    
+    return Object.fromEntries(
+        data.map((v: any) => [v.version, {
+            ...v,
+            color: versionColors[v.status as keyof typeof versionColors] || "text-slate-600"
+        }])
+    );
+}
+
+export const PHP_STATUS = getVersions();

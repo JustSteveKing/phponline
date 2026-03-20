@@ -1,8 +1,22 @@
-import { getCollection } from "astro:content";
+import fs from 'node:fs';
+import path from 'node:path';
 
-const events = await getCollection("events");
+function getEvents() {
+    const eventsDir = path.resolve('./src/content/events');
+    if (!fs.existsSync(eventsDir)) return [];
+    
+    return fs.readdirSync(eventsDir)
+        .filter(file => file.endsWith('.json'))
+        .map(file => {
+            const content = fs.readFileSync(path.join(eventsDir, file), 'utf-8');
+            const data = JSON.parse(content);
+            return {
+                id: file.replace('.json', ''),
+                ...data,
+                startDate: new Date(data.startDate),
+                endDate: new Date(data.endDate),
+            };
+        });
+}
 
-export const EVENTS = events.map(e => ({
-    id: e.id,
-    ...e.data
-}));
+export const EVENTS = getEvents();

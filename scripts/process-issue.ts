@@ -80,10 +80,32 @@ function processCreator(data: any) {
         sources.youtube = [{ id: data.youtube_id, label: data.name }];
     }
 
+    if (!data.avatar_url) {
+        console.error("Avatar URL is required!");
+        process.exit(1);
+    }
+
+    // Resolve avatar using unavatar.io logic
+    let avatar = data.avatar_url;
+    
+    // If it's a GitHub URL, use the unavatar github shortcut
+    if (avatar.includes('github.com')) {
+        const match = avatar.match(/github\.com\/([^/.]+)/);
+        if (match) {
+            avatar = `https://unavatar.io/github/${match[1]}`;
+        }
+    } else if (avatar.includes('@')) {
+        // If it's an email (or looks like one), unavatar handles it
+        avatar = `https://unavatar.io/${avatar}`;
+    } else if (!avatar.startsWith('http')) {
+        // If it's just a username/handle, assume github for now as fallback
+        avatar = `https://unavatar.io/github/${avatar}`;
+    }
+
     const newCreator = {
         name: data.name,
         description: data.description.replace(/\n/g, ' '),
-        avatar: `https://github.com/${data.twitter?.replace('@', '') || 'php'}.png`, // Dynamic fallback
+        avatar: avatar,
         website: data.website || undefined,
         twitter: data.twitter ? data.twitter.replace('@', '') : undefined,
         sources: sources

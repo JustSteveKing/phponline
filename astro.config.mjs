@@ -12,8 +12,10 @@ export default defineConfig({
       { protocol: "https", hostname: "feed.laravel-news.com" },
       { protocol: "https", hostname: "**.symfony.com" },
       { protocol: "https", hostname: "**.php.net" },
-      { protocol: "https", hostname: "**.gravatar.com" }, // Good for author avatars
+      { protocol: "https", hostname: "**.gravatar.com" },
       { protocol: "https", hostname: "github.com" },
+      { protocol: "https", hostname: "avatars.githubusercontent.com" },
+      { protocol: "https", hostname: "unavatar.io" },
     ],
   },
 

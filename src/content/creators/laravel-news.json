@@ -1,7 +1,7 @@
 {
   "name": "Laravel News",
   "description": "The official blog of the Laravel ecosystem, covering releases, tutorials, and community events.",
-  "avatar": "https://github.com/laravelnews.png",
+  "avatar": "https://avatars.githubusercontent.com/laravelnews",
   "website": "https://laravel-news.com",
   "twitter": "laravelnews",
   "sources": {
