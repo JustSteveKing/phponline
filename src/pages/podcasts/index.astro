@@ -1,45 +1,20 @@
 ---
 import Layout from "@/layouts/Layout.astro";
 import { PageHeader, Grid, FeatureCard } from "@/components";
+import { PODCAST_FEEDS } from "@/config/feeds";
+import { getCollection } from "astro:content";
+import { slugify } from "@/utils/slugify";
 
-const podcastFeeds = [
-	{
-		title: "The PHP Podcast",
-		description: "Stay up to date with the latest PHP news, releases, and community discussions. Hosted by Eric Van Johnson and John Congdon.",
-		href: "https://www.phproundtable.com/",
-		badge: "Weekly Show",
-	},
-	{
-		title: "PHP Ugly",
-		description: "The casual, often humorous side of the PHP community. Weekly discussions on the industry from a developer's perspective.",
-		href: "https://phpugly.com/",
-		badge: "Entertainment",
-	},
-	{
-		title: "Voices of the Elephant",
-		description: "Short, snackable interviews with the most interesting people in the PHP community. A long-running community staple.",
-		href: "https://voicesoftheelephant.com/",
-		badge: "Interviews",
-	},
-    {
-		title: "The Laravel Podcast",
-		description: "The definitive Laravel podcast. Matt Stauffer and friends discuss everything happening in the Laravel ecosystem.",
-		href: "https://laravelpodcast.com/",
-		badge: "Framework Focus",
-	},
-    {
-		title: "No Plans to Merge",
-		description: "A casual chat about developer life, PHP, and the business of building software. Hosted by Caleb Porzio and Daniel Coulbourne.",
-		href: "https://noplanstomerge.com/",
-		badge: "Developer Life",
-	},
-    {
-		title: "NorthMeetSouth",
-		description: "A show about the PHP community, parenting, and everything in between. Hosted by Jacob Bennett and Michael Dyrynda.",
-		href: "https://northmeetsouth.audio/",
-		badge: "Casual Chat",
-	}
-];
+const episodes = await getCollection("episodes");
+
+const podcastData = PODCAST_FEEDS.map((podcast) => {
+    const podcastEpisodes = episodes.filter(e => e.data.podcast === podcast.title);
+    return {
+        ...podcast,
+        episodeCount: podcastEpisodes.length,
+        slug: slugify(podcast.title)
+    };
+});
 
 const breadcrumbs = {
     "@context": "https://schema.org",
@@ -64,8 +39,13 @@ const breadcrumbs = {
 	/>
 
 	<Grid columns={3} gap="large">
-		{podcastFeeds.map((podcast) => (
-			<FeatureCard {...podcast} />
+		{podcastData.map((podcast) => (
+			<FeatureCard 
+                title={podcast.title}
+                description={`${podcast.description} (${podcast.episodeCount} episodes)`}
+                badge={podcast.badge}
+                href={`/podcasts/${podcast.slug}`}
+            />
 		))}
 	</Grid>
 

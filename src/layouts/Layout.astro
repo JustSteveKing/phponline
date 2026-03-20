@@ -2,6 +2,7 @@
 import "@/styles/main.css";
 import { ClientRouter } from "astro:transitions";
 import { Footer, Navigation } from "@/components";
+import Player from "@/components/interactive/Player.svelte";
 
 interface Props {
     title?: string;
@@ -80,5 +81,6 @@ const sdArray = Array.isArray(sd) ? sd : sd ? [sd] : [];
             <slot />
         </main>
         <Footer />
+        <Player client:load />
     </body>
 </html>

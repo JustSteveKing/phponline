@@ -4,3 +4,11 @@ export interface Feed {
   label: string;
   type: string;
 }
+
+export interface Podcast {
+  title: string;
+  description: string;
+  href: string;
+  badge: string;
+  feed: string;
+}

@@ -12,9 +12,6 @@ interface Props {
 const { item, class: className = "" } = Astro.props as Props;
 const { title, source, pubDate, coverImage } = item.data;
 
-// Use a local image if the feed didn't provide an image
-const imageSrc = coverImage || defaultCover;
-
 const formattedDate = pubDate.toLocaleDateString("en-US", {
     month: "long",
     day: "numeric",
@@ -31,15 +28,29 @@ const formattedDate = pubDate.toLocaleDateString("en-US", {
 >
     <!-- Background Image -->
     <div class="absolute inset-0">
-        <Image
-            src={imageSrc}
-            alt={title}
-            width={800}
-            height={600}
-            decoding="async"
-            loading="lazy"
-            class="h-full w-full object-cover opacity-60 dark:opacity-40 transition-transform duration-700 group-hover:scale-110"
-        />
+        {
+            coverImage ? (
+                <img
+                    src={coverImage}
+                    alt={title}
+                    width={800}
+                    height={600}
+                    decoding="async"
+                    loading="lazy"
+                    class="h-full w-full object-cover opacity-60 dark:opacity-40 transition-transform duration-700 group-hover:scale-110"
+                />
+            ) : (
+                <Image
+                    src={defaultCover}
+                    alt={title}
+                    width={800}
+                    height={600}
+                    decoding="async"
+                    loading="lazy"
+                    class="h-full w-full object-cover opacity-60 dark:opacity-40 transition-transform duration-700 group-hover:scale-110"
+                />
+            )
+        }
         <!-- Multi-layered overlay for depth -->
         <div class="absolute inset-0 bg-linear-to-t from-slate-950 via-slate-900/40 dark:via-slate-950/60 to-transparent"></div>
         <div class="absolute inset-0 opacity-0 group-hover:opacity-20 bg-red-600 transition-opacity duration-500"></div>

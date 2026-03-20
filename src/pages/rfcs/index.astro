@@ -40,7 +40,7 @@ const breadcrumbs = {
                     class="flex flex-col h-full bg-white border border-slate-100 rounded-[32px] p-8 hover:shadow-2xl hover:-translate-y-2 hover:border-red-100 transition-all duration-500 group"
                 >
                     <div class="flex items-center justify-between mb-6">
-                        <StatusBadge title={rfc.data.title} />
+                        <StatusBadge status={rfc.data.status} />
                         <time class="text-[10px] font-black text-slate-400 uppercase tracking-widest">
                             {rfc.data.pubDate.toLocaleDateString('en-US', { month: 'short', day: 'numeric' })}
                         </time>
@@ -51,7 +51,7 @@ const breadcrumbs = {
                     </h3>
                     
                     <p class="text-slate-500 text-sm mb-8 line-clamp-3 font-medium leading-relaxed">
-                        {rfc.data.contentSnippet || "No description available for this RFC proposal."}
+                        {rfc.data.content || "No description available for this RFC proposal."}
                     </p>
                     
                     <div class="mt-auto pt-6 border-t border-slate-50 flex items-center justify-between">

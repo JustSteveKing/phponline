@@ -1,12 +1,22 @@
 import Parser from "rss-parser";
-import type { Loader } from "astro:loaders";
+import type { Loader, LoaderContext } from "astro:loaders";
 import { load as loadCheerio } from "cheerio";
-import type { PHP_FEEDS } from "@/config/feeds";
+import type { PHP_FEEDS, PODCAST_FEEDS } from "@/config/feeds";
 import { extractImageFromHtml } from "@/utils/extractImage";
 
-const parser = new Parser();
+const parser = new Parser({
+    customFields: {
+        item: [
+            ['itunes:duration', 'duration'],
+            ['itunes:episode', 'episode'],
+            ['itunes:season', 'season'],
+            ['itunes:summary', 'summary'],
+        ],
+    },
+});
 
 function slugify(text: string): string {
+    if (!text) return '';
     return text
         .toString()
         .toLowerCase()
@@ -19,7 +29,7 @@ function slugify(text: string): string {
 export function phpCommunityLoader(feedUrls: typeof PHP_FEEDS): Loader {
   return {
     name: "php-community-loader",
-    load: async ({ store, logger }) => {
+    load: async ({ store, logger }: LoaderContext) => {
       logger.info("Fetching PHP community feeds...");
       
       store.clear();
@@ -31,7 +41,6 @@ export function phpCommunityLoader(feedUrls: typeof PHP_FEEDS): Loader {
           data.items.forEach((item) => {
             let id = "";
             try {
-                // Handle potentially relative or malformed links
                 const baseUrl = feed.url.startsWith('http') ? new URL(feed.url).origin : "https://phponline.dev";
                 const urlObj = new URL(item.link || "", baseUrl);
                 
@@ -52,14 +61,12 @@ export function phpCommunityLoader(feedUrls: typeof PHP_FEEDS): Loader {
                 const sourceSlug = slugify(feed.label);
                 id = `${sourceSlug}/${pathSlug}`;
             } catch (e) {
-                // Fallback ID if URL parsing fails
                 id = `${slugify(feed.label)}/${slugify(item.title || 'article')}`;
             }
 
-            let content = item.content || item.contentSnippet || item.description || "";
+            let content = item.content || item.contentSnippet || (item as any).summary || "";
             const coverImage = item.enclosure?.url || extractImageFromHtml(content);
 
-            // Strip images from content
             try {
                 const $ = loadCheerio(content);
                 $('img').remove();
@@ -70,7 +77,6 @@ export function phpCommunityLoader(feedUrls: typeof PHP_FEEDS): Loader {
                 });
                 content = $.html();
             } catch (e) {
-                // Leave content as is if parsing fails
             }
 
             store.set({
@@ -83,13 +89,52 @@ export function phpCommunityLoader(feedUrls: typeof PHP_FEEDS): Loader {
                 content: content,
                 source: feed.label,
                 author: item.creator || data.title,
-                // Extract status from title if it's an RFC
                 status: feed.id === 'php-rfcs' ? (item.title?.match(/\[(.*?)\]/)?.[1] || 'Discussion') : undefined,
               },
             });
           });
         } catch (e) {
           logger.error(`Failed to load ${feed.url}: ${e}`);
+        }
+      }
+    },
+  };
+}
+
+export function phpPodcastLoader(podcasts: typeof PODCAST_FEEDS): Loader {
+  return {
+    name: "php-podcast-loader",
+    load: async ({ store, logger }: LoaderContext) => {
+      logger.info("Fetching PHP podcast episodes...");
+      
+      store.clear();
+
+      for (const podcast of podcasts) {
+        try {
+          const data = await parser.parseURL(podcast.feed);
+
+          data.items.forEach((item) => {
+            const episodeSlug = slugify(item.title || 'episode');
+            const podcastSlug = slugify(podcast.title);
+            const id = `${podcastSlug}/${episodeSlug}`;
+
+            store.set({
+              id,
+              data: {
+                title: item.title,
+                link: item.link,
+                pubDate: new Date(item.pubDate || ""),
+                content: (item as any).summary || item.contentSnippet || item.content || "",
+                podcast: podcast.title,
+                audioUrl: item.enclosure?.url,
+                duration: (item as any).duration,
+                episode: (item as any).episode,
+                season: (item as any).season,
+              },
+            });
+          });
+        } catch (e) {
+          logger.error(`Failed to load podcast ${podcast.title}: ${e}`);
         }
       }
     },

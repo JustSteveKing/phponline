@@ -11,8 +11,6 @@ interface Props {
 const { item } = Astro.props;
 const { title, source, pubDate, coverImage } = item.data;
 
-const imageSrc = coverImage || defaultCover;
-
 // Get the latest active version
 const latestActiveVersion = Object.entries(PHP_STATUS)
     .filter(([_, data]) => data.status === "active")
@@ -22,17 +20,31 @@ const latestActiveVersion = Object.entries(PHP_STATUS)
 <section class="relative mb-16 overflow-hidden rounded-[40px] bg-slate-900 group">
 	<!-- Background Image with Overlay -->
 	<div class="absolute inset-0">
-		<Image
-			src={imageSrc}
-			alt=""
-			width={1600}
-			height={800}
-			decoding="async"
-			loading="lazy"
-			class="h-full w-full object-cover opacity-50 transition-transform duration-700 group-hover:scale-105"
-		/>
+		{
+			coverImage ? (
+				<img
+					src={coverImage}
+					alt=""
+					width={1600}
+					height={800}
+					decoding="async"
+					loading="lazy"
+					class="h-full w-full object-cover opacity-50 transition-transform duration-700 group-hover:scale-105"
+				/>
+			) : (
+				<Image
+					src={defaultCover}
+					alt=""
+					width={1600}
+					height={800}
+					decoding="async"
+					loading="lazy"
+					class="h-full w-full object-cover opacity-50 transition-transform duration-700 group-hover:scale-105"
+				/>
+			)
+		}
 		<div class="absolute inset-0 bg-linear-to-t from-slate-900 via-slate-900/40 to-transparent"></div>
-        <div class="absolute inset-0 bg-linear-to-r from-slate-900/80 via-transparent to-transparent"></div>
+        <div class="absolute inset-0 bg-linear-r from-slate-900/80 via-transparent to-transparent"></div>
 	</div>
 
 	<!-- Content -->
@@ -58,20 +70,9 @@ const latestActiveVersion = Object.entries(PHP_STATUS)
 				Read the Article
 				<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="transition-transform group-hover/btn:translate-x-1"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
 			</a>
-			
-			<div class="flex -space-x-3">
-				{[1,2,3].map((i) => (
-					<div class={`w-10 h-10 rounded-full border-2 border-slate-900 bg-slate-800 flex items-center justify-center overflow-hidden`}>
-						<div class="w-full h-full bg-linear-to-br from-red-400 to-red-600 opacity-80"></div>
-					</div>
-				))}
-				<div class="pl-6 text-slate-400 text-xs font-bold self-center">
-					+ Join 2,400 readers today
-				</div>
-			</div>
 		</div>
 	</div>
-    
+
     <!-- Floating visual element -->
     <div class="absolute top-12 right-12 hidden lg:block animate-bounce-slow">
         <div class="bg-white/10 backdrop-blur-md border border-white/20 p-4 rounded-2xl shadow-2xl">
