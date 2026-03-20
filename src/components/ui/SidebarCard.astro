@@ -1,0 +1,36 @@
+---
+interface Props {
+	title?: string;
+	class?: string;
+	variant?: "default" | "highlight" | "dark";
+    badge?: boolean;
+}
+
+const { title, class: className, variant = "default", badge = false } = Astro.props;
+
+const variants = {
+	default: "bg-slate-50 dark:bg-[#0f172a] border-slate-100 dark:border-slate-800/50 shadow-xs dark:shadow-black/20",
+	highlight: "bg-red-600 dark:bg-red-700 text-white shadow-2xl shadow-red-200 dark:shadow-black/40 overflow-hidden relative",
+	dark: "bg-slate-900 dark:bg-[#0f172a] text-white border-transparent dark:border-slate-800/50 shadow-xl dark:shadow-black/20",
+};
+---
+
+<div class:list={["rounded-2xl p-8 border", variants[variant], className]}>
+    <div class:list={[variant === 'highlight' && "relative z-10"]}>
+        {title && (
+            <div class="flex items-center justify-between mb-8">
+                <h3 class:list={[
+                    "font-black uppercase tracking-widest",
+                    variant === 'default' ? "text-slate-900 dark:text-white text-xs" : "text-xl tracking-tight"
+                ]}>
+                    {title}
+                </h3>
+                {badge && (
+                    <span class="flex h-2 w-2 rounded-full bg-red-500 animate-ping"></span>
+                )}
+            </div>
+        )}
+        <slot />
+    </div>
+    {variant === 'highlight' && <div class="absolute -bottom-8 -right-8 w-32 h-32 bg-white/10 rounded-full blur-2xl"></div>}
+</div>

@@ -1,7 +1,7 @@
 ---
 import { getCollection, type CollectionEntry } from "astro:content";
 import Layout from "@/layouts/Layout.astro";
-import { BannerCTA } from "@/components";
+import { BannerCTA, ArticleHeader, Sidebar, SidebarCard } from "@/components";
 import { SITE_CONFIG } from "@/config/site";
 import { getReadingTime } from "@/utils/readingTime";
 
@@ -86,98 +86,28 @@ const breadcrumbs = {
     sd={[sd, breadcrumbs]}
 >
     <article class="max-w-4xl mx-auto py-12 md:py-20">
-        <header class="mb-16">
-            <div class="flex flex-wrap items-center gap-4 mb-8">
-                <span
-                    class="px-4 py-1.5 bg-red-600 text-white text-[10px] font-black uppercase tracking-[0.2em] rounded-full shadow-lg shadow-red-500/20"
-                >
-                    {source}
-                </span>
-                <div
-                    class="flex items-center gap-2 text-slate-900 dark:text-white text-xs font-bold uppercase tracking-widest"
-                >
-                    <time datetime={pubDate.toISOString()}>
-                        {formattedDate}
-                    </time>
-                    <span>•</span>
-                    <span>{readingTime}</span>
-                </div>
-            </div>
-
-            <h1
-                class="text-4xl md:text-6xl font-black text-slate-900 dark:text-white leading-[1.1] tracking-tight mb-10 uppercase"
-            >
-                {title}
-            </h1>
-
-            <div class="flex items-center gap-4 mb-12">
-                <div
-                    class="w-12 h-12 rounded-full bg-slate-100 dark:bg-slate-800 flex items-center justify-center text-slate-900 dark:text-white"
-                >
-                    <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="24"
-                        height="24"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        stroke="currentColor"
-                        stroke-width="2"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        ><path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"
-                        ></path><circle cx="12" cy="7" r="4"></circle></svg
-                    >
-                </div>
-                <div>
-                    <p class="text-slate-900 dark:text-white font-bold text-sm">
-                        {author || source}
-                    </p>
-                    <p
-                        class="text-slate-900 dark:text-white text-xs font-medium"
-                    >
-                        Contributor at {source}
-                    </p>
-                </div>
-            </div>
-
-            {
-                coverImage && (
-                    <div class="rounded-3xl overflow-hidden shadow-2xl mb-16 relative group">
-                        <img
-                            src={coverImage}
-                            alt={title}
-                            width={1200}
-                            height={630}
-                            decoding="async"
-                            loading="lazy"
-                            class="w-full h-auto object-cover aspect-video transition-transform duration-700 group-hover:scale-105"
-                        />
-                        <div class="absolute inset-0 bg-linear-to-t from-slate-900/20 dark:from-slate-100/20 to-transparent" />
-                    </div>
-                )
-            }
-        </header>
+        <ArticleHeader 
+            title={title}
+            source={source}
+            pubDate={pubDate}
+            readingTime={readingTime}
+            author={author}
+            coverImage={coverImage}
+        />
 
         <div class="grid grid-cols-1 lg:grid-cols-12 gap-16">
             <!-- Sidebar for article info -->
-            <aside class="lg:col-span-3 hidden lg:block">
-                <div class="sticky top-32 space-y-12">
-                    <div>
-                        <h4
-                            class="text-[10px] font-black text-slate-900 dark:text-white uppercase tracking-[0.2em] mb-4"
-                        >
-                            Original
-                        </h4>
-                        <a
-                            href={link}
-                            target="_blank"
-                            class="text-xs font-bold text-red-600 hover:underline break-words block"
-                        >
-                            {new URL(link || "https://phponline.dev").hostname}
-                        </a>
-                    </div>
-                </div>
-            </aside>
+            <Sidebar colSpan="lg:col-span-3" class="hidden lg:block">
+                <SidebarCard title="Original">
+                    <a
+                        href={link}
+                        target="_blank"
+                        class="text-xs font-bold text-red-600 hover:underline break-words block"
+                    >
+                        {new URL(link || "https://phponline.dev").hostname}
+                    </a>
+                </SidebarCard>
+            </Sidebar>
 
             <!-- Main Content -->
             <div class="lg:col-span-9">

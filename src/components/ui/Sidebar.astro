@@ -1,0 +1,16 @@
+---
+interface Props {
+	class?: string;
+    sticky?: boolean;
+    top?: string;
+    colSpan?: string;
+}
+
+const { class: className, sticky = true, top = "top-32", colSpan = "lg:col-span-4" } = Astro.props;
+---
+
+<aside class:list={[colSpan, className]}>
+	<div class:list={["space-y-8", sticky && top]}>
+		<slot />
+	</div>
+</aside>

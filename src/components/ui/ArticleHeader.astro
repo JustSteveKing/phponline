@@ -1,0 +1,95 @@
+---
+interface Props {
+	title: string;
+	source: string;
+	pubDate: Date;
+	readingTime?: string;
+	author?: string;
+	coverImage?: string;
+    class?: string;
+}
+
+const { title, source, pubDate, readingTime, author, coverImage, class: className } = Astro.props;
+
+const formattedDate = pubDate.toLocaleDateString("en-US", {
+    year: "numeric",
+    month: "long",
+    day: "numeric",
+});
+---
+
+<header class:list={["mb-16", className]}>
+    <div class="flex flex-wrap items-center gap-4 mb-8">
+        <span
+            class="px-4 py-1.5 bg-red-600 text-white text-[10px] font-black uppercase tracking-[0.2em] rounded-full shadow-lg shadow-red-500/20"
+        >
+            {source}
+        </span>
+        <div
+            class="flex items-center gap-2 text-slate-900 dark:text-white text-xs font-bold uppercase tracking-widest"
+        >
+            <time datetime={pubDate.toISOString()}>
+                {formattedDate}
+            </time>
+            {readingTime && (
+                <>
+                    <span>•</span>
+                    <span>{readingTime}</span>
+                </>
+            )}
+        </div>
+    </div>
+
+    <h1
+        class="text-4xl md:text-6xl font-black text-slate-900 dark:text-white leading-[1.1] tracking-tight mb-10 uppercase"
+    >
+        {title}
+    </h1>
+
+    <div class="flex items-center gap-4 mb-12">
+        <div
+            class="w-12 h-12 rounded-full bg-slate-100 dark:bg-slate-800 flex items-center justify-center text-slate-900 dark:text-white"
+        >
+            <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                ><path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"
+                ></path><circle cx="12" cy="7" r="4"></circle></svg
+            >
+        </div>
+        <div>
+            <p class="text-slate-900 dark:text-white font-bold text-sm">
+                {author || source}
+            </p>
+            <p
+                class="text-slate-900 dark:text-white text-xs font-medium"
+            >
+                Contributor at {source}
+            </p>
+        </div>
+    </div>
+
+    {
+        coverImage && (
+            <div class="rounded-3xl overflow-hidden shadow-2xl mb-16 relative group">
+                <img
+                    src={coverImage}
+                    alt={title}
+                    width={1200}
+                    height={630}
+                    decoding="async"
+                    loading="lazy"
+                    class="w-full h-auto object-cover aspect-video transition-transform duration-700 group-hover:scale-105"
+                />
+                <div class="absolute inset-0 bg-linear-to-t from-slate-900/20 dark:from-slate-100/20 to-transparent" />
+            </div>
+        )
+    }
+</header>

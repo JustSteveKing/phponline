@@ -9,6 +9,8 @@ import {
     FeatureCard,
     CreatorPill,
     PHPHealthBanner,
+    Sidebar,
+    SidebarCard,
 } from "@/components";
 import type { CollectionEntry } from "astro:content";
 import { getCollection } from "astro:content";
@@ -75,49 +77,34 @@ const sd = {
         </div>
 
         <!-- Refined Sidebar -->
-        <div class="lg:col-span-4">
-            <div class="sticky top-8">
-                <div
-                    class="bg-slate-50 dark:bg-[#0f172a] rounded-2xl border border-slate-100 dark:border-slate-800/50 p-8 shadow-xs dark:shadow-black/20"
-                >
-                    <div class="flex items-center justify-between mb-8">
-                        <h3
-                            class="font-black text-slate-900 dark:text-white uppercase tracking-widest text-xs"
-                        >
-                            The Pulse
-                        </h3>
-                        <span
-                            class="flex h-2 w-2 rounded-full bg-red-500 animate-ping"
-                        ></span>
-                    </div>
-
-                    <div class="space-y-6">
-                        {latestStories.map((post) => <NewsCard item={post} />)}
-                    </div>
-
-                    <a
-                        href="/archive/1"
-                        class="group mt-8 flex items-center justify-center w-full py-4 rounded-2xl bg-slate-900 text-white text-sm font-bold hover:bg-red-600 border-red-600 border hover:border-slate-900 dark:hover:border-white transition-all"
-                    >
-                        Explore Archive
-                        <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            width="18"
-                            height="18"
-                            viewBox="0 0 24 24"
-                            fill="none"
-                            stroke="currentColor"
-                            stroke-width="3"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            class="ml-2 transition-transform group-hover:translate-x-1"
-                            ><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"
-                            ></path></svg
-                        >
-                    </a>
+        <Sidebar top="top-8">
+            <SidebarCard title="The Pulse" badge={true}>
+                <div class="space-y-6">
+                    {latestStories.map((post) => <NewsCard item={post} />)}
                 </div>
-            </div>
-        </div>
+
+                <a
+                    href="/archive/1"
+                    class="group mt-8 flex items-center justify-center w-full py-4 rounded-2xl bg-slate-900 text-white text-sm font-bold hover:bg-red-600 border-red-600 border hover:border-slate-900 dark:hover:border-white transition-all"
+                >
+                    Explore Archive
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="18"
+                        height="18"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="3"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        class="ml-2 transition-transform group-hover:translate-x-1"
+                        ><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"
+                        ></path></svg
+                    >
+                </a>
+            </SidebarCard>
+        </Sidebar>
     </div>
 
     <!-- Community Creators Section -->

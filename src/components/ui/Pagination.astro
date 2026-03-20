@@ -1,0 +1,58 @@
+---
+import type { Page } from "astro";
+
+interface Props {
+	page: Page<any>;
+    class?: string;
+}
+
+const { page, class: className } = Astro.props;
+---
+
+<nav
+    class:list={["mt-24 pt-12 border-t border-slate-100 dark:border-slate-800/60 flex items-center justify-between", className]}
+>
+    <div class="flex gap-4">
+        {
+            page.url.prev ? (
+                <a
+                    href={page.url.prev}
+                    class="px-8 py-3 bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 text-slate-900 dark:text-white rounded-full text-sm font-bold hover:border-red-600 hover:text-red-600 transition-all shadow-sm"
+                >
+                    ← Newer
+                </a>
+            ) : (
+                <span class="px-8 py-3 bg-slate-50 dark:bg-slate-900/50 text-slate-300 dark:text-slate-700 border border-slate-100 dark:border-slate-800 rounded-full text-sm font-bold cursor-not-allowed">
+                    ← Newer
+                </span>
+            )
+        }
+    </div>
+
+    <div class="hidden sm:flex items-center gap-2">
+        <span
+            class="text-xs font-black text-slate-400 uppercase tracking-widest"
+        >
+            Page {page.currentPage}
+            <span class="text-slate-200 dark:text-slate-800 mx-2">/</span>
+            {page.lastPage}
+        </span>
+    </div>
+
+    <div class="flex gap-4">
+        {
+            page.url.next ? (
+                <a
+                    href={page.url.next}
+                    class="px-8 py-3 bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 text-slate-900 dark:text-white rounded-full text-sm font-bold hover:border-red-600 hover:text-red-600 transition-all shadow-sm"
+                >
+                    Older →
+                </a>
+            ) : (
+                <span class="px-8 py-3 bg-slate-50 dark:bg-slate-900/50 text-slate-300 dark:text-slate-700 border border-slate-100 dark:border-slate-800 rounded-full text-sm font-bold cursor-not-allowed">
+                    Older →
+                </span>
+            )
+        }
+    </div>
+</nav>

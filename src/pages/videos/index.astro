@@ -1,6 +1,6 @@
 ---
 import Layout from "@/layouts/Layout.astro";
-import { PageHeader, Grid, VideoCard, CreatorPill, BannerCTA } from "@/components";
+import { PageHeader, Grid, VideoCard, CreatorPill, BannerCTA, SectionHeading } from "@/components";
 import { YOUTUBE_CHANNELS } from "@/config/feeds";
 import { SITE_CONFIG } from "@/config/site";
 import { getCollection } from "astro:content";
@@ -42,8 +42,8 @@ const breadcrumbs = {
 	/>
 
     <div class="mb-20">
-        <h2 class="text-3xl font-black text-slate-900 dark:text-white uppercase tracking-tight mb-10 text-center">Featured Creators</h2>
-        <div class="flex flex-wrap justify-center gap-4 max-w-5xl mx-auto">
+        <SectionHeading title="Featured Creators" />
+        <div class="flex flex-wrap justify-center gap-4 max-w-5xl mx-auto mt-8">
             {channelData.map((channel) => (
                 <CreatorPill 
                     label={channel.label}
@@ -55,7 +55,7 @@ const breadcrumbs = {
     </div>
 
     <div class="space-y-8">
-        <h2 class="text-3xl font-black text-slate-900 dark:text-white uppercase tracking-tight">Latest Uploads</h2>
+        <SectionHeading title="Latest Uploads" />
         <Grid columns={3} gap="large">
             {latestVideos.map((video) => (
                 <VideoCard video={video} />

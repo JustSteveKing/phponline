@@ -1,0 +1,45 @@
+---
+interface Props {
+	title: string;
+	description: string;
+	variant?: "green" | "amber" | "red" | "slate";
+}
+
+const { title, description, variant = "slate" } = Astro.props;
+
+const themes = {
+	green: "bg-green-50 dark:bg-green-900/10 border-green-100 dark:border-green-900/30 text-green-700 dark:text-green-400 desc-green-600/80 dark:desc-green-500/80",
+	amber: "bg-amber-50 dark:bg-amber-900/10 border-amber-100 dark:border-amber-900/30 text-amber-700 dark:text-amber-400 desc-amber-600/80 dark:desc-amber-500/80",
+	red: "bg-red-50 dark:bg-red-900/10 border-red-100 dark:border-red-900/30 text-red-700 dark:text-red-400 desc-red-600/80 dark:desc-red-500/80",
+    slate: "bg-slate-50 dark:bg-slate-900/10 border-slate-100 dark:border-slate-800/30 text-slate-700 dark:text-slate-400 desc-slate-600/80 dark:desc-slate-500/80",
+};
+
+const descColors = {
+    green: "text-green-600/80 dark:text-green-500/80",
+    amber: "text-amber-600/80 dark:text-amber-500/80",
+    red: "text-red-600/80 dark:text-red-500/80",
+    slate: "text-slate-600/80 dark:text-slate-500/80",
+}
+
+const textColors = {
+    green: "text-green-700 dark:text-green-400",
+    amber: "text-amber-700 dark:text-amber-400",
+    red: "text-red-700 dark:text-red-400",
+    slate: "text-slate-700 dark:text-slate-400",
+}
+---
+
+<div class:list={[
+    "p-8 border rounded-2xl",
+    variant === "green" && "bg-green-50 dark:bg-green-900/10 border-green-100 dark:border-green-900/30",
+    variant === "amber" && "bg-amber-50 dark:bg-amber-900/10 border-amber-100 dark:border-amber-900/30",
+    variant === "red" && "bg-red-50 dark:bg-red-900/10 border-red-100 dark:border-red-900/30",
+    variant === "slate" && "bg-slate-50 dark:bg-slate-900/10 border-slate-100 dark:border-slate-800/30",
+]}>
+	<h3 class:list={["text-xs font-black uppercase tracking-widest mb-4", textColors[variant]]}>
+		{title}
+	</h3>
+	<p class:list={["text-sm leading-relaxed font-medium", descColors[variant]]}>
+		{description}
+	</p>
+</div>

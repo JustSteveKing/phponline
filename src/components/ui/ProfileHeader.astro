@@ -1,0 +1,45 @@
+---
+interface Props {
+	title: string;
+	description?: string;
+	image?: string;
+	website?: string;
+	twitter?: string;
+    class?: string;
+}
+
+const { title, description, image, website, twitter, class: className } = Astro.props;
+---
+
+<div class:list={["mb-16 flex flex-col md:flex-row gap-8 items-center md:items-start text-center md:text-left", className]}>
+    {image && (
+        <div class="w-32 h-32 rounded-3xl overflow-hidden shadow-2xl bg-slate-100 dark:bg-slate-800 shrink-0">
+            <img src={image} alt={title} class="w-full h-full object-cover" />
+        </div>
+    )}
+    <div class="flex-1">
+        <div class="flex flex-col md:flex-row md:items-center justify-between gap-4 mb-4">
+            <h1 class="text-4xl md:text-6xl font-black text-slate-900 dark:text-white uppercase tracking-tight">
+                {title}
+            </h1>
+            <div class="flex items-center justify-center gap-3">
+                {website && (
+                    <a href={website} target="_blank" class="p-3 rounded-xl bg-white dark:bg-slate-900 border border-slate-100 dark:border-slate-800 text-slate-400 hover:text-red-600 transition-all">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+                    </a>
+                )}
+                {twitter && (
+                    <a href={`https://twitter.com/${twitter}`} target="_blank" class="p-3 rounded-xl bg-white dark:bg-slate-900 border border-slate-100 dark:border-slate-800 text-slate-400 hover:text-blue-400 transition-all">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"/></svg>
+                    </a>
+                )}
+            </div>
+        </div>
+        {description && (
+            <p class="text-xl text-slate-500 dark:text-slate-400 font-medium leading-relaxed max-w-3xl">
+                {description}
+            </p>
+        )}
+        <slot />
+    </div>
+</div>

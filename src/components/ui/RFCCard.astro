@@ -1,0 +1,40 @@
+---
+import { StatusBadge } from "@/components";
+import type { CollectionEntry } from "astro:content";
+
+interface Props {
+	item: CollectionEntry<"news">;
+    class?: string;
+}
+
+const { item, class: className } = Astro.props;
+---
+
+<a 
+    href={`/news/${item.id}`}
+    class:list={["flex flex-col h-full bg-white dark:bg-[#0f172a] border border-slate-100 dark:border-slate-800/50 rounded-2xl p-8 hover:shadow-2xl hover:-translate-y-2 hover:border-red-100 dark:hover:border-red-900/50 transition-all duration-500 group", className]}
+>
+    <div class="flex items-center justify-between mb-6">
+        <StatusBadge status={item.data.status} />
+        <time class="text-[10px] font-black text-slate-400 uppercase tracking-widest">
+            {item.data.pubDate.toLocaleDateString('en-US', { month: 'short', day: 'numeric' })}
+        </time>
+    </div>
+    
+    <h3 class="text-xl font-black text-slate-900 dark:text-white mb-4 group-hover:text-red-600 transition-colors leading-tight uppercase">
+        {item.data.title.replace(/\[.*\]\s*/, "")}
+    </h3>
+    
+    <p class="text-slate-500 dark:text-slate-400 text-sm mb-8 line-clamp-3 font-medium leading-relaxed">
+        {item.data.content || "No description available for this RFC proposal."}
+    </p>
+    
+    <div class="mt-auto pt-6 border-t border-slate-50 dark:border-slate-800/50 flex items-center justify-between">
+        <span class="text-[10px] font-black uppercase tracking-widest text-red-600">
+            View Proposal
+        </span>
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="text-red-600 transition-transform group-hover:translate-x-1">
+            <path d="M5 12h14"/><path d="m12 5 7 7-7 7"/>
+        </svg>
+    </div>
+</a>
