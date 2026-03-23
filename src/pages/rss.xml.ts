@@ -9,7 +9,7 @@ export async function GET(context: APIContext) {
   return rss({
     title: 'phponline.dev | The PHP Community Pulse',
     description: 'The modern homepage for the PHP community. Aggregating the best news, RFCs, podcasts, and articles.',
-    site: context.site || 'https://www.phponline.dev',
+    site: context.site || 'https://phponline.dev',
     items: sorted.slice(0, 50).map((item) => ({
       title: item.data.title || 'Untitled',
       pubDate: item.data.pubDate,

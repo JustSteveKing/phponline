@@ -20,7 +20,7 @@ const {
     sd
 } = Astro.props;
 
-const siteUrl = "https://www.phponline.dev";
+const siteUrl = "https://phponline.dev";
 const resolvedOgImage = ogImage ? `${siteUrl}${ogImage}` : `${siteUrl}/og-default.png`;
 const sdArray = Array.isArray(sd) ? sd : sd ? [sd] : [];
 ---

@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.phponline.dev/sitemap-index.xml
+Sitemap: https://phponline.dev/sitemap-index.xml

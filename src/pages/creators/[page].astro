@@ -15,13 +15,13 @@ const breadcrumbs = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     "itemListElement": [
-        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.phponline.dev" },
-        { "@type": "ListItem", "position": 2, "name": "Creators", "item": `https://www.phponline.dev/creators/${page.currentPage}` }
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://phponline.dev" },
+        { "@type": "ListItem", "position": 2, "name": "Creators", "item": `https://phponline.dev/creators/${page.currentPage}` }
     ]
 };
 ---
 
-<Layout 
+<Layout
     title={`Community Creators - Page ${page.currentPage} | phponline.dev`}
     description="Meet the people and organizations shaping the PHP ecosystem."
     ogImage="/og/home.png"
@@ -35,7 +35,7 @@ const breadcrumbs = {
 
 	<Grid columns={3} gap="large">
 		{page.data.map((creator) => (
-			<FeatureCard 
+			<FeatureCard
                 title={creator.name}
                 description={creator.description}
                 image={creator.avatar}
@@ -47,7 +47,7 @@ const breadcrumbs = {
 
     <Pagination page={page} />
 
-	<BannerCTA 
+	<BannerCTA
         title="Join the Directory"
         description="Are you creating content for the PHP community? We'd love to feature your work and aggregate your feeds."
         buttonText="Submit your Profile"
