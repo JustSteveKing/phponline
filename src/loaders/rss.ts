@@ -7,6 +7,7 @@ import { extractImageFromHtml } from "@/utils/extractImage";
 import { slugify } from "@/utils/slugify";
 import { cleanTitle } from "@/utils/cleanTitle";
 import { extractTags } from "@/utils/extractTags";
+import { cleanAndTagUrl } from "@/utils/cleanAndTagUrl";
 
 const parser = new Parser({
     customFields: {
@@ -90,7 +91,7 @@ export function phpCommunityLoader(feedUrls: typeof PHP_FEEDS): Loader {
               id,
               data: {
                 title: cleanTitle(item.title),
-                link: item.link,
+                link: cleanAndTagUrl(item.link),
                 coverImage: coverImage,
                 pubDate: new Date(item.pubDate || ""),
                 content: content,
@@ -131,7 +132,7 @@ export function phpPodcastLoader(podcasts: typeof PODCAST_FEEDS): Loader {
               id,
               data: {
                 title: cleanTitle(item.title),
-                link: item.link,
+                link: cleanAndTagUrl(item.link),
                 pubDate: new Date(item.pubDate || ""),
                 content: (item as any).summary || item.contentSnippet || item.content || "",
                 podcast: podcast.title,
@@ -179,7 +180,7 @@ export function phpYouTubeLoader(channels: typeof YOUTUBE_CHANNELS): Loader {
               id,
               data: {
                 title: cleanTitle(item.title),
-                link: item.link,
+                link: cleanAndTagUrl(item.link),
                 pubDate: new Date(item.pubDate || ""),
                 content: item.contentSnippet || item.content || "",
                 channel: channel.label,

@@ -4,5 +4,10 @@ export const SITE_CONFIG = {
     description: "The modern homepage for the PHP community.",
     links: {
         github: "https://github.com/juststeveking/phponline.dev",
+    },
+    utm: {
+        source: "phponline.dev",
+        medium: "referral",
+        campaign: "phponline.dev",
     }
 };
