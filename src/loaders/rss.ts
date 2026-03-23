@@ -4,6 +4,7 @@ import { load as loadCheerio } from "cheerio";
 import type { PHP_FEEDS, PODCAST_FEEDS, YOUTUBE_CHANNELS } from "@/config/feeds";
 import { extractImageFromHtml } from "@/utils/extractImage";
 import { slugify } from "@/utils/slugify";
+import { cleanTitle } from "@/utils/cleanTitle";
 
 const parser = new Parser({
     customFields: {
@@ -45,7 +46,7 @@ export function phpCommunityLoader(feedUrls: typeof PHP_FEEDS): Loader {
                     if (urlObj.hash) {
                         pathSlug = urlObj.hash.replace('#', '');
                     } else {
-                        pathSlug = slugify(item.title || 'article');
+                        pathSlug = slugify(cleanTitle(item.title) || 'article');
                     }
                 }
                 
@@ -53,7 +54,7 @@ export function phpCommunityLoader(feedUrls: typeof PHP_FEEDS): Loader {
                 const sourceSlug = slugify(feed.label);
                 id = `${sourceSlug}/${pathSlug}`;
             } catch (e) {
-                id = `${slugify(feed.label)}/${slugify(item.title || 'article')}`;
+                id = `${slugify(feed.label)}/${slugify(cleanTitle(item.title) || 'article')}`;
             }
 
             let content = item.content || item.contentSnippet || (item as any).summary || "";
@@ -74,7 +75,7 @@ export function phpCommunityLoader(feedUrls: typeof PHP_FEEDS): Loader {
             store.set({
               id,
               data: {
-                title: item.title,
+                title: cleanTitle(item.title),
                 link: item.link,
                 coverImage: coverImage,
                 pubDate: new Date(item.pubDate || ""),
@@ -107,14 +108,14 @@ export function phpPodcastLoader(podcasts: typeof PODCAST_FEEDS): Loader {
           const data = await parser.parseURL(podcast.feed);
 
           data.items.forEach((item) => {
-            const episodeSlug = slugify(item.title || 'episode');
+            const episodeSlug = slugify(cleanTitle(item.title) || 'episode');
             const podcastSlug = slugify(podcast.title);
             const id = `${podcastSlug}/${episodeSlug}`;
 
             store.set({
               id,
               data: {
-                title: item.title,
+                title: cleanTitle(item.title),
                 link: item.link,
                 pubDate: new Date(item.pubDate || ""),
                 content: (item as any).summary || item.contentSnippet || item.content || "",
@@ -150,7 +151,7 @@ export function phpYouTubeLoader(channels: typeof YOUTUBE_CHANNELS): Loader {
 
           data.items.forEach((item: any) => {
             const videoId = item.videoId || item.id?.split(':')?.pop();
-            const videoSlug = slugify(item.title || 'video');
+            const videoSlug = slugify(cleanTitle(item.title) || 'video');
             const channelSlug = slugify(channel.label);
             const id = `${channelSlug}/${videoSlug}`;
 
@@ -162,7 +163,7 @@ export function phpYouTubeLoader(channels: typeof YOUTUBE_CHANNELS): Loader {
             store.set({
               id,
               data: {
-                title: item.title,
+                title: cleanTitle(item.title),
                 link: item.link,
                 pubDate: new Date(item.pubDate || ""),
                 content: item.contentSnippet || item.content || "",
