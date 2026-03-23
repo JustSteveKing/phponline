@@ -78,8 +78,14 @@ const sdArray = Array.isArray(sd) ? sd : sd ? [sd] : [];
         </script>
     </head>
     <body class="bg-slate-50 dark:bg-[#020617] text-slate-900 dark:text-slate-300 antialiased selection:bg-red-200 selection:text-red-900 flex flex-col min-h-screen transition-colors duration-500">
+        <a 
+            href="#main-content" 
+            class="sr-only focus:not-sr-only focus:fixed focus:top-4 focus:left-4 focus:z-[100] focus:px-6 focus:py-3 focus:bg-red-600 focus:text-white focus:rounded-full focus:font-black focus:text-sm focus:uppercase focus:tracking-widest focus:shadow-2xl"
+        >
+            Skip to content
+        </a>
         <Navigation />
-        <main data-pagefind-body class="flex-grow max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 w-full">
+        <main id="main-content" data-pagefind-body class="flex-grow max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 w-full outline-hidden">
             <slot />
         </main>
         <Footer />
