@@ -5,6 +5,7 @@ import type { PHP_FEEDS, PODCAST_FEEDS, YOUTUBE_CHANNELS } from "@/config/feeds"
 import { extractImageFromHtml } from "@/utils/extractImage";
 import { slugify } from "@/utils/slugify";
 import { cleanTitle } from "@/utils/cleanTitle";
+import { extractTags } from "@/utils/extractTags";
 
 const parser = new Parser({
     customFields: {
@@ -72,6 +73,18 @@ export function phpCommunityLoader(feedUrls: typeof PHP_FEEDS): Loader {
             } catch (e) {
             }
 
+            const getStatus = (title: string | undefined, feedId: string | undefined) => {
+              if (!feedId?.includes('rfc')) return undefined;
+              if (!title) return 'Discussion';
+              const t = title.toUpperCase();
+              if (t.includes('VOTING')) return 'Voting';
+              if (t.includes('ACCEPTED')) return 'Accepted';
+              if (t.includes('DECLINED')) return 'Declined';
+              if (t.includes('IMPLEMENTED')) return 'Implemented';
+              if (t.includes('UNDER DISCUSSION')) return 'Discussion';
+              return 'RFC';
+            };
+
             store.set({
               id,
               data: {
@@ -82,8 +95,9 @@ export function phpCommunityLoader(feedUrls: typeof PHP_FEEDS): Loader {
                 content: content,
                 source: feed.label,
                 author: item.creator || data.title,
-                status: feed.id?.includes('rfc') ? (item.title?.match(/\[(.*?)\]/)?.[1] || 'Discussion') : undefined,
+                status: getStatus(item.title, feed.id),
                 creatorId: feed.creatorId,
+                tags: extractTags(item.title || "", content),
               },
             });
           });

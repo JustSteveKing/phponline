@@ -1,8 +1,10 @@
 ---
 import "@/styles/main.css";
 import { ClientRouter } from "astro:transitions";
-import { Footer, Navigation } from "@/components";
+import Footer from "@/components/layout/Footer.astro";
+import Navigation from "@/components/layout/Navigation.astro";
 import Player from "@/components/interactive/Player.svelte";
+import SearchPalette from "@/components/interactive/SearchPalette.svelte";
 import { PAGES } from "@/config/pages";
 
 interface Props {
@@ -85,11 +87,12 @@ const sdArray = Array.isArray(sd) ? sd : sd ? [sd] : [];
             Skip to content
         </a>
         <Navigation />
-        <main id="main-content" data-pagefind-body class="flex-grow max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 w-full outline-hidden">
+        <main id="main-content" class="flex-grow max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 w-full outline-hidden">
             <slot />
         </main>
         <Footer />
         <Player client:load />
+        <SearchPalette client:load />
 
         <!-- Cloudflare Web Analytics -->
         <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "d263349729c84ef79b33b723f19eb624"}'></script>

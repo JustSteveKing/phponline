@@ -83,6 +83,7 @@ export const collections = {
       author: z.string().optional(),
       status: z.string().optional(),
       creatorId: z.string().optional(),
+      tags: z.array(z.string()).default([]),
     }),
   }),
   episodes: defineCollection({

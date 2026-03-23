@@ -5,6 +5,7 @@ import path from "node:path";
 import Parser from "rss-parser";
 import { PHP_FEEDS } from "../src/config/feeds";
 import { slugify } from "../src/utils/slugify";
+import { cleanTitle } from "../src/utils/cleanTitle";
 
 const STATIC_PAGES = [
     { id: "home", title: "The PHP Community Pulse", source: "Home" },
@@ -68,7 +69,7 @@ async function generate() {
             
             // Process feed items in parallel
             const itemPromises = data.items.map(async (item) => {
-                const title = item.title || "Untitled";
+                const title = cleanTitle(item.title || "Untitled");
                 const source = feed.label;
                 
                 // Generate ID (Match rss.ts logic)

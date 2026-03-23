@@ -8,7 +8,8 @@
   "scripts": {
     "dev": "astro dev",
     "prepare": "bun run validate-config && bun run generate-og && bun run build",
-    "build": "astro build && pagefind --site dist",
+    "build": "astro build",
+    "index-algolia": "bun scripts/index-algolia.ts",
     "validate-config": "bun scripts/validate-config.ts",
     "generate-og": "bun scripts/generate-og.ts",
     "generate-default-cover": "bun scripts/generate-default-cover.ts",
@@ -17,12 +18,14 @@
     "astro": "astro"
   },
   "dependencies": {
+    "@algolia/client-search": "^5.49.2",
     "@astrojs/check": "^0.9.8",
     "@astrojs/rss": "^4.0.17",
     "@astrojs/sitemap": "^3.7.1",
     "@astrojs/svelte": "^8.0.2",
     "@resvg/resvg-js": "^2.6.2",
     "@tailwindcss/vite": "^4.2.2",
+    "algoliasearch": "^5.49.2",
     "astro": "^6.0.6",
     "cheerio": "^1.2.0",
     "clsx": "^2.1.1",
@@ -35,7 +38,6 @@
   },
   "devDependencies": {
     "@tailwindcss/typography": "^0.5.19",
-    "@types/node": "^25.5.0",
-    "pagefind": "^1.4.0"
+    "@types/node": "^25.5.0"
   }
 }

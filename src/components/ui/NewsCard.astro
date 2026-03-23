@@ -3,12 +3,14 @@ import { Image } from "astro:assets";
 import type { CollectionEntry } from "astro:content";
 import defaultCover from "@/assets/default-php-cover.png";
 
+import { getTopicLabel } from "@/utils/extractTags";
+
 interface Props {
     item: CollectionEntry<"news">;
 }
 
 const { item } = Astro.props as Props;
-const { title, source, pubDate, coverImage } = item.data;
+const { title, source, pubDate, coverImage, tags = [] } = item.data;
 
 const formattedDate = pubDate.toLocaleDateString("en-US", {
     month: "short",
@@ -49,12 +51,19 @@ const formattedDate = pubDate.toLocaleDateString("en-US", {
     </div>
     <div class="flex-1 min-w-0">
         <div class="flex items-center justify-between mb-1">
-            <span
-                data-pagefind-filter="source"
-                class="text-[9px] font-black text-red-600 dark:text-red-500 uppercase tracking-widest"
-            >
-                {source}
-            </span>
+            <div class="flex items-center gap-2">
+                <span
+                    data-pagefind-filter="source"
+                    class="text-[9px] font-black text-red-600 dark:text-red-500 uppercase tracking-widest"
+                >
+                    {source}
+                </span>
+                {tags.slice(0, 1).map(tag => (
+                    <span class="text-[9px] font-black text-slate-400 dark:text-slate-500 uppercase tracking-widest px-1.5 py-0.5 rounded-sm bg-slate-50 dark:bg-slate-900 border border-slate-100 dark:border-slate-800">
+                        {getTopicLabel(tag)}
+                    </span>
+                ))}
+            </div>
             <time class="text-[9px] font-bold text-slate-400 dark:text-slate-500 uppercase tracking-widest">
                 {formattedDate}
             </time>
