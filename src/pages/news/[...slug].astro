@@ -6,8 +6,8 @@ import { SITE_CONFIG } from "@/config/site";
 import { getReadingTime } from "@/utils/readingTime";
 
 export async function getStaticPaths() {
-    const news = await getCollection("news");
-    return news.map((entry) => ({
+    const news: CollectionEntry<"news">[] = await getCollection("news");
+    return news.map((entry: CollectionEntry<"news">) => ({
         params: { slug: entry.id },
         props: { entry },
     }));

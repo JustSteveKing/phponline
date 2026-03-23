@@ -4,13 +4,13 @@ import { PageHeader, Grid, FeatureCard, BannerCTA } from "@/components";
 import { PODCAST_FEEDS } from "@/config/feeds";
 import { SITE_CONFIG } from "@/config/site";
 import { PAGES } from "@/config/pages";
-import { getCollection } from "astro:content";
+import { getCollection, type CollectionEntry } from "astro:content";
 import { slugify } from "@/utils/slugify";
 
 const episodes = await getCollection("episodes");
 
-const podcastData = PODCAST_FEEDS.map((podcast) => {
-    const podcastEpisodes = episodes.filter(e => e.data.podcast === podcast.title);
+const podcastData = PODCAST_FEEDS.map((podcast: any) => {
+    const podcastEpisodes = episodes.filter((e: CollectionEntry<"episodes">) => e.data.podcast === podcast.title);
     return {
         ...podcast,
         episodeCount: podcastEpisodes.length,

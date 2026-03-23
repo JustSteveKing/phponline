@@ -2,11 +2,14 @@
     import { onMount } from "svelte";
     import { fade, fly } from "svelte/transition";
     import { liteClient as algoliasearch } from "algoliasearch/lite";
-    import { PUBLIC_ALGOLIA_APP_ID, PUBLIC_ALGOLIA_SEARCH_KEY } from "astro:env/client";
 
-    // Algolia Config from Astro Env
-    const APP_ID = PUBLIC_ALGOLIA_APP_ID;
-    const API_KEY = PUBLIC_ALGOLIA_SEARCH_KEY;
+    // Props
+    interface Props {
+        appId: string;
+        searchKey: string;
+    }
+    let { appId, searchKey } = $props<Props>();
+
     const INDEX_NAME = "phponline_content";
 
     let isOpen = $state(false);
@@ -15,10 +18,11 @@
     let selectedIndex = $state(0);
     let isSearching = $state(false);
 
-    const client = algoliasearch(APP_ID, API_KEY);
+    // Initialize client only once or when keys change
+    const client = $derived(appId && searchKey ? algoliasearch(appId, searchKey) : null);
 
     async function search() {
-        if (!query.trim()) {
+        if (!query.trim() || !client) {
             results = [];
             return;
         }
@@ -43,9 +47,13 @@
         }
     }
 
+    // Debounce search
+    let timeout: ReturnType<typeof setTimeout>;
     $effect(() => {
-        const timeout = setTimeout(search, 200);
-        return () => clearTimeout(timeout);
+        if (query || query === "") {
+            clearTimeout(timeout);
+            timeout = setTimeout(search, 200);
+        }
     });
 
     function handleKeydown(e: KeyboardEvent) {
@@ -62,12 +70,12 @@
 
         if (e.key === "ArrowDown") {
             e.preventDefault();
-            selectedIndex = (selectedIndex + 1) % results.length;
+            selectedIndex = results.length > 0 ? (selectedIndex + 1) % results.length : 0;
         }
 
         if (e.key === "ArrowUp") {
             e.preventDefault();
-            selectedIndex = (selectedIndex - 1 + results.length) % results.length;
+            selectedIndex = results.length > 0 ? (selectedIndex - 1 + results.length) % results.length : 0;
         }
 
         if (e.key === "Enter" && results[selectedIndex]) {
@@ -79,6 +87,11 @@
     onMount(() => {
         window.addEventListener("keydown", handleKeydown);
         window.addEventListener("open-search", () => (isOpen = true));
+
+        if (!appId || !searchKey) {
+            console.warn("⚠️ Algolia keys are missing in SearchPalette. Check your .env file.");
+        }
+
         return () => {
             window.removeEventListener("keydown", handleKeydown);
             window.removeEventListener("open-search", () => (isOpen = true));
@@ -89,14 +102,14 @@
 {#if isOpen}
     <!-- svelte-ignore a11y_click_events_have_key_events -->
     <!-- svelte-ignore a11y_no_static_element_interactions -->
-    <div 
-        class="fixed inset-0 z-[100] flex items-start justify-center pt-[15vh] px-4 sm:px-6 md:px-20"
+    <div
+        class="fixed inset-0 z-100 flex items-start justify-center pt-[15vh] px-4 sm:px-6 md:px-20"
         transition:fade={{ duration: 200 }}
         onclick={() => (isOpen = false)}
     >
         <div class="fixed inset-0 bg-slate-900/60 backdrop-blur-sm"></div>
 
-        <div 
+        <div
             class="relative w-full max-w-2xl bg-white dark:bg-[#0f172a] rounded-2xl shadow-2xl border border-slate-200 dark:border-slate-800 overflow-hidden"
             transition:fly={{ y: -20, duration: 300 }}
             onclick={(e) => e.stopPropagation()}
@@ -104,7 +117,7 @@
             <!-- Search Input -->
             <div class="relative flex items-center p-4 border-b border-slate-100 dark:border-slate-800">
                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="text-slate-400"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
-                <input 
+                <input
                     type="text"
                     bind:value={query}
                     placeholder="Search news, RFCs, creators..."
@@ -120,13 +133,13 @@
             <div class="max-h-[60vh] overflow-y-auto p-2">
                 {#if results.length > 0}
                     {#each results as hit, i}
-                        <a 
+                        <a
                             href={hit.url}
                             class="flex items-start gap-4 p-4 rounded-xl transition-all {selectedIndex === i ? 'bg-red-50 dark:bg-red-950/20 ring-1 ring-red-200 dark:ring-red-900/50' : 'hover:bg-slate-50 dark:hover:bg-slate-800/50'}"
                             onmouseenter={() => (selectedIndex = i)}
                         >
                             {#if hit.image}
-                                <img src={hit.image} alt="" class="w-12 h-12 rounded-lg object-cover bg-slate-100 dark:bg-slate-800 shrink-0" />
+                                <img src={hit.image} alt={hit.title} loading="lazy" decoding="async" class="w-12 h-12 rounded-lg object-cover bg-slate-100 dark:bg-slate-800 shrink-0" />
                             {:else}
                                 <div class="w-12 h-12 rounded-lg bg-red-100 dark:bg-red-900/20 flex items-center justify-center shrink-0">
                                     <span class="text-red-600 font-black uppercase text-xs">{hit.type[0]}</span>
@@ -151,21 +164,6 @@
                         </div>
                         <p class="text-slate-900 dark:text-white font-bold">No results found for "{query}"</p>
                         <p class="text-sm text-slate-500 mt-1">Try a different keyword or category.</p>
-                    </div>
-                {:else if !query}
-                    <div class="p-8">
-                        <h5 class="text-[10px] font-black uppercase tracking-widest text-slate-400 mb-4 px-2">Popular Categories</h5>
-                        <div class="grid grid-cols-2 gap-2">
-                            {#each ['Laravel', 'Symfony', 'Security', 'Internals'] as tag}
-                                <button 
-                                    class="flex items-center gap-3 p-3 rounded-xl bg-slate-50 dark:bg-slate-800/50 hover:bg-red-50 dark:hover:bg-red-950/20 text-slate-700 dark:text-slate-300 hover:text-red-600 transition-all text-sm font-bold text-left"
-                                    onclick={() => (query = tag)}
-                                >
-                                    <div class="w-2 h-2 rounded-full bg-red-500"></div>
-                                    {tag}
-                                </button>
-                            {/each}
-                        </div>
                     </div>
                 {/if}
             </div>

@@ -1,5 +1,6 @@
+/// <reference types="astro/client" />
 import Parser from "rss-parser";
-import type { Loader, LoaderContext } from "astro:loaders";
+import type { Loader, LoaderContext } from "astro/loaders";
 import { load as loadCheerio } from "cheerio";
 import type { PHP_FEEDS, PODCAST_FEEDS, YOUTUBE_CHANNELS } from "@/config/feeds";
 import { extractImageFromHtml } from "@/utils/extractImage";

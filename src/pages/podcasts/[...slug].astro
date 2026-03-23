@@ -2,17 +2,17 @@
 import Layout from "@/layouts/Layout.astro";
 import { PageHeader, EpisodeCard, SectionHeading } from "@/components";
 import { PODCAST_FEEDS } from "@/config/feeds";
-import { getCollection } from "astro:content";
+import { getCollection, type CollectionEntry } from "astro:content";
 import { slugify } from "@/utils/slugify";
 
 export async function getStaticPaths() {
-    const episodes = await getCollection("episodes");
+    const episodes: CollectionEntry<"episodes">[] = await getCollection("episodes");
 
     return PODCAST_FEEDS.map((podcast) => {
         const podcastEpisodes = episodes
-            .filter((e) => e.data.podcast === podcast.title)
+            .filter((e: CollectionEntry<"episodes">) => e.data.podcast === podcast.title)
             .sort(
-                (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
+                (a: CollectionEntry<"episodes">, b: CollectionEntry<"episodes">) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
             );
 
         return {
@@ -22,7 +22,7 @@ export async function getStaticPaths() {
     });
 }
 
-const { podcast, episodes } = Astro.props;
+const { podcast, episodes } = Astro.props as { podcast: any, episodes: CollectionEntry<"episodes">[] };
 const slug = slugify(podcast.title);
 const ogImage = `/og/podcasts/${slug}.png`;
 

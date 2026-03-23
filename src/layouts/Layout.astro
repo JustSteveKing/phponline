@@ -6,6 +6,7 @@ import Navigation from "@/components/layout/Navigation.astro";
 import Player from "@/components/interactive/Player.svelte";
 import SearchPalette from "@/components/interactive/SearchPalette.svelte";
 import { PAGES } from "@/config/pages";
+import { PUBLIC_ALGOLIA_APP_ID, PUBLIC_ALGOLIA_SEARCH_KEY } from "astro:env/client";
 
 interface Props {
     title?: string;
@@ -24,7 +25,7 @@ const {
 } = Astro.props;
 
 const siteUrl = "https://phponline.dev";
-const resolvedOgImage = ogImage.startsWith('http') ? ogImage : `${siteUrl}${ogImage}`;
+const resolvedOgImage = ogImage?.startsWith('http') ? ogImage : `${siteUrl}${ogImage}`;
 const sdArray = Array.isArray(sd) ? sd : sd ? [sd] : [];
 ---
 
@@ -92,7 +93,11 @@ const sdArray = Array.isArray(sd) ? sd : sd ? [sd] : [];
         </main>
         <Footer />
         <Player client:load />
-        <SearchPalette client:load />
+        <SearchPalette 
+            client:load 
+            appId={PUBLIC_ALGOLIA_APP_ID} 
+            searchKey={PUBLIC_ALGOLIA_SEARCH_KEY} 
+        />
 
         <!-- Cloudflare Web Analytics -->
         <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "d263349729c84ef79b33b723f19eb624"}'></script>

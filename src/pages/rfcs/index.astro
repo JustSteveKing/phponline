@@ -1,14 +1,14 @@
 ---
 import Layout from "@/layouts/Layout.astro";
 import { PageHeader, RFCCard } from "@/components";
-import { getCollection } from "astro:content";
+import { getCollection, type CollectionEntry } from "astro:content";
 import { PAGES } from "@/config/pages";
 
-const allNews = await getCollection("news");
+const allNews: CollectionEntry<"news">[] = await getCollection("news");
 // Filter news from the internals source (RFCs)
-const rfcItems = allNews
-    .filter((item) => item.data.source === "rfc") // Using the label/sourceSlug
-    .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
+const rfcItems: CollectionEntry<"news">[] = allNews
+    .filter((item: CollectionEntry<"news">) => item.data.source === "rfc") // Using the label/sourceSlug
+    .sort((a: CollectionEntry<"news">, b: CollectionEntry<"news">) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
     .slice(0, 15);
 
 const breadcrumbs = {

@@ -2,16 +2,17 @@
 import Layout from "@/layouts/Layout.astro";
 import { PageHeader, Grid, VideoCard } from "@/components";
 import { YOUTUBE_CHANNELS } from "@/config/feeds";
-import { getCollection } from "astro:content";
+import { getCollection, type CollectionEntry } from "astro:content";
 import { slugify } from "@/utils/slugify";
+import type { YouTubeChannel } from "@/types";
 
 export async function getStaticPaths() {
-    const allVideos = await getCollection("videos");
+    const allVideos: CollectionEntry<"videos">[] = await getCollection("videos");
 
-    return YOUTUBE_CHANNELS.map((channel) => {
+    return YOUTUBE_CHANNELS.map((channel: YouTubeChannel) => {
         const channelVideos = allVideos
-            .filter((v) => v.data.channel === channel.label)
-            .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+            .filter((v: CollectionEntry<"videos">) => v.data.channel === channel.label)
+            .sort((a: CollectionEntry<"videos">, b: CollectionEntry<"videos">) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
 
         return {
             params: { slug: slugify(channel.label) },
@@ -20,7 +21,7 @@ export async function getStaticPaths() {
     });
 }
 
-const { channel, videos } = Astro.props;
+const { channel, videos } = Astro.props as { channel: YouTubeChannel, videos: CollectionEntry<"videos">[] };
 
 const breadcrumbs = {
     "@context": "https://schema.org",
@@ -59,7 +60,7 @@ const breadcrumbs = {
     <div class="space-y-8">
         <h2 class="text-3xl font-black text-slate-900 dark:text-white uppercase tracking-tight">Recent Videos</h2>
         <Grid columns={3} gap="large">
-            {videos.map((video) => (
+            {videos.map((video: CollectionEntry<"videos">) => (
                 <VideoCard video={video} />
             ))}
         </Grid>

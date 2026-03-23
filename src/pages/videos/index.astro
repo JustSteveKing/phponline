@@ -4,15 +4,16 @@ import { PageHeader, Grid, VideoCard, CreatorPill, BannerCTA, SectionHeading } f
 import { YOUTUBE_CHANNELS } from "@/config/feeds";
 import { SITE_CONFIG } from "@/config/site";
 import { PAGES } from "@/config/pages";
-import { getCollection } from "astro:content";
+import { getCollection, type CollectionEntry } from "astro:content";
 import { slugify } from "@/utils/slugify";
+import type { YouTubeChannel } from "@/types";
 
 const allVideos = await getCollection("videos");
-const sortedVideos = allVideos.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+const sortedVideos = allVideos.sort((a: CollectionEntry<"videos">, b: CollectionEntry<"videos">) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
 const latestVideos = sortedVideos.slice(0, 12);
 
-const channelData = YOUTUBE_CHANNELS.map((channel) => {
-    const videoCount = allVideos.filter(v => v.data.channel === channel.label).length;
+const channelData = YOUTUBE_CHANNELS.map((channel: YouTubeChannel) => {
+    const videoCount = allVideos.filter((v: CollectionEntry<"videos">) => v.data.channel === channel.label).length;
     return {
         ...channel,
         videoCount,
@@ -45,7 +46,7 @@ const breadcrumbs = {
     <div class="mb-20">
         <SectionHeading title="Featured Creators" />
         <div class="flex flex-wrap justify-center gap-4 max-w-5xl mx-auto mt-8">
-            {channelData.map((channel) => (
+            {channelData.map((channel: any) => (
                 <CreatorPill 
                     label={channel.label}
                     count={channel.videoCount}
@@ -59,7 +60,7 @@ const breadcrumbs = {
     <div class="space-y-8">
         <SectionHeading title="Latest Uploads" />
         <Grid columns={3} gap="large">
-            {latestVideos.map((video) => (
+            {latestVideos.map((video: CollectionEntry<"videos">) => (
                 <VideoCard video={video} />
             ))}
         </Grid>

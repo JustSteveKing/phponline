@@ -18,6 +18,8 @@ import { YOUTUBE_CHANNELS } from "@/config/feeds";
 import { SITE_CONFIG } from "@/config/site";
 import { PAGES } from "@/config/pages";
 
+import type { YouTubeChannel } from "@/types";
+
 const allNews: CollectionEntry<"news">[] = await getCollection("news");
 const allVideos = await getCollection("videos");
 
@@ -30,8 +32,8 @@ const heroPost = sorted[0];
 const subHeroPosts = sorted.slice(1, 4);
 const latestStories = sorted.slice(4, 10);
 
-const channelData = YOUTUBE_CHANNELS.map((channel) => {
-    const videoCount = allVideos.filter(v => v.data.channel === channel.label).length;
+const channelData = YOUTUBE_CHANNELS.map((channel: YouTubeChannel) => {
+    const videoCount = allVideos.filter((v: CollectionEntry<"videos">) => v.data.channel === channel.label).length;
     return {
         ...channel,
         videoCount,

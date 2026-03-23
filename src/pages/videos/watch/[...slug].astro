@@ -1,24 +1,24 @@
 ---
 import Layout from "@/layouts/Layout.astro";
 import { Sidebar, SidebarCard } from "@/components";
-import { getCollection } from "astro:content";
+import { getCollection, type CollectionEntry } from "astro:content";
 import { slugify } from "@/utils/slugify";
 
 export async function getStaticPaths() {
-    const allVideos = await getCollection("videos");
+    const allVideos: CollectionEntry<"videos">[] = await getCollection("videos");
     
-    return allVideos.map((video) => ({
+    return allVideos.map((video: CollectionEntry<"videos">) => ({
         params: { slug: video.id },
         props: { video, allVideos },
     }));
 }
 
-const { video, allVideos } = Astro.props;
+const { video, allVideos } = Astro.props as { video: CollectionEntry<"videos">, allVideos: CollectionEntry<"videos">[] };
 const { title, channel, pubDate, videoId, content } = video.data;
 
 const moreFromChannel = allVideos
-    .filter((v) => v.data.channel === channel && v.id !== video.id)
-    .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
+    .filter((v: CollectionEntry<"videos">) => v.data.channel === channel && v.id !== video.id)
+    .sort((a: CollectionEntry<"videos">, b: CollectionEntry<"videos">) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
     .slice(0, 4);
 
 const breadcrumbs = {
@@ -81,7 +81,7 @@ const breadcrumbs = {
             <Sidebar top="top-8">
                 <SidebarCard title={`More from ${channel}`}>
                     <div class="space-y-6">
-                        {moreFromChannel.map((v) => (
+                        {moreFromChannel.map((v: CollectionEntry<"videos">) => (
                             <a href={`/videos/watch/${v.id}`} class="group flex gap-4">
                                 <div class="relative w-32 shrink-0 aspect-video rounded-xl overflow-hidden bg-slate-100 dark:bg-slate-800 border border-slate-200/50 dark:border-slate-800/50">
                                     <img src={v.data.thumbnail} alt="" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" />

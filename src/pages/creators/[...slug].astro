@@ -2,7 +2,7 @@
 import Layout from "@/layouts/Layout.astro";
 import { Grid, NewsCard, VideoCard, ProfileHeader, SectionHeading } from "@/components";
 import { CREATORS } from "@/config/creators";
-import { getCollection } from "astro:content";
+import { getCollection, type CollectionEntry } from "astro:content";
 import { slugify } from "@/utils/slugify";
 
 export async function getStaticPaths() {
@@ -15,14 +15,14 @@ export async function getStaticPaths() {
 const { creator } = Astro.props;
 
 // Fetch all content for this creator
-const news = await getCollection("news", ({ data }) => data.creatorId === creator.id);
-const episodes = await getCollection("episodes", ({ data }) => data.creatorId === creator.id);
-const videos = await getCollection("videos", ({ data }) => data.creatorId === creator.id);
+const news = await getCollection("news", ({ data }: { data: CollectionEntry<"news">["data"] }) => data.creatorId === creator.id);
+const episodes = await getCollection("episodes", ({ data }: { data: CollectionEntry<"episodes">["data"] }) => data.creatorId === creator.id);
+const videos = await getCollection("videos", ({ data }: { data: CollectionEntry<"videos">["data"] }) => data.creatorId === creator.id);
 
 // Combine all content for a master timeline if needed, but let's show them by section first
-const sortedNews = news.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
-const sortedEpisodes = episodes.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
-const sortedVideos = videos.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+const sortedNews = news.sort((a: CollectionEntry<"news">, b: CollectionEntry<"news">) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+const sortedEpisodes = episodes.sort((a: CollectionEntry<"episodes">, b: CollectionEntry<"episodes">) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+const sortedVideos = videos.sort((a: CollectionEntry<"videos">, b: CollectionEntry<"videos">) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
 
 const latestNews = sortedNews.slice(0, 5);
 const latestVideos = sortedVideos.slice(0, 5);
@@ -61,7 +61,7 @@ const breadcrumbs = {
                     viewAllLabel="View All News" 
                 />
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                    {latestNews.map(item => <NewsCard item={item} />)}
+                    {latestNews.map((item: CollectionEntry<"news">) => <NewsCard item={item} />)}
                 </div>
             </section>
         )}
@@ -74,7 +74,7 @@ const breadcrumbs = {
                     viewAllLabel="View Creator Videos" 
                 />
                 <Grid columns={3} gap="large">
-                    {latestVideos.map(video => <VideoCard video={video} />)}
+                    {latestVideos.map((video: CollectionEntry<"videos">) => <VideoCard video={video} />)}
                 </Grid>
             </section>
         )}
@@ -83,7 +83,7 @@ const breadcrumbs = {
             <section>
                 <SectionHeading title="Podcast Episodes" />
                 <div class="grid grid-cols-1 gap-4">
-                    {sortedEpisodes.map(episode => (
+                    {sortedEpisodes.map((episode: CollectionEntry<"episodes">) => (
                         <a href={`/podcasts/${slugify(episode.data.podcast)}`} class="p-6 bg-white dark:bg-slate-900 border border-slate-100 dark:border-slate-800 rounded-2xl flex items-center justify-between hover:border-red-200 transition-all group">
                             <div class="min-w-0">
                                 <h3 class="font-bold text-slate-900 dark:text-white truncate group-hover:text-red-600 transition-colors uppercase text-sm">{episode.data.title}</h3>
