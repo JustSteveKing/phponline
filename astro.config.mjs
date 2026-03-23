@@ -19,7 +19,7 @@ export default defineConfig({
     ],
   },
 
-  site: "https://www.phponline.dev",
+  site: "https://phponline.dev",
 
   vite: {
     plugins: [tailwindcss()],
