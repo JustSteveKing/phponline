@@ -3,6 +3,7 @@ import Layout from "@/layouts/Layout.astro";
 import { PageHeader, Grid, VideoCard, CreatorPill, BannerCTA, SectionHeading } from "@/components";
 import { YOUTUBE_CHANNELS } from "@/config/feeds";
 import { SITE_CONFIG } from "@/config/site";
+import { PAGES } from "@/config/pages";
 import { getCollection } from "astro:content";
 import { slugify } from "@/utils/slugify";
 
@@ -30,9 +31,9 @@ const breadcrumbs = {
 ---
 
 <Layout 
-    title="PHP Videos & Tutorials | phponline.dev"
-    description="Watch the latest PHP and Laravel tutorials from the community's top creators. Curated videos for modern developers."
-    ogImage="/og/home.png"
+    title={PAGES.videos.title}
+    description={PAGES.videos.description}
+    ogImage={PAGES.videos.ogImage}
     sd={[breadcrumbs]}
 >
 	<PageHeader
@@ -49,6 +50,7 @@ const breadcrumbs = {
                     label={channel.label}
                     count={channel.videoCount}
                     avatar={channel.avatar}
+                    creatorId={channel.creatorId}
                 />
             ))}
         </div>

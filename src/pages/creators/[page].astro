@@ -3,6 +3,7 @@ import Layout from "@/layouts/Layout.astro";
 import { PageHeader, Grid, FeatureCard, BannerCTA, Pagination } from "@/components";
 import { CREATORS } from "@/config/creators";
 import { SITE_CONFIG } from "@/config/site";
+import { PAGES } from "@/config/pages";
 import type { GetStaticPaths } from "astro";
 
 export const getStaticPaths = (({ paginate }) => {
@@ -22,9 +23,9 @@ const breadcrumbs = {
 ---
 
 <Layout
-    title={`Community Creators - Page ${page.currentPage} | phponline.dev`}
-    description="Meet the people and organizations shaping the PHP ecosystem."
-    ogImage="/og/home.png"
+    title={`${PAGES.creators.title} - Page ${page.currentPage}`}
+    description={PAGES.creators.description}
+    ogImage={PAGES.creators.ogImage}
     sd={[breadcrumbs]}
 >
 	<PageHeader

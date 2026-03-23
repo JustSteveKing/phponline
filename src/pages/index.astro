@@ -16,6 +16,7 @@ import type { CollectionEntry } from "astro:content";
 import { getCollection } from "astro:content";
 import { YOUTUBE_CHANNELS } from "@/config/feeds";
 import { SITE_CONFIG } from "@/config/site";
+import { PAGES } from "@/config/pages";
 
 const allNews: CollectionEntry<"news">[] = await getCollection("news");
 const allVideos = await getCollection("videos");
@@ -47,9 +48,10 @@ const sd = {
 ---
 
 <Layout
-    title={`${SITE_CONFIG.name} | The PHP Community Pulse`}
+    title={PAGES.home.title}
+    description={PAGES.home.description}
     sd={sd}
-    ogImage="/og/home.png"
+    ogImage={PAGES.home.ogImage}
 >
     <!-- Polished Hero Section -->
     <Hero item={heroPost} />
@@ -116,6 +118,7 @@ const sd = {
                     label={channel.label}
                     count={channel.videoCount}
                     avatar={channel.avatar}
+                    creatorId={channel.creatorId}
                 />
             ))}
         </div>

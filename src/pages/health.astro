@@ -3,6 +3,7 @@ import Layout from "@/layouts/Layout.astro";
 import { PageHeader, InfoCard } from "@/components";
 import CopyHealthData from "@/components/interactive/CopyHealthData.svelte";
 import { PHP_STATUS } from "@/config/versions";
+import { PAGES } from "@/config/pages";
 
 const breadcrumbs = {
     "@context": "https://schema.org",
@@ -21,9 +22,9 @@ const statusThemes = {
 ---
 
 <Layout 
-    title="PHP Versions Health Report | phponline.dev"
-    description="Check the support status, release dates, and security updates for all active PHP versions."
-    ogImage="/og/home.png"
+    title={PAGES.health.title}
+    description={PAGES.health.description}
+    ogImage={PAGES.health.ogImage}
     sd={[breadcrumbs]}
 >
 	<PageHeader

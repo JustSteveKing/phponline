@@ -1,3 +1,10 @@
+export interface PageMetadata {
+  title: string;
+  description?: string;
+  ogImage?: string;
+  canonical?: string;
+}
+
 export interface Creator {
   id: string;
   name: string;

@@ -3,6 +3,7 @@ import "@/styles/main.css";
 import { ClientRouter } from "astro:transitions";
 import { Footer, Navigation } from "@/components";
 import Player from "@/components/interactive/Player.svelte";
+import { PAGES } from "@/config/pages";
 
 interface Props {
     title?: string;
@@ -13,15 +14,15 @@ interface Props {
 }
 
 const { 
-    title = "phponline.dev | The PHP Community Pulse", 
-    description = "The modern homepage for the PHP community. Aggregating the best news, RFCs, podcasts, and articles.",
-    ogImage,
+    title = PAGES.home.title, 
+    description = PAGES.home.description,
+    ogImage = PAGES.home.ogImage,
     canonical,
     sd
 } = Astro.props;
 
 const siteUrl = "https://phponline.dev";
-const resolvedOgImage = ogImage ? `${siteUrl}${ogImage}` : `${siteUrl}/og-default.png`;
+const resolvedOgImage = ogImage.startsWith('http') ? ogImage : `${siteUrl}${ogImage}`;
 const sdArray = Array.isArray(sd) ? sd : sd ? [sd] : [];
 ---
 

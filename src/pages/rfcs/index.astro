@@ -2,6 +2,7 @@
 import Layout from "@/layouts/Layout.astro";
 import { PageHeader, RFCCard } from "@/components";
 import { getCollection } from "astro:content";
+import { PAGES } from "@/config/pages";
 
 const allNews = await getCollection("news");
 // Filter news from the internals source (RFCs)
@@ -21,9 +22,9 @@ const breadcrumbs = {
 ---
 
 <Layout 
-    title="RFC Tracker | phponline.dev"
-    description="Monitor the evolution of PHP in real-time. Follow every RFC from discussion to implementation with our community tracker."
-    ogImage="/og/rfcs.png"
+    title={PAGES.rfcs.title}
+    description={PAGES.rfcs.description}
+    ogImage={PAGES.rfcs.ogImage}
     sd={[breadcrumbs]}
 >
     <PageHeader 

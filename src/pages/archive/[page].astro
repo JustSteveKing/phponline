@@ -4,6 +4,7 @@ import Layout from "@/layouts/Layout.astro";
 import { NewsCard, PageHeader, BentoCard, Pagination } from "@/components";
 import type { CollectionEntry } from "astro:content";
 import type { GetStaticPaths, Page } from "astro";
+import { PAGES } from "@/config/pages";
 
 export const getStaticPaths = (async ({ paginate }) => {
     const allNews: CollectionEntry<"news">[] = await getCollection("news");
@@ -36,9 +37,9 @@ const breadcrumbs = {
 ---
 
 <Layout 
-    title={`Community Archive - Page ${page.currentPage} | phponline.dev`}
+    title={`${PAGES.archive.title} - Page ${page.currentPage}`}
     description={`Browsing the collective knowledge of the PHP ecosystem. Page ${page.currentPage} of our curated news and resource library.`}
-    ogImage="/og/archive.png"
+    ogImage={PAGES.archive.ogImage}
     sd={[breadcrumbs]}
 >
     <PageHeader

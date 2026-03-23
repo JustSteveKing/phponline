@@ -2,6 +2,7 @@
 import Layout from "@/layouts/Layout.astro";
 import { PageHeader, Grid, FeatureCard, Sidebar, SidebarCard, SectionHeading } from "@/components";
 import { SITE_CONFIG } from "@/config/site";
+import { PAGES } from "@/config/pages";
 
 const values = [
     {
@@ -32,9 +33,9 @@ const breadcrumbs = {
 ---
 
 <Layout 
-    title="About | phponline.dev"
-    description="Learn about phponline.dev, our mission to unify the PHP community, and how you can contribute to the project."
-    ogImage="/og/about.png"
+    title={PAGES.about.title}
+    description={PAGES.about.description}
+    ogImage={PAGES.about.ogImage}
     sd={[breadcrumbs]}
 >
     <PageHeader 

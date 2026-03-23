@@ -3,6 +3,7 @@ import Layout from "@/layouts/Layout.astro";
 import { PageHeader, EventCard, BannerCTA } from "@/components";
 import { EVENTS } from "@/config/events";
 import { SITE_CONFIG } from "@/config/site";
+import { PAGES } from "@/config/pages";
 
 // Filter only future events and sort chronologically
 const upcomingEvents = EVENTS
@@ -20,9 +21,9 @@ const breadcrumbs = {
 ---
 
 <Layout 
-    title="PHP Community Events & Conferences | phponline.dev"
-    description="Stay updated with upcoming PHP and Laravel conferences, meetups, and workshops around the world."
-    ogImage="/og/home.png"
+    title={PAGES.events.title}
+    description={PAGES.events.description}
+    ogImage={PAGES.events.ogImage}
     sd={[breadcrumbs]}
 >
 	<PageHeader

@@ -3,6 +3,7 @@ import Layout from "@/layouts/Layout.astro";
 import { PageHeader, Grid, FeatureCard, BannerCTA } from "@/components";
 import { PODCAST_FEEDS } from "@/config/feeds";
 import { SITE_CONFIG } from "@/config/site";
+import { PAGES } from "@/config/pages";
 import { getCollection } from "astro:content";
 import { slugify } from "@/utils/slugify";
 
@@ -28,9 +29,9 @@ const breadcrumbs = {
 ---
 
 <Layout 
-    title="PHP Podcasts | phponline.dev"
-    description="Tune in to the voices shaping the ecosystem. A curated directory of the best PHP podcasts for developers."
-    ogImage="/og/podcasts.png"
+    title={PAGES.podcasts.title}
+    description={PAGES.podcasts.description}
+    ogImage={PAGES.podcasts.ogImage}
     sd={[breadcrumbs]}
 >
 	<PageHeader
