@@ -12,6 +12,12 @@
         "type": "news"
       }
     ],
+    "youtube": [
+      {
+        "id": "UC_HmfSCvAl_JaqdwN5YSVsg",
+        "label": "laravel-news"
+      }
+    ],
     "podcasts": [
       {
         "feed": "https://feeds.transistor.fm/laravelnews",
