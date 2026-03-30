@@ -1,0 +1,10 @@
+{
+  "title": "SymfonyLive Berlin 2026",
+  "description": "A two-day conference held at CineStar CUBIX Berlin. The event includes two days of pre-conference training followed by two days of main conference talks.",
+  "location": "Berlin, Germany",
+  "startDate": "2026-04-23",
+  "endDate": "2026-04-24",
+  "url": "https://live.symfony.com/2026-berlin/",
+  "type": "conference",
+  "creatorId": "symfony"
+}

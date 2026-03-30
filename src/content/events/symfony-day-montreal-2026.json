@@ -1,0 +1,10 @@
+{
+  "title": "SymfonyDay Montreal 2026",
+  "description": "The first-ever SymfonyDay event in Montreal. A full day of inspiring technical talks in English, with opening and closing remarks in both English and French to celebrate the host city.",
+  "location": "Montreal, Canada",
+  "startDate": "2026-06-04",
+  "endDate": "2026-06-04",
+  "url": "https://live.symfony.com/2026-montreal/",
+  "type": "conference",
+  "creatorId": "symfony"
+}
