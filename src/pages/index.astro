@@ -27,10 +27,38 @@ const sorted = allNews.sort(
     (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
 );
 
-// Logic for our Layout
+// Logic for our Layout - Absolute latest for hero and sub-hero
 const heroPost = sorted[0];
 const subHeroPosts = sorted.slice(1, 4);
-const latestStories = sorted.slice(4, 10);
+
+// For "The Pulse", we want diversity. Pick the latest from unique creators first.
+const seenCreators = new Set([
+    heroPost.data.creatorId || heroPost.data.source,
+    ...subHeroPosts.map(post => post.data.creatorId || post.data.source)
+]);
+
+const latestStories: CollectionEntry<"news">[] = [];
+const remainingStories = sorted.slice(4);
+
+for (const post of remainingStories) {
+    if (latestStories.length >= 6) break;
+    
+    const creatorIdentifier = post.data.creatorId || post.data.source;
+    if (!seenCreators.has(creatorIdentifier)) {
+        latestStories.push(post);
+        seenCreators.add(creatorIdentifier);
+    }
+}
+
+// Fallback: if we don't have enough unique creators, fill with the next absolute latest
+if (latestStories.length < 6) {
+    for (const post of remainingStories) {
+        if (latestStories.length >= 6) break;
+        if (!latestStories.includes(post)) {
+            latestStories.push(post);
+        }
+    }
+}
 
 const channelData = YOUTUBE_CHANNELS.map((channel: YouTubeChannel) => {
     const videoCount = allVideos.filter((v: CollectionEntry<"videos">) => v.data.channel === channel.label).length;
