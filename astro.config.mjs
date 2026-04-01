@@ -8,9 +8,9 @@ import sitemap from "@astrojs/sitemap";
 export default defineConfig({
   env: {
     schema: {
-      PUBLIC_ALGOLIA_APP_ID: envField.string({ context: "client", access: "public" }),
-      PUBLIC_ALGOLIA_SEARCH_KEY: envField.string({ context: "client", access: "public" }),
-      ALGOLIA_WRITE_API_KEY: envField.string({ context: "server", access: "secret" }),
+      PUBLIC_ALGOLIA_APP_ID: envField.string({ context: "client", access: "public", optional: true }),
+      PUBLIC_ALGOLIA_SEARCH_KEY: envField.string({ context: "client", access: "public", optional: true }),
+      ALGOLIA_WRITE_API_KEY: envField.string({ context: "server", access: "secret", optional: true }),
     },
   },
   image: {

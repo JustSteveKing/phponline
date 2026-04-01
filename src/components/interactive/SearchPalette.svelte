@@ -5,8 +5,8 @@
 
     // Props
     interface Props {
-        appId: string;
-        searchKey: string;
+        appId?: string;
+        searchKey?: string;
     }
     let { appId, searchKey } = $props<Props>();
 
