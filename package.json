@@ -14,6 +14,7 @@
     "generate-og": "bun scripts/generate-og.ts",
     "generate-default-cover": "bun scripts/generate-default-cover.ts",
     "generate-favicons": "bun scripts/generate-favicons.ts",
+    "pull-issue": "bun scripts/pull-issue.ts",
     "preview": "astro preview",
     "astro": "astro"
   },

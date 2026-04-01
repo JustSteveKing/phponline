@@ -1,0 +1,15 @@
+{
+  "name": "Valerio Barbera",
+  "description": "PHP spftware engineer creator of Neuron AI, the first agentic framework of the PHP ecosystem.  While the world is moving fast toward \"Agentic\" software, all technology ecosystems were lagging the Python race. I built Neuron to bridge that gap in the PHP environment, turning it from an internal experiment at Inspector.dev into a global, open-source project. Today, Neuron is the gold standard for PHP developers building autonomous AI applications, and agentic systems in general.  You can read the full story here: https://inspector.dev/introduction-to-neuron-ai-create-full-featured-ai-agents-in-php/  As CTO of Inspector.dev, I’ve spent the last decade building software for companies across Europe. I grew Inspector from a scratch-built idea in 2019 to a core component of the tech stack for +1,000 companies in 40 countries.  I'm a very quite person, who likes to listen.",
+  "avatar": "https://avatars.githubusercontent.com/u/13559278",
+  "website": "https://neuron-ai.dev",
+  "twitter": "Barbalerio",
+  "sources": {
+    "youtube": [
+      {
+        "id": "UCuyk49zeESbAvBnOj-N1m-A",
+        "label": "Valerio Barbera"
+      }
+    ]
+  }
+}
