@@ -2,7 +2,11 @@ name: "Process Submissions"
 
 on:
   issues:
-    types: [opened, edited]
+    types: [opened, edited, labeled]
+
+permissions:
+  contents: write
+  pull-requests: write
 
 jobs:
   create-pr:
@@ -39,7 +43,7 @@ jobs:
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v6
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.REPO_SECRET }}
           commit-message: "feat: add submission from issue #${{ github.event.issue.number }}"
           title: "Submission from Issue #${{ github.event.issue.number }}"
           body: |
