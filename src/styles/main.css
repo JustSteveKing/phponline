@@ -6,4 +6,14 @@
   .prose {
     @apply dark:prose-invert transition-colors duration-300;
   }
+
+  .prose iframe,
+  .prose video,
+  .prose embed {
+    display: block;
+    width: 100% !important;
+    height: auto !important;
+    aspect-ratio: 16 / 9;
+    @apply rounded-2xl my-8;
+  }
 }

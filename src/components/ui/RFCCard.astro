@@ -8,6 +8,13 @@ interface Props {
 }
 
 const { item, class: className } = Astro.props;
+
+const description = item.data.content
+    ? item.data.content
+          .replace(/<\/?[^>]+(>|$)/g, "")
+          .replace(/&nbsp;/g, " ")
+          .substring(0, 200) + "..."
+    : "No description available for this RFC proposal.";
 ---
 
 <a 
@@ -26,7 +33,7 @@ const { item, class: className } = Astro.props;
     </h3>
     
     <p class="text-slate-500 dark:text-slate-400 text-sm mb-8 line-clamp-3 font-medium leading-relaxed">
-        {item.data.content || "No description available for this RFC proposal."}
+        {description}
     </p>
     
     <div class="mt-auto pt-6 border-t border-slate-50 dark:border-slate-800/50 flex items-center justify-between">

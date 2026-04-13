@@ -16,11 +16,20 @@ const parser = new Parser({
             ['itunes:episode', 'episode'],
             ['itunes:season', 'season'],
             ['itunes:summary', 'summary'],
+            ['itunes:image', 'itunesImage'],
             ['yt:videoId', 'videoId'],
             ['media:group', 'mediaGroup'],
         ],
     },
 });
+
+function safeString(val: any): string {
+    if (typeof val === 'string') return val;
+    if (val && typeof val === 'object') {
+        return val['_'] || val['$']?.['href'] || "";
+    }
+    return val || "";
+}
 
 export function phpCommunityLoader(feedUrls: typeof PHP_FEEDS): Loader {
   return {
@@ -49,7 +58,7 @@ export function phpCommunityLoader(feedUrls: typeof PHP_FEEDS): Loader {
                     if (urlObj.hash) {
                         pathSlug = urlObj.hash.replace('#', '');
                     } else {
-                        pathSlug = slugify(cleanTitle(item.title) || 'article');
+                        pathSlug = slugify(cleanTitle(safeString(item.title)) || 'article');
                     }
                 }
                 
@@ -57,10 +66,10 @@ export function phpCommunityLoader(feedUrls: typeof PHP_FEEDS): Loader {
                 const sourceSlug = slugify(feed.label);
                 id = `${sourceSlug}/${pathSlug}`;
             } catch (e) {
-                id = `${slugify(feed.label)}/${slugify(cleanTitle(item.title) || 'article')}`;
+                id = `${slugify(feed.label)}/${slugify(cleanTitle(safeString(item.title)) || 'article')}`;
             }
 
-            let content = item.content || item.contentSnippet || (item as any).summary || "";
+            let content = safeString(item.content || item.contentSnippet || (item as any).summary || "");
             const coverImage = item.enclosure?.url || extractImageFromHtml(content);
 
             try {
@@ -90,16 +99,16 @@ export function phpCommunityLoader(feedUrls: typeof PHP_FEEDS): Loader {
             store.set({
               id,
               data: {
-                title: cleanTitle(item.title),
+                title: cleanTitle(safeString(item.title)),
                 link: cleanAndTagUrl(item.link),
                 coverImage: coverImage,
                 pubDate: new Date(item.pubDate || ""),
                 content: content,
                 source: feed.label,
                 author: item.creator || data.title,
-                status: getStatus(item.title, feed.id),
+                status: getStatus(safeString(item.title), feed.id),
                 creatorId: feed.creatorId,
-                tags: extractTags(item.title || "", content),
+                tags: extractTags(safeString(item.title) || "", content),
               },
             });
           });
@@ -124,22 +133,37 @@ export function phpPodcastLoader(podcasts: typeof PODCAST_FEEDS): Loader {
           const data = await parser.parseURL(podcast.feed);
 
           data.items.forEach((item) => {
-            const episodeSlug = slugify(cleanTitle(item.title) || 'episode');
+            const episodeSlug = slugify(cleanTitle(safeString(item.title)) || 'episode');
             const podcastSlug = slugify(podcast.title);
             const id = `${podcastSlug}/${episodeSlug}`;
+
+            // Image handling for podcasts
+            let coverImage = safeString((item as any).itunesImage) || data.image?.url;
+            
+            // If the enclosure is an image, use it, otherwise don't use it (avoid MP3s)
+            const enclosureUrl = item.enclosure?.url;
+            const isImage = (url: any) => typeof url === 'string' && /\.(jpg|jpeg|png|webp|gif|svg)$/i.test(url);
+            
+            if (enclosureUrl && isImage(enclosureUrl)) {
+              coverImage = enclosureUrl;
+            } else if (coverImage && !isImage(coverImage)) {
+              // Fallback to podcast global image if episode image is invalid
+              coverImage = data.image?.url;
+            }
 
             store.set({
               id,
               data: {
-                title: cleanTitle(item.title),
+                title: cleanTitle(safeString(item.title)),
                 link: cleanAndTagUrl(item.link),
                 pubDate: new Date(item.pubDate || ""),
-                content: (item as any).summary || item.contentSnippet || item.content || "",
+                content: safeString((item as any).summary || item.contentSnippet || item.content || ""),
+                coverImage: coverImage,
                 podcast: podcast.title,
                 audioUrl: item.enclosure?.url,
-                duration: (item as any).duration,
-                episode: (item as any).episode,
-                season: (item as any).season,
+                duration: safeString((item as any).duration),
+                episode: safeString((item as any).episode),
+                season: safeString((item as any).season),
                 creatorId: podcast.creatorId,
               },
             });
@@ -167,7 +191,7 @@ export function phpYouTubeLoader(channels: typeof YOUTUBE_CHANNELS): Loader {
 
           data.items.forEach((item: any) => {
             const videoId = item.videoId || item.id?.split(':')?.pop();
-            const videoSlug = slugify(cleanTitle(item.title) || 'video');
+            const videoSlug = slugify(cleanTitle(safeString(item.title)) || 'video');
             const channelSlug = slugify(channel.label);
             const id = `${channelSlug}/${videoSlug}`;
 
@@ -179,10 +203,10 @@ export function phpYouTubeLoader(channels: typeof YOUTUBE_CHANNELS): Loader {
             store.set({
               id,
               data: {
-                title: cleanTitle(item.title),
+                title: cleanTitle(safeString(item.title)),
                 link: cleanAndTagUrl(item.link),
                 pubDate: new Date(item.pubDate || ""),
-                content: item.contentSnippet || item.content || "",
+                content: safeString(item.contentSnippet || item.content || ""),
                 channel: channel.label,
                 videoId: videoId,
                 thumbnail: thumbnail,

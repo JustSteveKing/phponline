@@ -1,0 +1,10 @@
+{
+  "title": "SymfonyCon Warsaw 2026",
+  "description": "The largest international Symfony conference. Two days of talks, two days of workshops, and a Hackday to celebrate Symfony's community and ecosystem.",
+  "location": "Warsaw, Poland",
+  "startDate": "2026-11-26",
+  "endDate": "2026-11-27",
+  "url": "https://live.symfony.com/2026-warsaw-con/",
+  "type": "conference",
+  "creatorId": "symfony"
+}

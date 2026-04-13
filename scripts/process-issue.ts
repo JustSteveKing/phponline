@@ -77,6 +77,9 @@ function processCreator(data: any) {
         }];
     }
     if (data.youtube_id) {
+        if (data.youtube_id.startsWith('@')) {
+            console.warn(`⚠️ Warning: YouTube handle "${data.youtube_id}" provided. Please manually replace it with a channel ID (UC...) in the generated JSON.`);
+        }
         sources.youtube = [{ id: data.youtube_id, label: data.name }];
     }
 

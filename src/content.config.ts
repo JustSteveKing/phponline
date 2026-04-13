@@ -93,6 +93,7 @@ export const collections = {
       link: z.string().url().optional(),
       pubDate: z.date(),
       content: z.string().optional(),
+      coverImage: z.string().url().optional(),
       podcast: z.string(),
       audioUrl: z.string().url().optional(),
       duration: z.string().optional(),
