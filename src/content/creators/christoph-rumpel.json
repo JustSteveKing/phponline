@@ -5,6 +5,18 @@
   "website": "https://christoph-rumpel.com",
   "twitter": "christophrumpel",
   "sources": {
-    "youtube": [{ "id": "UCdtd5QYBx9MUVXHm7qgEpxA", "label": "Christoph Rumpel" }]
+    "feeds": [
+      {
+        "url": "https://christoph-rumpel.com/feed",
+        "label": "chritoph-rumpel",
+        "type": "community"
+      }
+    ],
+    "youtube": [
+      {
+        "id": "UCdtd5QYBx9MUVXHm7qgEpxA",
+        "label": "Christoph Rumpel"
+      }
+    ]
   }
 }
