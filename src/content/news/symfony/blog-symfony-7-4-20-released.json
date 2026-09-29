@@ -1,0 +1,13 @@
+{
+  "id": "symfony/blog-symfony-7-4-20-released",
+  "title": "Symfony 7.4.20 released",
+  "link": "https://symfony.com/blog/symfony-7-4-20-released?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-09-29T14:07:35.000Z",
+  "content": "<html><head></head><body>Symfony 7.4.20 has just been released.\nRead the Symfony upgrade guide to learn more about upgrading Symfony\nand use the SymfonyInsight upgrade reports to detect the code you will\nneed to change in your project.\n\n    \n                    \n                Tip…</body></html>",
+  "source": "Symfony",
+  "author": " Fabien Potencier ",
+  "creatorId": "symfony",
+  "tags": [
+    "symfony"
+  ]
+}

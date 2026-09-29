@@ -1,0 +1,15 @@
+{
+  "id": "laravel-news/elastic-bridge",
+  "title": "Elastic Bridge: Eloquent-Style Queries for Elasticsearch and OpenSearch",
+  "link": "https://laravel-news.com/elastic-bridge?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "coverImage": "https://picperf.io/https://laravelnews.s3.amazonaws.com/featured-images/Elastic-Bridge-LN.png",
+  "pubDate": "2026-09-29T04:03:08.000Z",
+  "content": "<html><head></head><body><p><a href=\"https://laravel-news.com/elastic-bridge\"></a></p>\n                                        <hr>\n\n                    <p>Elastic Bridge brings fluent Elasticsearch and OpenSearch queries to Laravel, with model-style documents, aggregations, pagination, and testing fakes.</p>\n\n                    <p>The post <a href=\"https://laravel-news.com/elastic-bridge\">Elastic Bridge: Eloquent-Style Queries for Elasticsearch and OpenSearch</a> appeared first on <a href=\"https://laravel-news.com\">Laravel News</a>.</p>\n                    <p>Join the <a href=\"https://laravel-news.com/newsletter\">Laravel Newsletter</a> to get <a href=\"https://laravel-news.com\">Laravel</a> articles like this directly in your inbox.</p>\n\n                    </body></html>",
+  "source": "laravel-news",
+  "author": "Yannick Lyn Fatt",
+  "creatorId": "laravel-news",
+  "tags": [
+    "laravel",
+    "testing"
+  ]
+}

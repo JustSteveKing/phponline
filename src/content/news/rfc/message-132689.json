@@ -1,0 +1,14 @@
+{
+  "id": "rfc/message-132689",
+  "title": "Throw error for passwords longer than 72 bytes in password_hash with bcrypt",
+  "link": "https://externals.io/message/132689?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-09-29T11:33:05.000Z",
+  "content": "<html><head></head><body>[RFC] Throw error for passwords longer than 72 bytes in password_hash() with bcrypt</body></html>",
+  "source": "rfc",
+  "author": "#externals - Latest RFC Threads",
+  "status": "RFC",
+  "creatorId": "internals",
+  "tags": [
+    "internals"
+  ]
+}

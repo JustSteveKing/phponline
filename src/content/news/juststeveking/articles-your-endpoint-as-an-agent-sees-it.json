@@ -1,0 +1,11 @@
+{
+  "id": "juststeveking/articles-your-endpoint-as-an-agent-sees-it",
+  "title": "Your endpoint, as an agent sees it",
+  "link": "https://www.juststeveking.com/articles/your-endpoint-as-an-agent-sees-it/?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-09-24T00:00:00.000Z",
+  "content": "<html><head></head><body>An agent never reads your API. It reads a flattened projection of it, and the flattening loses things you did not know were losable. Here is how to look at yours.</body></html>",
+  "source": "juststeveking",
+  "author": "Steve McDougall — Articles",
+  "creatorId": "juststeveking",
+  "tags": []
+}
