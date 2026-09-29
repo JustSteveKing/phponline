@@ -5,8 +5,8 @@ import {
     NewsCard,
     Hero,
     SectionHeading,
-    Grid,
-    FeatureCard,
+    RFCCard,
+    EpisodeCard,
     CreatorPill,
     PHPHealthBanner,
     Sidebar,
@@ -22,6 +22,7 @@ import type { YouTubeChannel } from "@/types";
 
 const allNews: CollectionEntry<"news">[] = await getCollection("news");
 const allVideos = await getCollection("videos");
+const allEpisodes = await getCollection("episodes");
 
 const sorted = allNews.sort(
     (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
@@ -60,6 +61,16 @@ if (latestStories.length < 6) {
     }
 }
 
+// The foot of the page used to be two hand-written promo cards, one of them
+// claiming PHP 8.5 was in active development. The site holds the real thing.
+const latestRfcs = sorted
+    .filter((item: CollectionEntry<"news">) => item.data.source === "rfc")
+    .slice(0, 3);
+
+const latestEpisodes = allEpisodes
+    .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
+    .slice(0, 3);
+
 const channelData = YOUTUBE_CHANNELS.map((channel: YouTubeChannel) => {
     const videoCount = allVideos.filter((v: CollectionEntry<"videos">) => v.data.channel === channel.label).length;
     return {
@@ -91,7 +102,7 @@ const sd = {
     <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 mb-20">
         <!-- Main Content Area -->
         <div class="lg:col-span-8">
-            <SectionHeading title="Trending Now" viewAllHref="/archive/1" />
+            <SectionHeading title="Latest" viewAllHref="/archive/1" />
             <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                 {
                     subHeroPosts.map((post, i) => (
@@ -110,7 +121,7 @@ const sd = {
 
         <!-- Refined Sidebar -->
         <Sidebar top="top-8">
-            <SidebarCard title="The Pulse" badge={true}>
+            <SidebarCard title="Elsewhere" badge={true}>
                 <div class="space-y-6">
                     {latestStories.map((post) => <NewsCard item={post} />)}
                 </div>
@@ -154,22 +165,22 @@ const sd = {
         </div>
     </div>
 
-    <!-- Ecosystem Pulse -->
-    <div class="mb-20">
-        <SectionHeading title="Ecosystem Pulse" />
-        <Grid columns={2} gap="large">
-            <FeatureCard
-                title="RFC Tracker"
-                description="PHP 8.5 is in active development. Stay updated with the latest language proposals and voting results."
-                badge="Development"
-                href="/rfcs"
-            />
-            <FeatureCard
-                title="Community Podcasts"
-                description="Listen to the experts. We curate the best PHP podcasts to keep you informed on the go."
-                badge="Audio"
-                href="/podcasts"
-            />
-        </Grid>
-    </div>
+    <!-- Two sections of real content, where two promo cards used to sit. -->
+    {latestRfcs.length > 0 && (
+        <div class="mb-20">
+            <SectionHeading title="From internals" viewAllHref="/rfcs" />
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-8">
+                {latestRfcs.map((rfc) => <RFCCard item={rfc} />)}
+            </div>
+        </div>
+    )}
+
+    {latestEpisodes.length > 0 && (
+        <div class="mb-20">
+            <SectionHeading title="Latest episodes" viewAllHref="/podcasts" />
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-8">
+                {latestEpisodes.map((episode) => <EpisodeCard episode={episode} />)}
+            </div>
+        </div>
+    )}
 </Layout>
