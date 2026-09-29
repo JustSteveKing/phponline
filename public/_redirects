@@ -1,0 +1,4 @@
+# The source label carried a typo, so every article from it was published at
+# /news/chritoph-rumpel/... Renaming it fixed the id, which is the URL, so the
+# old paths are kept alive here rather than left to 404.
+/news/chritoph-rumpel/* /news/christoph-rumpel/:splat 301
