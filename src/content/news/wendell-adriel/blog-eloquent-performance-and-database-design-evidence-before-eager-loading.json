@@ -1,0 +1,15 @@
+{
+  "id": "wendell-adriel/blog-eloquent-performance-and-database-design-evidence-before-eager-loading",
+  "title": "Eloquent Performance and Database Design: Evidence Before Eager Loading",
+  "link": "https://wendelladriel.com/blog/eloquent-performance-and-database-design-evidence-before-eager-loading?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-09-10T00:00:00.000Z",
+  "content": "<html><head></head><body>A deep dive into Eloquent performance, from detecting N+1 queries to choosing aggregates, indexes, query plans, pagination, chunking, and transaction boundaries for a growing team dashboard.</body></html>",
+  "source": "wendell-adriel",
+  "author": "Wendell Adriel <contact@wendelladriel.com>",
+  "creatorId": "wendell-adriel",
+  "tags": [
+    "laravel",
+    "performance",
+    "databases"
+  ]
+}

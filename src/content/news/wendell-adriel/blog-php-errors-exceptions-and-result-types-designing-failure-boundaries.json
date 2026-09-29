@@ -1,0 +1,13 @@
+{
+  "id": "wendell-adriel/blog-php-errors-exceptions-and-result-types-designing-failure-boundaries",
+  "title": "PHP Errors, Exceptions, and Result Types: Designing Failure Boundaries",
+  "link": "https://wendelladriel.com/blog/php-errors-exceptions-and-result-types-designing-failure-boundaries?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-08-27T00:00:00.000Z",
+  "content": "<html><head></head><body>A deep dive into PHP failure boundaries, from validation and result types to exception translation, safe retries, background workers, observability, and testing partner-payment failures.</body></html>",
+  "source": "wendell-adriel",
+  "author": "Wendell Adriel <contact@wendelladriel.com>",
+  "creatorId": "wendell-adriel",
+  "tags": [
+    "testing"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "id": "wendell-adriel/blog-understanding-value-objects-in-php",
+  "title": "Understanding Value Objects in PHP",
+  "link": "https://wendelladriel.com/blog/understanding-value-objects-in-php?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2023-10-06T00:00:00.000Z",
+  "content": "<html><head></head><body>Value Objects is a fantastic concept that we can use to improve our applications. They are small objects, such as Money, DateRange, Email, or Age, that we utilize on complex applications. They are key elements in creating efficient, understandable, and maintainable code.</body></html>",
+  "source": "wendell-adriel",
+  "author": "Wendell Adriel <contact@wendelladriel.com>",
+  "creatorId": "wendell-adriel",
+  "tags": []
+}

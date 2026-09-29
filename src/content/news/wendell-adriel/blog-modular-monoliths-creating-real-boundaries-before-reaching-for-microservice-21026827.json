@@ -1,0 +1,14 @@
+{
+  "id": "wendell-adriel/blog-modular-monoliths-creating-real-boundaries-before-reaching-for-microservices",
+  "title": "Modular Monoliths: Creating Real Boundaries Before Reaching for Microservices",
+  "link": "https://wendelladriel.com/blog/modular-monoliths-creating-real-boundaries-before-reaching-for-microservices?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-08-20T00:00:00.000Z",
+  "content": "<html><head></head><body>A deep dive into modular monoliths, from module APIs and database ownership to cross-module communication, architecture tests, incremental migration, and the signals that justify microservices.</body></html>",
+  "source": "wendell-adriel",
+  "author": "Wendell Adriel <contact@wendelladriel.com>",
+  "creatorId": "wendell-adriel",
+  "tags": [
+    "architecture",
+    "databases"
+  ]
+}

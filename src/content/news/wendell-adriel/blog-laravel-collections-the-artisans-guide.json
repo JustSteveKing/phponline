@@ -1,0 +1,13 @@
+{
+  "id": "wendell-adriel/blog-laravel-collections-the-artisans-guide",
+  "title": "Laravel Collections: The Artisan's Guide",
+  "link": "https://wendelladriel.com/blog/laravel-collections-the-artisans-guide?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2023-01-16T00:00:00.000Z",
+  "content": "<html><head></head><body>Laravel Collections are really powerful for working with arrays of data. Let's learn how to use the methods they provide to improve our applications.</body></html>",
+  "source": "wendell-adriel",
+  "author": "Wendell Adriel <contact@wendelladriel.com>",
+  "creatorId": "wendell-adriel",
+  "tags": [
+    "laravel"
+  ]
+}

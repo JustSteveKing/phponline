@@ -1,0 +1,13 @@
+{
+  "id": "wendell-adriel/blog-standard-api-responses-with-laravel-responsables",
+  "title": "Standard API Responses With Laravel Responsables",
+  "link": "https://wendelladriel.com/blog/standard-api-responses-with-laravel-responsables?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2022-12-21T00:00:00.000Z",
+  "content": "<html><head></head><body>Data structure standards are the way to go for having good maintainability in our applications. Let's learn how we can use Laravel Responsables to create standardised API responses for our applications.</body></html>",
+  "source": "wendell-adriel",
+  "author": "Wendell Adriel <contact@wendelladriel.com>",
+  "creatorId": "wendell-adriel",
+  "tags": [
+    "laravel"
+  ]
+}

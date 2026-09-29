@@ -1,0 +1,13 @@
+{
+  "id": "wendell-adriel/blog-using-the-adr-action-domain-responder-pattern-in-laravel",
+  "title": "Using the ADR Pattern in Laravel",
+  "link": "https://wendelladriel.com/blog/using-the-adr-action-domain-responder-pattern-in-laravel?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-04-07T00:00:00.000Z",
+  "content": "<html><head></head><body>Learn what the ADR (Action/Domain/Responder) pattern is and how to apply it in Laravel with a simple, practical example.</body></html>",
+  "source": "wendell-adriel",
+  "author": "Wendell Adriel <contact@wendelladriel.com>",
+  "creatorId": "wendell-adriel",
+  "tags": [
+    "laravel"
+  ]
+}

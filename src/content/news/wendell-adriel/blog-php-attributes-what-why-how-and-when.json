@@ -1,0 +1,16 @@
+{
+  "id": "wendell-adriel/blog-php-attributes-what-why-how-and-when",
+  "title": "PHP Attributes: What, Why, How and When",
+  "link": "https://wendelladriel.com/blog/php-attributes-what-why-how-and-when?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-07-20T00:00:00.000Z",
+  "content": "<html><head></head><body>A deep dive into PHP attributes, from metadata and Reflection to practical design patterns, Laravel examples, performance, testing, and the cases where explicit code is better.</body></html>",
+  "source": "wendell-adriel",
+  "author": "Wendell Adriel <contact@wendelladriel.com>",
+  "creatorId": "wendell-adriel",
+  "tags": [
+    "laravel",
+    "performance",
+    "testing",
+    "architecture"
+  ]
+}

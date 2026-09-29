@@ -1,0 +1,14 @@
+{
+  "id": "wendell-adriel/blog-structuring-a-server-side-application",
+  "title": "Structuring a Server-Side Application",
+  "link": "https://wendelladriel.com/blog/structuring-a-server-side-application?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2022-08-05T00:00:00.000Z",
+  "content": "<html><head></head><body>Let's learn how we can structure a server-side application in a simple way, while using a clean and efficient architecture that could be used for small to large applications.</body></html>",
+  "source": "wendell-adriel",
+  "author": "Wendell Adriel <contact@wendelladriel.com>",
+  "creatorId": "wendell-adriel",
+  "tags": [
+    "architecture",
+    "devops"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "wendell-adriel/blog-everything-about-the-context-facade",
+  "title": "Everything About the Context Facade",
+  "link": "https://wendelladriel.com/blog/everything-about-the-context-facade?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-06-22T00:00:00.000Z",
+  "content": "<html><head></head><body>A deep dive into Laravel Context, from request metadata and automatic log enrichment to hidden context, scoped values, queues, scheduled commands, and internals.</body></html>",
+  "source": "wendell-adriel",
+  "author": "Wendell Adriel <contact@wendelladriel.com>",
+  "creatorId": "wendell-adriel",
+  "tags": [
+    "laravel",
+    "internals"
+  ]
+}

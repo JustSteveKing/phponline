@@ -1,0 +1,11 @@
+{
+  "id": "wendell-adriel/blog-why-to-use-custom-exceptions-in-php",
+  "title": "Why to use Custom Exceptions in PHP",
+  "link": "https://wendelladriel.com/blog/why-to-use-custom-exceptions-in-php?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2024-05-02T00:00:00.000Z",
+  "content": "<html><head></head><body>When creating applications with PHP, Exceptions play a vital role in handling errors and irregularities that arise during the application lifecycle. We are going to see how to use Custom Exceptions to improve our applications.</body></html>",
+  "source": "wendell-adriel",
+  "author": "Wendell Adriel <contact@wendelladriel.com>",
+  "creatorId": "wendell-adriel",
+  "tags": []
+}

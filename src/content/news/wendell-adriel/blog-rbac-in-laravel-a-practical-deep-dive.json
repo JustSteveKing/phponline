@@ -1,0 +1,13 @@
+{
+  "id": "wendell-adriel/blog-rbac-in-laravel-a-practical-deep-dive",
+  "title": "RBAC in Laravel: A Practical Deep Dive",
+  "link": "https://wendelladriel.com/blog/rbac-in-laravel-a-practical-deep-dive?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-04-20T00:00:00.000Z",
+  "content": "<html><head></head><body>A deep dive into Role-Based Access Control, from the theory behind roles and permissions to a practical, team-aware Laravel implementation without external packages.</body></html>",
+  "source": "wendell-adriel",
+  "author": "Wendell Adriel <contact@wendelladriel.com>",
+  "creatorId": "wendell-adriel",
+  "tags": [
+    "laravel"
+  ]
+}

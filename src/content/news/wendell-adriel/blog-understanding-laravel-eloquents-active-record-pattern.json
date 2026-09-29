@@ -1,0 +1,14 @@
+{
+  "id": "wendell-adriel/blog-understanding-laravel-eloquents-active-record-pattern",
+  "title": "Understanding Laravel Eloquent's Active Record Pattern",
+  "link": "https://wendelladriel.com/blog/understanding-laravel-eloquents-active-record-pattern?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2025-08-08T00:00:00.000Z",
+  "content": "<html><head></head><body>Laravel’s Eloquent makes it feel almost magical to move data in and out of your database. Under the hood, that magic is powered by the Active Record pattern, that's a straightforward way to treat a database row as a first-class PHP object with built-in CRUD behaviour.  In this article I'll explain what the Active Record pattern is, its pros and cons and we will build a tiny implementation of it in plain PHP for you to understand better the mechanics behind Eloquent.</body></html>",
+  "source": "wendell-adriel",
+  "author": "Wendell Adriel <contact@wendelladriel.com>",
+  "creatorId": "wendell-adriel",
+  "tags": [
+    "laravel",
+    "databases"
+  ]
+}

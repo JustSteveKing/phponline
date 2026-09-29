@@ -1,0 +1,14 @@
+{
+  "id": "wendell-adriel/blog-uuids-ulids-and-sqids-a-practical-deep-dive",
+  "title": "UUIDs, ULIDs and Sqids: A Practical Deep Dive",
+  "link": "https://wendelladriel.com/blog/uuids-ulids-and-sqids-a-practical-deep-dive?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-07-06T00:00:00.000Z",
+  "content": "<html><head></head><body>A practical deep dive into UUIDs, ULIDs, and Sqids, from generation models and sorting behavior to database storage, public IDs, and security trade-offs.</body></html>",
+  "source": "wendell-adriel",
+  "author": "Wendell Adriel <contact@wendelladriel.com>",
+  "creatorId": "wendell-adriel",
+  "tags": [
+    "security",
+    "databases"
+  ]
+}

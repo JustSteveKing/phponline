@@ -1,0 +1,13 @@
+{
+  "id": "wendell-adriel/blog-laravel-aaas-actions-as-a-service",
+  "title": "Laravel AaaS - Actions as a Service",
+  "link": "https://wendelladriel.com/blog/laravel-aaas-actions-as-a-service?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2023-01-23T00:00:00.000Z",
+  "content": "<html><head></head><body>Action classes and Invokable Controllers are a hot topic in Laravel nowadays. In this article I'll explain why I think Invokable Controllers are a bad idea and an architectural pattern I created and named as AaaS.</body></html>",
+  "source": "wendell-adriel",
+  "author": "Wendell Adriel <contact@wendelladriel.com>",
+  "creatorId": "wendell-adriel",
+  "tags": [
+    "laravel"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "id": "wendell-adriel/blog-avoid-the-aop-array-oriented-programming",
+  "title": "Avoid the AOP: Array-Oriented Programming",
+  "link": "https://wendelladriel.com/blog/avoid-the-aop-array-oriented-programming?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2023-09-26T00:00:00.000Z",
+  "content": "<html><head></head><body>Arrays are a convenient way of organizing and passing data in PHP applications, but should we do it? In this article, I'll show the cons of abusing the use of associative arrays and a simple alternative for that.</body></html>",
+  "source": "wendell-adriel",
+  "author": "Wendell Adriel <contact@wendelladriel.com>",
+  "creatorId": "wendell-adriel",
+  "tags": []
+}

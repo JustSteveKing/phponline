@@ -1,0 +1,13 @@
+{
+  "id": "wendell-adriel/blog-immutability-in-php-beyond-readonly",
+  "title": "Immutability in PHP Beyond readonly",
+  "link": "https://wendelladriel.com/blog/immutability-in-php-beyond-readonly?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-08-14T00:00:00.000Z",
+  "content": "<html><head></head><body>A deep dive into immutability in PHP, from readonly properties and interior mutability to immutable value objects, collections, dates, cloning, boundaries, and testing.</body></html>",
+  "source": "wendell-adriel",
+  "author": "Wendell Adriel <contact@wendelladriel.com>",
+  "creatorId": "wendell-adriel",
+  "tags": [
+    "testing"
+  ]
+}

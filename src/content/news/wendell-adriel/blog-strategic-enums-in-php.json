@@ -1,0 +1,13 @@
+{
+  "id": "wendell-adriel/blog-strategic-enums-in-php",
+  "title": "Strategic Enums in PHP",
+  "link": "https://wendelladriel.com/blog/strategic-enums-in-php?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2024-05-16T00:00:00.000Z",
+  "content": "<html><head></head><body>Enumerations, commonly known as Enums are a powerful tool in Software Development and can play an important role in the Architecture and Design of applications if used correctly. In this article let's review how we can strategically use them to improve our applications.</body></html>",
+  "source": "wendell-adriel",
+  "author": "Wendell Adriel <contact@wendelladriel.com>",
+  "creatorId": "wendell-adriel",
+  "tags": [
+    "architecture"
+  ]
+}

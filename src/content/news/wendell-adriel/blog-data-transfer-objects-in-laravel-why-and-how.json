@@ -1,0 +1,13 @@
+{
+  "id": "wendell-adriel/blog-data-transfer-objects-in-laravel-why-and-how",
+  "title": "Data Transfer Objects in Laravel - Why and How",
+  "link": "https://wendelladriel.com/blog/data-transfer-objects-in-laravel-why-and-how?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2022-12-16T00:00:00.000Z",
+  "content": "<html><head></head><body>Data Transfer Objects can be a great way to improve your applications. Let's learn why and how to use them in Laravel.</body></html>",
+  "source": "wendell-adriel",
+  "author": "Wendell Adriel <contact@wendelladriel.com>",
+  "creatorId": "wendell-adriel",
+  "tags": [
+    "laravel"
+  ]
+}

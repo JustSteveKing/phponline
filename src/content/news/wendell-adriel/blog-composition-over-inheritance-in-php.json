@@ -1,0 +1,11 @@
+{
+  "id": "wendell-adriel/blog-composition-over-inheritance-in-php",
+  "title": "Composition Over Inheritance in PHP",
+  "link": "https://wendelladriel.com/blog/composition-over-inheritance-in-php?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2023-10-02T00:00:00.000Z",
+  "content": "<html><head></head><body>The debate between the advantages and disadvantages of both composition and inheritance has taken centre stage in the PHP development community recently. In this article, I'll talk about those two concepts and the advantages of using Composition over Inheritance.</body></html>",
+  "source": "wendell-adriel",
+  "author": "Wendell Adriel <contact@wendelladriel.com>",
+  "creatorId": "wendell-adriel",
+  "tags": []
+}

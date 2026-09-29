@@ -1,0 +1,14 @@
+{
+  "id": "wendell-adriel/blog-eloquent-query-classes-pattern",
+  "title": "Eloquent Query Classes Pattern",
+  "link": "https://wendelladriel.com/blog/eloquent-query-classes-pattern?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-06-08T00:00:00.000Z",
+  "content": "<html><head></head><body>Learn how to use Eloquent Query Classes to organize important database logic in Laravel without adding a full repository layer.</body></html>",
+  "source": "wendell-adriel",
+  "author": "Wendell Adriel <contact@wendelladriel.com>",
+  "creatorId": "wendell-adriel",
+  "tags": [
+    "laravel",
+    "databases"
+  ]
+}

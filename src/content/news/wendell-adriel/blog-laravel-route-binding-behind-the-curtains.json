@@ -1,0 +1,13 @@
+{
+  "id": "wendell-adriel/blog-laravel-route-binding-behind-the-curtains",
+  "title": "Laravel Route Binding Behind the Curtains",
+  "link": "https://wendelladriel.com/blog/laravel-route-binding-behind-the-curtains?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-04-13T00:00:00.000Z",
+  "content": "<html><head></head><body>A deep dive into how Laravel transforms raw route segments into models, scoped children, enums, and custom bound values before your controller runs.</body></html>",
+  "source": "wendell-adriel",
+  "author": "Wendell Adriel <contact@wendelladriel.com>",
+  "creatorId": "wendell-adriel",
+  "tags": [
+    "laravel"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "wendell-adriel/blog-working-with-php-and-laravel-on-vscode",
+  "title": "Working with PHP and Laravel on VSCode",
+  "link": "https://wendelladriel.com/blog/working-with-php-and-laravel-on-vscode?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2025-11-10T00:00:00.000Z",
+  "content": "<html><head></head><body>After a lot of years working with PHP and Laravel on PHPStorm, I am trying to use VSCode and this is how I configured it for the task.</body></html>",
+  "source": "wendell-adriel",
+  "author": "Wendell Adriel <contact@wendelladriel.com>",
+  "creatorId": "wendell-adriel",
+  "tags": [
+    "laravel"
+  ]
+}

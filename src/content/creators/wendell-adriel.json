@@ -1,0 +1,16 @@
+{
+  "name": "Wendell Adriel",
+  "description": "Senior Software Engineer at Laravel and a columnist at PHP Architect.",
+  "avatar": "https://avatars.githubusercontent.com/WendellAdriel",
+  "website": "https://wendelladriel.com",
+  "twitter": "wendell_adriel",
+  "sources": {
+    "feeds": [
+      {
+        "url": "https://wendelladriel.com/feed.rss",
+        "label": "wendell-adriel",
+        "type": "community"
+      }
+    ]
+  }
+}

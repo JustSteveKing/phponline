@@ -1,0 +1,15 @@
+{
+  "id": "wendell-adriel/blog-improving-laravel-architecture-with-expressive",
+  "title": "Improving Laravel Architecture With Expressive",
+  "link": "https://wendelladriel.com/blog/improving-laravel-architecture-with-expressive?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-06-01T00:00:00.000Z",
+  "content": "<html><head></head><body>Learn how Expressive can improve a Laravel application by keeping Eloquent as the database layer while moving business logic to fully typed objects.</body></html>",
+  "source": "wendell-adriel",
+  "author": "Wendell Adriel <contact@wendelladriel.com>",
+  "creatorId": "wendell-adriel",
+  "tags": [
+    "laravel",
+    "architecture",
+    "databases"
+  ]
+}

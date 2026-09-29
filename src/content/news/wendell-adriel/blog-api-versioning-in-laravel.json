@@ -1,0 +1,13 @@
+{
+  "id": "wendell-adriel/blog-api-versioning-in-laravel",
+  "title": "API Versioning in Laravel",
+  "link": "https://wendelladriel.com/blog/api-versioning-in-laravel?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2022-12-29T00:00:00.000Z",
+  "content": "<html><head></head><body>Have you ever heard of API versioning? This is very handy when you need to add an alternative logic for some endpoints but want to keep the current logic for some users. Let's learn a simple way to achieve that in Laravel.</body></html>",
+  "source": "wendell-adriel",
+  "author": "Wendell Adriel <contact@wendelladriel.com>",
+  "creatorId": "wendell-adriel",
+  "tags": [
+    "laravel"
+  ]
+}

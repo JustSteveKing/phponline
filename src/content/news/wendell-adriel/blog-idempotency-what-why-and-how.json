@@ -1,0 +1,13 @@
+{
+  "id": "wendell-adriel/blog-idempotency-what-why-and-how",
+  "title": "Idempotency: What, Why and How",
+  "link": "https://wendelladriel.com/blog/idempotency-what-why-and-how?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-04-27T00:00:00.000Z",
+  "content": "<html><head></head><body>A deep dive into idempotency, from the theory behind safe retries to a practical Laravel implementation using the Laravel Idempotency package.</body></html>",
+  "source": "wendell-adriel",
+  "author": "Wendell Adriel <contact@wendelladriel.com>",
+  "creatorId": "wendell-adriel",
+  "tags": [
+    "laravel"
+  ]
+}
