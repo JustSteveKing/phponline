@@ -1,0 +1,11 @@
+{
+  "id": "php/id2017-03-16-2",
+  "title": "PHP 7.1.3 Released",
+  "link": "http://php.net/index.php?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev#id2017-03-16-2",
+  "pubDate": "2017-03-16T15:34:44.000Z",
+  "content": "<html><head></head><body><div type=\"xhtml\"><div xmlns=\"http://www.w3.org/1999/xhtml\"><p>The PHP development team announces the immediate availability of PHP\n          7.1.3. Several bugs have been fixed.\n\n          All PHP 7.1 users are encouraged to upgrade to this version.\n          </p><p>For source downloads of PHP 7.1.3 please visit our ,\n          Windows source and binaries can be found on .\n          The list of changes is recorded in the .\n          <a href=\"http://www.php.net/downloads.php\">downloads page</a><a href=\"http://windows.php.net/download/\">windows.php.net/download/</a><a href=\"http://www.php.net/ChangeLog-7.php#7.1.3\">ChangeLog</a></p></div></div></body></html>",
+  "source": "php",
+  "author": "PHP.net news & announcements",
+  "creatorId": "php-net",
+  "tags": []
+}

@@ -1,0 +1,14 @@
+{
+  "id": "laravel/blog-forge-meilisearch-server-type",
+  "title": "Forge: MeiliSearch Server Type",
+  "link": "https://laravel.com/blog/forge-meilisearch-server-type?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2021-03-15T13:55:00.000Z",
+  "content": "<html><head></head><body>Today we're excited to announce [MeiliSearch](https://meilisearch.com) as a new addition to the recently released [Server Types](https://laravel.com/blog//forge-introducing-new-server-types) feature....</body></html>",
+  "source": "laravel",
+  "author": "James Brooks",
+  "creatorId": "laravel",
+  "tags": [
+    "laravel",
+    "devops"
+  ]
+}

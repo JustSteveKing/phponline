@@ -1,0 +1,14 @@
+{
+  "id": "laravel/blog-forge-php-80-is-now-supported",
+  "title": "Forge: PHP 8.0 Is Now Supported",
+  "link": "https://laravel.com/blog/forge-php-80-is-now-supported?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2020-11-30T16:41:00.000Z",
+  "content": "<html><head></head><body>As you may know, Forge allows you to specify which PHP version a given site runs on. Of course, we want you to be able to use the latest PHP features as soon as possible. Beginning today, you may choose PHP 8.0 while creating a new server.</body></html>",
+  "source": "laravel",
+  "author": "James Brooks",
+  "creatorId": "laravel",
+  "tags": [
+    "php8",
+    "devops"
+  ]
+}

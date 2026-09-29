@@ -1,0 +1,13 @@
+{
+  "id": "laravel/blog-building-multi-agent-workflows-with-the-laravel-ai-sdk",
+  "title": "Building Multi-Agent Workflows with the Laravel AI SDK",
+  "link": "https://laravel.com/blog/building-multi-agent-workflows-with-the-laravel-ai-sdk?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-03-13T17:31:12.000Z",
+  "content": "<html><head></head><body>Build Anthropic's five multi-agent patterns with the Laravel AI SDK, from prompt chaining and routing to parallelization, and more.</body></html>",
+  "source": "laravel",
+  "author": "Pushpak Chhajed",
+  "creatorId": "laravel",
+  "tags": [
+    "laravel"
+  ]
+}

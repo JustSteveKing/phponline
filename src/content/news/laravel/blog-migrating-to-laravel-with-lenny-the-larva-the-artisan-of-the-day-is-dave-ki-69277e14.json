@@ -1,0 +1,13 @@
+{
+  "id": "laravel/blog-migrating-to-laravel-with-lenny-the-larva-the-artisan-of-the-day-is-dave-kiss",
+  "title": "Migrating to Laravel with Lenny the Larva. The Artisan of the Day Is Dave Kiss.",
+  "link": "https://laravel.com/blog/migrating-to-laravel-with-lenny-the-larva-the-artisan-of-the-day-is-dave-kiss?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2025-08-15T09:42:25.000Z",
+  "content": "<html><head></head><body>Dave Kiss shows that switching frameworks doesn't have to be scary, and walks through a Next.js to Laravel migration in the company of Lenny the larva.</body></html>",
+  "source": "laravel",
+  "author": "Ana Tavares",
+  "creatorId": "laravel",
+  "tags": [
+    "laravel"
+  ]
+}

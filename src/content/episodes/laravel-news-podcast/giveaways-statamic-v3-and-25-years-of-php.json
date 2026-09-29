@@ -1,0 +1,14 @@
+{
+  "id": "laravel-news-podcast/giveaways-statamic-v3-and-25-years-of-php",
+  "title": "Giveaways, Statamic v3, and 25 years of PHP",
+  "link": "https://podcast.laravel-news.com/108?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2019-12-10T15:00:00.000Z",
+  "content": "Jake and Michael discuss all the latest Laravel releases, tutorials, and happenings in the community.",
+  "coverImage": "https://img.transistorcdn.com/o0s5do7P5yhGxkwBA_cFY9Mnb6Lqeoc8ASe6PjuuYlg/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9lcGlz/b2RlLzE2NDI5Ni8x/NTc2MzQxMDY0LWFy/dHdvcmsuanBn.jpg",
+  "podcast": "Laravel News Podcast",
+  "audioUrl": "https://media.transistor.fm/0c7d35df/eda4da2a.mp3",
+  "duration": "1853",
+  "episode": "108",
+  "season": "",
+  "creatorId": "laravel-news"
+}

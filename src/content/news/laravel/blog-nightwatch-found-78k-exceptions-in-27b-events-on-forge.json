@@ -1,0 +1,13 @@
+{
+  "id": "laravel/blog-nightwatch-found-78k-exceptions-in-27b-events-on-forge",
+  "title": "Nightwatch Found 78K Exceptions in 2.7B Events on Forge",
+  "link": "https://laravel.com/blog/nightwatch-found-78k-exceptions-in-27b-events-on-forge?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2025-06-25T12:26:00.000Z",
+  "content": "<html><head></head><body>How we tested Laravel monitoring using Nightwatch on Forge to surface real-world insights from 2.76 billion events.</body></html>",
+  "source": "laravel",
+  "author": "Jess Archer",
+  "creatorId": "laravel",
+  "tags": [
+    "laravel"
+  ]
+}

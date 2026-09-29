@@ -1,0 +1,13 @@
+{
+  "id": "laravel/blog-forge-new-load-balancer-features",
+  "title": "Forge: New Load Balancer Features",
+  "link": "https://laravel.com/blog/forge-new-load-balancer-features?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2020-08-12T15:06:00.000Z",
+  "content": "<html><head></head><body>Beginning today, you may now customize the \"weight\" of your load balancer servers, indicating that some servers should serve more traffic than others.\n\nIn addition, you may now specify servers as \"bac...</body></html>",
+  "source": "laravel",
+  "author": "Taylor Otwell",
+  "creatorId": "laravel",
+  "tags": [
+    "devops"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "laravel/blog-your-symfony-app-now-runs-on-laravel-cloud",
+  "title": "Your Symfony app now runs on Laravel Cloud",
+  "link": "https://laravel.com/blog/your-symfony-app-now-runs-on-laravel-cloud?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-06-29T13:00:00.000Z",
+  "content": "<html><head></head><body>Run your Symfony app on Laravel Cloud. Deploy faster, cut infrastructure costs, and spend your time building features instead of managing hosting.</body></html>",
+  "source": "laravel",
+  "author": "Laravel Team",
+  "creatorId": "laravel",
+  "tags": [
+    "laravel",
+    "symfony",
+    "devops"
+  ]
+}

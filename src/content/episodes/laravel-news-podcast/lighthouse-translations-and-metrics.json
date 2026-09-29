@@ -1,0 +1,14 @@
+{
+  "id": "laravel-news-podcast/lighthouse-translations-and-metrics",
+  "title": "Lighthouse, translations, and metrics",
+  "link": "https://podcast.laravel-news.com/73?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2018-11-06T15:00:00.000Z",
+  "content": "Jake and Michael discuss all the latest Laravel releases, tutorials, and happenings in the community.",
+  "coverImage": "https://img.transistorcdn.com/YhSMJmx4mifCxwvF6LG-Bi3wnXezufE4M1imFMaEFJs/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9lcGlz/b2RlLzE2NDI2MS8x/NTc2MzQwOTEzLWFy/dHdvcmsuanBn.jpg",
+  "podcast": "Laravel News Podcast",
+  "audioUrl": "https://media.transistor.fm/48fb4641/802f692b.mp3",
+  "duration": "1878",
+  "episode": "73",
+  "season": "",
+  "creatorId": "laravel-news"
+}

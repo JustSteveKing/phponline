@@ -1,0 +1,15 @@
+{
+  "id": "foundation/blog-2026-09-09-welcome-daniel-scherzer",
+  "title": "Welcoming Daniel Scherzer to the Ecosystem Security Team",
+  "link": "https://thephp.foundation/blog/2026/09/09/welcome-daniel-scherzer/?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-09-09T00:00:00.000Z",
+  "content": "<html><head></head><body><p>When the Ecosystem Security Team was established with funding from the <a href=\"https://thephp.foundation/blog/2026/05/18/announcing-ecosystem-security-team/\">Alpha-Omega “Security Engineer in Residence” grant</a>, its mission was to improve the security of all aspects of the PHP ecosystem. Under the leadership of Volker Dusch, the team has <a href=\"https://thephp.foundation/blog/2026/06/23/one-month-of-ecosystem-security-engineering/\">accomplished many things</a>.</p>\n\n<p>As predicted, the increasing popularity of AI tools has brought an influx of security reports and PRs from the community to php-src itself. The triaging, reviewing, and handling of issues that do not fall within PHP’s definition of a <a href=\"https://github.com/php/php-src/blob/master/SECURITY.md\">“security vulnerability,”</a> but that do improve the quality of PHP are tasks that are time-consuming for both php-src maintainers and for Volker and the team. Even if these are not security issues, they are useful hardening work and impactful nonetheless. These fixes also prevent future reports that would generate increased workload for the team.</p>\n\n<p>To help manage this influx, the PHP Foundation is happy to add <a href=\"https://scherzer.dev/\">Daniel Scherzer</a> to the Ecosystem Security Team on a short-term basis, as part of the aforementioned Alpha-Omega grant. Daniel will be working on this body of outstanding issues that harden PHP but that do not qualify as security vulnerabilities.</p>\n\n<p>Daniel got his start in open-source software by contributing to PHP, where he currently serves as the maintainer of the Reflection extension, as a release manager for PHP 8.5, and as the veteran release manager for PHP 8.6. Daniel will be a huge asset not only to the Ecosystem Security Team but also to the PHP community, through his work on hardening PHP itself.</p>\n\n<p>Welcome, Daniel!</p>\n</body></html>",
+  "source": "foundation",
+  "author": "The PHP Foundation",
+  "creatorId": "the-php-foundation",
+  "tags": [
+    "security",
+    "php8",
+    "internals"
+  ]
+}

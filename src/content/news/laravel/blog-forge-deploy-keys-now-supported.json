@@ -1,0 +1,13 @@
+{
+  "id": "laravel/blog-forge-deploy-keys-now-supported",
+  "title": "Forge: Deploy Keys Now Supported",
+  "link": "https://laravel.com/blog/forge-deploy-keys-now-supported?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2021-01-25T09:35:00.000Z",
+  "content": "<html><head></head><body>Forge is used by agencies all over the world to provision servers and deploy sites on behalf of their clients.\n\nCurrently, when Forge provisions a server, that server's SSH key is added to the SSH key...</body></html>",
+  "source": "laravel",
+  "author": "James Brooks",
+  "creatorId": "laravel",
+  "tags": [
+    "devops"
+  ]
+}

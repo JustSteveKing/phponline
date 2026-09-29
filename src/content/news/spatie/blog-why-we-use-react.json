@@ -1,0 +1,13 @@
+{
+  "id": "spatie/blog-why-we-use-react",
+  "title": "Why we use React",
+  "link": "https://spatie.be/blog/why-we-use-react?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2025-07-28T07:43:19.000Z",
+  "content": "<html><head></head><body><p>Where possible, we try to stick with the popular choice for our tools. There's a lot of value in sticking to defaults. We only stray away from them when we have a really good reason. In the case of Laravel (and Inertia), the popular choice would be Vue, but we've landed on React. Why? Story time!</p>\n\n            </body></html>",
+  "source": "spatie",
+  "author": "Spatie: Blog",
+  "creatorId": "spatie",
+  "tags": [
+    "laravel"
+  ]
+}

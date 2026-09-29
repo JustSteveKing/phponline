@@ -1,0 +1,13 @@
+{
+  "id": "laravel/blog-forge-aws-vpc-subnet-improvements",
+  "title": "Forge AWS VPC / Subnet Improvements",
+  "link": "https://laravel.com/blog/forge-aws-vpc-subnet-improvements?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2018-10-22T16:46:00.000Z",
+  "content": "<html><head></head><body>Beginning today, Forge now allows you to select the subnet that AWS servers should be place in when provisioning. This feature gives you more control over the network configuration of your Forge AWS servers.</body></html>",
+  "source": "laravel",
+  "author": "Taylor Otwell",
+  "creatorId": "laravel",
+  "tags": [
+    "devops"
+  ]
+}

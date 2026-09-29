@@ -1,0 +1,11 @@
+{
+  "id": "laravel/blog-forge-revoking-letsencrypt-certificates",
+  "title": "Forge: Revoking LetsEncrypt Certificates",
+  "link": "https://laravel.com/blog/forge-revoking-letsencrypt-certificates?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2020-03-03T13:59:00.000Z",
+  "content": "<html><head></head><body>On February 29 2020, Let's Encrypt discovered a bug affecting millions of issued SSL certificates. These certificates will be revoked on March 4th. You can read the announcement on [LetsEncrypt websit...</body></html>",
+  "source": "laravel",
+  "author": "Mohamed Said",
+  "creatorId": "laravel",
+  "tags": []
+}

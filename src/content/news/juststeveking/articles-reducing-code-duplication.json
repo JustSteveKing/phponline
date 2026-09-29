@@ -1,0 +1,13 @@
+{
+  "id": "juststeveking/articles-reducing-code-duplication",
+  "title": "Reducing code duplication",
+  "link": "https://www.juststeveking.com/articles/reducing-code-duplication/?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2023-01-26T00:00:00.000Z",
+  "content": "<html><head></head><body>Learn to reduce code duplication in Laravel using artisan commands and services for better code quality.</body></html>",
+  "source": "juststeveking",
+  "author": "Steve McDougall — Articles",
+  "creatorId": "juststeveking",
+  "tags": [
+    "laravel"
+  ]
+}

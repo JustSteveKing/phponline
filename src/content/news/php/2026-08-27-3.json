@@ -1,0 +1,13 @@
+{
+  "id": "php/2026-08-27-3",
+  "title": "PHP 8.5.10 Released!",
+  "link": "https://www.php.net/index.php?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev#2026-08-27-3",
+  "pubDate": "2026-08-27T22:44:37.000Z",
+  "content": "<html><head></head><body><div type=\"xhtml\"><div xmlns=\"http://www.w3.org/1999/xhtml\"><p>The PHP development team announces the immediate availability of PHP 8.5.10. This is a bug fix release.</p><p>All PHP 8.5 users are encouraged to upgrade to this version.</p><p>For source downloads of PHP 8.5.10 please visit our ,\nWindows source and binaries can also be found .\nThe list of changes is recorded in the .\n<a href=\"https://www.php.net/downloads.php\">downloads page</a><a href=\"https://www.php.net/downloads.php?os=windows&amp;version=8.5\">there</a><a href=\"https://www.php.net/ChangeLog-8.php#8.5.10\">ChangeLog</a></p></div></div></body></html>",
+  "source": "php",
+  "author": "PHP.net news & announcements",
+  "creatorId": "php-net",
+  "tags": [
+    "php8"
+  ]
+}

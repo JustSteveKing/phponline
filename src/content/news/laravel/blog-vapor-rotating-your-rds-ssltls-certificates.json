@@ -1,0 +1,13 @@
+{
+  "id": "laravel/blog-vapor-rotating-your-rds-ssltls-certificates",
+  "title": "Vapor: Rotating Your RDS SSL/TLS Certificates",
+  "link": "https://laravel.com/blog/vapor-rotating-your-rds-ssltls-certificates?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2020-01-10T17:57:00.000Z",
+  "content": "<html><head></head><body>Amazon RDS has published new SSL/TLS certificates for connecting to your RDS databases. The current certificates will expire on March 5th, 2020.\n\nAll Vapor users using RDS databases in their projects...</body></html>",
+  "source": "laravel",
+  "author": "Mohamed Said",
+  "creatorId": "laravel",
+  "tags": [
+    "databases"
+  ]
+}

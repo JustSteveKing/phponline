@@ -1,0 +1,13 @@
+{
+  "id": "laravel/blog-airlock-renamed-to-sanctum",
+  "title": "Airlock Renamed To Sanctum",
+  "link": "https://laravel.com/blog/airlock-renamed-to-sanctum?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2020-03-20T19:50:00.000Z",
+  "content": "<html><head></head><body>Due to a trademark dispute regarding the name \"Airlock\", we have renamed Laravel Airlock to Laravel Sanctum ([https://github.com/laravel/sanctum](https://github.com/laravel/sanctum)) and have tagged i...</body></html>",
+  "source": "laravel",
+  "author": "Taylor Otwell",
+  "creatorId": "laravel",
+  "tags": [
+    "laravel"
+  ]
+}

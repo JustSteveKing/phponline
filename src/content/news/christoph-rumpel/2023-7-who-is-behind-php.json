@@ -1,0 +1,15 @@
+{
+  "id": "christoph-rumpel/2023-7-who-is-behind-php",
+  "title": "Who Is Behind PHP",
+  "link": "https://christoph-rumpel.com/2023/7/who-is-behind-php?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2023-07-10T20:04:28.000Z",
+  "content": "<html><head></head><body>PHP, the language driving the web, commands a staggering 77.4% share among websites reporting their server-side programming language. With its remarkable growth in recent years, PHP has solidified its position as a mature and feature-rich language favored by major industry players. But have you ever wondered about the masterminds behind PHP's evolution? Who calls the shots on new features and future versions? What is this \"core team\" or the \"internals\" you might have heard of? In this article, we are going to answer these questions and more.\n            </body></html>",
+  "source": "christoph-rumpel",
+  "author": "Christoph Rumpel Blog Feed",
+  "creatorId": "christoph-rumpel",
+  "tags": [
+    "internals",
+    "architecture",
+    "devops"
+  ]
+}

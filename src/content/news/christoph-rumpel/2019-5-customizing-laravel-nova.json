@@ -1,0 +1,13 @@
+{
+  "id": "christoph-rumpel/2019-5-customizing-laravel-nova",
+  "title": "Customizing Laravel Nova",
+  "link": "https://christoph-rumpel.com/2019/5/customizing-laravel-nova?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2019-05-07T20:04:28.000Z",
+  "content": "<html><head></head><body>The latest Laravel product, Nova, has taken the community by storm. The way you can build a simple backend in like no time is astonishing. But still, every project is different, and we need to tweak Nova here and there to make it fit our needs. With this article, I want to provide some helpful tips on how to customize Laravel Nova.\n            </body></html>",
+  "source": "christoph-rumpel",
+  "author": "Christoph Rumpel Blog Feed",
+  "creatorId": "christoph-rumpel",
+  "tags": [
+    "laravel"
+  ]
+}

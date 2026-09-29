@@ -1,0 +1,14 @@
+{
+  "id": "laravel-news-podcast/mix-cashier-and-web-dev-on-an-ipad",
+  "title": "Mix, Cashier, and web dev on an iPad",
+  "link": "https://podcast.laravel-news.com/77?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2019-01-22T15:00:00.000Z",
+  "content": "Jake and Michael discuss all the latest Laravel releases, tutorials, and happenings in the community.",
+  "coverImage": "https://img.transistorcdn.com/M3bl1pyyOZeZtXVPjJqD_DlJSeFZNOC3fNrBrqG4WGk/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9lcGlz/b2RlLzE2NDI2NS8x/NTc2MzQwOTI5LWFy/dHdvcmsuanBn.jpg",
+  "podcast": "Laravel News Podcast",
+  "audioUrl": "https://media.transistor.fm/9e91e044/55ad29d0.mp3",
+  "duration": "2640",
+  "episode": "77",
+  "season": "",
+  "creatorId": "laravel-news"
+}

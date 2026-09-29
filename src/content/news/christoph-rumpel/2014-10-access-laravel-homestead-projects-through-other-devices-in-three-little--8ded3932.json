@@ -1,0 +1,13 @@
+{
+  "id": "christoph-rumpel/2014-10-access-laravel-homestead-projects-through-other-devices-in-three-little-steps",
+  "title": "Access Laravel Homestead projects through other devices in three little steps",
+  "link": "https://christoph-rumpel.com/2014/10/access-laravel-homestead-projects-through-other-devices-in-three-little-steps?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2014-10-08T20:04:28.000Z",
+  "content": "<html><head></head><body>Working with virtual machines like Homestead (which is a Vagrant machine) is perfect. You can fit your environment for your project needs and Homestead is perfect for Laravel. But there is one downside too. You can't access this site from outside of your computer. At least that is what you might think like I did. It is possible and I will explain you how to manage that in three simple steps.\n            </body></html>",
+  "source": "christoph-rumpel",
+  "author": "Christoph Rumpel Blog Feed",
+  "creatorId": "christoph-rumpel",
+  "tags": [
+    "laravel"
+  ]
+}

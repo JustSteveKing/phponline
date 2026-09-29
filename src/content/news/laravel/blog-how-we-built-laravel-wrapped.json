@@ -1,0 +1,15 @@
+{
+  "id": "laravel/blog-how-we-built-laravel-wrapped",
+  "title": "How We Built Laravel Wrapped",
+  "link": "https://laravel.com/blog/how-we-built-laravel-wrapped?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2025-12-17T16:40:59.000Z",
+  "content": "<html><head></head><body>Learn how Laravel's team built Laravel Wrapped in two weeks: aggregating data across products, generating 55K AI summaries, and shipping with Cloud's speed.</body></html>",
+  "source": "laravel",
+  "author": "Ana Tavares",
+  "creatorId": "laravel",
+  "tags": [
+    "laravel",
+    "performance",
+    "devops"
+  ]
+}

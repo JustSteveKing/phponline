@@ -1,0 +1,13 @@
+{
+  "id": "juststeveking/articles-setting-up-your-data-model-in-laravel",
+  "title": "Setting up your Data Model in Laravel",
+  "link": "https://www.juststeveking.com/articles/setting-up-your-data-model-in-laravel/?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2022-09-20T00:00:00.000Z",
+  "content": "<html><head></head><body>Master the art of Laravel data modeling and build a meeting room booking system with this comprehensive tutorial.</body></html>",
+  "source": "juststeveking",
+  "author": "Steve McDougall — Articles",
+  "creatorId": "juststeveking",
+  "tags": [
+    "laravel"
+  ]
+}

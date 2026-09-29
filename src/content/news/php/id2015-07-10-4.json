@@ -1,0 +1,14 @@
+{
+  "id": "php/id2015-07-10-4",
+  "title": "PHP 7.0.0 Beta 1 Released",
+  "link": "http://php.net/index.php?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev#id2015-07-10-4",
+  "pubDate": "2015-07-10T22:30:00.000Z",
+  "content": "<html><head></head><body><div type=\"xhtml\"><div xmlns=\"http://www.w3.org/1999/xhtml\"><p>\n        The PHP development team announces the immediate availability of\n        PHP 7.0.0 Beta 1. This is the third pre-release of the new PHP 7\n        major series. All users of PHP are encouraged to test this version carefully,\n        and report any bugs and incompatibilities in .\n     <a href=\"https://bugs.php.net\">the bug tracking system</a></p><p>\n     Beta 1 marks the feature complete phase. From now on, fundamental\n     changes are not to be expected. What's more, this release brings\n     over 200 commits with about 25 reported bug fixes, as well as security,\n     stability and other improvements. However it was delayed to catch up with\n     the latest OpenSSL release issued on July 9th.\n     </p><p>\n      PHP 7.0.0 comes with new version of the Zend Engine with features such as (incomplete list):\n     </p><p>\n      For more information on the new features and other changes, you can read the\n      , or the\n      \n      for a complete list of upgrading notes. These files can also be found in the release archive.\n     <a href=\"https://github.com/php/php-src/blob/php-7.0.0beta1/NEWS\">NEWS file</a><a href=\"https://github.com/php/php-src/blob/php-7.0.0beta1/UPGRADING\">UPGRADING file</a></p><p>\n      For source downloads of PHP 7.0.0 Beta 1 please visit\n      the , Windows source and binaries\n      can be found on .\n     <a href=\"https://downloads.php.net/ab/\">download page</a><a href=\"http://windows.php.net/qa/\">windows.php.net/qa/</a></p><p>\n      The next release will be Beta 2, which is to be released on the 23rd of July. You can also\n      read the full list of planned releases on our .\n     <a href=\"https://wiki.php.net/todo/php70#timetable\">wiki</a></p><p>\n        Thank you for helping us make PHP better.\n     </p><strong>THIS IS A DEVELOPMENT PREVIEW - DO  USE IT IN PRODUCTION!<u>NOT</u></strong><ul><li>Improved performance: PHP 7 is up to twice as fast as PHP 5.6</li><li>Consistent 64-bit support</li><li>Many fatal errors are now Exceptions</li><li>Removal of old and unsupported SAPIs and extensions</li><li>The null coalescing operator (??)</li><li>Combined comparison Operator (&lt;=&gt;)</li><li>Return Type Declarations</li><li>Scalar Type Declarations</li><li>Anonymous Classes</li></ul></div></div></body></html>",
+  "source": "php",
+  "author": "PHP.net news & announcements",
+  "creatorId": "php-net",
+  "tags": [
+    "security",
+    "performance"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "id": "php/id2017-10-26-2",
+  "title": "PHP 7.2.0 Release Candidate 5 Released",
+  "link": "http://php.net/index.php?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev#id2017-10-26-2",
+  "pubDate": "2017-10-26T16:26:36.000Z",
+  "content": "<html><head></head><body><div type=\"xhtml\"><div xmlns=\"http://www.w3.org/1999/xhtml\"><p>\n     The PHP development team announces the immediate availability of PHP 7.2.0 RC5.\n     This release is the fifth Release Candidate for 7.2.0.\n     All users of PHP are encouraged to test this version carefully, and report any bugs\n     and incompatibilities in the .\n     <a href=\"https://bugs.php.net/\">bug tracking system</a></p><p><strong>THIS IS A DEVELOPMENT PREVIEW - DO NOT USE IT IN PRODUCTION!</strong></p><p>\n     For more information on the new features and other changes, you can read the\n      file,\n     or the \n     file for a complete list of upgrading notes. These files can also be found in the release archive.\n     <a href=\"https://github.com/php/php-src/blob/php-7.2.0RC5/NEWS\">NEWS</a><a href=\"https://github.com/php/php-src/blob/php-7.2.0RC5/UPGRADING\">UPGRADING</a></p><p>\n     For source downloads of PHP 7.2.0 Release Candidate 5 please visit the\n      page,\n     Windows sources and binaries can be found at\n     .\n     <a href=\"https://downloads.php.net/~pollita/\">download</a><a href=\"http://windows.php.net/qa/\">windows.php.net/qa/</a></p><p>\n     The next Release Candidate will be announced on the 9th of November.\n     You can also read the full list of planned releases on\n     .\n     <a href=\"https://wiki.php.net/todo/php72\">our wiki</a></p><p>Thank you for helping us make PHP better.</p></div></div></body></html>",
+  "source": "php",
+  "author": "PHP.net news & announcements",
+  "creatorId": "php-net",
+  "tags": []
+}

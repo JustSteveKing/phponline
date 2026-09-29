@@ -1,0 +1,13 @@
+{
+  "id": "laravel/blog-herd-1-dot-11",
+  "title": "Herd 1.11 Now Available",
+  "link": "https://laravel.com/blog/herd-1-dot-11?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2024-09-12T18:51:00.000Z",
+  "content": "<html><head></head><body>We're thrilled to announce the next big step for Laravel Herd, making the best development environment for macOS and Windows users even better. This update ships an integration with Laravel Forge, a profiler, a way to store your project configuration in your repository, and massive improvements for the dump debugger.</body></html>",
+  "source": "laravel",
+  "author": "Taylor Otwell",
+  "creatorId": "laravel",
+  "tags": [
+    "laravel"
+  ]
+}

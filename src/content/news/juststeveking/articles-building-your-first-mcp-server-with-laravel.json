@@ -1,0 +1,16 @@
+{
+  "id": "juststeveking/articles-building-your-first-mcp-server-with-laravel",
+  "title": "Building your first MCP server with Laravel",
+  "link": "https://www.juststeveking.com/articles/building-your-first-mcp-server-with-laravel/?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2025-10-09T00:00:00.000Z",
+  "content": "<html><head></head><body>Learn how to build a Laravel MCP server for task management with tools, resources, prompts, Sanctum auth, Pest testing, and Claude integration.</body></html>",
+  "source": "juststeveking",
+  "author": "Steve McDougall — Articles",
+  "creatorId": "juststeveking",
+  "tags": [
+    "laravel",
+    "security",
+    "testing",
+    "devops"
+  ]
+}

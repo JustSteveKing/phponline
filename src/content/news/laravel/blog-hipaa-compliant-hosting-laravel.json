@@ -1,0 +1,14 @@
+{
+  "id": "laravel/blog-hipaa-compliant-hosting-laravel",
+  "title": "Laravel Private Cloud is now HIPAA compliant",
+  "link": "https://laravel.com/blog/hipaa-compliant-hosting-laravel?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-08-25T22:21:00.000Z",
+  "content": "<html><head></head><body>Laravel Private Cloud is now HIPAA compliant. See what the certification covers, what a BAA gets you, and how to secure PHI in your Laravel app.</body></html>",
+  "source": "laravel",
+  "author": "Laravel Team",
+  "creatorId": "laravel",
+  "tags": [
+    "laravel",
+    "devops"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "id": "juststeveking/articles-the-second-pattern-claim-check",
+  "title": "The Second Pattern: Claim Check",
+  "link": "https://www.juststeveking.com/articles/the-second-pattern-claim-check/?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-08-31T00:00:00.000Z",
+  "content": "<html><head></head><body>A payload that is 40KB almost always and 12MB occasionally cannot be sized for. Making it smaller is not the fix, because the problem is the channel it is moving through.</body></html>",
+  "source": "juststeveking",
+  "author": "Steve McDougall — Articles",
+  "creatorId": "juststeveking",
+  "tags": []
+}

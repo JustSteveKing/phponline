@@ -1,0 +1,13 @@
+{
+  "id": "juststeveking/articles-building-research",
+  "title": "Building Research",
+  "link": "https://www.juststeveking.com/articles/building-research/?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-08-26T00:00:00.000Z",
+  "content": "<html><head></head><body>A desktop research workspace in Laravel and NativePHP. Streaming SSE into a queued job, distilling reports with a local model, and why cosine similarity cannot tell a paraphrase from a contradiction.</body></html>",
+  "source": "juststeveking",
+  "author": "Steve McDougall — Articles",
+  "creatorId": "juststeveking",
+  "tags": [
+    "laravel"
+  ]
+}

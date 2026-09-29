@@ -1,0 +1,13 @@
+{
+  "id": "juststeveking/articles-laravel-command-bus",
+  "title": "Laravel Command Bus",
+  "link": "https://www.juststeveking.com/articles/laravel-command-bus/?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2022-05-13T00:00:00.000Z",
+  "content": "<html><head></head><body>Implement Command Bus in Laravel for efficient code management. Learn to create command handlers and integrate them seamlessly into your projects.</body></html>",
+  "source": "juststeveking",
+  "author": "Steve McDougall — Articles",
+  "creatorId": "juststeveking",
+  "tags": [
+    "laravel"
+  ]
+}

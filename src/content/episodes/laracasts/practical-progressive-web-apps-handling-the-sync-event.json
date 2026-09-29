@@ -1,0 +1,12 @@
+{
+  "id": "laracasts/practical-progressive-web-apps-handling-the-sync-event",
+  "title": "Practical Progressive Web Apps\n: Handling The Sync Event",
+  "link": "https://laracasts.com/episodes/4161?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-08-18T09:00:00.000Z",
+  "content": "Now that we're registering a sync event, we need to teach our service worker how to actually...",
+  "podcast": "Laracasts",
+  "duration": "",
+  "episode": "",
+  "season": "",
+  "creatorId": "laracasts"
+}

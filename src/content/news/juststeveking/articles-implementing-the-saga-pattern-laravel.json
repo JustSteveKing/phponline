@@ -1,0 +1,13 @@
+{
+  "id": "juststeveking/articles-implementing-the-saga-pattern-laravel",
+  "title": "Implementing the Saga Pattern in a Laravel Monolith",
+  "link": "https://www.juststeveking.com/articles/implementing-the-saga-pattern-laravel/?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-03-09T00:00:00.000Z",
+  "content": "<html><head></head><body>Learn how to implement the Saga pattern in Laravel to coordinate external APIs, recover from failures, and keep data consistent.</body></html>",
+  "source": "juststeveking",
+  "author": "Steve McDougall — Articles",
+  "creatorId": "juststeveking",
+  "tags": [
+    "laravel"
+  ]
+}

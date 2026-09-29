@@ -1,0 +1,11 @@
+{
+  "id": "laravel/blog-vapor-managing-dns",
+  "title": "Vapor: Managing DNS",
+  "link": "https://laravel.com/blog/vapor-managing-dns?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2022-09-23T12:03:00.000Z",
+  "content": "<html><head></head><body>In this post, we'll discuss the different approaches to managing your DNS when attaching a custom domain to your Vapor project.</body></html>",
+  "source": "laravel",
+  "author": "Joe Dixon",
+  "creatorId": "laravel",
+  "tags": []
+}

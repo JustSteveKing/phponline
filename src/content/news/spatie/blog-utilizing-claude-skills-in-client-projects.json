@@ -1,0 +1,14 @@
+{
+  "id": "spatie/blog-utilizing-claude-skills-in-client-projects",
+  "title": "Utilizing Claude Skills in client projects",
+  "link": "https://spatie.be/blog/utilizing-claude-skills-in-client-projects?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-05-07T11:50:42.000Z",
+  "content": "<html><head></head><body><p>How I use AI skills in a real client project to speed up repetitive Laravel development. From Saloon request classes and DTOs to Livewire components and custom registrations.</p>\n\n            </body></html>",
+  "source": "spatie",
+  "author": "Spatie: Blog",
+  "creatorId": "spatie",
+  "tags": [
+    "laravel",
+    "performance"
+  ]
+}

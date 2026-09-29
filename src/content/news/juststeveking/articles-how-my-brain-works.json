@@ -1,0 +1,11 @@
+{
+  "id": "juststeveking/articles-how-my-brain-works",
+  "title": "Eighteen Files And One Nix Module: How My Brain Works",
+  "link": "https://www.juststeveking.com/articles/how-my-brain-works/?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-08-11T00:00:00.000Z",
+  "content": "<html><head></head><body>The Obsidian vault I use as a system of record for every project, why the checkouts inside it are gitignored, and why half of it is generated from my NixOS flake.</body></html>",
+  "source": "juststeveking",
+  "author": "Steve McDougall — Articles",
+  "creatorId": "juststeveking",
+  "tags": []
+}

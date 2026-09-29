@@ -1,0 +1,14 @@
+{
+  "id": "laravel-news-podcast/chopping-extensions-exploring-sqlite-and-auth-screens",
+  "title": "Chopping extensions, exploring SQLite, and auth screens",
+  "link": "https://podcast.laravel-news.com/218?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2024-07-04T14:00:00.000Z",
+  "content": "\n        <p>Jake and Michael discuss all the latest Laravel releases, tutorials, and happenings in the community.</p><p>This episode is sponsored by <a href=\"https://sentry.io/\"><strong>Sentry</strong></a> - code breaks, fix it faster. Don't just observe, take action today!</p><p><strong>Show links</strong></p><ul><li><a href=\"https://laravel-news.com/laravel-11-12-0\">Artisan `make` Commands Automatically Chop `.php` Extension in Laravel 11.12 </a></li><li><a href=\"https://laravel-news.com/laravel-worldwide-meetup-june-2024\">The June 2024 Laravel Worldwide Meetup is Today </a></li><li><a href=\"https://laravel-news.com/behind-the-code\">Behind the Code: A Discussion with Backend Experts including Taylor Otwell </a></li><li><a href=\"https://laravel-news.com/sqlite-studio\">SQLite Studio is a SQLite Database Explorer </a></li><li><a href=\"https://laravel-news.com/laravel-cart-package\">A Lightweight Cart Package for Laravel </a></li><li><a href=\"https://laravel-news.com/inertia-table\">Build Tables Based on Eloquent Models with Inertia Table </a></li><li><a href=\"https://laravel-news.com/laravel-auth-screens\">Auth Screens for Your Laravel Apps </a></li><li><a href=\"https://laravel-news.com/run-single-tests-skip-tests-phpunit-and-pest\">Running a Single Test, Skipping Tests, and Other Tips and Tricks </a></li><li><a href=\"https://laravel-news.com/laravel-real-time-chat\">Adding Real Time Chat to Laravel Using Reverb &amp; Vue </a></li></ul>\n      ",
+  "coverImage": "https://img.transistorcdn.com/qmJ1PPS58Dv5ZdzfP2OsERDEhhL_6EPX8Tjmyurk5f0/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9zaG93/LzY0MDUvMTY5NDc4/NzE0OS1hcnR3b3Jr/LmpwZw.jpg",
+  "podcast": "Laravel News Podcast",
+  "audioUrl": "https://media.transistor.fm/01bbb766/5c5fce92.mp3",
+  "duration": "1576",
+  "episode": "218",
+  "season": "",
+  "creatorId": "laravel-news"
+}

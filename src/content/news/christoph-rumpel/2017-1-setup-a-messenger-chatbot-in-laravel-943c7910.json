@@ -1,0 +1,13 @@
+{
+  "id": "christoph-rumpel/2017-1-Setup-a-messenger-chatbot-in-laravel",
+  "title": "Setup a Facebook Messenger chatbot in Laravel",
+  "link": "https://christoph-rumpel.com/2017/1/Setup-a-messenger-chatbot-in-laravel?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2017-01-08T20:04:28.000Z",
+  "content": "<html><head></head><body>There is a new PHP library called BotMan that makes it super easy to setup a Facebook Messenger chatbot in Laravel. Let's do this.\n            </body></html>",
+  "source": "christoph-rumpel",
+  "author": "Christoph Rumpel Blog Feed",
+  "creatorId": "christoph-rumpel",
+  "tags": [
+    "laravel"
+  ]
+}

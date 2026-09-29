@@ -1,0 +1,14 @@
+{
+  "id": "laravel-news-podcast/cashier-inertiajs-and-confident-laravel",
+  "title": "Cashier, Inertia.js, and Confident Laravel",
+  "link": "https://podcast.laravel-news.com/89?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2019-08-20T14:00:00.000Z",
+  "content": "Jake and Michael discuss all the latest Laravel releases, tutorials, and happenings in the community.",
+  "coverImage": "https://img.transistorcdn.com/GGVLP35ohEK1cdgEuDjXX_dsQwuLVYpyJR2-qw0WtYY/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9lcGlz/b2RlLzE2NDI3Ny8x/NTc2MzQwOTc4LWFy/dHdvcmsuanBn.jpg",
+  "podcast": "Laravel News Podcast",
+  "audioUrl": "https://media.transistor.fm/b75f18fa/11c5eec5.mp3",
+  "duration": "2332",
+  "episode": "89",
+  "season": "",
+  "creatorId": "laravel-news"
+}

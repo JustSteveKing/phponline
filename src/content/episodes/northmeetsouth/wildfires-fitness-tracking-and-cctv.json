@@ -1,0 +1,14 @@
+{
+  "id": "northmeetsouth/wildfires-fitness-tracking-and-cctv",
+  "title": "Wildfires, Fitness Tracking, and CCTV",
+  "link": "https://share.transistor.fm/s/627c0a3e?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-07-17T05:53:48.000Z",
+  "content": "\n        <p>Michael and Jake catch up ahead of Laracon in Boston, beginning with Michael's increasingly complicated home extension. Jake shares a family trip to Cedar Point, then the conversation moves to how a Laravel Cloud weekend challenge inspired Michael to build Fitrack, a personal app for coordinating training around a single fitness goal. </p><p><br>We then move on to home network and security upgrades, including a larger rack cabinet, a new NAS, locally accessible alarms and CCTV, Power over Ethernet cameras, Home Assistant, HomeKit, RTSP feeds, and using Claude to handle unfamiliar smart-home configuration. We also discuss Kitze hacking his NordicTrack treadmill and Michael’s experience connecting his own treadmill with Apple Fitness.</p><p><br>Finally, Michael and Jake look ahead to Laracon, discuss conference merchandise and accommodation in Boston, and finish with a conversation about donuts, candy, and the lengths parents go to when quietly disposing of their children’s leftover sweets.</p><p><strong>Show links</strong></p><ul><li><a href=\"https://www.sixflags.com/cedarpoint\">Cedar Point</a></li><li><a href=\"https://cloud.laravel.com/\">Laravel Cloud</a></li><li><a href=\"https://x.com/taylorotwell/status/2075667366646858222\">Taylor’s Laravel Cloud weekend shipping challenge</a></li><li><a href=\"https://x.com/edwinencomienda/status/2076258283854454992\">Edwin’s Google Meet alternative</a></li><li><a href=\"https://fitrack.laravel.cloud/\">Fitrack</a></li><li><a href=\"https://x.com/davidhemphill\">David Hemphill</a></li><li><a href=\"https://www.home-assistant.io/\">Home Assistant</a></li><li><a href=\"https://www.aqarastore.com.au/\">Aqara cameras</a></li><li><a href=\"https://x.com/thekitze/status/2077785844828807244\">Kitze's treadmill hack</a></li><li><a href=\"https://x.com/calebporzio/status/2077794057741357065\">Caleb Porzio on code imprinting on our brains</a></li><li><a href=\"https://laracon.us/\">Laracon US</a></li><li><a href=\"https://www.marriott.com/en-us/hotels/bosox-moxy-boston-downtown/overview/\">Moxy Boston Downtown</a></li></ul>\n      ",
+  "coverImage": "https://img.transistorcdn.com/gTGjKd44Qy-t3yz9_V60jp8N2Qe5KN4QwfB-5FNuQPM/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9zaG93/LzQ4ODMvMTU3Mjc3/NzAzNi1hcnR3b3Jr/LmpwZw.jpg",
+  "podcast": "NorthMeetSouth",
+  "audioUrl": "https://media.transistor.fm/627c0a3e/90835c17.mp3",
+  "duration": "2800",
+  "episode": "197",
+  "season": "",
+  "creatorId": "northmeetsouth"
+}

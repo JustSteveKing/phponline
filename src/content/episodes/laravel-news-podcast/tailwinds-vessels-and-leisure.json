@@ -1,0 +1,14 @@
+{
+  "id": "laravel-news-podcast/tailwinds-vessels-and-leisure",
+  "title": "Tailwinds, Vessels, and Leisure",
+  "link": "https://podcast.laravel-news.com/49?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2017-11-07T13:22:00.000Z",
+  "content": "Jake and Michael discuss new Laravel 5.5 features, community projects, and news and packages from the Laravel community.",
+  "coverImage": "https://img.transistorcdn.com/v27s_CoNoEuIqEGs9kYg6_iNS80Acwp50EMfxPGLxVE/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9lcGlz/b2RlLzE2NDIzNy8x/NTc2MzQwODExLWFy/dHdvcmsuanBn.jpg",
+  "podcast": "Laravel News Podcast",
+  "audioUrl": "https://media.transistor.fm/046a2b02/ac2053f3.mp3",
+  "duration": "3112",
+  "episode": "49",
+  "season": "",
+  "creatorId": "laravel-news"
+}

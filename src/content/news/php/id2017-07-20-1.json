@@ -1,0 +1,11 @@
+{
+  "id": "php/id2017-07-20-1",
+  "title": "PHP 7.2.0 Beta 1 Released",
+  "link": "http://php.net/index.php?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev#id2017-07-20-1",
+  "pubDate": "2017-07-20T12:00:00.000Z",
+  "content": "<html><head></head><body><div type=\"xhtml\"><div xmlns=\"http://www.w3.org/1999/xhtml\"><p>\n     The PHP development team announces the immediate availability of PHP 7.2.0 Beta 1.\n     This release is the first beta for 7.2.0. All users of PHP are encouraged to test this\n     version carefully, and report any bugs and incompatibilities in the\n     .\n     <a href=\"https://bugs.php.net/\">bug tracking system</a></p><p><strong>THIS IS A DEVELOPMENT PREVIEW - DO NOT USE IT IN PRODUCTION!</strong></p><p>PHP 7.2.0 Beta 1 builds on previous releases with:</p><p>\n     For more information on the new features and other changes, you can read the\n      file,\n     or the \n     file for a complete list of upgrading notes. These files can also be found in the release archive.\n     <a href=\"https://github.com/php/php-src/blob/php-7.2.0beta1/NEWS\">NEWS</a><a href=\"https://github.com/php/php-src/blob/php-7.2.0beta1/UPGRADING\">UPGRADING</a></p><p>\n     For source downloads of PHP 7.2.0 Beta 1 please visit the\n      page,\n     Windows sources and binaries can be found at\n     .\n     <a href=\"https://downloads.php.net/~pollita/\">download</a><a href=\"http://windows.php.net/qa/\">windows.php.net/qa/</a></p><p>\n     The second beta will be released on the 3rd of August.\n     You can also read the full list of planned releases on\n     .\n     <a href=\"https://wiki.php.net/todo/php72\">our wiki</a></p><p>Thank you for helping us make PHP better.</p><ul><li>The much anticipated Sodium extension</li><li>Opcache improvements</li><li>Countable support for DOMNodeList and DOMNamedNodeMap</li><li>Improved handling for invalid UTF8 in json_decode()</li><li>And many bugfixes...</li></ul></div></div></body></html>",
+  "source": "php",
+  "author": "PHP.net news & announcements",
+  "creatorId": "php-net",
+  "tags": []
+}

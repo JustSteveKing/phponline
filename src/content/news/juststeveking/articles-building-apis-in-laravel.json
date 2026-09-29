@@ -1,0 +1,13 @@
+{
+  "id": "juststeveking/articles-building-apis-in-laravel",
+  "title": "Building APIs in Laravel",
+  "link": "https://www.juststeveking.com/articles/building-apis-in-laravel/?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2023-01-31T00:00:00.000Z",
+  "content": "<html><head></head><body>Explore effective API design in Laravel; Learn to focus on integration, eliminate pain points, and create user-centered, scalable APIs with practical examples.</body></html>",
+  "source": "juststeveking",
+  "author": "Steve McDougall — Articles",
+  "creatorId": "juststeveking",
+  "tags": [
+    "laravel"
+  ]
+}

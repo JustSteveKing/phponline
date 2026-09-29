@@ -1,0 +1,13 @@
+{
+  "id": "juststeveking/articles-your-first-laravel-9-application",
+  "title": "Your first Laravel 9 Application",
+  "link": "https://www.juststeveking.com/articles/your-first-laravel-9-application/?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2022-11-22T00:00:00.000Z",
+  "content": "<html><head></head><body>If you have never built a Laravel application, let me take a walk-through with you from scratch - with no perceived knowledge. Follow along to learn Laravel.</body></html>",
+  "source": "juststeveking",
+  "author": "Steve McDougall — Articles",
+  "creatorId": "juststeveking",
+  "tags": [
+    "laravel"
+  ]
+}

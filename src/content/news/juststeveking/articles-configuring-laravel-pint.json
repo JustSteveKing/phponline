@@ -1,0 +1,13 @@
+{
+  "id": "juststeveking/articles-configuring-laravel-pint",
+  "title": "Configuring Laravel Pint",
+  "link": "https://www.juststeveking.com/articles/configuring-laravel-pint/?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2023-01-12T00:00:00.000Z",
+  "content": "<html><head></head><body>Discover how to tailor Laravel Pint, a PHP CS Fixer wrapper, to your coding standards with a personal guide on rule implementation and customization.</body></html>",
+  "source": "juststeveking",
+  "author": "Steve McDougall — Articles",
+  "creatorId": "juststeveking",
+  "tags": [
+    "laravel"
+  ]
+}

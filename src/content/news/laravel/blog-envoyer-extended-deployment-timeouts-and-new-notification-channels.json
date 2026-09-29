@@ -1,0 +1,13 @@
+{
+  "id": "laravel/blog-envoyer-extended-deployment-timeouts-and-new-notification-channels",
+  "title": "Envoyer: Extended Deployment Timeouts and New Notification Channels",
+  "link": "https://laravel.com/blog/envoyer-extended-deployment-timeouts-and-new-notification-channels?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2020-09-17T10:02:00.000Z",
+  "content": "<html><head></head><body>We're excited to announce a few changes we've just shipped to [Envoyer](https://envoyer.io).\n\nExtended Deployment Timeouts \n-----------------------------\n\nStarting today, all customers on the **Premiu...</body></html>",
+  "source": "laravel",
+  "author": "James Brooks",
+  "creatorId": "laravel",
+  "tags": [
+    "devops"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "php/id2019-06-19-1",
+  "title": "LaravelConf Taiwan 2019 announcement",
+  "link": "http://php.net/conferences/index.php?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev#id2019-06-19-1",
+  "pubDate": "2019-06-19T14:46:22.000Z",
+  "content": "<html><head></head><body><div type=\"xhtml\"><div xmlns=\"http://www.w3.org/1999/xhtml\"><p>The third Laravel conference in Taiwan awaits you at LaravelConf Taiwan 2019 at Taipei, Taiwan.</p><p> is for anyone who is passionate about building web applications, or anyone who is sharing better experiences about PHP developments.<a href=\"https://laravelconf.tw/\">LaravelConf Taiwan 2019</a></p><p>LaravelConf Taiwan 2019 brings PHP developers, Laravel framework lovers, and experts together and hosts 10 sessions in multiple track conference on July 13, 2019.</p><p><b>Our focus this year is:</b></p><p>Come to enjoy the knowledge and socialize with other Laravel artisans.</p><p>For more infromation: <a href=\"https://laravelconf.tw/\">https://laravelconf.tw</a></p><p>Our facebook page: <a href=\"https://www.facebook.com/laravelconftw/\">https://www.facebook.com/laravelconftw</a></p><br><br><br><br><ul><li>Laravel core concepts</li><li>The best practices about tracing source code</li><li>The best practices about editor usage</li><li>The best practices about system architecture</li><li>The magic things about Laravel packages</li></ul></div></div></body></html>",
+  "source": "php",
+  "author": "PHP.net news & announcements",
+  "creatorId": "php-net",
+  "tags": [
+    "laravel",
+    "internals",
+    "architecture"
+  ]
+}

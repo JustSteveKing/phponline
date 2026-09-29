@@ -1,0 +1,13 @@
+{
+  "id": "juststeveking/articles-effective-eloquent",
+  "title": "Effective Eloquent",
+  "link": "https://www.juststeveking.com/articles/effective-eloquent/?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2022-12-20T00:00:00.000Z",
+  "content": "<html><head></head><body>Explore advanced Eloquent querying in Laravel with a focus on efficient ORM usage for a banking app, including user accounts and transactions management.</body></html>",
+  "source": "juststeveking",
+  "author": "Steve McDougall — Articles",
+  "creatorId": "juststeveking",
+  "tags": [
+    "laravel"
+  ]
+}

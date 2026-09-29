@@ -1,0 +1,11 @@
+{
+  "id": "laravel/blog-vapor-improvements-to-postgres",
+  "title": "Vapor: Postgres Improvements",
+  "link": "https://laravel.com/blog/vapor-improvements-to-postgres?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2022-07-22T15:51:00.000Z",
+  "content": "<html><head></head><body>In the latest release of Vapor, we’ve made some big improvements to our support for Postgres.</body></html>",
+  "source": "laravel",
+  "author": "Joe Dixon",
+  "creatorId": "laravel",
+  "tags": []
+}

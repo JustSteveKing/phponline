@@ -1,0 +1,13 @@
+{
+  "id": "laravel/blog-wildcard-letsencrypt-certificates-on-forge",
+  "title": "Wildcard LetsEncrypt Certificates on Forge",
+  "link": "https://laravel.com/blog/wildcard-letsencrypt-certificates-on-forge?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2018-03-16T16:41:00.000Z",
+  "content": "<html><head></head><body>Today we’re happy to announce support for wildcard LetsEncrypt certificates on Laravel Forge. Of course, like other certificates, these certificates will automatically be renewed by Forge.</body></html>",
+  "source": "laravel",
+  "author": "Taylor Otwell",
+  "creatorId": "laravel",
+  "tags": [
+    "laravel"
+  ]
+}

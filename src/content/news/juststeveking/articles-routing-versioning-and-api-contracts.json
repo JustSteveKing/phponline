@@ -1,0 +1,13 @@
+{
+  "id": "juststeveking/articles-routing-versioning-and-api-contracts",
+  "title": "Building Modern Laravel APIs: Routing, Versioning, and API Contracts",
+  "link": "https://www.juststeveking.com/articles/routing-versioning-and-api-contracts/?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-04-10T00:00:00.000Z",
+  "content": "<html><head></head><body>Learn how to version Laravel API routes, signal deprecations with Sunset headers, and keep API contracts aligned with your implementation.</body></html>",
+  "source": "juststeveking",
+  "author": "Steve McDougall — Articles",
+  "creatorId": "juststeveking",
+  "tags": [
+    "laravel"
+  ]
+}

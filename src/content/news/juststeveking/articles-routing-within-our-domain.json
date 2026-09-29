@@ -1,0 +1,14 @@
+{
+  "id": "juststeveking/articles-routing-within-our-domain",
+  "title": "Routing within our Domain",
+  "link": "https://www.juststeveking.com/articles/routing-within-our-domain/?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2022-05-04T00:00:00.000Z",
+  "content": "<html><head></head><body>Learn how to manage routes in Laravel DDD by creating domain-specific route files and using service providers for cleaner and more organized code.</body></html>",
+  "source": "juststeveking",
+  "author": "Steve McDougall — Articles",
+  "creatorId": "juststeveking",
+  "tags": [
+    "laravel",
+    "architecture"
+  ]
+}

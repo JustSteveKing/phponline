@@ -1,0 +1,14 @@
+{
+  "id": "northmeetsouth/diy-woodwork-react-micro-frontends-and-confusing-openjsonapischema",
+  "title": "DIY woodwork, React micro-frontends, and confusing OpenJSONAPISchema",
+  "link": "https://share.transistor.fm/s/56295de5?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2023-09-28T10:58:29.000Z",
+  "content": "\n        <p>In this episode, Jake and Michael discuss building your own monitor stand, the mysterious world of React micro-frontends, and get confused about JSON API, Open API, Swagger, and JSON Schema.</p><p>This episode is brought to you by our friends at <a href=\"https://www.workvivo.com/\">Workvivo</a> - The leading employee communication app.</p><p><strong>Show links</strong></p><ul><li><a href=\"https://ugmonk.com/en-au/blogs/journal/my-diy-monitor-stand\">DIY monitor stand</a></li><li><a href=\"https://micro-frontends.org/\">Micro-frontends</a></li><li><a href=\"https://module-federation.github.io/\">Module federation</a></li><li><a href=\"https://jsonapi.org/\">JSON:API</a></li><li><a href=\"https://stackoverflow.com/questions/64828587/openapi-vs-jsonapi\">OpenAPI vs JSON:API</a></li><li><a href=\"https://apisyouwonthate.com/blog/json-api-openapi-and-json-schema/\">JSON:API, OpenAPI, and JSON Schema working in harmony</a></li><li><a href=\"https://github.com/sixlive/json-schema-assertions\">sixlive/json-schema-assertions</a></li></ul>\n      ",
+  "coverImage": "https://img.transistorcdn.com/gTGjKd44Qy-t3yz9_V60jp8N2Qe5KN4QwfB-5FNuQPM/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9zaG93/LzQ4ODMvMTU3Mjc3/NzAzNi1hcnR3b3Jr/LmpwZw.jpg",
+  "podcast": "NorthMeetSouth",
+  "audioUrl": "https://media.transistor.fm/56295de5/e681f1bf.mp3",
+  "duration": "2423",
+  "episode": "144",
+  "season": "",
+  "creatorId": "northmeetsouth"
+}

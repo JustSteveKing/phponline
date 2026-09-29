@@ -1,0 +1,14 @@
+{
+  "id": "laravel-news-podcast/docker-git-guis-and-health-panels",
+  "title": "Docker, git GUIs, and health panels",
+  "link": "https://podcast.laravel-news.com/70?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2018-09-25T14:00:00.000Z",
+  "content": "Jake and Michael discuss all the latest Laravel releases, tutorials, and happenings in the community.",
+  "coverImage": "https://img.transistorcdn.com/pk-iLKswZ9Y-FUZrYPMWd9XyOcoTJ98-WOOG-m6obqQ/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9lcGlz/b2RlLzE2NDI1OC8x/NTc2MzQwOTAwLWFy/dHdvcmsuanBn.jpg",
+  "podcast": "Laravel News Podcast",
+  "audioUrl": "https://media.transistor.fm/42aa53a3/5903ee4e.mp3",
+  "duration": "3372",
+  "episode": "70",
+  "season": "",
+  "creatorId": "laravel-news"
+}

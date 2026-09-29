@@ -1,0 +1,13 @@
+{
+  "id": "laravel/blog-the-easiest-and-fastest-way-to-build-mcp-and-claude-apps",
+  "title": "The Easiest and Fastest Way to Build MCP and Claude Apps",
+  "link": "https://laravel.com/blog/the-easiest-and-fastest-way-to-build-mcp-and-claude-apps?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-04-30T17:50:47.000Z",
+  "content": "<html><head></head><body>Laravel MCP Apps let your MCP tools return live, interactive HTML, all rendered inline inside Claude and VS Code Copilot. One command to scaffold.</body></html>",
+  "source": "laravel",
+  "author": "Pushpak Chhajed",
+  "creatorId": "laravel",
+  "tags": [
+    "laravel"
+  ]
+}

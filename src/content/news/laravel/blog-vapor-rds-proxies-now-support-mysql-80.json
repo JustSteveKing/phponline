@@ -1,0 +1,13 @@
+{
+  "id": "laravel/blog-vapor-rds-proxies-now-support-mysql-80",
+  "title": "Vapor: RDS Proxies Now Support MySQL 8.0",
+  "link": "https://laravel.com/blog/vapor-rds-proxies-now-support-mysql-80?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2021-10-25T14:00:00.000Z",
+  "content": "<html><head></head><body>Starting today, you may use Vapor's managed RDS Proxies with MySQL 8.0 — the most recent MySQL version.</body></html>",
+  "source": "laravel",
+  "author": "Nuno Maduro",
+  "creatorId": "laravel",
+  "tags": [
+    "databases"
+  ]
+}

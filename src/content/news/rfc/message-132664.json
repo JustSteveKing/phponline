@@ -1,0 +1,15 @@
+{
+  "id": "rfc/message-132664",
+  "title": "New procedural function intl_date_format for PHP 8.7",
+  "link": "https://externals.io/message/132664?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-09-27T19:17:58.000Z",
+  "content": "<html><head></head><body>[RFC] New procedural function intl_date_format() for PHP 8.7</body></html>",
+  "source": "rfc",
+  "author": "#externals - Latest RFC Threads",
+  "status": "RFC",
+  "creatorId": "internals",
+  "tags": [
+    "php8",
+    "internals"
+  ]
+}

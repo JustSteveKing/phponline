@@ -1,0 +1,13 @@
+{
+  "id": "symfony/blog-symfony-reprise-1-3-0-released",
+  "title": "Symfony Reprise 1.3.0 released",
+  "link": "https://symfony.com/blog/symfony-reprise-1-3-0-released?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-09-28T11:30:00.000Z",
+  "content": "<html><head></head><body>Reprise 1.3.0 is out, with modulepreload under a strict CSP, a Stimulus dev loop\nwithout restarts, and safer writes of the metadata files. This is also the first\nrelease post since Reprise 1.0, so it covers three earlier changes that only\ngot a changelog…</body></html>",
+  "source": "Symfony",
+  "author": " Hugo Alliaume ",
+  "creatorId": "symfony",
+  "tags": [
+    "symfony"
+  ]
+}

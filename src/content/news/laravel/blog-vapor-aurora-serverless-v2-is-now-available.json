@@ -1,0 +1,14 @@
+{
+  "id": "laravel/blog-vapor-aurora-serverless-v2-is-now-available",
+  "title": "Vapor: Aurora Serverless v2 Is Now Available",
+  "link": "https://laravel.com/blog/vapor-aurora-serverless-v2-is-now-available?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2022-05-06T12:43:00.000Z",
+  "content": "<html><head></head><body>This new version adds support for MySQL 8.0, and has a faster, more granular, less disruptive scaling than Aurora Serverless v1.</body></html>",
+  "source": "laravel",
+  "author": "Nuno Maduro",
+  "creatorId": "laravel",
+  "tags": [
+    "databases",
+    "devops"
+  ]
+}

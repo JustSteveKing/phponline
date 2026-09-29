@@ -1,0 +1,14 @@
+{
+  "id": "laravel-news-podcast/laracon-us-recap-keynote-highlights-and-linen",
+  "title": "Laracon US recap, keynote highlights, and linen",
+  "link": "https://podcast.laravel-news.com/222?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2024-09-05T14:00:00.000Z",
+  "content": "\n        <p>Jake and Michael discuss all the latest Laravel releases, tutorials, and happenings in the community.</p><p>This episode is sponsored by <a href=\"https://sentry.io/\"><strong>Sentry</strong></a> - code breaks, fix it faster. Don't just observe, take action today!</p><p><strong>Show links</strong></p><ul><li><a href=\"https://laravel-news.com/laravel-11-21-0\">Asset Prefetching Strategies with Vite in Laravel 11.21 </a></li><li><a href=\"https://laravel-news.com/laravel-laracon-us-keynote-2024\">The Laracon US 2024 Keynote by Taylor Otwell is Now Available </a></li><li><a href=\"https://laravel-news.com/laracon-us-keynote-2024\">Highlights from Taylor Otwell's Laracon US Keynote 2024 </a></li><li><a href=\"https://laravel-news.com/introducing-laravel-cloud\">Introducing Laravel Cloud</a></li><li><a href=\"https://laravel-news.com/everything-we-know-about-pest-3\">Everything We Know about Pest 3 </a></li><li><a href=\"https://www.youtube.com/watch?v=BNhbgcNJyAk\">Introducing Pest 3.0 - Laracon US</a></li><li><a href=\"https://laravel-news.com/lcs-patricio\">LCS #5 - Patricio: Mingle JS, PHP WASM, VoxPop </a></li><li><a href=\"https://laravel-news.com/andrew-schmelyun\">Andrew Schmelyun: Publishing Video Courses, Virtual and Physical Worlds, LLM's</a></li><li><a href=\"https://laravel-news.com/laravel-developer-survey\">Laravel Developer Survey</a></li><li><a href=\"https://laravel-news.com/lightweight-spreadsheets-for-laravel-with-linen\">Lightweight Spreadsheets for Laravel </a></li><li><a href=\"https://laravel-news.com/laravel-entity-relationshiop-diagrams\">Generate Entity-Relationship Diagrams with Laravel </a></li><li><a href=\"https://laravel-news.com/create-a-php-package-from-scratch\">How to Build Your First PHP Package </a></li><li><a href=\"https://laravel-news.com/laravel-model-tips\">Laravel Model Tips </a></li><li><a href=\"https://laracon.au/tickets\">Get your early bird tickets for Laracon AU</a></li></ul>\n      ",
+  "coverImage": "https://img.transistorcdn.com/qmJ1PPS58Dv5ZdzfP2OsERDEhhL_6EPX8Tjmyurk5f0/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9zaG93/LzY0MDUvMTY5NDc4/NzE0OS1hcnR3b3Jr/LmpwZw.jpg",
+  "podcast": "Laravel News Podcast",
+  "audioUrl": "https://media.transistor.fm/6f804cd4/fafb4e84.mp3",
+  "duration": "2933",
+  "episode": "222",
+  "season": "",
+  "creatorId": "laravel-news"
+}

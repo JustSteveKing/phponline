@@ -1,0 +1,11 @@
+{
+  "id": "laravel/blog-spark-stripe-paypal-support",
+  "title": "Spark Stripe: PayPal Support",
+  "link": "https://laravel.com/blog/spark-stripe-paypal-support?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2024-07-02T06:45:00.000Z",
+  "content": "<html><head></head><body>We're happy to announce that Spark Stripe now supports PayPal for starting new subscriptions.</body></html>",
+  "source": "laravel",
+  "author": "Dries Vints",
+  "creatorId": "laravel",
+  "tags": []
+}

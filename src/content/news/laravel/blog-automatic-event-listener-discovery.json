@@ -1,0 +1,14 @@
+{
+  "id": "laravel/blog-automatic-event-listener-discovery",
+  "title": "Automatic Event / Listener Discovery",
+  "link": "https://laravel.com/blog/automatic-event-listener-discovery?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2019-04-03T13:52:00.000Z",
+  "content": "<html><head></head><body>Yesterday we shipped Laravel 5.8.9. Included in this release is the ability to have the framework automatically register your events and listeners. However, since this is a patch release, you must opt...</body></html>",
+  "source": "laravel",
+  "author": "Taylor Otwell",
+  "creatorId": "laravel",
+  "tags": [
+    "laravel",
+    "security"
+  ]
+}

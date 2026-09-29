@@ -1,0 +1,14 @@
+{
+  "id": "laravel/blog-vapor-octane-support-is-now-available",
+  "title": "Vapor: Octane Support Is Now Available",
+  "link": "https://laravel.com/blog/vapor-octane-support-is-now-available?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2021-10-04T12:00:00.000Z",
+  "content": "<html><head></head><body>Today we're pleased to announce that Octane support is now available in Laravel Vapor. The speed improvements are just mind-blowing, so put on your seat belt, and let's get into the details.</body></html>",
+  "source": "laravel",
+  "author": "Nuno Maduro",
+  "creatorId": "laravel",
+  "tags": [
+    "laravel",
+    "performance"
+  ]
+}

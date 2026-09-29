@@ -1,0 +1,13 @@
+{
+  "id": "juststeveking/articles-building-a-rest-api-in-golang",
+  "title": "Building a REST API in GoLang",
+  "link": "https://www.juststeveking.com/articles/building-a-rest-api-in-golang/?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2020-07-24T00:00:00.000Z",
+  "content": "<html><head></head><body>Discover the process of building a REST API in GoLang, from setting up Docker containers to structuring and scaling your application effectively.</body></html>",
+  "source": "juststeveking",
+  "author": "Steve McDougall — Articles",
+  "creatorId": "juststeveking",
+  "tags": [
+    "devops"
+  ]
+}

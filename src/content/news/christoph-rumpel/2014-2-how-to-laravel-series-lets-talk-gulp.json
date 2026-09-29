@@ -1,0 +1,13 @@
+{
+  "id": "christoph-rumpel/2014-2-how-to-laravel-series-lets-talk-gulp",
+  "title": "How to Laravel series: Let's talk Gulp",
+  "link": "https://christoph-rumpel.com/2014/2/how-to-laravel-series-lets-talk-gulp?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2014-02-21T20:04:28.000Z",
+  "content": "<html><head></head><body>In my last article I explained two ways of implementing Grunt to your Laravel application. Now we are taking a look at the same setup, but we are using Gulp instead of Grunt. Gulp what? Don’t worry, I will show you what Gulp is, how it works and why you probably should consider switching.\n            </body></html>",
+  "source": "christoph-rumpel",
+  "author": "Christoph Rumpel Blog Feed",
+  "creatorId": "christoph-rumpel",
+  "tags": [
+    "laravel"
+  ]
+}

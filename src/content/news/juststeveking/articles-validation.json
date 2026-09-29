@@ -1,0 +1,13 @@
+{
+  "id": "juststeveking/articles-validation",
+  "title": "Valid validators validating data",
+  "link": "https://www.juststeveking.com/articles/validation/?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2022-11-17T00:00:00.000Z",
+  "content": "<html><head></head><body>Explore Laravel data validation methods, from form requests to centralizing rules with validators and Eloquent Models for cleaner, efficient code.</body></html>",
+  "source": "juststeveking",
+  "author": "Steve McDougall — Articles",
+  "creatorId": "juststeveking",
+  "tags": [
+    "laravel"
+  ]
+}

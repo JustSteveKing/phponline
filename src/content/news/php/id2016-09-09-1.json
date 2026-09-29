@@ -1,0 +1,15 @@
+{
+  "id": "php/id2016-09-09-1",
+  "title": "php 2016",
+  "link": "http://php.net/conferences/index.php?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev#id2016-09-09-1",
+  "pubDate": "2016-09-09T12:05:18.000Z",
+  "content": "<html><head></head><body><div type=\"xhtml\"><div xmlns=\"http://www.w3.org/1999/xhtml\"><p>The team behind php[architect] magazine are excited to announce the full schedule for our Fall conference:  coming up from November 14-18 in Washington, D.C.<a href=\"https://world.phparch.com/?paref=phpnet&amp;utm_campaign=phpnet\">php[world] 2016</a></p><p>This conference will be our biggest yet, featuring 60 sessions, 10 workshops, and 5 one and two-day .  Not to mention 5  from leaders in the PHP community, and a  by developers from NPR Radio to talk about their experiences with PHP.<a href=\"https://world.phparch.com/session-track/training/?paref=phpnet&amp;utm_campaign=phpnet\">training classes</a><a href=\"https://world.phparch.com/session-track/keynote/?paref=phpnet&amp;utm_campaign=phpnet\">amazing keynotes</a><a href=\"https://world.phparch.com/sessions/keynote-cruft-class-nprs-15-year-journey-php/?paref=phpnet&amp;utm_campaign=phpnet\">special keynote</a></p><p>You will find that  is truly a conference like no other, as it's designed to bring the core PHP community together with the various application and framework communities to spend a week learning from each other.  We have dedicated tracks for ,\n         ,\n         ,\n         ,\n         ,\n         , and\n         ,\n         while also being having plenty of talks on related topics such as , , and improving as a developer.<a href=\"https://world.phparch.com/?paref=phpnet&amp;utm_campaign=phpnet\">php[world]</a><a href=\"https://world.phparch.com/session-track/wordpress/?paref=phpnet&amp;utm_campaign=phpnet\">WordPress</a><a href=\"https://world.phparch.com/session-track/drupal/?paref=phpnet&amp;utm_campaign=phpnet\">Drupal</a><a href=\"https://world.phparch.com/session-track/Laravel/?paref=phpnet&amp;utm_campaign=phpnet\">Laravel</a><a href=\"https://world.phparch.com/session-track/Symfony/?paref=phpnet&amp;utm_campaign=phpnet\">Symfony</a><a href=\"https://world.phparch.com/session-track/Magento/?paref=phpnet&amp;utm_campaign=phpnet\">Magento</a><a href=\"https://world.phparch.com/session-track/zend-framework/?paref=phpnet&amp;utm_campaign=phpnet\">Zend Framework</a><a href=\"https://world.phparch.com/session-track/CakePHP/?paref=phpnet&amp;utm_campaign=phpnet\">CakePHP</a><a href=\"https://world.phparch.com/session-track/Design/?paref=phpnet&amp;utm_campaign=phpnet\">Design</a><a href=\"https://world.phparch.com/session-track/JavaScript/?paref=phpnet&amp;utm_campaign=phpnet\">JavaScript</a></p><p>We look forward to seeing you again at  this fall for an amazing conference!<a href=\"https://world.phparch.com/?paref=phpnet&amp;utm_campaign=phpnet\">php[world]</a></p></div></div></body></html>",
+  "source": "php",
+  "author": "PHP.net news & announcements",
+  "creatorId": "php-net",
+  "tags": [
+    "laravel",
+    "symfony",
+    "internals"
+  ]
+}

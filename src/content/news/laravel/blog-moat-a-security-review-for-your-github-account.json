@@ -1,0 +1,13 @@
+{
+  "id": "laravel/blog-moat-a-security-review-for-your-github-account",
+  "title": "Introducing Moat: A Security Review for Your GitHub Account",
+  "link": "https://laravel.com/blog/moat-a-security-review-for-your-github-account?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-05-25T11:30:00.000Z",
+  "content": "<html><head></head><body>Moat scans your GitHub user, org, or repo with one command, and surfaces misconfigured security settings, including 2FA, pinned actions, branch protection, and more. </body></html>",
+  "source": "laravel",
+  "author": "Nuno Maduro",
+  "creatorId": "laravel",
+  "tags": [
+    "security"
+  ]
+}

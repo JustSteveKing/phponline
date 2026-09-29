@@ -1,0 +1,15 @@
+{
+  "id": "laravel/blog-vapor-common-infrastructure-performance-tips",
+  "title": "Vapor: Common Infrastructure Performance Tips",
+  "link": "https://laravel.com/blog/vapor-common-infrastructure-performance-tips?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2021-06-11T15:00:00.000Z",
+  "content": "<html><head></head><body>In this article, we'll cover the Vapor most common infrastructure performance tips that may speed your Laravel applications powered by Vapor.</body></html>",
+  "source": "laravel",
+  "author": "Nuno Maduro",
+  "creatorId": "laravel",
+  "tags": [
+    "laravel",
+    "performance",
+    "devops"
+  ]
+}

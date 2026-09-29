@@ -1,0 +1,13 @@
+{
+  "id": "laravel/blog-vapor-docker-based-runtimes-are-now-available-in-all-regions",
+  "title": "Vapor: Docker Based Runtimes Are Now Available In All Regions",
+  "link": "https://laravel.com/blog/vapor-docker-based-runtimes-are-now-available-in-all-regions?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2021-02-17T15:09:00.000Z",
+  "content": "<html><head></head><body>Previously, only a few regions supported Docker runtimes. But, starting today, you can use Docker runtimes in all regions supported by Vapor.</body></html>",
+  "source": "laravel",
+  "author": "Nuno Maduro",
+  "creatorId": "laravel",
+  "tags": [
+    "devops"
+  ]
+}

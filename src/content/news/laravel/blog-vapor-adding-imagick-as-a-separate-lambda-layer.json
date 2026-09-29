@@ -1,0 +1,11 @@
+{
+  "id": "laravel/blog-vapor-adding-imagick-as-a-separate-lambda-layer",
+  "title": "Vapor: Adding Imagick As Separate Lambda Layer",
+  "link": "https://laravel.com/blog/vapor-adding-imagick-as-a-separate-lambda-layer?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2020-05-26T05:27:00.000Z",
+  "content": "<html><head></head><body>Starting today, you can add Imagick support to your projects by importing an external Lambda layer. This change decreases the size of the default Vapor runtime layer and allows customers that don't us...</body></html>",
+  "source": "laravel",
+  "author": "Mohamed Said",
+  "creatorId": "laravel",
+  "tags": []
+}

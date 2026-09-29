@@ -1,11 +1,16 @@
 import { defineCollection, z } from "astro:content";
 import { glob, file } from "astro/loaders";
-import {
-  phpCommunityLoader,
-  phpPodcastLoader,
-  phpYouTubeLoader,
-} from "@/loaders/rss";
-import { PHP_FEEDS, PODCAST_FEEDS, YOUTUBE_CHANNELS } from "@/config/feeds";
+
+/**
+ * Everything is read from disk. Feeds are fetched by scripts/ingest.ts, which
+ * writes what it finds into src/content, so the site is an archive rather than
+ * a mirror of whatever each feed happens to be carrying today.
+ *
+ * The id inside each file is the site's URL for that item. It was derived from
+ * the feed when the item was first seen and must never change, so the loaders
+ * below read it back rather than deriving one from the filename.
+ */
+const byStoredId = ({ data }: { data: Record<string, unknown> }) => data.id as string;
 
 export const collections = {
   creators: defineCollection({
@@ -72,11 +77,12 @@ export const collections = {
     }),
   }),
   news: defineCollection({
-    loader: phpCommunityLoader(PHP_FEEDS),
+    loader: glob({ pattern: "**/*.json", base: "./src/content/news", generateId: byStoredId }),
     schema: z.object({
+      id: z.string(),
       title: z.string(),
       link: z.string().url(),
-      pubDate: z.date(),
+      pubDate: z.coerce.date(),
       coverImage: z.string().url().optional(),
       content: z.string().optional(),
       source: z.string(),
@@ -87,11 +93,12 @@ export const collections = {
     }),
   }),
   episodes: defineCollection({
-    loader: phpPodcastLoader(PODCAST_FEEDS),
+    loader: glob({ pattern: "**/*.json", base: "./src/content/episodes", generateId: byStoredId }),
     schema: z.object({
+      id: z.string(),
       title: z.string(),
       link: z.string().url().optional(),
-      pubDate: z.date(),
+      pubDate: z.coerce.date(),
       content: z.string().optional(),
       coverImage: z.string().url().optional(),
       podcast: z.string(),
@@ -103,11 +110,12 @@ export const collections = {
     }),
   }),
   videos: defineCollection({
-    loader: phpYouTubeLoader(YOUTUBE_CHANNELS),
+    loader: glob({ pattern: "**/*.json", base: "./src/content/videos", generateId: byStoredId }),
     schema: z.object({
+      id: z.string(),
       title: z.string(),
       link: z.string().url(),
-      pubDate: z.date(),
+      pubDate: z.coerce.date(),
       content: z.string().optional(),
       channel: z.string(),
       videoId: z.string(),

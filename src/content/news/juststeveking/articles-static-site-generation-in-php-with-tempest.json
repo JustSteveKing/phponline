@@ -1,0 +1,13 @@
+{
+  "id": "juststeveking/articles-static-site-generation-in-php-with-tempest",
+  "title": "Static site generation in PHP with Tempest",
+  "link": "https://www.juststeveking.com/articles/static-site-generation-in-php-with-tempest/?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2025-10-08T00:00:00.000Z",
+  "content": "<html><head></head><body>Learn how Tempest brings static site generation to PHP, making it easy to build fast, secure, and scalable sites with familiar patterns.</body></html>",
+  "source": "juststeveking",
+  "author": "Steve McDougall — Articles",
+  "creatorId": "juststeveking",
+  "tags": [
+    "testing"
+  ]
+}

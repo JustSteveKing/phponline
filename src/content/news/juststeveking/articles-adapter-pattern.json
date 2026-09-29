@@ -1,0 +1,13 @@
+{
+  "id": "juststeveking/articles-adapter-pattern",
+  "title": "Adapter Pattern",
+  "link": "https://www.juststeveking.com/articles/adapter-pattern/?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2022-05-12T00:00:00.000Z",
+  "content": "<html><head></head><body>Explore the adapter design pattern in coding through a practical example of building a versatile social poster class, adaptable for different social networks.</body></html>",
+  "source": "juststeveking",
+  "author": "Steve McDougall — Articles",
+  "creatorId": "juststeveking",
+  "tags": [
+    "architecture"
+  ]
+}

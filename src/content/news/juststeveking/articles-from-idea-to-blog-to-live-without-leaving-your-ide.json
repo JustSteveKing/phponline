@@ -1,0 +1,13 @@
+{
+  "id": "juststeveking/articles-from-idea-to-blog-to-live-without-leaving-your-ide",
+  "title": "From idea, to blog, to live without leaving your IDE",
+  "link": "https://www.juststeveking.com/articles/from-idea-to-blog-to-live-without-leaving-your-ide/?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2022-09-02T00:00:00.000Z",
+  "content": "<html><head></head><body>Build a live blog with Statamic in Laravel and deploy to Digital Ocean from your IDE.</body></html>",
+  "source": "juststeveking",
+  "author": "Steve McDougall — Articles",
+  "creatorId": "juststeveking",
+  "tags": [
+    "laravel"
+  ]
+}

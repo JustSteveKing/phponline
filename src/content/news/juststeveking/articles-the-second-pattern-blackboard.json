@@ -1,0 +1,11 @@
+{
+  "id": "juststeveking/articles-the-second-pattern-blackboard",
+  "title": "The Second Pattern: Blackboard",
+  "link": "https://www.juststeveking.com/articles/the-second-pattern-blackboard/?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-09-04T00:00:00.000Z",
+  "content": "<html><head></head><body>A pipeline works until one step both needs and improves the same piece of information. That is a cycle, and a topological sort has exactly one contract: there are no cycles.</body></html>",
+  "source": "juststeveking",
+  "author": "Steve McDougall — Articles",
+  "creatorId": "juststeveking",
+  "tags": []
+}

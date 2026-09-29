@@ -1,0 +1,14 @@
+{
+  "id": "laravel/blog-forge-zero-downtime-deployments",
+  "title": "Forge: Zero-Downtime Deployments",
+  "link": "https://laravel.com/blog/forge-zero-downtime-deployments?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2023-08-17T13:29:00.000Z",
+  "content": "<html><head></head><body>Zero-downtime deployments are now native to Laravel Forge, allowing users to avoid even brief milliseconds of downtime. Deployments of sites to multiple servers are available via Envoyer.</body></html>",
+  "source": "laravel",
+  "author": "James Brooks",
+  "creatorId": "laravel",
+  "tags": [
+    "laravel",
+    "devops"
+  ]
+}

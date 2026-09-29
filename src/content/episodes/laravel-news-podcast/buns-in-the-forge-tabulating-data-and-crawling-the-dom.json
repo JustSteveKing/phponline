@@ -1,0 +1,14 @@
+{
+  "id": "laravel-news-podcast/buns-in-the-forge-tabulating-data-and-crawling-the-dom",
+  "title": "Buns in the Forge, tabulating data, and crawling the DOM",
+  "link": "https://podcast.laravel-news.com/200?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2023-09-20T14:00:00.000Z",
+  "content": "\n        <p>Jake and Michael discuss all the latest Laravel releases, tutorials, and happenings in the community.</p><p></p><ul><li>(04:16) - Laravel 10.23 released</li>\n<li>(10:32) - Laravel 10.24 released</li>\n<li>(12:55) - Support for Bun lands in Laravel Sail and Forge</li>\n<li>(17:56) - Final release of Laracon AU 2023 tickets now on sale!</li>\n<li>(19:31) - Laravel Collective HTML package is abandoned</li>\n<li>(22:28) - Create tables for your models with Livewire Tables</li>\n<li>(25:03) - Generate APIs with ease with Laravel Rest Api</li>\n<li>(26:16) - Laravel Ecommerce with Lunar PHP</li>\n<li>(27:18) - Tablar: A Laravel dashboard preset</li>\n<li>(28:51) - Laravel Date Filtering package for Eloquent</li>\n<li>(29:50) - Git Delta is a syntax highlighting pager for git, diff, and grep output</li>\n<li>(31:55) - Symfony's DomCrawler with Laravel HTTP tests</li>\n</ul><br><strong>Show links</strong><ul><li><a href=\"https://www.youtube.com/watch?v=dWqNgzZwVJQ&amp;pp=ygUMZmlyZXNoaXAgYnVu\">Bun is disrupting JavaScript land</a></li><li><a href=\"https://laravel-news.com/laravel-sushi\">Sushi</a></li></ul>\n      ",
+  "coverImage": "https://img.transistorcdn.com/qmJ1PPS58Dv5ZdzfP2OsERDEhhL_6EPX8Tjmyurk5f0/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9zaG93/LzY0MDUvMTY5NDc4/NzE0OS1hcnR3b3Jr/LmpwZw.jpg",
+  "podcast": "Laravel News Podcast",
+  "audioUrl": "https://media.transistor.fm/fcd128cd/24b953b5.mp3",
+  "duration": "2255",
+  "episode": "200",
+  "season": "",
+  "creatorId": "laravel-news"
+}

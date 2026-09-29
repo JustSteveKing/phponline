@@ -1,0 +1,13 @@
+{
+  "id": "christoph-rumpel/2014-1-how-to-laravel-series-two-ways-of-implementing-grunt-to-laravel",
+  "title": "How to Laravel series: Two ways of implementing Grunt to Laravel",
+  "link": "https://christoph-rumpel.com/2014/1/how-to-laravel-series-two-ways-of-implementing-grunt-to-laravel?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2014-01-03T20:04:28.000Z",
+  "content": "<html><head></head><body>In this third part of my Laravel series we are going to take a look at implementing some Grunt tasks in your workflow.&nbsp;The web has become more complicated and so has our work. We have to&nbsp;learn new stuff every day and to adapt us and our workflows to the new needs.&nbsp;Tools like Grunt are perfect to help us on this rocky road. First we will setup Grunt from scratch and then we will take a look at a Laravel package doing this for us.\n            </body></html>",
+  "source": "christoph-rumpel",
+  "author": "Christoph Rumpel Blog Feed",
+  "creatorId": "christoph-rumpel",
+  "tags": [
+    "laravel"
+  ]
+}

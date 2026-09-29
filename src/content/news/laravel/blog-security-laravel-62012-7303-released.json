@@ -1,0 +1,14 @@
+{
+  "id": "laravel/blog-security-laravel-62012-7303-released",
+  "title": "Security: Laravel 6.20.12, 7.30.3 Released",
+  "link": "https://laravel.com/blog/security-laravel-62012-7303-released?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2021-01-15T15:41:00.000Z",
+  "content": "<html><head></head><body>Earlier this week we released a security update to address a problem with query parameter binding in Laravel. However, the 6.x and 7.x releases were done before the Git sub-tree splits had completed r...</body></html>",
+  "source": "laravel",
+  "author": "Taylor Otwell",
+  "creatorId": "laravel",
+  "tags": [
+    "laravel",
+    "security"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "laravel/blog-deploy-a-laravel-mcp-app-to-production-with-laravel-cloud",
+  "title": "Deploy a Laravel MCP App to Production with Laravel Cloud",
+  "link": "https://laravel.com/blog/deploy-a-laravel-mcp-app-to-production-with-laravel-cloud?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-04-17T13:55:54.000Z",
+  "content": "<html><head></head><body>Build and deploy a Laravel MCP app on Laravel Cloud. We cover tool implementation, error handling, authentication, testing, and production monitoring.</body></html>",
+  "source": "laravel",
+  "author": "Ana Tavares",
+  "creatorId": "laravel",
+  "tags": [
+    "laravel",
+    "security",
+    "testing",
+    "devops"
+  ]
+}

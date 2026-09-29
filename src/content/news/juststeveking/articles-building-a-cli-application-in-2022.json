@@ -1,0 +1,14 @@
+{
+  "id": "juststeveking/articles-building-a-cli-application-in-2022",
+  "title": "Building a CLI application in 2022",
+  "link": "https://www.juststeveking.com/articles/building-a-cli-application-in-2022/?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2022-05-27T00:00:00.000Z",
+  "content": "<html><head></head><body>Explore the best options for building CLI apps in 2022, including Laravel Zero, Symfony Console, and more, suitable for both PHP and Rust developers.</body></html>",
+  "source": "juststeveking",
+  "author": "Steve McDougall — Articles",
+  "creatorId": "juststeveking",
+  "tags": [
+    "laravel",
+    "symfony"
+  ]
+}

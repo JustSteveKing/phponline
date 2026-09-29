@@ -1,0 +1,11 @@
+{
+  "id": "christoph-rumpel/2017-1-botman-quick-tip-how-to-use-a-default-pattern",
+  "title": "BotMan Quick Tip - How to use a default pattern",
+  "link": "https://christoph-rumpel.com/2017/1/botman-quick-tip-how-to-use-a-default-pattern?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2017-01-29T20:04:28.000Z",
+  "content": "<html><head></head><body>BotMan is a framework agnostic PHP library for building chatbots. In today's tip I want to show you how to use a default pattern when using an array of callbacks.\n            </body></html>",
+  "source": "christoph-rumpel",
+  "author": "Christoph Rumpel Blog Feed",
+  "creatorId": "christoph-rumpel",
+  "tags": []
+}

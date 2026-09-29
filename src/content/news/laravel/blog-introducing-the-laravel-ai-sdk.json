@@ -1,0 +1,13 @@
+{
+  "id": "laravel/blog-introducing-the-laravel-ai-sdk",
+  "title": "Introducing the Laravel AI SDK",
+  "link": "https://laravel.com/blog/introducing-the-laravel-ai-sdk?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-02-05T09:50:50.000Z",
+  "content": "<html><head></head><body>Build AI-powered Laravel applications with a unified SDK. Generate text, images, audio, and more across OpenAI, Anthropic, and other providers with clean, organized code.</body></html>",
+  "source": "laravel",
+  "author": "Laravel Team",
+  "creatorId": "laravel",
+  "tags": [
+    "laravel"
+  ]
+}

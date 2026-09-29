@@ -1,0 +1,14 @@
+{
+  "id": "laravel-news-podcast/flying-hashids-laravel-6-and-igniting-eloquent-subqueries",
+  "title": "Flying Hashids, Laravel 6, and igniting Eloquent subqueries",
+  "link": "https://podcast.laravel-news.com/90?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2019-09-10T14:00:00.000Z",
+  "content": "Jake and Michael discuss all the latest Laravel releases, tutorials, and happenings in the community.",
+  "coverImage": "https://img.transistorcdn.com/OXRCY099iw4F9OHzlhtughNAXJTfdbipUiRAe2cNwe8/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9lcGlz/b2RlLzE2NDI3OC8x/NTc2MzQwOTgzLWFy/dHdvcmsuanBn.jpg",
+  "podcast": "Laravel News Podcast",
+  "audioUrl": "https://media.transistor.fm/77431612/13469126.mp3",
+  "duration": "3246",
+  "episode": "90",
+  "season": "",
+  "creatorId": "laravel-news"
+}

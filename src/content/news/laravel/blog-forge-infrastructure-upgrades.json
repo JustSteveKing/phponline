@@ -1,0 +1,14 @@
+{
+  "id": "laravel/blog-forge-infrastructure-upgrades",
+  "title": "Forge: Infrastructure Upgrades",
+  "link": "https://laravel.com/blog/forge-infrastructure-upgrades?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2021-07-08T13:32:00.000Z",
+  "content": "<html><head></head><body>On July 7th, we've made infrastructure upgrades on Laravel Forge to increase its stability and capacity. Due to the upgrades, we've updated the list of IP Addresses that may SSH into your server.</body></html>",
+  "source": "laravel",
+  "author": "Nuno Maduro",
+  "creatorId": "laravel",
+  "tags": [
+    "laravel",
+    "devops"
+  ]
+}

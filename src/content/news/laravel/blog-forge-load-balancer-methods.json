@@ -1,0 +1,13 @@
+{
+  "id": "laravel/blog-forge-load-balancer-methods",
+  "title": "Forge: Load Balancer Methods",
+  "link": "https://laravel.com/blog/forge-load-balancer-methods?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2020-08-06T06:47:00.000Z",
+  "content": "<html><head></head><body>Load balancers in Forge are used to distribute web traffic amongst two or more servers and are often used for websites which receive high volumes of traffic.\n\nStarting today, you may now choose one of...</body></html>",
+  "source": "laravel",
+  "author": "James Brooks",
+  "creatorId": "laravel",
+  "tags": [
+    "devops"
+  ]
+}

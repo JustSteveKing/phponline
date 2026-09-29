@@ -1,0 +1,14 @@
+{
+  "id": "php/2025-04-10-1",
+  "title": "PHP Core Undergoes Security Audit – Results Now Available",
+  "link": "https://www.php.net/index.php?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev#2025-04-10-1",
+  "pubDate": "2025-04-10T11:59:24.000Z",
+  "content": "<html><head></head><body><div type=\"xhtml\"><div xmlns=\"http://www.w3.org/1999/xhtml\"><p>\n                A focused security audit of the PHP source code () was recently completed, commissioned by the , organized by  in partnership with , and performed by . The audit targeted the most critical parts of the codebase, leading to 27 findings, 17 with security implications, including four CVEs.\n            <a href=\"https://github.com/php/php-src\">php/php-src</a><a href=\"https://www.sovereign.tech/\">Sovereign Tech Agency</a><a href=\"https://thephp.foundation/\">The PHP Foundation</a><a href=\"https://ostif.org/\">OSTIF</a><a href=\"https://www.quarkslab.com/\">Quarkslab</a></p><p>\n                All issues have been addressed by the PHP development team. Users are encouraged to upgrade to the latest PHP versions to benefit from these security improvements.\n            </p><p>\n                Read the full .\n                More details in .\n            <a href=\"https://thephp.foundation/assets/files/24-07-1730-REP-V1.4_temp.pdf\">audit report</a><a href=\"https://thephp.foundation/blog/2025/04/10/php-core-security-audit-results/\">the PHP Foundation blog post</a></p><p>\n                If your organization is interested in sponsoring further audits, please contact The PHP Foundation team: .\n            <a href=\"mailto:contact@thephp.foundation\">contact@thephp.foundation</a></p></div></div></body></html>",
+  "source": "php",
+  "author": "PHP.net news & announcements",
+  "creatorId": "php-net",
+  "tags": [
+    "security",
+    "internals"
+  ]
+}

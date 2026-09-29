@@ -1,0 +1,14 @@
+{
+  "id": "laravel-news-podcast/freezing-time-rabbits-on-queues-and-antivirus-scanners",
+  "title": "Freezing time, rabbits on queues, and antivirus scanners",
+  "link": "https://podcast.laravel-news.com/103?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2019-10-01T14:00:00.000Z",
+  "content": "Jake and Michael discuss all the latest Laravel releases, tutorials, and happenings in the community.",
+  "coverImage": "https://img.transistorcdn.com/4I74k79ud3fcMNOYGwMndLLt6S8eBF96qKwZNW1A3M0/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9lcGlz/b2RlLzE2NDI5MS8x/NTc2MzQxMDQyLWFy/dHdvcmsuanBn.jpg",
+  "podcast": "Laravel News Podcast",
+  "audioUrl": "https://media.transistor.fm/eb56ef0d/0fdfffec.mp3",
+  "duration": "2684",
+  "episode": "103",
+  "season": "",
+  "creatorId": "laravel-news"
+}

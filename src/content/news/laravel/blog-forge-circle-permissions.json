@@ -1,0 +1,13 @@
+{
+  "id": "laravel/blog-forge-circle-permissions",
+  "title": "Forge: Circle Permissions",
+  "link": "https://laravel.com/blog/forge-circle-permissions?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2022-12-05T15:50:00.000Z",
+  "content": "<html><head></head><body>Circle owners can now control the level of access a circle member has to servers and sites through the use granular permission levels.</body></html>",
+  "source": "laravel",
+  "author": "James Brooks",
+  "creatorId": "laravel",
+  "tags": [
+    "devops"
+  ]
+}

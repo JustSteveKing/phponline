@@ -1,0 +1,14 @@
+{
+  "id": "php/2023-11-23-2",
+  "title": "PHP 8.3.0 Released!",
+  "link": "https://www.php.net/index.php?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev#2023-11-23-2",
+  "pubDate": "2023-11-23T15:43:03.000Z",
+  "content": "<html><head></head><body><div type=\"xhtml\"><div xmlns=\"http://www.w3.org/1999/xhtml\"><p>The PHP development team announces the immediate availability of PHP 8.3.0. This release marks the latest minor release of the PHP language.</p><p>PHP 8.3 comes with numerous improvements and new features such as:</p><p>\n        For source downloads of PHP 8.3.0 please visit our ,\n        Windows source and binaries can be found on .\n        The list of changes is recorded in the .\n      <a href=\"https://www.php.net/downloads.php\">downloads page</a><a href=\"https://windows.php.net/download/\">windows.php.net/download/</a><a href=\"https://www.php.net/ChangeLog-8.php#8.3.0\">ChangeLog</a></p><p>\n        The  is available in the PHP Manual.\n        Please consult it for the detailed list of new features and backward incompatible changes.\n      <a href=\"https://php.net/manual/en/migration83.php\">migration guide</a></p><p>Kudos to all the contributors and supporters!</p><ul><li><a href=\"https://www.php.net/manual/en/migration83.new-features.php#migration83.new-features.core.typed-class-constants\">Typed Class Constants</a></li><li><a href=\"https://www.php.net/manual/en/migration83.new-features.php#migration83.new-features.core.fetch-class-constant-dynamically-syntax\">Fetch class constant dynamically syntax</a></li><li><a href=\"https://www.php.net/manual/en/migration83.new-features.php#migration83.new-features.core.readonly-modifier-improvements\">Readonly Amendments</a></li><li><a href=\"https://www.php.net/manual/en/migration83.new-features.php#migration83.new-features.core.override-attribute\">Override Attribute</a></li><li><a href=\"https://www.php.net/manual/en/random-randomizer.getbytesfromstring.php\">New Randomizer method Random\\Randomizer::getBytesFromString</a></li><li><a href=\"https://www.php.net/manual/en/function.json-validate.php\">New function json_validate</a></li><li>And much much more...</li></ul></div></div></body></html>",
+  "source": "php",
+  "author": "PHP.net news & announcements",
+  "creatorId": "php-net",
+  "tags": [
+    "php8",
+    "internals"
+  ]
+}

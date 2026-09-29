@@ -1,0 +1,13 @@
+{
+  "id": "laravel/blog-laravel-wayfinder-end-to-end-type-safety-for-php-and-typescript",
+  "title": "Laravel Wayfinder: End-to-End Type Safety for PHP and TypeScript",
+  "link": "https://laravel.com/blog/laravel-wayfinder-end-to-end-type-safety-for-php-and-typescript?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-01-15T14:12:18.000Z",
+  "content": "<html><head></head><body>Sync PHP and TypeScript automatically with Laravel Wayfinder, now in beta. Generate types, routes, and validation from your Laravel app.</body></html>",
+  "source": "laravel",
+  "author": "Ana Tavares",
+  "creatorId": "laravel",
+  "tags": [
+    "laravel"
+  ]
+}

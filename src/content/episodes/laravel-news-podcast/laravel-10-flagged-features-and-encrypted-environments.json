@@ -1,0 +1,14 @@
+{
+  "id": "laravel-news-podcast/laravel-10-flagged-features-and-encrypted-environments",
+  "title": "Laravel 10, flagged features, and encrypted environments",
+  "link": "https://podcast.laravel-news.com/185?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2023-02-16T15:00:00.000Z",
+  "content": "\n        <p>Jake and Michael discuss all the latest Laravel releases, tutorials, and happenings in the community.</p><p>This episode is sponsored by <a href=\"https://honeybadger.io/?ref=laravelnewspodcast\">Honeybadger</a> - combining error monitoring, uptime monitoring and check-in monitoring into a single, easy to use platform and making you a DevOps hero.</p><p></p><ul><li>(01:25) - Laravel 9.94 released</li>\n<li>(08:50) - Laravel 9.51 released</li>\n<li>(12:41) - Laravel 10 is now released!</li>\n<li>(26:09) - Laravel Artisan cheatsheet supports Laravel 10</li>\n<li>(27:22) - Sponsor: Honeybadger</li>\n<li>(28:40) - Laravel Pennant</li>\n<li>(34:27) - Google reCaptcha Enterprise package for Laravel</li>\n<li>(36:03) - Export Eloquent modelsl to JSON files</li>\n<li>(38:33) - Encrypt environment files with Padlock</li>\n<li>(41:05) - Learn how to impersonate users in your Laravel app</li>\n<li>(41:50) - Testing JSON:API endpoints with PestPHP</li>\n<li>(42:03) - Getting started with PHPInsights</li>\n</ul><ul><li><a href=\"https://laravelversions.com\">Laravel Versions</a></li></ul>\n      ",
+  "coverImage": "https://img.transistorcdn.com/qmJ1PPS58Dv5ZdzfP2OsERDEhhL_6EPX8Tjmyurk5f0/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9zaG93/LzY0MDUvMTY5NDc4/NzE0OS1hcnR3b3Jr/LmpwZw.jpg",
+  "podcast": "Laravel News Podcast",
+  "audioUrl": "https://media.transistor.fm/dd888885/d226d49c.mp3",
+  "duration": "2758",
+  "episode": "185",
+  "season": "",
+  "creatorId": "laravel-news"
+}

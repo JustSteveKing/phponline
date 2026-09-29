@@ -1,0 +1,13 @@
+{
+  "id": "juststeveking/articles-event-sourcing-in-laravel",
+  "title": "Event Sourcing in Laravel",
+  "link": "https://www.juststeveking.com/articles/event-sourcing-in-laravel/?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2022-08-12T00:00:00.000Z",
+  "content": "<html><head></head><body>Master Event Sourcing in Laravel with this comprehensive guide, perfect for enhancing PHP projects with advanced data tracking and state management techniques.</body></html>",
+  "source": "juststeveking",
+  "author": "Steve McDougall — Articles",
+  "creatorId": "juststeveking",
+  "tags": [
+    "laravel"
+  ]
+}

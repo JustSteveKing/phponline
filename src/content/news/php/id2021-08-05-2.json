@@ -1,0 +1,14 @@
+{
+  "id": "php/id2021-08-05-2",
+  "title": "PHP 8.1.0 Beta 2 available for testing",
+  "link": "https://www.php.net/index.php?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev#id2021-08-05-2",
+  "pubDate": "2021-08-05T15:16:40.000Z",
+  "content": "<html><head></head><body><div type=\"xhtml\"><div xmlns=\"http://www.w3.org/1999/xhtml\"><p>\n        The PHP team is pleased to announce the first beta release of PHP 8.1.0, Beta 2.\n        This continues the PHP 8.1 release cycle, the rough outline of which is specified in the\n        .\n      <a href=\"https://wiki.php.net/todo/php81\">PHP Wiki</a></p><p>For source downloads of PHP 8.1.0, Beta 2 please visit the .<a href=\"https://downloads.php.net/~ramsey\">download page</a></p><p>Please carefully test this version and report any issues found in the .<a href=\"https://bugs.php.net\">bug reporting system</a></p><p><b>Please DO NOT use this version in production, it is an early test version.</b></p><p>\n        For more information on the new features and other changes, you can read the\n         file,\n        or the \n        file for a complete list of upgrading notes. These files can also be found in the release archive.\n      <a href=\"https://github.com/php/php-src/blob/php-8.1.0beta2/NEWS\">NEWS</a><a href=\"https://github.com/php/php-src/blob/php-8.1.0beta2/UPGRADING\">UPGRADING</a></p><p>The next release will be Beta 3, planned for Aug 19 2021.</p><p>The signatures for the release can be found in  or on .<a href=\"https://gist.github.com/ramsey/50a79dda00c1b669ac121c89d45ee46d\">the manifest</a><a href=\"https://qa.php.net/\">the QA site</a></p><p>Thank you for helping us make PHP better.</p></div></div></body></html>",
+  "source": "php",
+  "author": "PHP.net news & announcements",
+  "creatorId": "php-net",
+  "tags": [
+    "testing",
+    "php8"
+  ]
+}

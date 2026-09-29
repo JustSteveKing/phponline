@@ -1,0 +1,11 @@
+{
+  "id": "juststeveking/articles-spec-driven-development-with-llms",
+  "title": "Spec Driven Development With LLMs",
+  "link": "https://www.juststeveking.com/articles/spec-driven-development-with-llms/?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-04-05T00:00:00.000Z",
+  "content": "<html><head></head><body>How to write specifications that produce useful LLM output, covering interface definitions, edge cases, and why the spec is your highest-leverage artifact.</body></html>",
+  "source": "juststeveking",
+  "author": "Steve McDougall — Articles",
+  "creatorId": "juststeveking",
+  "tags": []
+}

@@ -1,0 +1,13 @@
+{
+  "id": "laravel/blog-forge-updates-september-8",
+  "title": "Forge: TLS v1.3, Redis Passwords and more!",
+  "link": "https://laravel.com/blog/forge-updates-september-8?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2020-09-07T13:07:00.000Z",
+  "content": "<html><head></head><body>Over the last few weeks, we've been working on many new features and enhancements in Forge. I often [tweet](https://twitter.com/jbrooksuk) about these changes since they don’t warrant a full-blown blo...</body></html>",
+  "source": "laravel",
+  "author": "James Brooks",
+  "creatorId": "laravel",
+  "tags": [
+    "databases"
+  ]
+}

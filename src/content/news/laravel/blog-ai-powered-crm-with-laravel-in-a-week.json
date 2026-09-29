@@ -1,0 +1,14 @@
+{
+  "id": "laravel/blog-ai-powered-crm-with-laravel-in-a-week",
+  "title": "How I Built an AI-Powered CRM with Laravel in a Week",
+  "link": "https://laravel.com/blog/ai-powered-crm-with-laravel-in-a-week?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-04-14T13:01:23.000Z",
+  "content": "<html><head></head><body>How a senior freelance developer built a full Laravel MVP in under a week using Laravel Herd, Cloud, and the AI SDK to automate critical workflows.</body></html>",
+  "source": "laravel",
+  "author": "Giacomo Secchi",
+  "creatorId": "laravel",
+  "tags": [
+    "laravel",
+    "devops"
+  ]
+}

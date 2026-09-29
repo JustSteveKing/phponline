@@ -1,0 +1,13 @@
+{
+  "id": "laravel/blog-laravel-58",
+  "title": "Laravel 5.8 released",
+  "link": "https://laravel.com/blog/laravel-58?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2019-02-27T20:18:00.000Z",
+  "content": "<html><head></head><body>Laravel 5.8 has been released!\n\nLaravel 5.8 continues the improvements made in Laravel 5.7 by introducing has-one-through Eloquent relationships, improved email validation, convention based automatic...</body></html>",
+  "source": "laravel",
+  "author": "Taylor Otwell",
+  "creatorId": "laravel",
+  "tags": [
+    "laravel"
+  ]
+}

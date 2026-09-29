@@ -1,0 +1,13 @@
+{
+  "id": "laravel/blog-forge-custom-backup-providers",
+  "title": "Forge: Custom Backup Providers",
+  "link": "https://laravel.com/blog/forge-custom-backup-providers?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2020-06-18T13:42:00.000Z",
+  "content": "<html><head></head><body>Forge now supports using a custom S3 compatible provider for your database backups. When using a custom provider, such as [MinIO](https://min.io), you must provide the endpoint and bucket for your S3...</body></html>",
+  "source": "laravel",
+  "author": "James Brooks",
+  "creatorId": "laravel",
+  "tags": [
+    "databases"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "laravel/blog-vapor-reusable-vendors",
+  "title": "Vapor: Reusable Vendors",
+  "link": "https://laravel.com/blog/vapor-reusable-vendors?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2019-09-26T13:31:00.000Z",
+  "content": "<html><head></head><body>Beginning today, we are launching a new, opt-in feature for Laravel Vapor that allows Vapor to reuse the \"vendor\" directory from previous deployments if the contents of the vendor directory has not ch...</body></html>",
+  "source": "laravel",
+  "author": "Taylor Otwell",
+  "creatorId": "laravel",
+  "tags": [
+    "laravel",
+    "devops"
+  ]
+}

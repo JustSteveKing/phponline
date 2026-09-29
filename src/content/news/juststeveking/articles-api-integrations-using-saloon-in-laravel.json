@@ -1,0 +1,13 @@
+{
+  "id": "juststeveking/articles-api-integrations-using-saloon-in-laravel",
+  "title": "API Integrations using Saloon in Laravel",
+  "link": "https://www.juststeveking.com/articles/api-integrations-using-saloon-in-laravel/?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2022-06-14T00:00:00.000Z",
+  "content": "<html><head></head><body>Discover easy API integration in Laravel with Saloon; a tutorial on creating a GitHub API connection to manage workflows from the command line.</body></html>",
+  "source": "juststeveking",
+  "author": "Steve McDougall — Articles",
+  "creatorId": "juststeveking",
+  "tags": [
+    "laravel"
+  ]
+}

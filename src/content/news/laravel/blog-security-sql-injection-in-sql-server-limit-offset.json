@@ -1,0 +1,16 @@
+{
+  "id": "laravel/blog-security-sql-injection-in-sql-server-limit-offset",
+  "title": "Security: SQL Injection in SQL Server \"LIMIT\" / \"OFFSET\"",
+  "link": "https://laravel.com/blog/security-sql-injection-in-sql-server-limit-offset?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2021-04-28T14:45:00.000Z",
+  "content": "<html><head></head><body>Today we have released security patches via Laravel 6.20.26 and 8.40.0. These patches resolve a security vulnerability that allowed SQL injection when unfiltered user input was passed directly to the...</body></html>",
+  "source": "laravel",
+  "author": "Taylor Otwell",
+  "creatorId": "laravel",
+  "tags": [
+    "laravel",
+    "security",
+    "databases",
+    "devops"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "rfc/message-132465",
+  "title": "Discussion on array_str_contains RFC and performance benchmarking methodology",
+  "link": "https://externals.io/message/132465?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-09-10T01:03:10.000Z",
+  "content": "<html><head></head><body>Discussion on array_str_contains() RFC and performance benchmarking methodology</body></html>",
+  "source": "rfc",
+  "author": "#externals - Latest RFC Threads",
+  "status": "RFC",
+  "creatorId": "internals",
+  "tags": [
+    "performance",
+    "internals"
+  ]
+}

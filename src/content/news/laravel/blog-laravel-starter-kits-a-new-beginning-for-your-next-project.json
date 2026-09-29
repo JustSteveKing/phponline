@@ -1,0 +1,13 @@
+{
+  "id": "laravel/blog-laravel-starter-kits-a-new-beginning-for-your-next-project",
+  "title": "Laravel Starter Kits: A New Beginning for Your Next Project",
+  "link": "https://laravel.com/blog/laravel-starter-kits-a-new-beginning-for-your-next-project?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2025-03-19T21:40:00.000Z",
+  "content": "<html><head></head><body>We’ve overhauled our starter kits, replacing Jetstream and Breeze with three distinct, purpose-built starter kits in Livewire, React, and Vue. These new kits allow you to focus on building your app instead of creating boilerplate code from scratch.</body></html>",
+  "source": "laravel",
+  "author": "Chris Sev",
+  "creatorId": "laravel",
+  "tags": [
+    "laravel"
+  ]
+}

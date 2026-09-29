@@ -1,0 +1,14 @@
+{
+  "id": "laravel/blog-vapor-unlimited-assets-uploads-10x-faster",
+  "title": "Vapor: Unlimited Assets & Asset Uploads 10x Faster",
+  "link": "https://laravel.com/blog/vapor-unlimited-assets-uploads-10x-faster?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2022-05-13T08:30:00.000Z",
+  "content": "<html><head></head><body>We are thrilled to announce that applications may now have unlimited public assets and the 400 public assets hard limit has been removed. In addition, we have made multiple performance enhancements to our deployment pipeline that uploads assets to S3. So, asset uploads are now up to 10x faster.</body></html>",
+  "source": "laravel",
+  "author": "Nuno Maduro",
+  "creatorId": "laravel",
+  "tags": [
+    "performance",
+    "devops"
+  ]
+}

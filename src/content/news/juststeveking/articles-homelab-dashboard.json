@@ -1,0 +1,13 @@
+{
+  "id": "juststeveking/articles-homelab-dashboard",
+  "title": "Building a Homelab Dashboard with Laravel and Livewire",
+  "link": "https://www.juststeveking.com/articles/homelab-dashboard/?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2024-02-01T00:00:00.000Z",
+  "content": "<html><head></head><body>Follow my journey as I build a powerful homelab dashboard using Laravel and Livewire, automating and monitoring my setup along the way.</body></html>",
+  "source": "juststeveking",
+  "author": "Steve McDougall — Articles",
+  "creatorId": "juststeveking",
+  "tags": [
+    "laravel"
+  ]
+}

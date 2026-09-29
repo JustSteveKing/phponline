@@ -1,0 +1,14 @@
+{
+  "id": "laravel-news-podcast/caching-bots-and-async-programming",
+  "title": "Caching, bots, and async programming",
+  "link": "https://podcast.laravel-news.com/62?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2018-05-09T14:00:00.000Z",
+  "content": "Jake and Michael discuss all the latest Laravel releases, tutorials, and happenings in the community, which this week featured a lot of caching.",
+  "coverImage": "https://img.transistorcdn.com/k8sKvFnyC3yn2Ky8TeuTl8vu_Zz2pcmTX1_cWpcen7c/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9lcGlz/b2RlLzE2NDI1MC8x/NTc2MzQwODY4LWFy/dHdvcmsuanBn.jpg",
+  "podcast": "Laravel News Podcast",
+  "audioUrl": "https://media.transistor.fm/c60a4abb/828e8e9f.mp3",
+  "duration": "3456",
+  "episode": "62",
+  "season": "",
+  "creatorId": "laravel-news"
+}

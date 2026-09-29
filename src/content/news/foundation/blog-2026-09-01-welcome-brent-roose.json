@@ -1,0 +1,14 @@
+{
+  "id": "foundation/blog-2026-09-01-welcome-brent-roose",
+  "title": "Roman Pronskiy Leaves The PHP Foundation Board and Brent Roose Joins",
+  "link": "https://thephp.foundation/blog/2026/09/01/welcome-brent-roose/?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-09-01T00:00:00.000Z",
+  "content": "<html><head></head><body><p>The PHP Foundation is excited to announce the addition of <a href=\"https://stitcher.io/\">Brent Roose</a> from JetBrains to the Foundation's Board of Directors. Brent fills the JetBrains Platinum Sponsor seat and was unanimously voted to join by the existing members.</p>\n\n<p>Brent is a developer advocate for PHP at JetBrains, but he is also a writer, content creator, event organizer, community leader, and open source contributor. He is a well-recognized voice on <a href=\"https://www.youtube.com/@phpannotated\">PHP Annotated</a>, maintains an active blog at <a href=\"https://stitcher.io/\">stitcher.io</a>, and is the creator of the <a href=\"https://github.com/tempestphp/tempest-framework\">Tempest</a> framework for PHP, one of his bigger open source projects.</p>\n\n<blockquote>\n  <p><em>PHP has been my passion for over 15 years, and I'm happy to contribute to its success in any way I can. I'm looking forward to joining the Foundation board and see what the future holds for this amazing language and community. --Brent Roose</em></p>\n</blockquote>\n\n<p>As Roman Pronskiy's term comes to an end, Brent will be replacing Roman as the JetBrains representative on the Board. As one of the founding members and first Executive Director of The PHP Foundation, Roman's impact is undeniable. The PHP Foundation would not be where it is today without his influence, his effort, and his guidance. We are incredibly grateful for his dedication and commitment to the Foundation's mission and the sustainability of the PHP language. Thank you for everything, Roman! ❤️🐘</p>\n</body></html>",
+  "source": "foundation",
+  "author": "The PHP Foundation",
+  "creatorId": "the-php-foundation",
+  "tags": [
+    "testing",
+    "internals"
+  ]
+}

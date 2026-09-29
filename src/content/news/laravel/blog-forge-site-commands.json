@@ -1,0 +1,13 @@
+{
+  "id": "laravel/blog-forge-site-commands",
+  "title": "Forge: Site Commands",
+  "link": "https://laravel.com/blog/forge-site-commands?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2021-03-30T08:23:00.000Z",
+  "content": "<html><head></head><body>Forge has had the ability to execute arbitrary Bash scripts on your server via Recipes for some time now. However, sometimes you may just need to run a quick command without the overhead of creating a...</body></html>",
+  "source": "laravel",
+  "author": "James Brooks",
+  "creatorId": "laravel",
+  "tags": [
+    "devops"
+  ]
+}

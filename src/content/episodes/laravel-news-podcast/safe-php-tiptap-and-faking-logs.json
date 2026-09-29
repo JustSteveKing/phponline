@@ -1,0 +1,14 @@
+{
+  "id": "laravel-news-podcast/safe-php-tiptap-and-faking-logs",
+  "title": "Safe PHP, TipTap, and faking logs",
+  "link": "https://podcast.laravel-news.com/71?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2018-10-10T14:00:00.000Z",
+  "content": "Jake and Michael discuss all the latest Laravel releases, tutorials, and happenings in the community.",
+  "coverImage": "https://img.transistorcdn.com/XAggpAI2HRTpknzUugPePmrKnd5NRvKwIQq4DCOdGS4/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9lcGlz/b2RlLzE2NDI1OS8x/NTc2MzQwOTA1LWFy/dHdvcmsuanBn.jpg",
+  "podcast": "Laravel News Podcast",
+  "audioUrl": "https://media.transistor.fm/3e5f3b00/f974b099.mp3",
+  "duration": "3000",
+  "episode": "71",
+  "season": "",
+  "creatorId": "laravel-news"
+}

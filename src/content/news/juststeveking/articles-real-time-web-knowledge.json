@@ -1,0 +1,13 @@
+{
+  "id": "juststeveking/articles-real-time-web-knowledge",
+  "title": "Give your Laravel AI agent real-time web knowledge",
+  "link": "https://www.juststeveking.com/articles/real-time-web-knowledge/?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-07-16T00:00:00.000Z",
+  "content": "<html><head></head><body>The Laravel AI SDK is provider-agnostic, but its built-in web tools aren't. Here's how to give your agent real-time web knowledge without losing that independence.</body></html>",
+  "source": "juststeveking",
+  "author": "Steve McDougall — Articles",
+  "creatorId": "juststeveking",
+  "tags": [
+    "laravel"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "spatie/blog-how-to-structure-the-frontend-of-a-laravel-inertia-react-application",
+  "title": "How to structure the frontend of a Laravel Inertia React application",
+  "link": "https://spatie.be/blog/how-to-structure-the-frontend-of-a-laravel-inertia-react-application?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2025-07-29T11:51:33.000Z",
+  "content": "<html><head></head><body><p>With multiple large, long-running Inertia apps in production we know what we like, don't like, and what works. It’s time to formalize our thoughts and decisions as we’re starting new projects and onboarding a few developers this year.</p>\n\n            </body></html>",
+  "source": "spatie",
+  "author": "Spatie: Blog",
+  "creatorId": "spatie",
+  "tags": [
+    "laravel"
+  ]
+}

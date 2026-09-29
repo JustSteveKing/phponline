@@ -1,0 +1,14 @@
+{
+  "id": "juststeveking/articles-laravel-pennant",
+  "title": "Laravel Pennant",
+  "link": "https://www.juststeveking.com/articles/laravel-pennant/?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2023-02-10T00:00:00.000Z",
+  "content": "<html><head></head><body>Laravel Pennant in Laravel 10; Manage Feature Flags easily. Perfect for A/B testing, incremental rollouts, and more.</body></html>",
+  "source": "juststeveking",
+  "author": "Steve McDougall — Articles",
+  "creatorId": "juststeveking",
+  "tags": [
+    "laravel",
+    "testing"
+  ]
+}

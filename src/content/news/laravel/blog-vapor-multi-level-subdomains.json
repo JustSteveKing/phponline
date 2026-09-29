@@ -1,0 +1,11 @@
+{
+  "id": "laravel/blog-vapor-multi-level-subdomains",
+  "title": "Vapor: Multi-level Subdomains",
+  "link": "https://laravel.com/blog/vapor-multi-level-subdomains?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2023-06-28T12:35:00.000Z",
+  "content": "<html><head></head><body>Vapor has always made it straightforward to deploy your application to a custom domain, subdomain, or even wildcard subdomain.\n\nHowever, it’s only been possible to utilize single-level subdomains - me...</body></html>",
+  "source": "laravel",
+  "author": "Joe Dixon",
+  "creatorId": "laravel",
+  "tags": []
+}

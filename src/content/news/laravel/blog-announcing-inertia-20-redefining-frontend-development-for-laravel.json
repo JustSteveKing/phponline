@@ -1,0 +1,13 @@
+{
+  "id": "laravel/blog-announcing-inertia-20-redefining-frontend-development-for-laravel",
+  "title": "Announcing Inertia 2.0: Redefining Frontend Development for Laravel",
+  "link": "https://laravel.com/blog/announcing-inertia-20-redefining-frontend-development-for-laravel?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2024-12-13T19:28:00.000Z",
+  "content": "<html><head></head><body>Inertia 2.0 brings powerful new features to Laravel frontend development including async requests, deferred props, prefetching, and polling. Learn how these improvements help you build faster, more responsive applications without the complexity of maintaining a separate API.</body></html>",
+  "source": "laravel",
+  "author": "Joe Tannenbaum",
+  "creatorId": "laravel",
+  "tags": [
+    "laravel"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "juststeveking/articles-modern-php-development-with-frankenphp-and-docker",
+  "title": "Modern PHP development with FrankenPHP and Docker",
+  "link": "https://www.juststeveking.com/articles/modern-php-development-with-frankenphp-and-docker/?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2025-10-08T00:00:00.000Z",
+  "content": "<html><head></head><body>A hands-on guide to deploying PHP applications with FrankenPHP and Docker, from simple containers to standalone binaries.</body></html>",
+  "source": "juststeveking",
+  "author": "Steve McDougall — Articles",
+  "creatorId": "juststeveking",
+  "tags": [
+    "devops"
+  ]
+}

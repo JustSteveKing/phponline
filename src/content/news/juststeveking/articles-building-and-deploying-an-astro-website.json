@@ -1,0 +1,13 @@
+{
+  "id": "juststeveking/articles-building-and-deploying-an-astro-website",
+  "title": "Building and Deploying an Astro Website - A Deep Dive",
+  "link": "https://www.juststeveking.com/articles/building-and-deploying-an-astro-website/?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2025-06-19T00:00:00.000Z",
+  "content": "<html><head></head><body>Learn how I built my personal dashboard using Astro, integrating dynamic content and productivity features, and deployed it with Sevalla and Cloudflare.</body></html>",
+  "source": "juststeveking",
+  "author": "Steve McDougall — Articles",
+  "creatorId": "juststeveking",
+  "tags": [
+    "devops"
+  ]
+}

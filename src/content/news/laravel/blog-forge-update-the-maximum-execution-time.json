@@ -1,0 +1,13 @@
+{
+  "id": "laravel/blog-forge-update-the-maximum-execution-time",
+  "title": "Forge: Update The Maximum Execution Time",
+  "link": "https://laravel.com/blog/forge-update-the-maximum-execution-time?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2019-01-09T07:46:00.000Z",
+  "content": "<html><head></head><body>Forge now lets you update the maximum execution time on your server.</body></html>",
+  "source": "laravel",
+  "author": "Mohamed Said",
+  "creatorId": "laravel",
+  "tags": [
+    "devops"
+  ]
+}

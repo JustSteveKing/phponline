@@ -1,0 +1,11 @@
+{
+  "id": "spatie/blog-can-we-make-default-tailwind-a-more-accessible-choice",
+  "title": "Can we make default tailwind a more accessible choice?",
+  "link": "https://spatie.be/blog/can-we-make-default-tailwind-a-more-accessible-choice?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-08-13T05:41:24.000Z",
+  "content": "<html><head></head><body><p>Tailwind ships rem-based breakpoints for good accessibility reasons. But 'good for accessibility' and 'good for your layout' aren't the same sentence, and the gap between them is worth a conversation.</p>\n\n            </body></html>",
+  "source": "spatie",
+  "author": "Spatie: Blog",
+  "creatorId": "spatie",
+  "tags": []
+}

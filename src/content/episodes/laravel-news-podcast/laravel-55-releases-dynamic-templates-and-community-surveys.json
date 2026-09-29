@@ -1,0 +1,14 @@
+{
+  "id": "laravel-news-podcast/laravel-55-releases-dynamic-templates-and-community-surveys",
+  "title": "Laravel 5.5 releases, dynamic templates, and community surveys",
+  "link": "https://podcast.laravel-news.com/46?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2017-09-26T12:01:00.000Z",
+  "content": "In episode 46 of the Laravel News Podcast, Jake and Michael discuss several new Laravel 5.5 minor releases, dynamic templates, and community surveys.",
+  "coverImage": "https://img.transistorcdn.com/ee3MivPKvAp6xUkKUjltfSPcKoVyW7nawFTYYdp664I/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9lcGlz/b2RlLzE2NDIzNC8x/NTc2MzQwNzk5LWFy/dHdvcmsuanBn.jpg",
+  "podcast": "Laravel News Podcast",
+  "audioUrl": "https://media.transistor.fm/80e19655/8ac557e8.mp3",
+  "duration": "1303",
+  "episode": "46",
+  "season": "",
+  "creatorId": "laravel-news"
+}

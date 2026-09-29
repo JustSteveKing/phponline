@@ -1,0 +1,14 @@
+{
+  "id": "laravel/blog-laravel-parallel-testing-is-now-available",
+  "title": "Laravel: Parallel Testing Is Now Available",
+  "link": "https://laravel.com/blog/laravel-parallel-testing-is-now-available?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2021-01-25T16:31:00.000Z",
+  "content": "<html><head></head><body>We're excited to announce that Parallel Testing is now available in Laravel. Starting Laravel v8.25, you may use the built-in `test` Artisan command to run your tests simultaneously across multiple processes to significantly reduce the time required to run the entire test suite.</body></html>",
+  "source": "laravel",
+  "author": "Nuno Maduro",
+  "creatorId": "laravel",
+  "tags": [
+    "laravel",
+    "testing"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "laravel/blog-octane-frankenphp",
+  "title": "Octane + FrankenPHP",
+  "link": "https://laravel.com/blog/octane-frankenphp?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2023-12-19T13:00:00.000Z",
+  "content": "<html><head></head><body>Today, we're super excited to announce a new Laravel Octane integration: FrankenPHP - a modern PHP server, developed by Kévin Dunglas, that supports modern web features such as early hints, automatic SSL certificate management, and Zstandard compression.</body></html>",
+  "source": "laravel",
+  "author": "Nuno Maduro",
+  "creatorId": "laravel",
+  "tags": [
+    "laravel",
+    "devops"
+  ]
+}

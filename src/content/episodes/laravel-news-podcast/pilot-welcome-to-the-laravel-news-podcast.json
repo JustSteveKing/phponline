@@ -1,0 +1,14 @@
+{
+  "id": "laravel-news-podcast/pilot-welcome-to-the-laravel-news-podcast",
+  "title": "Pilot: Welcome to the Laravel News Podcast",
+  "link": "https://podcast.laravel-news.com/1?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2015-10-07T00:53:00.000Z",
+  "content": "LN01: Our First Episode of the Laravel News Podcast.",
+  "coverImage": "https://img.transistorcdn.com/D6oOA3fE3nebxX_jYW2xnOxRK1P4SbjcWJgMNv10LPo/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9lcGlz/b2RlLzE2NDE4OS8x/NTc2MzQwNjExLWFy/dHdvcmsuanBn.jpg",
+  "podcast": "Laravel News Podcast",
+  "audioUrl": "https://media.transistor.fm/02ad7c1c/d1fd2d03.mp3",
+  "duration": "1068",
+  "episode": "1",
+  "season": "",
+  "creatorId": "laravel-news"
+}

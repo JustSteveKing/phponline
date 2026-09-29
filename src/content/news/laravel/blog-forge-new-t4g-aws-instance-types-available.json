@@ -1,0 +1,15 @@
+{
+  "id": "laravel/blog-forge-new-t4g-aws-instance-types-available",
+  "title": "Forge: New AWS ARM Instance Types Available",
+  "link": "https://laravel.com/blog/forge-new-t4g-aws-instance-types-available?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2020-11-20T14:26:00.000Z",
+  "content": "<html><head></head><body>Starting today, you can provision T4g AWS servers using Laravel Forge. These instance types are powered by AWS Graviton2, a processor built by AWS using 64-bit ARM cores. These instance types provide...</body></html>",
+  "source": "laravel",
+  "author": "Mohamed Said",
+  "creatorId": "laravel",
+  "tags": [
+    "laravel",
+    "internals",
+    "devops"
+  ]
+}

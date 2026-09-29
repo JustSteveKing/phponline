@@ -1,0 +1,14 @@
+{
+  "id": "laravel/blog-preview-environments-and-scale-to-zero-better-together",
+  "title": "Preview environments and scale to zero: Better together",
+  "link": "https://laravel.com/blog/preview-environments-and-scale-to-zero-better-together?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-09-28T12:23:00.000Z",
+  "content": "<html><head></head><body>Give every pull request its own preview environment on Laravel Cloud. Share a link, test the full stack, and let idle previews scale to zero.</body></html>",
+  "source": "laravel",
+  "author": "Philip Hartin",
+  "creatorId": "laravel",
+  "tags": [
+    "laravel",
+    "devops"
+  ]
+}

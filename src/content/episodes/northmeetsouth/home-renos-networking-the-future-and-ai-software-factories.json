@@ -1,0 +1,14 @@
+{
+  "id": "northmeetsouth/home-renos-networking-the-future-and-ai-software-factories",
+  "title": "Home renos, networking the future, and AI software factories?",
+  "link": "https://share.transistor.fm/s/98c93edd?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-09-17T14:05:00.000Z",
+  "content": "\n        <p>Michael and Jake celebrate episode 200 in the most outlandish way possible: with no special plan whatsoever.</p><p>Michael shares an update on his home renovation, including construction progress, verandah engineering, outdoor kitchen plans, landscaping, structured cabling, smoke alarms, CCTV, and the ever-growing list of \"small\" additions that come with a major building project.</p><p><br>They then discuss home networking, with Michael planning a mostly Ubiquiti, while Jake compares notes on his own home network, including reusing old whole-house vacuum pipes as ethernet conduit and planning better Wi-Fi coverage throughout the house.</p><p>Later, the conversation shifts to software development and AI-assisted coding. Michael describes what he calls - rightly or wrongly - a \"software factory\" that uses Amp as an orchestrator, GLM 5.3 agents for implementation, spec-driven development, automated code review, browser testing, and overnight agent workflows.</p><p>The episode wraps with a broader discussion about what AI means for software development, how it enables software for an audience of one, and whether Michael should buy the 24-port PoE switch after all.</p>\n      ",
+  "coverImage": "https://img.transistorcdn.com/gTGjKd44Qy-t3yz9_V60jp8N2Qe5KN4QwfB-5FNuQPM/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9zaG93/LzQ4ODMvMTU3Mjc3/NzAzNi1hcnR3b3Jr/LmpwZw.jpg",
+  "podcast": "NorthMeetSouth",
+  "audioUrl": "https://media.transistor.fm/98c93edd/754930fc.mp3",
+  "duration": "3119",
+  "episode": "200",
+  "season": "",
+  "creatorId": "northmeetsouth"
+}

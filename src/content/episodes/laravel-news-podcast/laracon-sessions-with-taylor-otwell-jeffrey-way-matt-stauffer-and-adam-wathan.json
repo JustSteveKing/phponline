@@ -1,0 +1,14 @@
+{
+  "id": "laravel-news-podcast/laracon-sessions-with-taylor-otwell-jeffrey-way-matt-stauffer-and-adam-wathan",
+  "title": "Laracon Sessions with Taylor Otwell, Jeffrey Way, Matt Stauffer, and Adam Wathan",
+  "link": "https://podcast.laravel-news.com/42?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2017-07-18T13:00:00.000Z",
+  "content": "In the final Laracon Sessions episode for 2017, Jake and Michael are joined by Taylor Otwell, Jeffrey Way, Matt Stauffer, and Adam Wathan to get the final word on the upcoming Laracon US conference in New York City.",
+  "coverImage": "https://img.transistorcdn.com/cr9sk5B5EIBjd4zLpHLe12p6IbY9vYZ5JcOr-cNqRV8/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9lcGlz/b2RlLzE2NDIzMC8x/NTc2MzQwNzgzLWFy/dHdvcmsuanBn.jpg",
+  "podcast": "Laravel News Podcast",
+  "audioUrl": "https://media.transistor.fm/c264ab7e/aebadbbe.mp3",
+  "duration": "3794",
+  "episode": "42",
+  "season": "",
+  "creatorId": "laravel-news"
+}

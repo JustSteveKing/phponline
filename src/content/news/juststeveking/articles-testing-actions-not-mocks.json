@@ -1,0 +1,14 @@
+{
+  "id": "juststeveking/articles-testing-actions-not-mocks",
+  "title": "Testing Actions, Not Mocks",
+  "link": "https://www.juststeveking.com/articles/testing-actions-not-mocks/?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-06-10T00:00:00.000Z",
+  "content": "<html><head></head><body>Mocking your own Actions tests the wiring, not the behaviour. How I test Laravel Action classes for real with Pest, and where fakes still belong.</body></html>",
+  "source": "juststeveking",
+  "author": "Steve McDougall — Articles",
+  "creatorId": "juststeveking",
+  "tags": [
+    "laravel",
+    "testing"
+  ]
+}

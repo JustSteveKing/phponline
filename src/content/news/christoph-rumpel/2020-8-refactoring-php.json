@@ -1,0 +1,13 @@
+{
+  "id": "christoph-rumpel/2020-8-refactoring-php",
+  "title": "Refactoring PHP",
+  "link": "https://christoph-rumpel.com/2020/8/refactoring-php?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2020-08-25T20:04:28.000Z",
+  "content": "<html><head></head><body>I've been programming in PHP now for almost ten years, and if there is one thing I learned over this period, it's that readability and simplicity are the keys for maintainable and sustainable code. Every first attempt to write code should be about making it work. Only after that, you should take some time to refactor. This is when I aim for readability and simplicity. Today I see refactoring as one of my main skills. In this post, I share with you my refactoring practices for PHP.\n            </body></html>",
+  "source": "christoph-rumpel",
+  "author": "Christoph Rumpel Blog Feed",
+  "creatorId": "christoph-rumpel",
+  "tags": [
+    "architecture"
+  ]
+}

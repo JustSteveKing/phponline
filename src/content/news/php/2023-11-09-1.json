@@ -1,0 +1,14 @@
+{
+  "id": "php/2023-11-09-1",
+  "title": "PHP 8.3.0 RC 6 available for testing",
+  "link": "https://www.php.net/index.php?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev#2023-11-09-1",
+  "pubDate": "2023-11-09T17:33:47.000Z",
+  "content": "<html><head></head><body><div type=\"xhtml\"><div xmlns=\"http://www.w3.org/1999/xhtml\"><p>\n         The PHP team is pleased to announce the release of PHP 8.3.0, RC 6.\n         This is the sixth and final release candidate, continuing the PHP 8.3 release cycle, the rough outline of which is specified in the .\n       <a href=\"https://wiki.php.net/todo/php83\">PHP Wiki</a></p><p>\n         For source downloads of PHP 8.3.0, RC 6 please visit the .\n       <a href=\"https://downloads.php.net/~eric\">download page</a></p><p>\n         Please carefully test this version and report any issues found in the .\n       <a href=\"https://bugs.php.net\">bug reporting system</a></p><p><b>Please DO NOT use this version in production, it is an early test version.</b></p><p>\n         For more information on the new features and other changes, you can read the  file or the  file for a complete list of upgrading notes. These files can also be found in the release archive.\n       <a href=\"https://github.com/php/php-src/blob/php-8.3.0RC6/NEWS\">NEWS</a><a href=\"https://github.com/php/php-src/blob/php-8.3.0RC6/UPGRADING\">UPGRADING</a></p><p>\n         The next release will be the production-ready, general availability release, planned for 23 November 2023.\n       </p><p>\n         The signatures for the release can be found in  or on .\n       <a href=\"https://gist.github.com/ericmann/ceaadbc09bdbb49efb74212a6c8cf02a\">the manifest</a><a href=\"https://qa.php.net/\">the QA site</a></p><p>Thank you for helping us make PHP better.</p></div></div></body></html>",
+  "source": "php",
+  "author": "PHP.net news & announcements",
+  "creatorId": "php-net",
+  "tags": [
+    "testing",
+    "php8"
+  ]
+}

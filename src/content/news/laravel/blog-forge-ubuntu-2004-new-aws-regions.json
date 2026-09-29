@@ -1,0 +1,13 @@
+{
+  "id": "laravel/blog-forge-ubuntu-2004-new-aws-regions",
+  "title": "Forge: Ubuntu 20.04 & New AWS Regions",
+  "link": "https://laravel.com/blog/forge-ubuntu-2004-new-aws-regions?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2020-05-21T09:09:00.000Z",
+  "content": "<html><head></head><body>Beginning today, Forge will provision all new servers with Ubuntu 20.04, the latest Ubuntu LTS release. If you would like to provision a new server using Forge's \"Custom VPS\" option, you should now en...</body></html>",
+  "source": "laravel",
+  "author": "James Brooks",
+  "creatorId": "laravel",
+  "tags": [
+    "devops"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "id": "php/id2019-07-11-1",
+  "title": "PHP 7.4.0 alpha 3 Released",
+  "link": "https://www.php.net/index.php?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev#id2019-07-11-1",
+  "pubDate": "2019-07-11T10:15:12.000Z",
+  "content": "<html><head></head><body><div type=\"xhtml\"><div xmlns=\"http://www.w3.org/1999/xhtml\"><p>\n     PHP team is glad to announce the release of the third PHP 7.4.0 version, PHP\n     7.4.0 Alpha 3. This continues the PHP 7.4 release cycle, the rough outline of\n     which is specified in the .\n     <a href=\"https://wiki.php.net/todo/php74\">PHP\n     Wiki</a></p><p>For source downloads of PHP 7.4.0 Alpha 3 please visit the .<a href=\"https://downloads.php.net/~derick\">download page</a></p><p>\n     Please carefully test this version and report any issues found in the .\n     <a href=\"https://bugs.php.net\">bug reporting system</a></p><p><b>Please DO NOT use this version in production, it is an early test\n     version.</b></p><p>\n      For more information on the new features and other changes, you can read the\n       file,\n      or the \n      file for a complete list of upgrading notes. These files can also be found in the release archive.\n     <a href=\"https://github.com/php/php-src/blob/php-7.4.0alpha3/NEWS\">NEWS</a><a href=\"https://github.com/php/php-src/blob/php-7.4.0alpha3/UPGRADING\">UPGRADING</a></p><p>\n     The next release would be , planned for July 25th.\n     <b>Beta 1</b></p><p>The signatures for the release can be found in  or on . <a href=\"https://gist.github.com/derickr/dc86e4edfedf69bd121026cbf3db8643\">the\n     manifest</a><a href=\"https://qa.php.net/\">the QA site</a></p><p>Thank you for helping us make PHP better.</p></div></div></body></html>",
+  "source": "php",
+  "author": "PHP.net news & announcements",
+  "creatorId": "php-net",
+  "tags": []
+}

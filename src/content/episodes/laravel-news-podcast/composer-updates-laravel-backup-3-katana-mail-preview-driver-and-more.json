@@ -1,0 +1,14 @@
+{
+  "id": "laravel-news-podcast/composer-updates-laravel-backup-3-katana-mail-preview-driver-and-more",
+  "title": "Composer updates, Laravel Backup 3, Katana, Mail Preview Driver, and more...",
+  "link": "https://podcast.laravel-news.com/12?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2016-03-22T14:40:00.000Z",
+  "content": "LN12: In this episode, we talk about the latest Laravel news including Composer updates, Github Relaxing their API limit, Laravel internals moving to Github issues. Then we talk about a few recent packages released including Katana, Laravel Backup 3, and a new mail preview driver.",
+  "coverImage": "https://img.transistorcdn.com/TX-742cqCp-tpALAe_nN91S67tyCHLdlvPNQ1uLSnlQ/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9lcGlz/b2RlLzE2NDIwMC8x/NTc2MzQwNjUyLWFy/dHdvcmsuanBn.jpg",
+  "podcast": "Laravel News Podcast",
+  "audioUrl": "https://media.transistor.fm/0285fc4f/3c8416b7.mp3",
+  "duration": "2114",
+  "episode": "12",
+  "season": "",
+  "creatorId": "laravel-news"
+}

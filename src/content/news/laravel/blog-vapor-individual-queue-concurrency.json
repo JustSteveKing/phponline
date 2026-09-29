@@ -1,0 +1,11 @@
+{
+  "id": "laravel/blog-vapor-individual-queue-concurrency",
+  "title": "Vapor: Individual Queue Concurrency",
+  "link": "https://laravel.com/blog/vapor-individual-queue-concurrency?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2023-01-30T14:36:00.000Z",
+  "content": "<html><head></head><body>Today, we're excited to announce it's now possible to set the maximum concurrency of individual Vapor queues. This new feature will allow you to ensure that not one of your queues can consume all of the available resources.</body></html>",
+  "source": "laravel",
+  "author": "Joe Dixon",
+  "creatorId": "laravel",
+  "tags": []
+}

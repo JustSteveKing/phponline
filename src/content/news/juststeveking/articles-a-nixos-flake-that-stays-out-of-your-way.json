@@ -1,0 +1,11 @@
+{
+  "id": "juststeveking/articles-a-nixos-flake-that-stays-out-of-your-way",
+  "title": "One Host, Twenty-One Files: A NixOS Flake That Stays Out Of Your Way",
+  "link": "https://www.juststeveking.com/articles/a-nixos-flake-that-stays-out-of-your-way/?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-08-04T00:00:00.000Z",
+  "content": "<html><head></head><body>How auto-imported flake-parts modules, wrapped desktop packages, and a single base16 palette file shape one NixOS config - and where each one bites.</body></html>",
+  "source": "juststeveking",
+  "author": "Steve McDougall — Articles",
+  "creatorId": "juststeveking",
+  "tags": []
+}

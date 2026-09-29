@@ -1,0 +1,14 @@
+{
+  "id": "laravel-news-podcast/deduplicating-strings-adding-swagger-and-workflows",
+  "title": "Deduplicating strings, adding Swagger, and workflows",
+  "link": "https://podcast.laravel-news.com/221?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2024-08-15T14:00:00.000Z",
+  "content": "\n        <p>Jake and Michael discuss all the latest Laravel releases, tutorials, and happenings in the community.</p><p>This episode is sponsored by <a href=\"https://honeybadger.io/plans?ref=laravelnewspodcast\">Honeybadger</a> - move fast and fix things with application monitoring that helps developers get it done.</p><p><strong>Show links</strong></p><ul><li><a href=\"https://laravel-news.com/laravel-11-20-0\">A New String Helper, Assert Enums in AssertableJson, and more in Laravel 11.20 </a></li><li><a href=\"https://x.com/taylorotwell/status/1823872964200423633\">Taylor's keynote will be livestreamed at Laracon US</a></li><li><a href=\"https://laravel-news.com/filament-gaze\">Filament Gaze: Show When Multiple Users View the Same Resource </a></li><li><a href=\"https://laravel-news.com/building-desktop-applications-using-native-php\">Building Desktop Applications using Native PHP with Simon Hamp </a></li><li><a href=\"https://laravel-news.com/laravel-swagger-ui\">Add Swagger UI to Your Laravel Application </a></li><li><a href=\"https://laravel-news.com/maska-input-mask-library\">Maska is a Simple Zero-dependency Input Mask Library </a></li><li><a href=\"https://laravel-news.com/active-sessions-card-for-laravel-pulse\">Active Sessions Card for Laravel Pulse </a></li><li><a href=\"https://laravel-news.com/safemood-laravel-workflow-package\">Create Actions and Workflows with this Laravel Workflows Package </a></li><li><a href=\"https://laravel-news.com/laravel-abuse-ip\">Block Known Spam IPs from Your Laravel App with the Abuse IP Package </a></li><li><a href=\"https://laravel-news.com/laravel-test-case-trait-setup-hooks\">Use Laravel's Built-in SetUp Hooks for Application Test Traits </a></li></ul>\n      ",
+  "coverImage": "https://img.transistorcdn.com/qmJ1PPS58Dv5ZdzfP2OsERDEhhL_6EPX8Tjmyurk5f0/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9zaG93/LzY0MDUvMTY5NDc4/NzE0OS1hcnR3b3Jr/LmpwZw.jpg",
+  "podcast": "Laravel News Podcast",
+  "audioUrl": "https://media.transistor.fm/4708d0e5/98034a20.mp3",
+  "duration": "2151",
+  "episode": "221",
+  "season": "",
+  "creatorId": "laravel-news"
+}

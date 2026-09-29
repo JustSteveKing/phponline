@@ -1,0 +1,14 @@
+{
+  "id": "laravel/blog-deploy-nextjs-and-nuxt-apps-on-laravel-cloud",
+  "title": "Deploy Next.js and Nuxt apps on Laravel Cloud",
+  "link": "https://laravel.com/blog/deploy-nextjs-and-nuxt-apps-on-laravel-cloud?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-07-28T21:10:00.000Z",
+  "content": "<html><head></head><body>Deploy your Next.js or Nuxt frontend alongside your Laravel app on Laravel Cloud: one platform, one deploy workflow, one bill.</body></html>",
+  "source": "laravel",
+  "author": "Laravel Team",
+  "creatorId": "laravel",
+  "tags": [
+    "laravel",
+    "devops"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "spatie/blog-introducing-ourrayapp-debugging-is-better-together",
+  "title": "Introducing ourray.app: debugging is better together",
+  "link": "https://spatie.be/blog/introducing-ourrayapp-debugging-is-better-together?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-04-01T11:41:21.000Z",
+  "content": "<html><head></head><body><p>Introducing ourray.app, a shared cloud-based Ray instance where everyone's debugging output streams live on one dashboard. Install <code>spatie/our-ray</code>, prepend <code>our()</code> before your <code>ray()</code> calls, and your dumps are visible to the world.</p>\n\n            </body></html>",
+  "source": "spatie",
+  "author": "Spatie: Blog",
+  "creatorId": "spatie",
+  "tags": [
+    "devops"
+  ]
+}

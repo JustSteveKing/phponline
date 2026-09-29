@@ -1,0 +1,11 @@
+{
+  "id": "laravel/blog-inertiajs-v3-is-now-in-beta",
+  "title": "Inertia.js v3 Is Now in Beta",
+  "link": "https://laravel.com/blog/inertiajs-v3-is-now-in-beta?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-03-05T16:54:27.000Z",
+  "content": "<html><head></head><body>Inertia.js v3 beta is out. No more Axios, a new Vite plugin handles SSR automatically, and optimistic updates are now built in. Upgrade guide\nincluded.</body></html>",
+  "source": "laravel",
+  "author": "Pascal Baljet",
+  "creatorId": "laravel",
+  "tags": []
+}

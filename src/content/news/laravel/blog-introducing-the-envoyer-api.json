@@ -1,0 +1,11 @@
+{
+  "id": "laravel/blog-introducing-the-envoyer-api",
+  "title": "Introducing The Envoyer API",
+  "link": "https://laravel.com/blog/introducing-the-envoyer-api?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2020-11-04T15:36:00.000Z",
+  "content": "<html><head></head><body>Today we're excited to release our API for [Envoyer](https://envoyer.io)!\n\nYou can create new API tokens from your Envoyer [account page](https://envoyer.io/user/profile#/api). Each token can be scope...</body></html>",
+  "source": "laravel",
+  "author": "James Brooks",
+  "creatorId": "laravel",
+  "tags": []
+}

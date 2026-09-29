@@ -1,0 +1,13 @@
+{
+  "id": "juststeveking/articles-the-action-pattern",
+  "title": "Building Modern Laravel APIs: The Action Pattern",
+  "link": "https://www.juststeveking.com/articles/the-action-pattern/?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-04-14T00:00:00.000Z",
+  "content": "<html><head></head><body>Building a lead enrichment and scoring pipeline in Laravel 13 using the AI SDK, structured agents, composable Action classes, and PHP enums for type-safe status management.</body></html>",
+  "source": "juststeveking",
+  "author": "Steve McDougall — Articles",
+  "creatorId": "juststeveking",
+  "tags": [
+    "laravel"
+  ]
+}

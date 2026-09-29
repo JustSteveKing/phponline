@@ -1,0 +1,14 @@
+{
+  "id": "laravel-news-podcast/paused-queues-php-85-and-time-intervals",
+  "title": "Paused queues, PHP 8.5, and time intervals",
+  "link": "https://podcast.laravel-news.com/249?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2025-12-04T15:00:00.000Z",
+  "content": "\n        <p>Jake and Michael discuss all the latest Laravel releases, tutorials, and happenings in the community.</p><p>This episode is sponsored by <a href=\"https://www.coderabbit.ai/cli?ref=laravelnewspodcast\">CodeRabbit</a>; Smart CLI Reviews act as quality gates for Codex, Claude, Gemini, and you.</p><p><strong>Show links</strong></p><ul><li><a href=\"https://laravel-news.com/laravel-12-39-0\">Blade @hasStack Directive Added in Laravel 12.39 </a></li><li><a href=\"https://laravel-news.com/laravel-12-40-0\">Time Interval Helpers in Laravel 12.40 </a></li><li><a href=\"https://laravel-news.com/laravel-12-40-2\">Pause a Queue for a Given Number of Seconds in Laravel 12 </a></li><li><a href=\"https://laravel-news.com/php-8-5-0\">PHP 8.5 is released with the pipe operator, URI extension, new array functions, and more </a></li><li><a href=\"https://laravel-news.com/introducing-mailviews-early-access\">Introducing Mailviews Early Access </a></li><li><a href=\"https://laravel-news.com/email-utilities-for-laravel\">Prevent Disposable Email Registrations with Email Utilities for Laravel </a></li><li><a href=\"https://laravel-news.com/dynamodb-driver-for-the-laravel-auditing-package\">A DynamoDB Driver for the Laravel Auditing Package </a></li><li><a href=\"https://laravel-news.com/build-production-ready-apis-in-laravel-with-tyro\">Build Production-ready APIs in Laravel with Tyro </a></li></ul><p><strong>Tutorials</strong></p><ul><li><a href=\"https://laravel-news.com/separate-your-cloudflare-page-cache-with-a-middleware-group\">Separate your Cloudflare page cache with a middleware group </a></li><li><a href=\"https://laravel-news.com/postgresql-vs-mongodb-for-laravel-choosing-the-right-database\">PostgreSQL vs. MongoDB for Laravel: Choosing the Right Database </a></li><li><a href=\"https://laravel-news.com/modernizing-code-with-rector-laravel-in-practice-ep12\">Modernizing Code with Rector - Laravel In Practice EP12 </a></li><li><a href=\"https://laravel-news.com/static-analysis-secrets-laravel-in-practice-ep13\">Static Analysis Secrets - Laravel In Practice EP13 </a></li></ul>\n      ",
+  "coverImage": "https://img.transistorcdn.com/S47Rt4xBoURLKBY7wdzgAIsK7pMpQ4f5M9-EIXDkCOc/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS80NTU1/OGYzZDJkMWRmZDAw/ZWMzNzI0MzA2Mjli/NTEyOC5wbmc.jpg",
+  "podcast": "Laravel News Podcast",
+  "audioUrl": "https://media.transistor.fm/8b33a2fd/ec2741a2.mp3",
+  "duration": "1731",
+  "episode": "249",
+  "season": "",
+  "creatorId": "laravel-news"
+}

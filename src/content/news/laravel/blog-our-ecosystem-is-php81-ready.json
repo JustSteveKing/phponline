@@ -1,0 +1,14 @@
+{
+  "id": "laravel/blog-our-ecosystem-is-php81-ready",
+  "title": "Laravel ecosystem — including Laravel, Forge, and Vapor — is PHP 8.1 ready",
+  "link": "https://laravel.com/blog/our-ecosystem-is-php81-ready?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2021-11-24T13:15:00.000Z",
+  "content": "<html><head></head><body>As you may have noticed in the past few weeks, we ensured that Laravel, first-party libraries, Forge, Envoyer, Nova, and Vapor, do support PHP 8.1 since day one. So, let's take a look at what you need to start using PHP 8.1.</body></html>",
+  "source": "laravel",
+  "author": "Nuno Maduro",
+  "creatorId": "laravel",
+  "tags": [
+    "laravel",
+    "php8"
+  ]
+}

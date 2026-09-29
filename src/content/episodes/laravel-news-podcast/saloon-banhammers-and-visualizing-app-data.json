@@ -1,0 +1,14 @@
+{
+  "id": "laravel-news-podcast/saloon-banhammers-and-visualizing-app-data",
+  "title": "Saloon, Banhammers, and visualizing app data",
+  "link": "https://podcast.laravel-news.com/186?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2023-02-28T15:00:00.000Z",
+  "content": "\n        <p>Jake and Michael discuss all the latest Laravel releases, tutorials, and happenings in the community.</p><p>This episode is sponsored by <a href=\"https://honeybadger.io/?ref=laravelnewspodcast\">Honeybadger</a> - combining error monitoring, uptime monitoring and check-in monitoring into a single, easy to use platform and making you a DevOps hero.</p><p></p><ul><li>(02:34) - Laravel 10.1 released</li>\n<li>(09:07) - Laravel Live UK 2023</li>\n<li>(11:40) - Laracon India</li>\n<li>(13:59) - Saloon 2 is here</li>\n<li>(23:22) - Ban users and IPs in your Laravel app with Banhammer</li>\n<li>(26:58) - Visualize Laravel app data with Chartello</li>\n<li>(28:40) - Sponsor: Honeybadger</li>\n<li>(30:00) - Managing routes in a large Laravel application</li>\n<li>(33:34) - 5 underrated Filament features</li>\n<li>(34:27) - Laravel CI with GitHub Actions</li>\n<li>(35:06) - Using Takeout with local Valet and Docker sites</li>\n</ul><ul><li><a href=\"https://github.com/laravel/.github\">Laravel community health files</a></li></ul>\n      ",
+  "coverImage": "https://img.transistorcdn.com/qmJ1PPS58Dv5ZdzfP2OsERDEhhL_6EPX8Tjmyurk5f0/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9zaG93/LzY0MDUvMTY5NDc4/NzE0OS1hcnR3b3Jr/LmpwZw.jpg",
+  "podcast": "Laravel News Podcast",
+  "audioUrl": "https://media.transistor.fm/752a937d/bb4d3c6b.mp3",
+  "duration": "2286",
+  "episode": "186",
+  "season": "",
+  "creatorId": "laravel-news"
+}

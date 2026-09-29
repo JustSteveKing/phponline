@@ -1,0 +1,13 @@
+{
+  "id": "laravel/blog-forge-nginx-templates",
+  "title": "Forge: Nginx Templates",
+  "link": "https://laravel.com/blog/forge-nginx-templates?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2020-11-05T15:28:00.000Z",
+  "content": "<html><head></head><body>Today we're excited to introduce a new feature to [Laravel Forge](https://laravel.com/forge) called **Nginx Templates**. These templates allow you to define your own base Nginx configuration files tha...</body></html>",
+  "source": "laravel",
+  "author": "James Brooks",
+  "creatorId": "laravel",
+  "tags": [
+    "laravel"
+  ]
+}

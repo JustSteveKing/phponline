@@ -1,0 +1,14 @@
+{
+  "id": "laravel/blog-vapor-introducing-sandbox",
+  "title": "Vapor: Free Sandbox Accounts",
+  "link": "https://laravel.com/blog/vapor-introducing-sandbox?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2022-09-14T18:55:00.000Z",
+  "content": "<html><head></head><body>Introduding Vapor sandbox accounts. Get started with Vapor for free and see how quick, easy and painless it is to provision, deploy and manage your Laravel application in a serverless environment.</body></html>",
+  "source": "laravel",
+  "author": "Joe Dixon",
+  "creatorId": "laravel",
+  "tags": [
+    "laravel",
+    "devops"
+  ]
+}

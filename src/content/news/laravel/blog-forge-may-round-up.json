@@ -1,0 +1,13 @@
+{
+  "id": "laravel/blog-forge-may-round-up",
+  "title": "Forge: May Round-Up",
+  "link": "https://laravel.com/blog/forge-may-round-up?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2021-06-01T08:30:00.000Z",
+  "content": "<html><head></head><body>A whole month has flown by since our [last post](https://blog.laravel.com/forge-april-round-up) which rounded up all of the things we shipped to [Laravel Forge](https://forge.laravel.com) in April.\n\nT...</body></html>",
+  "source": "laravel",
+  "author": "James Brooks",
+  "creatorId": "laravel",
+  "tags": [
+    "laravel"
+  ]
+}

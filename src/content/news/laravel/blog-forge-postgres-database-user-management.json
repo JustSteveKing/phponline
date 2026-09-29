@@ -1,0 +1,13 @@
+{
+  "id": "laravel/blog-forge-postgres-database-user-management",
+  "title": "Forge: Postgres Database + User Management",
+  "link": "https://laravel.com/blog/forge-postgres-database-user-management?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2019-12-05T19:01:00.000Z",
+  "content": "<html><head></head><body>For a while now, Forge has allowed you to create and manage additional databases and users if you were using MySQL / MariaDB; however, we did not support this for Postgres.\n\nThat changes today! You ca...</body></html>",
+  "source": "laravel",
+  "author": "Taylor Otwell",
+  "creatorId": "laravel",
+  "tags": [
+    "databases"
+  ]
+}

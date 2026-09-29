@@ -1,0 +1,13 @@
+{
+  "id": "juststeveking/articles-why-your-laravel-controllers-should-be-almost-empty",
+  "title": "Why your Laravel controllers should be almost empty",
+  "link": "https://www.juststeveking.com/articles/why-your-laravel-controllers-should-be-almost-empty/?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-02-27T00:00:00.000Z",
+  "content": "<html><head></head><body>Controllers are a transport layer, not a home for business logic. How I keep Laravel controllers down to a handful of lines using Form Requests, payloads, and Action classes.</body></html>",
+  "source": "juststeveking",
+  "author": "Steve McDougall — Articles",
+  "creatorId": "juststeveking",
+  "tags": [
+    "laravel"
+  ]
+}

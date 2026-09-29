@@ -1,0 +1,13 @@
+{
+  "id": "php/id2018-12-06-2",
+  "title": "PHP 5.6.39 Released",
+  "link": "http://php.net/index.php?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev#id2018-12-06-2",
+  "pubDate": "2018-12-06T14:14:16.000Z",
+  "content": "<html><head></head><body><div type=\"xhtml\"><div xmlns=\"http://www.w3.org/1999/xhtml\"><p>The PHP development team announces the immediate availability of PHP\n     5.6.39. This is a security release. Several security bugs have been fixed\n     in this release.\n\n     All PHP 5.6 users are encouraged to upgrade to this version.\n     </p><p>For source downloads of PHP 5.6.39 please visit our ,\n     Windows source and binaries can be found on .\n     The list of changes is recorded in the .\n     <a href=\"http://www.php.net/downloads.php\">downloads page</a><a href=\"http://windows.php.net/download/\">windows.php.net/download/</a><a href=\"http://www.php.net/ChangeLog-5.php#5.6.39\">ChangeLog</a></p><p>Please note that according to the ,\n        PHP 5.6.39 is the last scheduled release of PHP 5.6 branch. There may be additional release if we\ndiscover\n        important security issues that warrant it, otherwise this release will be the final one in the PHP\n5.6 branch.\n        If your PHP installation is based on PHP 5.6, it may be a good time to start making the plans for\nthe upgrade\n        to PHP 7.1, PHP 7.2 or PHP 7.3.\n     <a href=\"http://php.net/supported-versions.php\">PHP version\nsupport timelines</a></p></div></div></body></html>",
+  "source": "php",
+  "author": "PHP.net news & announcements",
+  "creatorId": "php-net",
+  "tags": [
+    "security"
+  ]
+}

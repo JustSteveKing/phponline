@@ -1,0 +1,14 @@
+{
+  "id": "juststeveking/articles-starting-our-domain-code-with-data-objects-and-factories",
+  "title": "Starting our Domain Code; Data Objects and Factories",
+  "link": "https://www.juststeveking.com/articles/starting-our-domain-code-with-data-objects-and-factories/?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2022-05-03T00:00:00.000Z",
+  "content": "<html><head></head><body>Enhance code consistency and safety in Domain-Driven Design with Laravel DDD. Learn about Data Objects &amp; Factories.</body></html>",
+  "source": "juststeveking",
+  "author": "Steve McDougall — Articles",
+  "creatorId": "juststeveking",
+  "tags": [
+    "laravel",
+    "architecture"
+  ]
+}

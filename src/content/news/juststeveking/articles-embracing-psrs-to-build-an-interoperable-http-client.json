@@ -1,0 +1,11 @@
+{
+  "id": "juststeveking/articles-embracing-psrs-to-build-an-interoperable-http-client",
+  "title": "Embracing PSRs to build an interoperable HTTP Client",
+  "link": "https://www.juststeveking.com/articles/embracing-psrs-to-build-an-interoperable-http-client/?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2020-05-29T00:00:00.000Z",
+  "content": "<html><head></head><body>Learn to build a PSR-18 compliant HTTP client in PHP, enhancing web development through interoperability and efficient request handling.</body></html>",
+  "source": "juststeveking",
+  "author": "Steve McDougall — Articles",
+  "creatorId": "juststeveking",
+  "tags": []
+}

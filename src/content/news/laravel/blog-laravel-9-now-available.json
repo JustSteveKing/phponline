@@ -1,0 +1,13 @@
+{
+  "id": "laravel/blog-laravel-9-now-available",
+  "title": "Laravel 9 Now Available!",
+  "link": "https://laravel.com/blog/laravel-9-now-available?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2022-02-10T16:06:00.000Z",
+  "content": "<html><head></head><body>This week we shipped Laravel 9.0 - the exciting next chapter in our journey to make web development enjoyable and productive!\n\nLaravel 9 continues the improvements made in Laravel 8.x by introducing s...</body></html>",
+  "source": "laravel",
+  "author": "Dries Vints",
+  "creatorId": "laravel",
+  "tags": [
+    "laravel"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "juststeveking/articles-getting-started-laravel-scout-meilisearch",
+  "title": "Getting started with Laravel Scout and Meilisearch",
+  "link": "https://www.juststeveking.com/articles/getting-started-laravel-scout-meilisearch/?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2022-06-21T00:00:00.000Z",
+  "content": "<html><head></head><body>Boost your Laravel app's search with Scout and Meilisearch for powerful, efficient capabilities.</body></html>",
+  "source": "juststeveking",
+  "author": "Steve McDougall — Articles",
+  "creatorId": "juststeveking",
+  "tags": [
+    "laravel"
+  ]
+}

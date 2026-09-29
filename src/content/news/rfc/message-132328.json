@@ -1,0 +1,14 @@
+{
+  "id": "rfc/message-132328",
+  "title": "Should RFCs for new functions include a userland polyfill/reference implementation?",
+  "link": "https://externals.io/message/132328?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-08-25T11:18:50.000Z",
+  "content": "<html><head></head><body>[DISCUSS] Should RFCs for new functions include a userland polyfill/reference implementation?</body></html>",
+  "source": "rfc",
+  "author": "#externals - Latest RFC Threads",
+  "status": "RFC",
+  "creatorId": "internals",
+  "tags": [
+    "internals"
+  ]
+}

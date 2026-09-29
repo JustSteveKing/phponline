@@ -1,0 +1,14 @@
+{
+  "id": "laravel-news-podcast/container-object-signing-in-with-apple-and-resource-preloading",
+  "title": "Container object, signing in with Apple, and resource preloading",
+  "link": "https://podcast.laravel-news.com/105?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2019-10-29T14:00:00.000Z",
+  "content": "Jake and Michael discuss all the latest Laravel releases, tutorials, and happenings in the community.",
+  "coverImage": "https://img.transistorcdn.com/K7NJqnb2S8DTC-Pjz1LkVd3qs3l8ZRILSHTZc3yL2Ys/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9lcGlz/b2RlLzE2NDI5My8x/NTc2MzQxMDUxLWFy/dHdvcmsuanBn.jpg",
+  "podcast": "Laravel News Podcast",
+  "audioUrl": "https://media.transistor.fm/6aa26d43/36271560.mp3",
+  "duration": "2260",
+  "episode": "105",
+  "season": "",
+  "creatorId": "laravel-news"
+}

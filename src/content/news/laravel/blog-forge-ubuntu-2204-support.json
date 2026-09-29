@@ -1,0 +1,13 @@
+{
+  "id": "laravel/blog-forge-ubuntu-2204-support",
+  "title": "Forge: Ubuntu 22.04 Support",
+  "link": "https://laravel.com/blog/forge-ubuntu-2204-support?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2022-05-10T14:16:00.000Z",
+  "content": "<html><head></head><body>We're excited to announce that Laravel Forge now supports Ubuntu 22.04 (Jammy) - the latest Ubuntu LTS release from Canonical!</body></html>",
+  "source": "laravel",
+  "author": "James Brooks",
+  "creatorId": "laravel",
+  "tags": [
+    "laravel"
+  ]
+}

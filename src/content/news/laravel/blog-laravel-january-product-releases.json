@@ -1,0 +1,15 @@
+{
+  "id": "laravel/blog-laravel-january-product-releases",
+  "title": "Laravel January Product Releases",
+  "link": "https://laravel.com/blog/laravel-january-product-releases?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-02-03T08:22:38.000Z",
+  "content": "<html><head></head><body>January brings Private Cloud, Valkey caching, expanded Cloud API, plus Forge backup options and Nightwatch real-time exception detection.\n</body></html>",
+  "source": "laravel",
+  "author": "Laravel Team",
+  "creatorId": "laravel",
+  "tags": [
+    "laravel",
+    "performance",
+    "devops"
+  ]
+}

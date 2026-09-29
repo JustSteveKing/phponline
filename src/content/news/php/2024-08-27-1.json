@@ -1,0 +1,14 @@
+{
+  "id": "php/2024-08-27-1",
+  "title": "API Platform Conference 2024",
+  "link": "https://www.php.net/conferences/index.php?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev#2024-08-27-1",
+  "pubDate": "2024-08-27T19:55:44.000Z",
+  "content": "<html><head></head><body><div type=\"xhtml\"><div xmlns=\"http://www.w3.org/1999/xhtml\"><p> is an open-source PHP framework, designed to build modern, fast, and robust APIs thanks to its wide set of tools and features. It supports many formats and protocols, including JSON-LD, OpenAPI, and GraphQL, and is designed to streamline the developer experience.<a href=\"https://api-platform.com\">API Platform</a></p><p>, the event dedicated to the API Platform framework and its ecosystem, is back and will be held in Lille, France, at EuraTechnologies (Europe's largest startup incubator and accelerator).<a href=\"https://api-platform.com/con\">The API Platform Conference</a></p><p>On September 19th and 20th, 25 talks will be delivered, in English and in French. Also, many organizations from the PHP, JavaScript and Cloud ecosystems will hold booths on an exhibition hall.</p></div></div></body></html>",
+  "source": "php",
+  "author": "PHP.net news & announcements",
+  "creatorId": "php-net",
+  "tags": [
+    "symfony",
+    "devops"
+  ]
+}

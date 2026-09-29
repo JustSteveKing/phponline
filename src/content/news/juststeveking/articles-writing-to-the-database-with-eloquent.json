@@ -1,0 +1,14 @@
+{
+  "id": "juststeveking/articles-writing-to-the-database-with-eloquent",
+  "title": "Writing to the Database with Eloquent",
+  "link": "https://www.juststeveking.com/articles/writing-to-the-database-with-eloquent/?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2022-09-29T00:00:00.000Z",
+  "content": "<html><head></head><body>Learn methods of writing to the database using Laravel's Eloquent ORM for effective database interactions.</body></html>",
+  "source": "juststeveking",
+  "author": "Steve McDougall — Articles",
+  "creatorId": "juststeveking",
+  "tags": [
+    "laravel",
+    "databases"
+  ]
+}

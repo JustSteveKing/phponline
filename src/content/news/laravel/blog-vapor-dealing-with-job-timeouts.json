@@ -1,0 +1,14 @@
+{
+  "id": "laravel/blog-vapor-dealing-with-job-timeouts",
+  "title": "Vapor: Job Timeouts",
+  "link": "https://laravel.com/blog/vapor-dealing-with-job-timeouts?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2020-02-11T13:02:00.000Z",
+  "content": "<html><head></head><body>On February 10th, we've released v2.4.1 of [laravel/vapor-core](https://github.com/laravel/vapor-core).\n\nThis release includes an important fix for long running queued jobs. Before this fix, long runn...</body></html>",
+  "source": "laravel",
+  "author": "Mohamed Said",
+  "creatorId": "laravel",
+  "tags": [
+    "laravel",
+    "internals"
+  ]
+}

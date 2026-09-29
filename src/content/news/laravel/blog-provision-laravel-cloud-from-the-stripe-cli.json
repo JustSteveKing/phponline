@@ -1,0 +1,15 @@
+{
+  "id": "laravel/blog-provision-laravel-cloud-from-the-stripe-cli",
+  "title": "Provision Laravel Cloud From the Stripe CLI",
+  "link": "https://laravel.com/blog/provision-laravel-cloud-from-the-stripe-cli?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-06-10T09:20:10.000Z",
+  "content": "<html><head></head><body>Laravel Cloud is now available in Stripe Projects. Provision your application, database, cache, and credentials directly from the Stripe CLI.\n</body></html>",
+  "source": "laravel",
+  "author": "Emilee Spencer",
+  "creatorId": "laravel",
+  "tags": [
+    "laravel",
+    "databases",
+    "devops"
+  ]
+}

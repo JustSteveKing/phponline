@@ -1,0 +1,14 @@
+{
+  "id": "northmeetsouth/managing-integrations-gently-improving-coding-practices-and-housing-your-validation",
+  "title": "Managing integrations, gently improving coding practices, and housing your validation",
+  "link": "https://share.transistor.fm/s/f129bc8a?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2022-07-18T14:51:00.000Z",
+  "content": "\n        <p>Jake and Michael discuss using the concepts within <a href=\"https://docs.saloon.dev/\">Saloon</a> to manage integrations with third party APIs, how a newcomer to a business can help an existing team modernise their development practices, and using Data Transfer Objects to push data validation to your application boundary.</p><p>This episode is sponsored by <a href=\"https://workvivo.com\">Workvivo</a>.</p><p><strong>Show links</strong></p><ul><li><a href=\"https://www.tiktok.com/@thedailyshow/video/7112467341937560875\">Trevor on Lizzo's \"Grrrls\" lyric controversy</a></li><li><a href=\"https://laravel-news.com/api-integrations-using-saloon-in-laravel\">API integrations using Saloon in Laravel</a><ul><li><a href=\"https://www.northmeetssouth.audio/112\">Using Saloon to integrate external APIs with Sam Carré</a></li></ul></li><li><a href=\"https://blog.frankdejonge.nl/where-does-validation-live/\">Where does my validation live?</a></li></ul>\n      ",
+  "coverImage": "https://img.transistorcdn.com/gTGjKd44Qy-t3yz9_V60jp8N2Qe5KN4QwfB-5FNuQPM/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9zaG93/LzQ4ODMvMTU3Mjc3/NzAzNi1hcnR3b3Jr/LmpwZw.jpg",
+  "podcast": "NorthMeetSouth",
+  "audioUrl": "https://media.transistor.fm/f129bc8a/878d8ecd.mp3",
+  "duration": "3341",
+  "episode": "122",
+  "season": "",
+  "creatorId": "northmeetsouth"
+}

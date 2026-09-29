@@ -1,0 +1,14 @@
+{
+  "id": "laravel/blog-forge-php-81-release-candidate-is-now-supported",
+  "title": "Forge: PHP 8.1 Release Candidate Is Now Supported",
+  "link": "https://laravel.com/blog/forge-php-81-release-candidate-is-now-supported?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2021-10-11T14:37:00.000Z",
+  "content": "<html><head></head><body>Starting today, you may install PHP 8.1 Release Candidates by choosing \"PHP 8.1 RC\" while creating a new server. Or, you may install the release candidate on an existing server via the PHP tab on a server's management dashboard.</body></html>",
+  "source": "laravel",
+  "author": "Nuno Maduro",
+  "creatorId": "laravel",
+  "tags": [
+    "php8",
+    "devops"
+  ]
+}

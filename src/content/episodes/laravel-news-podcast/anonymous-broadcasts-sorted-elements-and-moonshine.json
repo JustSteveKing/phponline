@@ -1,0 +1,14 @@
+{
+  "id": "laravel-news-podcast/anonymous-broadcasts-sorted-elements-and-moonshine",
+  "title": "Anonymous broadcasts, sorted elements, and Moonshine",
+  "link": "https://podcast.laravel-news.com/214?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2024-05-09T14:00:00.000Z",
+  "content": "\n        <p>Jake and Michael discuss all the latest Laravel releases, tutorials, and happenings in the community.</p><p>This episode is sponsored by Mailtrap, an Email Delivery Platform that developers love. An email-sending solution with industry-best analytics, SMTP, and email API, SDKs for major programming languages, and 24/7 human support. Try for Free at <a href=\"https://l.rw.rw/laravelnews\">MAILTRAP.IO</a></p><p><strong>Show links</strong></p><ul><li><a href=\"https://laravel-news.com/laravel-11-5-0\">Anonymous Event Broadcasting in Laravel 11.5 </a></li><li><a href=\"https://laravel-news.com/laravel-ecosystem-video-series\">New Video Series: The Laravel Ecosystem </a></li><li><a href=\"https://laravel-news.com/nativephp-windows-builds\">NativePHP Windows Builds are Here </a></li><li><a href=\"https://laravel-news.com/alpine-sort-plugin\">Sort Elements with the Alpine.js Sort Plugin </a></li><li><a href=\"https://laravel-news.com/laravel-worldwide-meetup-april-2024\">The April 2024 Laravel Worldwide Meetup is Today </a></li><li><a href=\"https://laravel-news.com/moonshine-laravel-admin-panel\">Moonshine is an Open-source Admin Panel for Laravel </a></li><li><a href=\"https://laravel-news.com/laravel-slower\">Optimize Your Eloquent Queries with AI </a></li><li><a href=\"https://laravel-news.com/replicate-laravel-php-client\">Replicate Laravel PHP Client </a></li><li><a href=\"https://laravel-news.com/directorytree-authorization-for-laravel\">DirectoryTree Authorization is a Native Role and Permission Management Package for Laravel </a></li></ul>\n      ",
+  "coverImage": "https://img.transistorcdn.com/qmJ1PPS58Dv5ZdzfP2OsERDEhhL_6EPX8Tjmyurk5f0/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9zaG93/LzY0MDUvMTY5NDc4/NzE0OS1hcnR3b3Jr/LmpwZw.jpg",
+  "podcast": "Laravel News Podcast",
+  "audioUrl": "https://media.transistor.fm/d88e7b68/bcb1dffd.mp3",
+  "duration": "1701",
+  "episode": "214",
+  "season": "",
+  "creatorId": "laravel-news"
+}

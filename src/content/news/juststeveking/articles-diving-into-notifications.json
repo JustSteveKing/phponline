@@ -1,0 +1,13 @@
+{
+  "id": "juststeveking/articles-diving-into-notifications",
+  "title": "Diving into Notifications",
+  "link": "https://www.juststeveking.com/articles/diving-into-notifications/?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2025-02-10T00:00:00.000Z",
+  "content": "<html><head></head><body>Learn to send multi-channel notifications in Laravel with email, Slack, and in-app alerts.</body></html>",
+  "source": "juststeveking",
+  "author": "Steve McDougall — Articles",
+  "creatorId": "juststeveking",
+  "tags": [
+    "laravel"
+  ]
+}

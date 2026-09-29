@@ -1,0 +1,11 @@
+{
+  "id": "php/id2019-10-18-1",
+  "title": "PHP 7.4.0RC4 Released!",
+  "link": "https://www.php.net/index.php?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev#id2019-10-18-1",
+  "pubDate": "2019-10-18T08:46:40.000Z",
+  "content": "<html><head></head><body><div type=\"xhtml\"><div xmlns=\"http://www.w3.org/1999/xhtml\"><p>\n     The PHP team is glad to announce the fourth release candidate of PHP 7.4:\n     PHP 7.4.0RC4. This continues the PHP 7.4 release cycle, the rough outline of\n     which is specified in the .\n     <a href=\"https://wiki.php.net/todo/php74\">PHP\n     Wiki</a></p><p><b>Please DO NOT use this version in production, it is an early test\n     version.</b></p><p>\n     For source downloads of PHP 7.4.0RC4 please visit the\n     .\n     <a href=\"https://downloads.php.net/~derick\">download page</a></p><p>\n     Please carefully test this version and report any issues found in the .\n     <a href=\"https://bugs.php.net\">bug reporting system</a></p><p>\n     For more information on the new features and other changes, you can read the\n     \n     file, or the\n     \n     file for a complete list of upgrading notes. These files can also be found in\n     the release archive.\n     <a href=\"https://github.com/php/php-src/blob/php-7.4.0RC4/NEWS\">NEWS</a><a href=\"https://github.com/php/php-src/blob/php-7.4.0RC4/UPGRADING\">UPGRADING</a></p><p>\n     The next release would be , planned for October 31st.\n     <b>7.4.0RC5</b></p><p>\n     The signatures for the release can be found in\n      or on .\n     <a href=\"https://gist.github.com/derickr/5ad9dc1e880c8797a6f4af414d084c0f\">the\n     manifest</a><a href=\"https://qa.php.net/\">the QA site</a></p><p>Thank you for helping us make PHP better.</p></div></div></body></html>",
+  "source": "php",
+  "author": "PHP.net news & announcements",
+  "creatorId": "php-net",
+  "tags": []
+}

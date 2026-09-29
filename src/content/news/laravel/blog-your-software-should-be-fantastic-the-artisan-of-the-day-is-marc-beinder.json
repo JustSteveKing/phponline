@@ -1,0 +1,14 @@
+{
+  "id": "laravel/blog-your-software-should-be-fantastic-the-artisan-of-the-day-is-marc-beinder",
+  "title": "Your Software Should Be Fantastic. The Artisan of the Day Is Marc Beinder.",
+  "link": "https://laravel.com/blog/your-software-should-be-fantastic-the-artisan-of-the-day-is-marc-beinder?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2025-09-15T15:48:32.000Z",
+  "content": "<html><head></head><body>Marc Beinder, of Encore Digital Group and PHPxSTL, went from procedural PHP to building Laravel tools and leading the community in St. Louis.</body></html>",
+  "source": "laravel",
+  "author": "Ana Tavares",
+  "creatorId": "laravel",
+  "tags": [
+    "laravel",
+    "internals"
+  ]
+}

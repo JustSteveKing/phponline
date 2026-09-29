@@ -1,0 +1,14 @@
+{
+  "id": "laravel/blog-forge-deployment-rollbacks",
+  "title": "Forge: Deployment Rollbacks",
+  "link": "https://laravel.com/blog/forge-deployment-rollbacks?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2021-03-30T13:32:00.000Z",
+  "content": "<html><head></head><body>We introduced the **Deployments** panel back in October 2020 and have continued to improve the functionality of it since. The panel shows the last 10 deployments including: the commit hash, author, me...</body></html>",
+  "source": "laravel",
+  "author": "James Brooks",
+  "creatorId": "laravel",
+  "tags": [
+    "security",
+    "devops"
+  ]
+}

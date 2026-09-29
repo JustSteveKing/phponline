@@ -1,0 +1,14 @@
+{
+  "id": "laravel/blog-laravel-forge-realtime-deployment-output",
+  "title": "Laravel Forge: Real-Time Deployment Output",
+  "link": "https://laravel.com/blog/laravel-forge-realtime-deployment-output?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2022-06-10T15:07:00.000Z",
+  "content": "<html><head></head><body>Today we’re pleased to announce that you can now see the real-time output from your deployments as they happen.\n\nYou can see the live deployment output in the Deployments panel of any site that is actively deploying.</body></html>",
+  "source": "laravel",
+  "author": "James Brooks",
+  "creatorId": "laravel",
+  "tags": [
+    "laravel",
+    "devops"
+  ]
+}

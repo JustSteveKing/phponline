@@ -1,0 +1,14 @@
+{
+  "id": "laravel/blog-forge-mariadb-106-and-postgresql-14",
+  "title": "Forge: MariaDB 10.6 and PostgreSQL 14",
+  "link": "https://laravel.com/blog/forge-mariadb-106-and-postgresql-14?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2021-11-01T13:10:00.000Z",
+  "content": "<html><head></head><body>We're happy to announce the immediate availability of MariaDB 10.6 and PostgreSQL 14 database versions on Laravel Forge.</body></html>",
+  "source": "laravel",
+  "author": "James Brooks",
+  "creatorId": "laravel",
+  "tags": [
+    "laravel",
+    "databases"
+  ]
+}

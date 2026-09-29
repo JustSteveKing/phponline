@@ -1,0 +1,13 @@
+{
+  "id": "juststeveking/articles-lead-scoring-and-prioritisation",
+  "title": "Building Modern Laravel APIs: Lead Scoring and Prioritisation",
+  "link": "https://www.juststeveking.com/articles/lead-scoring-and-prioritisation/?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-04-14T00:00:00.000Z",
+  "content": "<html><head></head><body>Building a configurable lead scoring engine in Laravel 13 - config-driven weights, query objects for prioritised retrieval, rescoring commands, and a top leads endpoint.</body></html>",
+  "source": "juststeveking",
+  "author": "Steve McDougall — Articles",
+  "creatorId": "juststeveking",
+  "tags": [
+    "laravel"
+  ]
+}

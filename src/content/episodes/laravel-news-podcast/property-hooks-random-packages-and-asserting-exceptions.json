@@ -1,0 +1,14 @@
+{
+  "id": "laravel-news-podcast/property-hooks-random-packages-and-asserting-exceptions",
+  "title": "Property hooks, random packages, and asserting exceptions",
+  "link": "https://podcast.laravel-news.com/213?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2024-04-25T14:00:00.000Z",
+  "content": "\n        <p>Jake and Michael discuss all the latest Laravel releases, tutorials, and happenings in the community.</p><p>This episode is sponsored by <a href=\"https://sentry.io/\"><strong>Sentry</strong></a> - code breaks, fix it faster. Don't just observe, take action today!</p><p><strong>Show links</strong></p><ul><li><a href=\"https://laravel-news.com/laravel-11-3-0\">Laravel Prompts Adds a Multi-line Textarea Input, Laravel 11.3 Released </a></li><li><a href=\"https://laravel-news.com/laravel-11-4-0\">Reversible Form Prompts and a New Exceptions Facade in Laravel 11.4 </a></li><li><a href=\"https://laravel-news.com/php-property-hooks\">Property Hooks Get Closer to Becoming a Reality in PHP 8.4 </a></li><li><a href=\"https://laravel-news.com/phpstorm-2024-1-0\">PhpStorm 2024.1 Is Released With a Integrated Terminal, Local AI Code Completion, and More </a></li><li><a href=\"https://laravel-news.com/automatic-blade-formatting-on-save-in-phpstorm\">Automatic Blade Formatting on Save in PhpStorm </a></li><li><a href=\"https://laravel-news.com/secure-random\">The Random package generates cryptographically secure random values </a></li><li><a href=\"https://laravel-news.com/laravel-stripe-connect\">Integrate Laravel with Stripe Connect Using This Package </a></li><li><a href=\"https://stripe.com/au/connect\">Stripe Connect</a></li><li><a href=\"https://laravel-news.com/basset\">Basset is an alternative way to load CSS &amp; JS assets </a></li><li><a href=\"https://laravel-news.com/laravel-filterable\">Apply Dynamic Filters to Eloquent Models with the Filterable Package </a></li><li><a href=\"https://laravel-news.com/microsoft-clarity-laravel-package\">Microsoft Clarity Integration for Laravel </a></li><li><a href=\"https://laravel-news.com/asserting-exceptions-laravel\">Asserting Exceptions in Laravel Tests </a></li></ul>\n      ",
+  "coverImage": "https://img.transistorcdn.com/qmJ1PPS58Dv5ZdzfP2OsERDEhhL_6EPX8Tjmyurk5f0/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9zaG93/LzY0MDUvMTY5NDc4/NzE0OS1hcnR3b3Jr/LmpwZw.jpg",
+  "podcast": "Laravel News Podcast",
+  "audioUrl": "https://media.transistor.fm/2e325470/f0e2d7ce.mp3",
+  "duration": "2127",
+  "episode": "213",
+  "season": "",
+  "creatorId": "laravel-news"
+}

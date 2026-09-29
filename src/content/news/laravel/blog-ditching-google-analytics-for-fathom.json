@@ -1,0 +1,11 @@
+{
+  "id": "laravel/blog-ditching-google-analytics-for-fathom",
+  "title": "Ditching Google Analytics for Fathom",
+  "link": "https://laravel.com/blog/ditching-google-analytics-for-fathom?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2022-08-30T09:06:00.000Z",
+  "content": "<html><head></head><body>On August 24th, we switched to Fathom Analytics, completely removing our dependency on Google Analytics from this blog, Envoyer, Forge and Vapor.</body></html>",
+  "source": "laravel",
+  "author": "James Brooks",
+  "creatorId": "laravel",
+  "tags": []
+}

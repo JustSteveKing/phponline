@@ -1,0 +1,14 @@
+{
+  "id": "laravel/blog-how-we-built-laravel-clouds-scale-to-zero",
+  "title": "How We Built Laravel Cloud’s Scale to Zero",
+  "link": "https://laravel.com/blog/how-we-built-laravel-clouds-scale-to-zero?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-06-15T10:41:24.000Z",
+  "content": "<html><head></head><body>Learn how the Laravel Cloud team built sub-500&nbsp;ms scale to zero using checkpoint/restore, and how spending limits enforce a hard monthly ceiling for your apps. </body></html>",
+  "source": "laravel",
+  "author": "Laravel Team",
+  "creatorId": "laravel",
+  "tags": [
+    "laravel",
+    "devops"
+  ]
+}

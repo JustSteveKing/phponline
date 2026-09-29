@@ -1,0 +1,14 @@
+{
+  "id": "laravel-news-podcast/laravel-12-laravel-cloud-and-laravel-starter-kits",
+  "title": "Laravel 12, Laravel Cloud, and Laravel Starter Kits",
+  "link": "https://podcast.laravel-news.com/232?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2025-02-27T15:00:00.000Z",
+  "content": "\n        <p>Jake and Michael discuss all the latest Laravel releases, tutorials, and happenings in the community.</p><p><br></p><p>This episode is sponsored <a href=\"https://coderabbit.ai/?ref=laravelnewspodcast\">CodeRabbit</a> - cut code review time and bugs in half with AI-driven, contextual feedback.</p><p><strong>Show links</strong></p><ul><li><a href=\"https://laravel-news.com/laravel-12\">Laravel 12 is Now Released </a></li><li><a href=\"https://laravel-news.com/getting-to-know-laravel-12-starter-kits\">Getting to Know Laravel's New Starter Kits </a></li><li><a href=\"https://laravel-news.com/introducing-laravel-cloud\">Introducing Laravel Cloud </a></li><li><a href=\"https://laravel-news.com/fusion\">Fusion Developer Preview is released: Write PHP inside your Vue and React components </a></li><li><a href=\"https://laravel-news.com/expose-v3-is-now-out\">Expose v3 is now out! </a></li><li><a href=\"https://laravel-news.com/laravel-idea-v10\">Laravel IDEA v10 is Here </a></li><li><a href=\"https://laravel-news.com/nativephp-for-ios\">NativePHP for iOS </a></li><li><a href=\"https://laravel-news.com/laravel-12-laravel-shift\">Laravel 12 and Laravel Shift with Jason McCreary </a></li><li><a href=\"https://laravel-news.com/imapengine\">ImapEngine is a simple API for managing mailboxes without the PHP extension </a></li><li><a href=\"https://laravel-news.com/grok-ai-laravel\">Integrate Grok AI in Laravel </a></li><li><a href=\"https://laravel-news.com/laravel-polar\">Integrate the Polar Billing Platform in Laravel </a></li><li><a href=\"https://laravel-news.com/type-safe-shared-data-and-page-props-in-inertiajs\">Type-Safe Shared Data and Page Props in Inertia.js </a></li><li><a href=\"https://laravel-news.com/laravel-vite-errors\">4 Common Vite Errors in Laravel </a></li><li><a href=\"https://laravel-news.com/using-relative-date-helpers-in-laravels-query-builder\">Using Relative Date Helpers in Laravel's Query Builder </a></li><li><a href=\"https://laravel-news.com/documenting-api-authentication-in-laravel-with-scramble\">Documenting API authentication in Laravel with Scramble </a></li></ul>\n      ",
+  "coverImage": "https://img.transistorcdn.com/qmJ1PPS58Dv5ZdzfP2OsERDEhhL_6EPX8Tjmyurk5f0/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9zaG93/LzY0MDUvMTY5NDc4/NzE0OS1hcnR3b3Jr/LmpwZw.jpg",
+  "podcast": "Laravel News Podcast",
+  "audioUrl": "https://media.transistor.fm/11a6feef/38edf257.mp3",
+  "duration": "1956",
+  "episode": "232",
+  "season": "",
+  "creatorId": "laravel-news"
+}

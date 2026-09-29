@@ -1,0 +1,13 @@
+{
+  "id": "juststeveking/articles-introducing-laravel-transporter",
+  "title": "Introducing - Laravel Transporter",
+  "link": "https://www.juststeveking.com/articles/introducing-laravel-transporter/?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2021-06-08T00:00:00.000Z",
+  "content": "<html><head></head><body>Streamline API requests with Laravel Transporter using a powerful OOP approach with class-based configuration.</body></html>",
+  "source": "juststeveking",
+  "author": "Steve McDougall — Articles",
+  "creatorId": "juststeveking",
+  "tags": [
+    "laravel"
+  ]
+}

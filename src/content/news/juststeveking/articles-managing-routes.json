@@ -1,0 +1,13 @@
+{
+  "id": "juststeveking/articles-managing-routes",
+  "title": "Managing Routes in a large Laravel Application",
+  "link": "https://www.juststeveking.com/articles/managing-routes/?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2023-02-17T00:00:00.000Z",
+  "content": "<html><head></head><body>Learn strategies like Route Service Provider, File Requires, and Route Groups for managing routes in a large Laravel application.</body></html>",
+  "source": "juststeveking",
+  "author": "Steve McDougall — Articles",
+  "creatorId": "juststeveking",
+  "tags": [
+    "laravel"
+  ]
+}

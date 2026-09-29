@@ -1,0 +1,13 @@
+{
+  "id": "juststeveking/articles-mcp-goes-stateless",
+  "title": "MCP Goes Stateless: What Changed and Why It Matters",
+  "link": "https://www.juststeveking.com/articles/mcp-goes-stateless/?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-08-10T00:00:00.000Z",
+  "content": "<html><head></head><body>The Streamable HTTP transport replaced HTTP+SSE and quietly made MCP servers stateless. Here is what that means, how the new transport works, and why it unlocks serverless and edge deployments.</body></html>",
+  "source": "juststeveking",
+  "author": "Steve McDougall — Articles",
+  "creatorId": "juststeveking",
+  "tags": [
+    "devops"
+  ]
+}

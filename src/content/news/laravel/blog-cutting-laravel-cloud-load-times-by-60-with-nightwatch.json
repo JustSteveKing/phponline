@@ -1,0 +1,14 @@
+{
+  "id": "laravel/blog-cutting-laravel-cloud-load-times-by-60-with-nightwatch",
+  "title": "Cutting Laravel Cloud Load Times by 60% with Nightwatch",
+  "link": "https://laravel.com/blog/cutting-laravel-cloud-load-times-by-60-with-nightwatch?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-03-27T07:13:54.000Z",
+  "content": "<html><head></head><body>How we cut environment dashboard response times from 907ms to 354ms with Laravel Nightwatch by fixing N+1 queries, redundant data, and deferring load.</body></html>",
+  "source": "laravel",
+  "author": "Mateus Guimarães",
+  "creatorId": "laravel",
+  "tags": [
+    "laravel",
+    "devops"
+  ]
+}

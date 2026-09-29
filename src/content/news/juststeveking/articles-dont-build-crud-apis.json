@@ -1,0 +1,13 @@
+{
+  "id": "juststeveking/articles-dont-build-crud-apis",
+  "title": "When CRUD Isn't Enough: How Real APIs Outgrow Their Design",
+  "link": "https://www.juststeveking.com/articles/dont-build-crud-apis/?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-05-06T00:00:00.000Z",
+  "content": "<html><head></head><body>Most Laravel APIs start as clean CRUD systems. This article walks through why that breaks down, and how an action-based design fixes the mess.</body></html>",
+  "source": "juststeveking",
+  "author": "Steve McDougall — Articles",
+  "creatorId": "juststeveking",
+  "tags": [
+    "laravel"
+  ]
+}

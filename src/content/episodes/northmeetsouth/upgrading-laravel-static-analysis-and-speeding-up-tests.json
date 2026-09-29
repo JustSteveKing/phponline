@@ -1,0 +1,14 @@
+{
+  "id": "northmeetsouth/upgrading-laravel-static-analysis-and-speeding-up-tests",
+  "title": "Upgrading Laravel, static analysis, and speeding up tests",
+  "link": "https://share.transistor.fm/s/ad60099b?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2023-03-09T13:00:00.000Z",
+  "content": "\n        <p>Jake and Michael discuss the very, very, very momentous occasion of Michael finally getting to work both a modern version of Laravel <em>and </em>PHP, some of the twists and turns along the way, difficulties in testing multi-database multi-tenancy, and dissecting PDFs.</p>\n      ",
+  "coverImage": "https://img.transistorcdn.com/gTGjKd44Qy-t3yz9_V60jp8N2Qe5KN4QwfB-5FNuQPM/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9zaG93/LzQ4ODMvMTU3Mjc3/NzAzNi1hcnR3b3Jr/LmpwZw.jpg",
+  "podcast": "NorthMeetSouth",
+  "audioUrl": "https://media.transistor.fm/ad60099b/92002223.mp3",
+  "duration": "1739",
+  "episode": "135",
+  "season": "",
+  "creatorId": "northmeetsouth"
+}

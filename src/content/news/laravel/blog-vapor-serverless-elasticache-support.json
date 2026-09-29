@@ -1,0 +1,13 @@
+{
+  "id": "laravel/blog-vapor-serverless-elasticache-support",
+  "title": "Vapor: Serverless ElastiCache Support",
+  "link": "https://laravel.com/blog/vapor-serverless-elasticache-support?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2023-12-21T11:06:00.000Z",
+  "content": "<html><head></head><body>Recently, AWS announced a new addition to the ElastiCache service, serverless ElastiCache.\n\nServerless ElastiCache radically simplifies the management of your cache, negating the need to provision a f...</body></html>",
+  "source": "laravel",
+  "author": "Joe Dixon",
+  "creatorId": "laravel",
+  "tags": [
+    "devops"
+  ]
+}

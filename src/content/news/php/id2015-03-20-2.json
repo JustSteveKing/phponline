@@ -1,0 +1,13 @@
+{
+  "id": "php/id2015-03-20-2",
+  "title": "PHP 5.6.7 is available",
+  "link": "http://php.net/index.php?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev#id2015-03-20-2",
+  "pubDate": "2015-03-20T11:21:46.000Z",
+  "content": "<html><head></head><body><div type=\"xhtml\"><div xmlns=\"http://www.w3.org/1999/xhtml\"><p>The PHP development team announces the immediate availability of PHP\n     5.6.7. Several bugs have been fixed as well as CVE-2015-0231, CVE-2015-2305 and CVE-2015-2331.\n\n     All PHP 5.6 users are encouraged to upgrade to this version.\n     </p><p>For source downloads of PHP 5.6.7 please visit our ,\n     Windows binaries can be found on .\n     The list of changes is recorded in the .\n     <a href=\"http://www.php.net/downloads.php\">downloads page</a><a href=\"http://windows.php.net/download/\">windows.php.net/download/</a><a href=\"http://www.php.net/ChangeLog-5.php#5.6.7\">ChangeLog</a></p></div></div></body></html>",
+  "source": "php",
+  "author": "PHP.net news & announcements",
+  "creatorId": "php-net",
+  "tags": [
+    "security"
+  ]
+}

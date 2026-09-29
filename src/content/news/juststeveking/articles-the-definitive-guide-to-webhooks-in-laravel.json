@@ -1,0 +1,14 @@
+{
+  "id": "juststeveking/articles-the-definitive-guide-to-webhooks-in-laravel",
+  "title": "The definitive Guide to Webhooks in Laravel",
+  "link": "https://www.juststeveking.com/articles/the-definitive-guide-to-webhooks-in-laravel/?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2024-12-20T00:00:00.000Z",
+  "content": "<html><head></head><body>Master webhooks in Laravel with this definitive guide. Learn setup, security, event handling, and more to build powerful real-time integrations.</body></html>",
+  "source": "juststeveking",
+  "author": "Steve McDougall — Articles",
+  "creatorId": "juststeveking",
+  "tags": [
+    "laravel",
+    "security"
+  ]
+}

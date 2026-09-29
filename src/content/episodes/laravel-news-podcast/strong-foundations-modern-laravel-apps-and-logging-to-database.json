@@ -1,0 +1,14 @@
+{
+  "id": "laravel-news-podcast/strong-foundations-modern-laravel-apps-and-logging-to-database",
+  "title": "Strong foundations, modern Laravel apps, and logging to database",
+  "link": "https://podcast.laravel-news.com/156?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2021-11-28T15:00:00.000Z",
+  "content": "Jake and Michael discuss all the latest Laravel releases, tutorials, and happenings in the community.",
+  "coverImage": "https://img.transistorcdn.com/qmJ1PPS58Dv5ZdzfP2OsERDEhhL_6EPX8Tjmyurk5f0/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9zaG93/LzY0MDUvMTY5NDc4/NzE0OS1hcnR3b3Jr/LmpwZw.jpg",
+  "podcast": "Laravel News Podcast",
+  "audioUrl": "https://media.transistor.fm/69648218/f2e56d10.mp3",
+  "duration": "2627",
+  "episode": "156",
+  "season": "",
+  "creatorId": "laravel-news"
+}

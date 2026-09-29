@@ -1,0 +1,11 @@
+{
+  "id": "laravel/blog-vapor-amazon-linux-2-runtimes-are-now-available",
+  "title": "Vapor: Amazon Linux 2 Runtimes Are Now Available",
+  "link": "https://laravel.com/blog/vapor-amazon-linux-2-runtimes-are-now-available?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2020-12-21T10:00:00.000Z",
+  "content": "<html><head></head><body>Amazon recently announced the second version of its operating system: Amazon Linux 2. Starting today, you may start using PHP on top of Amazon Linux 2 by updating the \"runtime\" configuration option in the \"vapor.yml\" file.</body></html>",
+  "source": "laravel",
+  "author": "Nuno Maduro",
+  "creatorId": "laravel",
+  "tags": []
+}

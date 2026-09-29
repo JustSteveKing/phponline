@@ -1,0 +1,14 @@
+{
+  "id": "northmeetsouth/fast-laravel-with-jason-mccreary",
+  "title": "Fast Laravel with Jason McCreary",
+  "link": "https://share.transistor.fm/s/18a3394c?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-06-04T14:00:00.000Z",
+  "content": "\n        <p>Michael and Jake are joined by Jason \"JMac\" McCreary to talk the impact of AI on <a href=\"https://laravelshift.com\">Laravel Shift</a> and modern upgrade workflows, and his latest <a href=\"https://fastlaravel.com\">Fast Laravel</a> course focused on edge caching and application performance.</p><p>Jason shares how Laravel Shift has evolved alongside AI-assisted development, why recent Laravel releases have changed the upgrade landscape, and why he still believes there's value in keeping applications aligned with the latest framework conventions rather than simply running composer update. The conversation explores how AI tools are influencing developer workflows, the future of upgrade automation, and new ways Shift is integrating with agentic coding tools. </p><p>The second half of the episode dives deep into Fast Laravel, Jason's course on making Laravel applications dramatically faster using Cloudflare edge caching. Drawing on decades of web development experience, he explains why page caching remains one of the most effective performance techniques available, how Laravel's default stateful behaviour can prevent effective caching, and the practical steps required to achieve cache rates approaching 99% on real-world applications.</p><p><strong>Show Links</strong></p><ul><li><a href=\"https://laravelshift.com\">Laravel Shift</a></li><li><a href=\"https://laravel-news.com/shift-ai-fully-automated-laravel-upgrade://laravel-news.com/shift-ai-fully-automated-laravel-upgrades\">Shift AI Skills</a></li><li><a href=\"https://fastlaravel.com\">Fast Laravel</a></li><li><a href=\"https://laravel-news.com/separate-your-cloudflare-page-cache-with-a-middleware-group\">Separate `static` middleware</a></li><li><a href=\"https://laravel.com/blog/managed-queues-autoscaling-queue-workers-on-laravel-cloud\">Managed queues on Laravel Cloud</a></li><li><a href=\"https://cloud.laravel.com\">Laravel Cloud</a><p></p></li></ul>\n      ",
+  "coverImage": "https://img.transistorcdn.com/gTGjKd44Qy-t3yz9_V60jp8N2Qe5KN4QwfB-5FNuQPM/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9zaG93/LzQ4ODMvMTU3Mjc3/NzAzNi1hcnR3b3Jr/LmpwZw.jpg",
+  "podcast": "NorthMeetSouth",
+  "audioUrl": "https://media.transistor.fm/18a3394c/11e4f2a9.mp3",
+  "duration": "3370",
+  "episode": "194",
+  "season": "",
+  "creatorId": "northmeetsouth"
+}

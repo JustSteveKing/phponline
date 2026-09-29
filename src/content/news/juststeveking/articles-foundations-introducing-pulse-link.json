@@ -1,0 +1,14 @@
+{
+  "id": "juststeveking/articles-foundations-introducing-pulse-link",
+  "title": "Building Modern Laravel APIs: Foundations and Project Structure",
+  "link": "https://www.juststeveking.com/articles/foundations-introducing-pulse-link/?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-04-10T00:00:00.000Z",
+  "content": "<html><head></head><body>Start the Modern Laravel APIs series by structuring Pulse-Link for production with clear layers, ULIDs, action classes, DTO requests, and versioning.</body></html>",
+  "source": "juststeveking",
+  "author": "Steve McDougall — Articles",
+  "creatorId": "juststeveking",
+  "tags": [
+    "laravel",
+    "internals"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "laravel/blog-laravel-pint-v1-released",
+  "title": "Laravel Pint v1.0 Released",
+  "link": "https://laravel.com/blog/laravel-pint-v1-released?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2022-07-15T13:13:00.000Z",
+  "content": "<html><head></head><body>After a few beta releases, today we've finally reached the first stable release of Pint. And, starting with next week's release of Laravel, Pint will be included on every new Laravel application as a `dev` dependency.</body></html>",
+  "source": "laravel",
+  "author": "Nuno Maduro",
+  "creatorId": "laravel",
+  "tags": [
+    "laravel"
+  ]
+}

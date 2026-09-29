@@ -1,0 +1,13 @@
+{
+  "id": "juststeveking/articles-multi-tenancy-without-the-hassle",
+  "title": "Multi-tenancy Without the Hassle",
+  "link": "https://www.juststeveking.com/articles/multi-tenancy-without-the-hassle/?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2025-07-01T00:00:00.000Z",
+  "content": "<html><head></head><body>Learn how to build a multi-tenant application in Laravel using Sprout, avoiding the common pitfalls of manual tenant management.</body></html>",
+  "source": "juststeveking",
+  "author": "Steve McDougall — Articles",
+  "creatorId": "juststeveking",
+  "tags": [
+    "laravel"
+  ]
+}

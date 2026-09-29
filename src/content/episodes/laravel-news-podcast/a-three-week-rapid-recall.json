@@ -1,0 +1,14 @@
+{
+  "id": "laravel-news-podcast/a-three-week-rapid-recall",
+  "title": "A three-week rapid recall",
+  "link": "https://podcast.laravel-news.com/206?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2024-01-18T15:00:00.000Z",
+  "content": "\n        <p>Jake and Michael discuss all the latest Laravel releases, tutorials, and happenings in the community.</p><p></p><ul><li>(01:02) - Laravel 10.35 released</li>\n<li>(02:24) - Laravel 10.73 released</li>\n<li>(03:59) - Laravel 10.40 - with a number clamp method, an APA-style helper, Vite asset path customization, and more</li>\n<li>(06:08) - Laravel 10.41 - Conditional job chains, a Number::spell() threshold, configurable model:prune path, and more</li>\n<li>(08:21) - Filament v3.1 is released</li>\n<li>(10:38) - Introducing Filament v3.2</li>\n<li>(12:50) - Heroicons Micro - icons for high-density UIs</li>\n<li>(13:49) - What's new in Tinkerwell 4?</li>\n<li>(15:06) - Laravel Reverb</li>\n<li>(16:13) - FrankenPHP v1.0 is here</li>\n<li>(17:25) - Laravel Octane now supports FrankenPHP</li>\n<li>(18:23) - Alpine adds a new build to work with Content Security Policies</li>\n<li>(19:53) - Laracon EU Amsterdam 2024</li>\n<li>(20:23) - Laravel Live Denmark: A two-day event in Copenhagen, Denmark on August 22-23, 2024</li>\n<li>(20:55) - Save the date: Laracon US is coming to Dallas TX Aug 27-28, 2024</li>\n<li>(21:45) - DevDB - access your database right inside VSCode!</li>\n<li>(22:58) - Easily manage temporary files in Laravel</li>\n<li>(24:10) - Get insights into all your Laravel notifications with Paragraphs new package</li>\n<li>(25:48) - Self-healing URLs in Laravel</li>\n<li>(27:04) - Manage virtual wallets in Laravel with Pay Pocket</li>\n<li>(28:15) - Share data between PHP and JavaScript with PHP2JS</li>\n<li>(29:38) - Database status card for Laravel Pulse</li>\n</ul>\n      ",
+  "coverImage": "https://img.transistorcdn.com/qmJ1PPS58Dv5ZdzfP2OsERDEhhL_6EPX8Tjmyurk5f0/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9zaG93/LzY0MDUvMTY5NDc4/NzE0OS1hcnR3b3Jr/LmpwZw.jpg",
+  "podcast": "Laravel News Podcast",
+  "audioUrl": "https://media.transistor.fm/0badc5ce/399050d5.mp3",
+  "duration": "1940",
+  "episode": "206",
+  "season": "",
+  "creatorId": "laravel-news"
+}

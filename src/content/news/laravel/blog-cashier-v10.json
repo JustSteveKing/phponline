@@ -1,0 +1,13 @@
+{
+  "id": "laravel/blog-cashier-v10",
+  "title": "Cashier v10",
+  "link": "https://laravel.com/blog/cashier-v10?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2019-08-08T14:58:00.000Z",
+  "content": "<html><head></head><body>We're very excited to announce the immediate availability of Cashier v10. This new Cashier release is a major update with lots of changes to Cashier's internals and public API. Cashier has been upgrad...</body></html>",
+  "source": "laravel",
+  "author": "Dries Vints",
+  "creatorId": "laravel",
+  "tags": [
+    "internals"
+  ]
+}

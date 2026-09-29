@@ -1,0 +1,14 @@
+{
+  "id": "laravel-news-podcast/laracon-laravel-53-advanced-where-october-cms-canvas",
+  "title": "Laracon, Laravel 5.3 Advanced Where, October CMS, Canvas",
+  "link": "https://podcast.laravel-news.com/21?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2016-07-12T15:54:00.000Z",
+  "content": "LN21: In this episode, we discuss Laracon Live Streaming, the new advanced where for Collections, and a few new apps and packages. We also talk about using named functions in places where anonymous functions are often used.",
+  "coverImage": "https://img.transistorcdn.com/wY-8z13Bi0vdMWB0GzUqPiE5cVpaDGZQQgLFGurPMyA/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9lcGlz/b2RlLzE2NDIwOS8x/NTc2MzQwNjkxLWFy/dHdvcmsuanBn.jpg",
+  "podcast": "Laravel News Podcast",
+  "audioUrl": "https://media.transistor.fm/83f42b77/b6134afa.mp3",
+  "duration": "988",
+  "episode": "21",
+  "season": "",
+  "creatorId": "laravel-news"
+}

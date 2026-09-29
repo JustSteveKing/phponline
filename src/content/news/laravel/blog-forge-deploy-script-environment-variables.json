@@ -1,0 +1,14 @@
+{
+  "id": "laravel/blog-forge-deploy-script-environment-variables",
+  "title": "Forge: Deploy Script Environment Variables",
+  "link": "https://laravel.com/blog/forge-deploy-script-environment-variables?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2020-06-16T07:45:00.000Z",
+  "content": "<html><head></head><body>We've super-charged custom deployment scripts in [Laravel Forge](https://laravel.com/forge) with the addition of dynamic environment variables.\n\nWhen Forge deploys your website, we will now automatica...</body></html>",
+  "source": "laravel",
+  "author": "James Brooks",
+  "creatorId": "laravel",
+  "tags": [
+    "laravel",
+    "devops"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "laravel/blog-vapor-customize-default-role",
+  "title": "Vapor: Customize Default Role",
+  "link": "https://laravel.com/blog/vapor-customize-default-role?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2020-09-18T11:33:00.000Z",
+  "content": "<html><head></head><body>Starting today, you can now disable Vapor updates on the laravel-vapor-role role and manage this role yourself in AWS Console. To disable updates on the laravel-vapor-role role, just head over to...</body></html>",
+  "source": "laravel",
+  "author": "Nuno Maduro",
+  "creatorId": "laravel",
+  "tags": [
+    "laravel",
+    "devops"
+  ]
+}

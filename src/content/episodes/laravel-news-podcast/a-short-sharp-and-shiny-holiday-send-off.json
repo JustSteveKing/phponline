@@ -1,0 +1,14 @@
+{
+  "id": "laravel-news-podcast/a-short-sharp-and-shiny-holiday-send-off",
+  "title": "A short, sharp, and shiny holiday send off",
+  "link": "https://podcast.laravel-news.com/51?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2017-12-05T13:30:00.000Z",
+  "content": "Jake and Michael get together one last time for 2017 to bring you the latest news from around the Laravel Community.",
+  "coverImage": "https://img.transistorcdn.com/hDJHLnGvbxt2gJklJRm608MD7lTNwpJx_jVu0qBf7nk/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9lcGlz/b2RlLzE2NDIzOS8x/NTc2MzQwODIxLWFy/dHdvcmsuanBn.jpg",
+  "podcast": "Laravel News Podcast",
+  "audioUrl": "https://media.transistor.fm/b774bea3/17bb201e.mp3",
+  "duration": "1161",
+  "episode": "51",
+  "season": "",
+  "creatorId": "laravel-news"
+}

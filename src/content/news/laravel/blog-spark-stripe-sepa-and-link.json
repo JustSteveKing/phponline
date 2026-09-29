@@ -1,0 +1,11 @@
+{
+  "id": "laravel/blog-spark-stripe-sepa-and-link",
+  "title": "Spark Stripe: SEPA and Link Support",
+  "link": "https://laravel.com/blog/spark-stripe-sepa-and-link?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2024-03-13T13:23:00.000Z",
+  "content": "<html><head></head><body>We're happy to announce that Spark Stripe now supports SEPA Direct Debit payments and Link payments.</body></html>",
+  "source": "laravel",
+  "author": "Dries Vints",
+  "creatorId": "laravel",
+  "tags": []
+}

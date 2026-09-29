@@ -1,0 +1,13 @@
+{
+  "id": "laravel/blog-installer-git-support",
+  "title": "Installer: Git Support",
+  "link": "https://laravel.com/blog/installer-git-support?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2021-03-09T14:34:00.000Z",
+  "content": "<html><head></head><body>With the newly released v4.2 update of the Laravel installer comes an exciting new feature: Git Support! It's now possible to initialise a Git repository with the base skeleton already committed when...</body></html>",
+  "source": "laravel",
+  "author": "Dries Vints",
+  "creatorId": "laravel",
+  "tags": [
+    "laravel"
+  ]
+}

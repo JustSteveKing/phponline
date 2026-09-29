@@ -1,0 +1,14 @@
+{
+  "id": "laravel/blog-servers-for-artisans-the-next-generation",
+  "title": "Servers for Artisans: The Next Generation",
+  "link": "https://laravel.com/blog/servers-for-artisans-the-next-generation?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2021-12-15T14:49:00.000Z",
+  "content": "<html><head></head><body>During Laracon NYC 2014, Taylor Otwell, the creator of Laravel, announced both Laravel Homestead and Laravel Forge, instantly simplifying the entire process of building Laravel applications - from first download to final deployment.</body></html>",
+  "source": "laravel",
+  "author": "Claudio Dekker",
+  "creatorId": "laravel",
+  "tags": [
+    "laravel",
+    "devops"
+  ]
+}

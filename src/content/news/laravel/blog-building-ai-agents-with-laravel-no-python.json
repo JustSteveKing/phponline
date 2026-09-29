@@ -1,0 +1,13 @@
+{
+  "id": "laravel/blog-building-ai-agents-with-laravel-no-python",
+  "title": "Building AI Agents with Laravel: No Python Required",
+  "link": "https://laravel.com/blog/building-ai-agents-with-laravel-no-python?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-05-14T18:45:00.000Z",
+  "content": "<html><head></head><body>The Laravel AI SDK is the LangChain PHP alternative: agents, tools, memory, streaming, and multi-agent workflows, entirely in PHP.</body></html>",
+  "source": "laravel",
+  "author": "Ana Tavares",
+  "creatorId": "laravel",
+  "tags": [
+    "laravel"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "northmeetsouth/scheduling-conflicts-validation-beyond-the-request-and-the-return-of-in-person-events",
+  "title": "Scheduling conflicts, validation beyond the request, and the return of in-person events",
+  "link": "https://share.transistor.fm/s/a6d69358?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2022-09-27T14:00:00.000Z",
+  "content": "Jake and Michael discuss some ways to leverage Laravel's validation functionality along with value objects to improve your validation logic, refactoring applications, and the return of in-person events for 2023.",
+  "coverImage": "https://img.transistorcdn.com/gTGjKd44Qy-t3yz9_V60jp8N2Qe5KN4QwfB-5FNuQPM/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9zaG93/LzQ4ODMvMTU3Mjc3/NzAzNi1hcnR3b3Jr/LmpwZw.jpg",
+  "podcast": "NorthMeetSouth",
+  "audioUrl": "https://media.transistor.fm/a6d69358/cb5657ac.mp3",
+  "duration": "3223",
+  "episode": "126",
+  "season": "",
+  "creatorId": "northmeetsouth"
+}

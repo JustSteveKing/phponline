@@ -1,0 +1,14 @@
+{
+  "id": "laravel-news-podcast/collisions-stimuli-and-dynamic-rate-limiting",
+  "title": "Collisions, stimuli, and dynamic rate limiting",
+  "link": "https://podcast.laravel-news.com/55?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2018-02-08T15:00:00.000Z",
+  "content": "Jake and Michael record a show in three parts, with each spending a bit of time broadcasting solo, but as always, bringing you the latest news from the Laravel community.",
+  "coverImage": "https://img.transistorcdn.com/8fTUnM9BSL7MRhA5g64LtGO49CX--dDmBFVByP2sQTE/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9lcGlz/b2RlLzE2NDI0My8x/NTc2MzQwODM3LWFy/dHdvcmsuanBn.jpg",
+  "podcast": "Laravel News Podcast",
+  "audioUrl": "https://media.transistor.fm/ce484d6d/87f76701.mp3",
+  "duration": "1028",
+  "episode": "55",
+  "season": "",
+  "creatorId": "laravel-news"
+}

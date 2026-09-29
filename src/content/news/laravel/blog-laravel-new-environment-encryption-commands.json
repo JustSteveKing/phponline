@@ -1,0 +1,14 @@
+{
+  "id": "laravel/blog-laravel-new-environment-encryption-commands",
+  "title": "Laravel: New Environment Encryption Commands",
+  "link": "https://laravel.com/blog/laravel-new-environment-encryption-commands?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2022-10-11T14:18:00.000Z",
+  "content": "<html><head></head><body>Laravel v9.32.0 saw the release of two new Artisan commands; `env:encrypt` and `env:decrypt`.</body></html>",
+  "source": "laravel",
+  "author": "Joe Dixon",
+  "creatorId": "laravel",
+  "tags": [
+    "laravel",
+    "security"
+  ]
+}

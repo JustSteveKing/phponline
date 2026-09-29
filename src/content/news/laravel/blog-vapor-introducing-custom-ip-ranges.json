@@ -1,0 +1,11 @@
+{
+  "id": "laravel/blog-vapor-introducing-custom-ip-ranges",
+  "title": "Vapor: Introducing Custom IP Ranges",
+  "link": "https://laravel.com/blog/vapor-introducing-custom-ip-ranges?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2023-01-18T17:05:00.000Z",
+  "content": "<html><head></head><body>One of the most requested features for Vapor is the ability to create a network with a custom IP range.\n\nMany customers ask to do this in order to configure Vapor environments to communicate with pre-...</body></html>",
+  "source": "laravel",
+  "author": "Joe Dixon",
+  "creatorId": "laravel",
+  "tags": []
+}

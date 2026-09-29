@@ -1,0 +1,16 @@
+{
+  "id": "php/id2016-03-15-1",
+  "title": "PHPTour 2016",
+  "link": "http://php.net/conferences/index.php?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev#id2016-03-15-1",
+  "pubDate": "2016-03-15T09:54:21.000Z",
+  "content": "<html><head></head><body><div type=\"xhtml\"><div xmlns=\"http://www.w3.org/1999/xhtml\"><p>After Nantes, Lille, Lyon,and Luxembourg-City, this year the PHP Tour, the itinerant conference organized by the French PHP users group, goes to Clermont-Ferrand, a lovely city surrounded by volcanoes. Helped by Clermont'ech, a local developers organization, AFUP is happy to welcome you on May 23rd and 24th at the Polydome convention centre.</p><p>This year, part of the program will focus on performance.\n\"The big don't eat the little, the fast eat the slow\" (Eberhard von Kuenheim, BMW)</p><p>With more and more business-critical applications, performance becomes decisive. HHVM and PHP 7 make PHP better than ever. The engine put aside, there are many different ways to improve the overall performances of PHP applications: database access, hardware infrastructure, software architecture, caching, and so on...</p><p>2 days of talks and workshops for PHP lovers community !</p><p><a href=\"http://www.phptour.org\">www.phptour.org</a></p></div></div></body></html>",
+  "source": "php",
+  "author": "PHP.net news & announcements",
+  "creatorId": "php-net",
+  "tags": [
+    "performance",
+    "architecture",
+    "databases",
+    "devops"
+  ]
+}

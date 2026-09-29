@@ -1,0 +1,13 @@
+{
+  "id": "laravel/blog-announcing-laravel-nightwatch",
+  "title": "Announcing Laravel Nightwatch",
+  "link": "https://laravel.com/blog/announcing-laravel-nightwatch?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2025-06-16T18:30:00.000Z",
+  "content": "<html><head></head><body>Nightwatch is a monitoring solution for Laravel applications. See how to track and solve issues like slow controllers, failing jobs, and timed-out API endpoints.</body></html>",
+  "source": "laravel",
+  "author": "Jess Archer",
+  "creatorId": "laravel",
+  "tags": [
+    "laravel"
+  ]
+}

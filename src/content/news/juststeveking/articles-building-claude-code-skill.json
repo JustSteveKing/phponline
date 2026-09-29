@@ -1,0 +1,13 @@
+{
+  "id": "juststeveking/articles-building-claude-code-skill",
+  "title": "Building a Claude Code skill",
+  "link": "https://www.juststeveking.com/articles/building-claude-code-skill/?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-01-30T00:00:00.000Z",
+  "content": "<html><head></head><body>Create portable instruction manuals for Claude to teach domain-specific approaches, with a deep dive into building a production-grade Laravel API skill.</body></html>",
+  "source": "juststeveking",
+  "author": "Steve McDougall — Articles",
+  "creatorId": "juststeveking",
+  "tags": [
+    "laravel"
+  ]
+}

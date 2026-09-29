@@ -1,0 +1,14 @@
+{
+  "id": "juststeveking/articles-your-test-suite-is-an-architecture-report",
+  "title": "Your Test Suite Is an Architecture Report",
+  "link": "https://www.juststeveking.com/articles/your-test-suite-is-an-architecture-report/?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-08-26T00:00:00.000Z",
+  "content": "<html><head></head><body>A slow Laravel test suite gets treated as a tooling problem. It is usually a coupling measurement, and the number worth watching is not how long the suite takes.</body></html>",
+  "source": "juststeveking",
+  "author": "Steve McDougall — Articles",
+  "creatorId": "juststeveking",
+  "tags": [
+    "laravel",
+    "architecture"
+  ]
+}

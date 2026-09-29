@@ -1,0 +1,14 @@
+{
+  "id": "juststeveking/articles-building-your-own-laravel-packages",
+  "title": "Building your own Laravel Packages",
+  "link": "https://www.juststeveking.com/articles/building-your-own-laravel-packages/?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2022-08-05T00:00:00.000Z",
+  "content": "<html><head></head><body>Master building Laravel packages with step-by-step guidance on design, commands, DTOs, and testing.</body></html>",
+  "source": "juststeveking",
+  "author": "Steve McDougall — Articles",
+  "creatorId": "juststeveking",
+  "tags": [
+    "laravel",
+    "testing"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "id": "laravel/blog-customer-balances-for-spark-stripe",
+  "title": "Customer Balances for Spark Stripe",
+  "link": "https://laravel.com/blog/customer-balances-for-spark-stripe?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2022-07-22T12:47:00.000Z",
+  "content": "<html><head></head><body>In the latest release of Spark Stripe, we're happy to introduce support for Customer Balances. With this new addition, customers will be able to view their current balance and top up their balance:\n\n!...</body></html>",
+  "source": "laravel",
+  "author": "Dries Vints",
+  "creatorId": "laravel",
+  "tags": []
+}

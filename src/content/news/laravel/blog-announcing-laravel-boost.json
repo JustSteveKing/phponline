@@ -1,0 +1,13 @@
+{
+  "id": "laravel/blog-announcing-laravel-boost",
+  "title": "Announcing Laravel Boost",
+  "link": "https://laravel.com/blog/announcing-laravel-boost?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2025-08-13T14:00:41.000Z",
+  "content": "<html><head></head><body>Ship Laravel features faster with Boost, a Composer package that accelerates AI-assisted Laravel development by providing the essential context and structure that AI needs to generate high-quality, Laravel-specific code.</body></html>",
+  "source": "laravel",
+  "author": "Ashley Hindle",
+  "creatorId": "laravel",
+  "tags": [
+    "laravel"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "laravel-news-podcast/laravel-5318-yarn-leanpub-and-more",
+  "title": "Laravel 5.3.18, Yarn, Leanpub, and more.",
+  "link": "https://podcast.laravel-news.com/28?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2016-10-18T14:00:00.000Z",
+  "content": "In this episode, we discuss Yarn, Facebook's new JavaScript package manger, the new Laravel Links section, and lots of other random topics.",
+  "coverImage": "https://img.transistorcdn.com/fsgwUACOj1oN7nExblbUH5OYAUED5B66cwc36oVtUlg/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9lcGlz/b2RlLzE2NDIxNi8x/NTc2MzQwNzIyLWFy/dHdvcmsuanBn.jpg",
+  "podcast": "Laravel News Podcast",
+  "audioUrl": "https://media.transistor.fm/442315de/d88446be.mp3",
+  "duration": "1987",
+  "episode": "28",
+  "season": "",
+  "creatorId": "laravel-news"
+}

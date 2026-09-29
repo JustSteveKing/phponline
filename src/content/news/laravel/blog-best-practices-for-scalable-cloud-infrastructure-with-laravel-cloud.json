@@ -1,0 +1,15 @@
+{
+  "id": "laravel/blog-best-practices-for-scalable-cloud-infrastructure-with-laravel-cloud",
+  "title": "Best Practices for Scalable Cloud Infrastructure with Laravel Cloud",
+  "link": "https://laravel.com/blog/best-practices-for-scalable-cloud-infrastructure-with-laravel-cloud?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2025-11-27T15:47:33.000Z",
+  "content": "<html><head></head><body>Tips for scaling cloud infrastructure in Laravel Cloud: set smart baselines, tune autoscaling triggers, and optimize replicas for stable performance.\n</body></html>",
+  "source": "laravel",
+  "author": "Laravel Team",
+  "creatorId": "laravel",
+  "tags": [
+    "laravel",
+    "performance",
+    "devops"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "laravel/blog-upgrading-to-composer-v2",
+  "title": "Forge: Upgrading To Composer 2.0",
+  "link": "https://laravel.com/blog/upgrading-to-composer-v2?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2020-10-26T20:03:00.000Z",
+  "content": "<html><head></head><body>Following the release of Composer 2 on October 24th, we wanted to share a guide on how to upgrade your servers to make the most of all the great benefits it brings.\n\nFirst, all new servers will automa...</body></html>",
+  "source": "laravel",
+  "author": "James Brooks",
+  "creatorId": "laravel",
+  "tags": [
+    "devops"
+  ]
+}

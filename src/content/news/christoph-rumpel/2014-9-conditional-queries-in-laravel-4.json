@@ -1,0 +1,14 @@
+{
+  "id": "christoph-rumpel/2014-9-conditional-queries-in-laravel-4",
+  "title": "Conditional queries in Laravel 4",
+  "link": "https://christoph-rumpel.com/2014/9/conditional-queries-in-laravel-4?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2014-09-01T20:04:28.000Z",
+  "content": "<html><head></head><body>Queries in Laravel are damn easy. With Eloquent and the Laravel Query Builder you can build your queries directly in PHP without writing any SQL yourself. With your applications growing your requirements will grow too. In some cases you will need to chain your sql parts based on conditions. This article will show you how to work with conditional queries in Laravel.\n            </body></html>",
+  "source": "christoph-rumpel",
+  "author": "Christoph Rumpel Blog Feed",
+  "creatorId": "christoph-rumpel",
+  "tags": [
+    "laravel",
+    "databases"
+  ]
+}

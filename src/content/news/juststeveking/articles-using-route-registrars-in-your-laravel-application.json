@@ -1,0 +1,13 @@
+{
+  "id": "juststeveking/articles-using-route-registrars-in-your-laravel-application",
+  "title": "Using Route Registrars in your Laravel application",
+  "link": "https://www.juststeveking.com/articles/using-route-registrars-in-your-laravel-application/?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2022-07-19T00:00:00.000Z",
+  "content": "<html><head></head><body>Enhance Laravel route management with Route Registrars. Simplify route registration and organization for cleaner and more efficient code.</body></html>",
+  "source": "juststeveking",
+  "author": "Steve McDougall — Articles",
+  "creatorId": "juststeveking",
+  "tags": [
+    "laravel"
+  ]
+}

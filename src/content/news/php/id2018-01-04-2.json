@@ -1,0 +1,13 @@
+{
+  "id": "php/id2018-01-04-2",
+  "title": "PHP 7.2.1 Released",
+  "link": "http://php.net/index.php?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev#id2018-01-04-2",
+  "pubDate": "2018-01-04T15:26:15.000Z",
+  "content": "<html><head></head><body><div type=\"xhtml\"><div xmlns=\"http://www.w3.org/1999/xhtml\"><p>The PHP development team announces the immediate availability of PHP\n       7.2.1. This is a security release. Several security bugs were fixed in\n       this release.</p><p>All PHP 7.2 users are encouraged to upgrade to this version.</p><p>For source downloads of PHP 7.2.1 please visit our ,\n       Windows source and binaries can be found on .\n       The list of changes is recorded in the .\n       <a href=\"http://www.php.net/downloads.php\">downloads page</a><a href=\"http://windows.php.net/download/\">windows.php.net/download/</a><a href=\"http://www.php.net/ChangeLog-7.php#7.2.1\">ChangeLog</a></p></div></div></body></html>",
+  "source": "php",
+  "author": "PHP.net news & announcements",
+  "creatorId": "php-net",
+  "tags": [
+    "security"
+  ]
+}

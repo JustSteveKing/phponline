@@ -1,0 +1,14 @@
+{
+  "id": "laravel/blog-laravel-ai-sdk-building-production-safe-database-tools-for-agents",
+  "title": "Laravel AI SDK: Building Production-Safe Database Tools for Agents",
+  "link": "https://laravel.com/blog/laravel-ai-sdk-building-production-safe-database-tools-for-agents?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-03-27T17:43:26.000Z",
+  "content": "<html><head></head><body>Build production-safe database tools with the Laravel AI SDK. Scope Eloquent queries by user, add vector search with SimilaritySearch, and prevent prompt injection.</body></html>",
+  "source": "laravel",
+  "author": "Pushpak Chhajed",
+  "creatorId": "laravel",
+  "tags": [
+    "laravel",
+    "databases"
+  ]
+}

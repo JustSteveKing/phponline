@@ -1,0 +1,15 @@
+{
+  "id": "christoph-rumpel/2018-3-laravel-response-caching-and-csp",
+  "title": "Laravel Response Caching and CSP",
+  "link": "https://christoph-rumpel.com/2018/3/laravel-response-caching-and-csp?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2018-03-17T20:04:28.000Z",
+  "content": "<html><head></head><body>Caching is lovely, and the Content Security Policy is incredible. But when you put them together... 🤯 Let me show you the problems I encountered, and how I fixed them.\n            </body></html>",
+  "source": "christoph-rumpel",
+  "author": "Christoph Rumpel Blog Feed",
+  "creatorId": "christoph-rumpel",
+  "tags": [
+    "laravel",
+    "security",
+    "performance"
+  ]
+}

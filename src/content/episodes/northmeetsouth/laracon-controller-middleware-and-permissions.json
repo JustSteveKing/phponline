@@ -1,0 +1,14 @@
+{
+  "id": "northmeetsouth/laracon-controller-middleware-and-permissions",
+  "title": "Laracon, controller middleware, and permissions",
+  "link": "https://share.transistor.fm/s/ede071f9?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2025-07-11T05:58:11.000Z",
+  "content": "\n        <p>In this episode, Michael and Jake kick things off with some Laracon travel talk, sharing their hotel plans, coffee quests, and even jokes about pillow fights at the conference hotel. Michael reveals his precise coffee scouting for the Vib by Best Western hotel, determined not to survive three days on Starbucks alone.</p><ul><li><strong>Should you define middleware in a controller’s constructor?</strong><br> Michael explains why he avoids it - preferring to keep all middleware in route definitions for better visibility and maintainability. Jake explores the pros and cons and why he’s still tempted to use it for certain edge cases.</li><li><strong>Dynamic permissions vs. static definitions:</strong><br> We switch gears to talk about the balance between flexibility and clarity when defining permissions for applications, especially when it comes to handling user roles, teams, and complex business rules.</li></ul><p><strong>Mentioned in this episode:</strong></p><ul><li><a href=\"https://laracon.us\">Laracon US</a> travel plans</li><li>Vib by Best Western (the hotel coffee and tacos!)</li><li>Laravel middleware usage</li><li>Permission handling in apps</li><li>Travel gear for developers on the go</li></ul>\n      ",
+  "coverImage": "https://img.transistorcdn.com/gTGjKd44Qy-t3yz9_V60jp8N2Qe5KN4QwfB-5FNuQPM/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9zaG93/LzQ4ODMvMTU3Mjc3/NzAzNi1hcnR3b3Jr/LmpwZw.jpg",
+  "podcast": "NorthMeetSouth",
+  "audioUrl": "https://media.transistor.fm/ede071f9/d9cc720d.mp3",
+  "duration": "3050",
+  "episode": "179",
+  "season": "",
+  "creatorId": "northmeetsouth"
+}

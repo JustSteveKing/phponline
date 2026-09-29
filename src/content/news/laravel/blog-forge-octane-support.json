@@ -1,0 +1,13 @@
+{
+  "id": "laravel/blog-forge-octane-support",
+  "title": "Forge: Octane Support",
+  "link": "https://laravel.com/blog/forge-octane-support?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2021-04-21T12:54:00.000Z",
+  "content": "<html><head></head><body>Back in March, Taylor announced the new Laravel Octane project at Laracon Online. Today we're pleased to announce that Octane support is available in Forge.</body></html>",
+  "source": "laravel",
+  "author": "James Brooks",
+  "creatorId": "laravel",
+  "tags": [
+    "laravel"
+  ]
+}

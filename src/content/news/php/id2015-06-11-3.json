@@ -1,0 +1,13 @@
+{
+  "id": "php/id2015-06-11-3",
+  "title": "PHP 7.0.0 Alpha 1 Released",
+  "link": "http://php.net/index.php?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev#id2015-06-11-3",
+  "pubDate": "2015-06-11T22:24:10.000Z",
+  "content": "<html><head></head><body><div type=\"xhtml\"><div xmlns=\"http://www.w3.org/1999/xhtml\"><p>\n        The PHP development team announces the immediate availability of\n        PHP 7.0.0 Alpha 1. This release marks the beginning of the PHP 7 major series.\n        All users of PHP are encouraged to test this version carefully,\n        and report any bugs and incompatibilities in .\n     <a href=\"https://bugs.php.net\">the bug tracking system</a></p><p>\n      PHP 7.0.0 Alpha 1 comes with new version of the Zend Engine with features such as (incomplete list):\n     </p><p>\n      For more information on the new features and other changes, you can read the\n      , or the\n      \n      for a complete list of upgrading notes. These files can also be found in the release archive.\n     <a href=\"https://github.com/php/php-src/blob/php-7.0.0alpha1/NEWS\">NEWS file</a><a href=\"https://github.com/php/php-src/blob/php-7.0.0alpha1/UPGRADING\">UPGRADING file</a></p><p>\n      For source downloads of PHP 7.0.0 Alpha 1 please visit\n      the , Windows sources and binaries\n      can be found on .\n     <a href=\"https://downloads.php.net/ab/\">download page</a><a href=\"http://windows.php.net/qa/\">windows.php.net/qa/</a></p><p>\n      The second alpha will be released on the 25th of June. You can also read the full list of\n      planned releases on our .\n     <a href=\"https://wiki.php.net/todo/php70#timetable\">wiki</a></p><p>\n        Thank you for helping us make PHP better.\n     </p><strong>THIS IS A DEVELOPMENT PREVIEW - DO  USE IT IN PRODUCTION!<u>NOT</u></strong><ul><li>Improved performance: PHP 7 is up to twice as fast as PHP 5.6</li><li>Consistent 64-bit support</li><li>Many fatal errors are now Exceptions</li><li>Removal of old and unsupported SAPIs and extensions</li><li>The null coalescing operator (??)</li><li>Combined comparison Operator (&lt;=&gt;)</li><li>Return Type Declarations</li><li>Scalar Type Declarations</li><li>Anonymous Classes</li></ul></div></div></body></html>",
+  "source": "php",
+  "author": "PHP.net news & announcements",
+  "creatorId": "php-net",
+  "tags": [
+    "performance"
+  ]
+}

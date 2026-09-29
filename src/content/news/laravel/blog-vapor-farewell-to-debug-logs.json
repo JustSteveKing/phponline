@@ -1,0 +1,13 @@
+{
+  "id": "laravel/blog-vapor-farewell-to-debug-logs",
+  "title": "Vapor: Farewell to Debug Logs",
+  "link": "https://laravel.com/blog/vapor-farewell-to-debug-logs?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2023-05-11T11:45:00.000Z",
+  "content": "<html><head></head><body>When Vapor handles incoming HTTP requests or queued jobs, it writes debug information to your CloudWatch logs. This includes logging when your application's configuration is cached, environment variab...</body></html>",
+  "source": "laravel",
+  "author": "Joe Dixon",
+  "creatorId": "laravel",
+  "tags": [
+    "devops"
+  ]
+}

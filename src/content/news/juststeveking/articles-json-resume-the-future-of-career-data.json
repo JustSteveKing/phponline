@@ -1,0 +1,13 @@
+{
+  "id": "juststeveking/articles-json-resume-the-future-of-career-data",
+  "title": "JSON Resume - The future of career data is here",
+  "link": "https://www.juststeveking.com/articles/json-resume-the-future-of-career-data/?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2025-10-08T00:00:00.000Z",
+  "content": "<html><head></head><body>A hands-on guide to implementing JSON Resume with PHP, from basic concepts to advanced usage with type-safe Laravel integration.</body></html>",
+  "source": "juststeveking",
+  "author": "Steve McDougall — Articles",
+  "creatorId": "juststeveking",
+  "tags": [
+    "laravel"
+  ]
+}

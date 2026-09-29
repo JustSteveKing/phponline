@@ -1,0 +1,13 @@
+{
+  "id": "laravel/blog-vapor-application-logs-reloaded",
+  "title": "Vapor: Application Logs Reloaded",
+  "link": "https://laravel.com/blog/vapor-application-logs-reloaded?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2023-03-23T15:03:00.000Z",
+  "content": "<html><head></head><body>Today, we're excited to announce that by combining the power of CloudWatch with the sleek and intuitive Vapor UI, we're making application logs available directly in the Vapor dashboard.</body></html>",
+  "source": "laravel",
+  "author": "Joe Dixon",
+  "creatorId": "laravel",
+  "tags": [
+    "devops"
+  ]
+}

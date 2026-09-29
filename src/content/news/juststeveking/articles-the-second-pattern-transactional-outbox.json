@@ -1,0 +1,13 @@
+{
+  "id": "juststeveking/articles-the-second-pattern-transactional-outbox",
+  "title": "The Second Pattern: Transactional Outbox",
+  "link": "https://www.juststeveking.com/articles/the-second-pattern-transactional-outbox/?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-08-29T00:00:00.000Z",
+  "content": "<html><head></head><body>Commit then notify loses messages. Notify then commit sends lies. The dual write problem has no clever solution, and Tempest ships more of the machinery than it advertises.</body></html>",
+  "source": "juststeveking",
+  "author": "Steve McDougall — Articles",
+  "creatorId": "juststeveking",
+  "tags": [
+    "testing"
+  ]
+}

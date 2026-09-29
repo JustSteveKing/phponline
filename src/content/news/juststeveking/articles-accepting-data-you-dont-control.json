@@ -1,0 +1,14 @@
+{
+  "id": "juststeveking/articles-accepting-data-you-dont-control",
+  "title": "Accepting Data You Don't Control",
+  "link": "https://www.juststeveking.com/articles/accepting-data-you-dont-control/?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-08-24T00:00:00.000Z",
+  "content": "<html><head></head><body>Webhooks and callbacks you did not design. An ingest server in Laravel 13 that owns the envelope, stores the payload whole, and validates where failure means a retry, not data loss.</body></html>",
+  "source": "juststeveking",
+  "author": "Steve McDougall — Articles",
+  "creatorId": "juststeveking",
+  "tags": [
+    "laravel",
+    "devops"
+  ]
+}

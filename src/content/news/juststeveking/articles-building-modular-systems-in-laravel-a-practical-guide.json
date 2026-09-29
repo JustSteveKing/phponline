@@ -1,0 +1,14 @@
+{
+  "id": "juststeveking/articles-building-modular-systems-in-laravel-a-practical-guide",
+  "title": "Building modular systems in Laravel - A practical guide",
+  "link": "https://www.juststeveking.com/articles/building-modular-systems-in-laravel-a-practical-guide/?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2025-10-08T00:00:00.000Z",
+  "content": "<html><head></head><body>Learn how modular architecture transforms Laravel apps into scalable, maintainable systems.</body></html>",
+  "source": "juststeveking",
+  "author": "Steve McDougall — Articles",
+  "creatorId": "juststeveking",
+  "tags": [
+    "laravel",
+    "architecture"
+  ]
+}

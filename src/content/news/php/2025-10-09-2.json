@@ -1,0 +1,14 @@
+{
+  "id": "php/2025-10-09-2",
+  "title": "PHP 8.5.0 RC 2 available for testing",
+  "link": "https://www.php.net/index.php?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev#2025-10-09-2",
+  "pubDate": "2025-10-09T15:54:19.000Z",
+  "content": "<html><head></head><body><div type=\"xhtml\"><div xmlns=\"http://www.w3.org/1999/xhtml\"><p>\n         The PHP team is pleased to announce the second release candidate of PHP 8.5.0, RC 2.\n         This continues the PHP 8.5 release cycle, the rough outline of which is specified in the\n         .\n     <a href=\"https://wiki.php.net/todo/php85\">PHP Wiki</a></p><p>For source downloads of PHP 8.5.0 RC2, please visit the .<a href=\"https://downloads.php.net/~edorian\">download page</a></p><p>Please carefully test this version and report any issues found .<a href=\"https://github.com/php/php-src/issues/new?template=bug_report.yml\">on GitHub</a></p><p><strong>Please DO NOT use this version in production, it is an early test version.</strong></p><p>For more information on the new features and other changes, you can read the  file, or the  file for a complete list of upgrading notes. These files can also be found in the release archive.<a href=\"https://github.com/php/php-src/blob/php-8.5.0RC2/NEWS\">NEWS</a><a href=\"https://github.com/php/php-src/blob/php-8.5.0RC2/UPGRADING\">UPGRADING</a></p><p>The next release will be RC3, planned for 23 Oct 2025.</p><p>The signatures for the release can be found in the  or on the .<a href=\"https://gist.github.com/edorian/ab490f2f9c3e9ffc9ab0f0ed17a04d50\">manifest</a><a href=\"https://www.php.net/release-candidates.php\">Release Candidates page</a></p><p>Thank you for helping us make PHP better.</p></div></div></body></html>",
+  "source": "php",
+  "author": "PHP.net news & announcements",
+  "creatorId": "php-net",
+  "tags": [
+    "testing",
+    "php8"
+  ]
+}

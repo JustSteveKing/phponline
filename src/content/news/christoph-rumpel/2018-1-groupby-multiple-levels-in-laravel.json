@@ -1,0 +1,13 @@
+{
+  "id": "christoph-rumpel/2018-1-groupby-multiple-levels-in-laravel",
+  "title": "GroupBy multiple levels in Laravel",
+  "link": "https://christoph-rumpel.com/2018/1/groupby-multiple-levels-in-laravel?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2018-01-27T20:04:28.000Z",
+  "content": "<html><head></head><body>Since Laravel v5.5.29 you can group collections by multiple levels. Let's see what this means and how this works.\n            </body></html>",
+  "source": "christoph-rumpel",
+  "author": "Christoph Rumpel Blog Feed",
+  "creatorId": "christoph-rumpel",
+  "tags": [
+    "laravel"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "laravel/blog-security-fortify-174-released",
+  "title": "Security: Fortify 1.7.4. Released",
+  "link": "https://laravel.com/blog/security-fortify-174-released?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2021-01-07T18:50:00.000Z",
+  "content": "<html><head></head><body>We have reverted a pull request that was merged into Laravel Fortify 1.7.3 which introduced a potential security vulnerability. Please update your applications using Fortify 1.7.3, including all Jetst...</body></html>",
+  "source": "laravel",
+  "author": "Taylor Otwell",
+  "creatorId": "laravel",
+  "tags": [
+    "laravel",
+    "security"
+  ]
+}

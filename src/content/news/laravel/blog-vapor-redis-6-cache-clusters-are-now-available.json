@@ -1,0 +1,15 @@
+{
+  "id": "laravel/blog-vapor-redis-6-cache-clusters-are-now-available",
+  "title": "Vapor: Redis 6.x Clusters Are Now Available",
+  "link": "https://laravel.com/blog/vapor-redis-6-cache-clusters-are-now-available?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2021-05-04T14:17:00.000Z",
+  "content": "<html><head></head><body>Starting today, in addition to Redis 5.x Clusters, you may now also create and manage Redis 6.x Clusters. Redis 6.x is the latest version of open-source Redis software. This new version brings improved security and boosts the performance of your cache.</body></html>",
+  "source": "laravel",
+  "author": "Nuno Maduro",
+  "creatorId": "laravel",
+  "tags": [
+    "security",
+    "performance",
+    "databases"
+  ]
+}

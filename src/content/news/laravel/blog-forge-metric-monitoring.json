@@ -1,0 +1,13 @@
+{
+  "id": "laravel/blog-forge-metric-monitoring",
+  "title": "Forge: Metric Monitoring",
+  "link": "https://laravel.com/blog/forge-metric-monitoring?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2020-04-16T14:43:00.000Z",
+  "content": "<html><head></head><body>Today we are launching an exciting new feature for [Laravel Forge](https://laravel.com/forge): metric monitoring! Laravel team member James Brooks has been working hard on this feature for two months....</body></html>",
+  "source": "laravel",
+  "author": "Taylor Otwell",
+  "creatorId": "laravel",
+  "tags": [
+    "laravel"
+  ]
+}

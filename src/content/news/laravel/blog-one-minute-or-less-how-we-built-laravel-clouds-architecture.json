@@ -1,0 +1,15 @@
+{
+  "id": "laravel/blog-one-minute-or-less-how-we-built-laravel-clouds-architecture",
+  "title": "One Minute or Less: How We Built Laravel Cloud’s Architecture",
+  "link": "https://laravel.com/blog/one-minute-or-less-how-we-built-laravel-clouds-architecture?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2025-07-24T14:34:00.000Z",
+  "content": "<html><head></head><body>A trip behind the scenes of Laravel Cloud's architecture: how we built a scalable, multi-tenant platform using Kubernetes, Cloudflare, and custom operators.</body></html>",
+  "source": "laravel",
+  "author": "Joe Dixon",
+  "creatorId": "laravel",
+  "tags": [
+    "laravel",
+    "architecture",
+    "devops"
+  ]
+}

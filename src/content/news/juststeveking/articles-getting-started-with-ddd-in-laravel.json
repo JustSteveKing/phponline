@@ -1,0 +1,14 @@
+{
+  "id": "juststeveking/articles-getting-started-with-ddd-in-laravel",
+  "title": "Getting started with DDD in Laravel",
+  "link": "https://www.juststeveking.com/articles/getting-started-with-ddd-in-laravel/?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2022-05-03T00:00:00.000Z",
+  "content": "<html><head></head><body>Master Laravel DDD with ease; Learn how to enhance your Laravel applications by implementing Domain Driven Design for improved structure and maintainability.</body></html>",
+  "source": "juststeveking",
+  "author": "Steve McDougall — Articles",
+  "creatorId": "juststeveking",
+  "tags": [
+    "laravel",
+    "architecture"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "laravel-news-podcast/laravel-538-spark-2-lumen-53-and-more",
+  "title": "Laravel 5.3.8, Spark 2, Lumen 5.3 and more!",
+  "link": "https://podcast.laravel-news.com/26?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2016-09-20T14:00:00.000Z",
+  "content": "In this week's episode, we discuss the new Laravel 5.3.8, briefly cover Spark 2 &amp; Lumen 5.3, and talk a lot about our progression of code editors.",
+  "coverImage": "https://img.transistorcdn.com/duvuc8aJdfChaCAG283ov9AcV_JsGsvvtW_HnQQ5uaA/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9lcGlz/b2RlLzE2NDIxNC8x/NTc2MzQwNzEzLWFy/dHdvcmsuanBn.jpg",
+  "podcast": "Laravel News Podcast",
+  "audioUrl": "https://media.transistor.fm/7ddc1e35/372c5ff8.mp3",
+  "duration": "1557",
+  "episode": "26",
+  "season": "",
+  "creatorId": "laravel-news"
+}

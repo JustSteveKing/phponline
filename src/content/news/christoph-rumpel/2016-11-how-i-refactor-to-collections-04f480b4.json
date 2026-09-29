@@ -1,0 +1,13 @@
+{
+  "id": "christoph-rumpel/2016-11-How-I-refactor-to-collections",
+  "title": "How I refactor to collections",
+  "link": "https://christoph-rumpel.com/2016/11/How-I-refactor-to-collections?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2016-11-27T20:04:28.000Z",
+  "content": "<html><head></head><body>Refactoring to Collections is a great book by Adam Wathan where he demonstrates, how you can avoid loops by using collections. It sounds great from the beginning but you need to practice it in order to be able to use it in your own projects. This is why I refactored some conditional code of my older projects. I will share these examples today.\n            </body></html>",
+  "source": "christoph-rumpel",
+  "author": "Christoph Rumpel Blog Feed",
+  "creatorId": "christoph-rumpel",
+  "tags": [
+    "architecture"
+  ]
+}

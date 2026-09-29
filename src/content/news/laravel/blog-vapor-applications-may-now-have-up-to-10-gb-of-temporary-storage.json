@@ -1,0 +1,13 @@
+{
+  "id": "laravel/blog-vapor-applications-may-now-have-up-to-10-gb-of-temporary-storage",
+  "title": "Vapor: Applications May Now Have Up to 10 GB Of Temporary Storage",
+  "link": "https://laravel.com/blog/vapor-applications-may-now-have-up-to-10-gb-of-temporary-storage?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2022-03-28T16:30:00.000Z",
+  "content": "<html><head></head><body>AWS recently announced that AWS Lambda now supports up to 10 GB ephemeral storage. In other words, this means that your Vapor environment functions may now hold up to 10 GB of information in the `/tmp` directory.</body></html>",
+  "source": "laravel",
+  "author": "Nuno Maduro",
+  "creatorId": "laravel",
+  "tags": [
+    "devops"
+  ]
+}

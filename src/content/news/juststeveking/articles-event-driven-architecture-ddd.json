@@ -1,0 +1,13 @@
+{
+  "id": "juststeveking/articles-event-driven-architecture-ddd",
+  "title": "Event-driven architecture with domain-driven design",
+  "link": "https://www.juststeveking.com/articles/event-driven-architecture-ddd/?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-01-12T00:00:00.000Z",
+  "content": "<html><head></head><body>Learn how to implement event-driven architecture using domain-driven design principles to build scalable and maintainable systems.</body></html>",
+  "source": "juststeveking",
+  "author": "Steve McDougall — Articles",
+  "creatorId": "juststeveking",
+  "tags": [
+    "architecture"
+  ]
+}

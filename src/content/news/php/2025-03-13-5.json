@@ -1,0 +1,14 @@
+{
+  "id": "php/2025-03-13-5",
+  "title": "PHP 8.2.28 Released!",
+  "link": "https://www.php.net/index.php?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev#2025-03-13-5",
+  "pubDate": "2025-03-13T16:51:14.000Z",
+  "content": "<html><head></head><body><div type=\"xhtml\"><div xmlns=\"http://www.w3.org/1999/xhtml\"><p>The PHP development team announces the immediate availability of PHP 8.2.28. This is a security release.</p><p>All PHP 8.2 users are encouraged to upgrade to this version.</p><p>For source downloads of PHP 8.2.28 please visit our ,\nWindows source and binaries can be found on .\nThe list of changes is recorded in the .\n<a href=\"https://www.php.net/downloads.php\">downloads page</a><a href=\"https://windows.php.net/download/\">windows.php.net/download/</a><a href=\"https://www.php.net/ChangeLog-8.php#8.2.28\">ChangeLog</a></p></div></div></body></html>",
+  "source": "php",
+  "author": "PHP.net news & announcements",
+  "creatorId": "php-net",
+  "tags": [
+    "security",
+    "php8"
+  ]
+}

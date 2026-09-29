@@ -1,0 +1,14 @@
+{
+  "id": "laravel/blog-from-zero-to-product-a-guide-for-building-a-saas-with-laravel",
+  "title": "From Zero to Product: A Guide for Building a SaaS with Laravel",
+  "link": "https://laravel.com/blog/from-zero-to-product-a-guide-for-building-a-saas-with-laravel?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-05-01T12:15:00.000Z",
+  "content": "<html><head></head><body>Build a production-ready SaaS the Artisan way with Laravel: Starter Kits, Socialite, Cashier, Pennant, and Laravel Cloud.</body></html>",
+  "source": "laravel",
+  "author": "Wendell Adriel",
+  "creatorId": "laravel",
+  "tags": [
+    "laravel",
+    "devops"
+  ]
+}

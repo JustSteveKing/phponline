@@ -1,0 +1,13 @@
+{
+  "id": "laravel/blog-vapor-rds-proxies-now-available",
+  "title": "Vapor: RDS Proxies Now Available",
+  "link": "https://laravel.com/blog/vapor-rds-proxies-now-available?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2020-10-14T09:11:00.000Z",
+  "content": "<html><head></head><body>Starting today, the Vapor UI allows you to create an RDS proxy to efficiently manage your database connections and allow many more connections than would typically be possible.</body></html>",
+  "source": "laravel",
+  "author": "Nuno Maduro",
+  "creatorId": "laravel",
+  "tags": [
+    "databases"
+  ]
+}

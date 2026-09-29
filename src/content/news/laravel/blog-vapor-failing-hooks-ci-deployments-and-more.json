@@ -1,0 +1,13 @@
+{
+  "id": "laravel/blog-vapor-failing-hooks-ci-deployments-and-more",
+  "title": "Vapor: Debugging Hooks, CI Deployments, and more!",
+  "link": "https://laravel.com/blog/vapor-failing-hooks-ci-deployments-and-more?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2020-10-22T15:23:00.000Z",
+  "content": "<html><head></head><body>Over the last few days, we've been working on some enhancements on Vapor. Starting today, you can now quickly debug failing deployment hooks directly from the console.</body></html>",
+  "source": "laravel",
+  "author": "Nuno Maduro",
+  "creatorId": "laravel",
+  "tags": [
+    "devops"
+  ]
+}

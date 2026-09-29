@@ -1,0 +1,14 @@
+{
+  "id": "laravel-news-podcast/refactoring-to-collections-with-adam-wathan",
+  "title": "Refactoring to Collections with Adam Wathan",
+  "link": "https://podcast.laravel-news.com/20?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2016-06-28T14:00:00.000Z",
+  "content": "LN20: In this week's Laravel News podcast we have Adam Wathan on to talk about his book Refactoring to Collections and a new package MailThief.",
+  "coverImage": "https://img.transistorcdn.com/bTsO9iLQHX8H-xdMOGqG96VyQfLM98VAg9e6-JjfMu4/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9lcGlz/b2RlLzE2NDIwOC8x/NTc2MzQwNjg3LWFy/dHdvcmsuanBn.jpg",
+  "podcast": "Laravel News Podcast",
+  "audioUrl": "https://media.transistor.fm/f683d121/4a6b8538.mp3",
+  "duration": "1829",
+  "episode": "20",
+  "season": "",
+  "creatorId": "laravel-news"
+}

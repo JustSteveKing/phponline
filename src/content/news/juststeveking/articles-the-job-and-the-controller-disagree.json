@@ -1,0 +1,13 @@
+{
+  "id": "juststeveking/articles-the-job-and-the-controller-disagree",
+  "title": "The Job And The Controller Disagree",
+  "link": "https://www.juststeveking.com/articles/the-job-and-the-controller-disagree/?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-08-26T00:00:00.000Z",
+  "content": "<html><head></head><body>The same operation runs from two entry points and they have quietly drifted. In Laravel that drift has a predictable shape, because validation lives at the edge and only one edge has it.</body></html>",
+  "source": "juststeveking",
+  "author": "Steve McDougall — Articles",
+  "creatorId": "juststeveking",
+  "tags": [
+    "laravel"
+  ]
+}

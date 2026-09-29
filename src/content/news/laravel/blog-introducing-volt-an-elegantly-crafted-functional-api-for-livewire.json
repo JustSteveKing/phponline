@@ -1,0 +1,13 @@
+{
+  "id": "laravel/blog-introducing-volt-an-elegantly-crafted-functional-api-for-livewire",
+  "title": "Introducing Volt: An elegantly crafted functional API for Livewire",
+  "link": "https://laravel.com/blog/introducing-volt-an-elegantly-crafted-functional-api-for-livewire?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2023-07-26T16:00:00.000Z",
+  "content": "<html><head></head><body>Volt is an elegantly crafted functional API for Livewire, allowing component's PHP logic and Blade templates to coexist in the same file. Behind the scenes, the functional API is compiled to Livewire class components and linked with the template present in the same file.</body></html>",
+  "source": "laravel",
+  "author": "Nuno Maduro",
+  "creatorId": "laravel",
+  "tags": [
+    "laravel"
+  ]
+}

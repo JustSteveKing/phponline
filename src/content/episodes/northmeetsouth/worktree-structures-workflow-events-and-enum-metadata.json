@@ -1,0 +1,14 @@
+{
+  "id": "northmeetsouth/worktree-structures-workflow-events-and-enum-metadata",
+  "title": "Worktree structures, workflow events, and enum metadata",
+  "link": "https://share.transistor.fm/s/a59f25e7?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-03-05T15:00:00.000Z",
+  "content": "\n        <p>In this episode, we discuss using `claude --worktree` to spin up parallel feature work, and the unexpected friction that can arise when your editor doesn’t play nicely with nested worktrees.</p><p>Jake shares his experience running multiple Claude agents in parallel and problems that surfaced in PhpStorm. Michael explains how he structures worktrees differently, avoiding those issues, and the two compare workflows between PhpStorm and Neovim.</p><p><br><strong>Show Links</strong></p><ul><li><a href=\"https://code.claude.com/docs/en/common-workflows#run-parallel-claude-code-sessions-with-git-worktrees\">claude --worktree</a></li><li><a href=\"https://git-scm.com/docs/git-worktree\">Git worktrees</a></li><li><a href=\"https://www.jetbrains.com/phpstorm\">PhpStorm</a></li><li><a href=\"https://neovim.io/\">Neovim</a></li><li><a href=\"https://github.com/tmux/tmux/wiki\">Tmux</a></li><li><a href=\"https://github.com/jesseduffield/lazygit\">LazyGit</a></li><li><a href=\"https://docs.github.com/en/actions/how-tos/write-workflows/choose-what-workflows-do/use-github-cli\">Using GitHub CLI in workflows</a></li><li><a href=\"https://github.com/archtechx/enums\">archtechx/enums</a></li><li><a href=\"https://github.com/artisanexperiences/arbor\">Arbor</a></li><li><a href=\"https://laracon.us\">Laracon US</a></li><li><a href=\"https://plugins.jetbrains.com/plugin/30431-git-worktree-hub\">Git Worktree Hub plugin for PhpStorm</a><p></p></li></ul>\n      ",
+  "coverImage": "https://img.transistorcdn.com/gTGjKd44Qy-t3yz9_V60jp8N2Qe5KN4QwfB-5FNuQPM/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9zaG93/LzQ4ODMvMTU3Mjc3/NzAzNi1hcnR3b3Jr/LmpwZw.jpg",
+  "podcast": "NorthMeetSouth",
+  "audioUrl": "https://media.transistor.fm/a59f25e7/b8a7b2ce.mp3",
+  "duration": "2694",
+  "episode": "188",
+  "season": "",
+  "creatorId": "northmeetsouth"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "juststeveking/articles-uploading-files-laravel",
+  "title": "Learn how to upload files in Laravel like a Pro",
+  "link": "https://www.juststeveking.com/articles/uploading-files-laravel/?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2022-10-17T00:00:00.000Z",
+  "content": "<html><head></head><body>Learn expert Laravel file uploads; validate, store, and optimize with UploadService and Livewire integration.</body></html>",
+  "source": "juststeveking",
+  "author": "Steve McDougall — Articles",
+  "creatorId": "juststeveking",
+  "tags": [
+    "laravel"
+  ]
+}

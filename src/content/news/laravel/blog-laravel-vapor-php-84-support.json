@@ -1,0 +1,13 @@
+{
+  "id": "laravel/blog-laravel-vapor-php-84-support",
+  "title": "Vapor: PHP 8.4 Is Now Supported",
+  "link": "https://laravel.com/blog/laravel-vapor-php-84-support?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2024-11-22T08:59:00.000Z",
+  "content": "<html><head></head><body>Starting today, you may use PHP 8.4 in your Vapor environments. To get started, simply specify \"php-8.4:al2\" as your preferred runtime in your \"vapor.yml\" configuration file.</body></html>",
+  "source": "laravel",
+  "author": "Mohamed Said",
+  "creatorId": "laravel",
+  "tags": [
+    "php8"
+  ]
+}

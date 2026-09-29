@@ -1,0 +1,13 @@
+{
+  "id": "juststeveking/articles-the-second-pattern-specification",
+  "title": "The Second Pattern: Specification",
+  "link": "https://www.juststeveking.com/articles/the-second-pattern-specification/?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-08-27T00:00:00.000Z",
+  "content": "<html><head></head><body>Nine optional parameters is the symptom. The problem is a business rule that has to run in SQL and in memory, written twice and quietly drifting apart.</body></html>",
+  "source": "juststeveking",
+  "author": "Steve McDougall — Articles",
+  "creatorId": "juststeveking",
+  "tags": [
+    "databases"
+  ]
+}

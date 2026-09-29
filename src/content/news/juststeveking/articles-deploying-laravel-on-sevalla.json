@@ -1,0 +1,14 @@
+{
+  "id": "juststeveking/articles-deploying-laravel-on-sevalla",
+  "title": "Deploying Laravel on Sevalla - A No-Nonsense Guide",
+  "link": "https://www.juststeveking.com/articles/deploying-laravel-on-sevalla/?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2025-02-10T00:00:00.000Z",
+  "content": "<html><head></head><body>Deploy your Laravel app with Sevalla using Docker &amp; FrankenPHP for seamless, zero-downtime releases. Say goodbye to server hassles and Kubernetes headaches!</body></html>",
+  "source": "juststeveking",
+  "author": "Steve McDougall — Articles",
+  "creatorId": "juststeveking",
+  "tags": [
+    "laravel",
+    "devops"
+  ]
+}

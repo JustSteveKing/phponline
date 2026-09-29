@@ -1,0 +1,14 @@
+{
+  "id": "laravel-news-podcast/space-danger-and-80s-themed-development-conferences",
+  "title": "Space, danger, and 80's-themed development conferences",
+  "link": "https://podcast.laravel-news.com/74?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2018-11-20T15:00:00.000Z",
+  "content": "Jake and Michael discuss all the latest Laravel releases, tutorials, and happenings in the community.",
+  "coverImage": "https://img.transistorcdn.com/xoNFKkxJokKfo_GFROqg0NNxHlIEO17Wy-VBSP2JFgY/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9lcGlz/b2RlLzE2NDI2Mi8x/NTc2MzQwOTE3LWFy/dHdvcmsuanBn.jpg",
+  "podcast": "Laravel News Podcast",
+  "audioUrl": "https://media.transistor.fm/0236eab1/a61a035a.mp3",
+  "duration": "2957",
+  "episode": "74",
+  "season": "",
+  "creatorId": "laravel-news"
+}

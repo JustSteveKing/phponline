@@ -1,0 +1,14 @@
+{
+  "id": "laravel/blog-vapor-database-upgrades-are-now-available",
+  "title": "Vapor: Database Upgrades Are Now Available",
+  "link": "https://laravel.com/blog/vapor-database-upgrades-are-now-available?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2021-05-20T10:00:00.000Z",
+  "content": "<html><head></head><body>Vapor allows you to easily create and manage RDS and Aurora Serverless databases. And, starting today, you may upgrade an existing database directly from the Vapor UI or using the Vapor CLI.</body></html>",
+  "source": "laravel",
+  "author": "Nuno Maduro",
+  "creatorId": "laravel",
+  "tags": [
+    "databases",
+    "devops"
+  ]
+}

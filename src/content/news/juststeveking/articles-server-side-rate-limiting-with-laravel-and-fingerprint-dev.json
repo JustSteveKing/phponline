@@ -1,0 +1,16 @@
+{
+  "id": "juststeveking/articles-server-side-rate-limiting-with-laravel-and-fingerprint-dev",
+  "title": "Server-Side Rate Limiting in Laravel with Fingerprint.dev",
+  "link": "https://www.juststeveking.com/articles/server-side-rate-limiting-with-laravel-and-fingerprint-dev/?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-05-26T00:00:00.000Z",
+  "content": "<html><head></head><body>Learn how to build device-based rate limiting in Laravel with Fingerprint.dev, Redis caching, and custom middleware to avoid the limits of IP-based throttling.</body></html>",
+  "source": "juststeveking",
+  "author": "Steve McDougall — Articles",
+  "creatorId": "juststeveking",
+  "tags": [
+    "laravel",
+    "performance",
+    "databases",
+    "devops"
+  ]
+}

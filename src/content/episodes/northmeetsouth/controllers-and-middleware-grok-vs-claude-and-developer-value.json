@@ -1,0 +1,14 @@
+{
+  "id": "northmeetsouth/controllers-and-middleware-grok-vs-claude-and-developer-value",
+  "title": "Controllers and Middleware, Grok vs. Claude, and Developer Value",
+  "link": "https://share.transistor.fm/s/7af6c682?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2025-09-25T14:07:00.000Z",
+  "content": "\n        <p>Jake and Michael dive into a wide range of topics, from coding practices in Laravel to the evolving role of AI in software development. They kick things off with daylight savings and weekend updates before moving into technical discussions on authorization, policies, and form requests in Laravel.</p><p>The conversation expands to cover recent changes in middleware and controller patterns, contextual attributes in the service container, and practical approaches to request validation.</p><p>Later, the focus shifts toward AI tools like Claude, Grok, and Cursor, including their strengths, frustrations, and industry-wide adoption pressures. We reflect on the uneasy balance between developer control and AI assistance, wrapping up with thoughts on productivity, value, and what it means to let machines write code.</p><p><strong>Show links</strong></p><ul><li><a href=\"https://lawnhub.com.au\">Lawn Hub</a></li><li><a href=\"https://arcade1up.com\">Arcade 1Up</a></li><li><a href=\"https://retropie.org.uk\">RetroPie</a></li><li><a href=\"https://arcade1up.com/products/mortal-kombat-deluxe\">Mortal Kombat cabinet</a></li><li><a href=\"https://x.com/enunomaduro/status/1884559485068296546\">Nuno's authorization on form requests</a></li><li><a href=\"https://laravel.com/docs/12.x/container#contextual-attributes\">Contextual Attributes</a></li><li><a href=\"https://x.ai/news/grok-code-fast-1\">Grok Code Fast 1</a></li></ul>\n      ",
+  "coverImage": "https://img.transistorcdn.com/gTGjKd44Qy-t3yz9_V60jp8N2Qe5KN4QwfB-5FNuQPM/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9zaG93/LzQ4ODMvMTU3Mjc3/NzAzNi1hcnR3b3Jr/LmpwZw.jpg",
+  "podcast": "NorthMeetSouth",
+  "audioUrl": "https://media.transistor.fm/7af6c682/ee3daac4.mp3",
+  "duration": "2739",
+  "episode": "183",
+  "season": "",
+  "creatorId": "northmeetsouth"
+}

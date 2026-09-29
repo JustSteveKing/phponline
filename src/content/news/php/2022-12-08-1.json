@@ -1,0 +1,14 @@
+{
+  "id": "php/2022-12-08-1",
+  "title": "PHP 8.2.0 Released!",
+  "link": "https://www.php.net/index.php?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev#2022-12-08-1",
+  "pubDate": "2022-12-08T06:26:27.000Z",
+  "content": "<html><head></head><body><div type=\"xhtml\"><div xmlns=\"http://www.w3.org/1999/xhtml\"><p>The PHP development team announces the immediate availability of PHP 8.2.0. This release marks the latest minor release of the PHP language.</p><p>PHP 8.2 comes with numerous improvements and new features such as:</p><p>\n        For source downloads of PHP 8.2.0 please visit our ,\n        Windows source and binaries can be found on .\n        The list of changes is recorded in the .\n      <a href=\"https://www.php.net/downloads.php\">downloads page</a><a href=\"https://windows.php.net/download/\">windows.php.net/download/</a><a href=\"https://www.php.net/ChangeLog-8.php#8.2.0\">ChangeLog</a></p><p>\n        The  is available in the PHP Manual.\n        Please consult it for the detailed list of new features and backward incompatible changes.\n      <a href=\"https://php.net/manual/en/migration82.php\">migration guide</a></p><p>Kudos to all the contributors and supporters!</p><ul><li><a href=\"https://www.php.net/manual/en/language.oop5.basic.php#language.oop5.basic.class.readonly\">Readonly classes</a></li><li><a href=\"https://www.php.net/manual/en/migration82.new-features.php#migration82.new-features.core.type-system\">Disjunctive Normal Form (DNF) Types</a></li><li>New stand-alone types: , and <a href=\"https://wiki.php.net/rfc/null-false-standalone-types\">null, false</a><a href=\"https://wiki.php.net/rfc/true-type\">true</a></li><li><a href=\"https://www.php.net/manual/en/book.random.php\">New \"Random\" extension</a></li><li><a href=\"https://www.php.net/manual/en/migration82.new-features.php#migration82.new-features.core.constant-in-traits\">Constants in traits</a></li><li><a href=\"https://www.php.net/manual/en/migration82.deprecated.php#migration82.deprecated.core.dynamic-properties\">Deprecate dynamic properties</a></li><li>And much much more...</li></ul></div></div></body></html>",
+  "source": "php",
+  "author": "PHP.net news & announcements",
+  "creatorId": "php-net",
+  "tags": [
+    "php8",
+    "internals"
+  ]
+}

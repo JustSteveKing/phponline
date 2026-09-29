@@ -1,0 +1,13 @@
+{
+  "id": "symfony/blog-new-in-twig-4-0-composing-blocks-at-runtime",
+  "title": "New in Twig 4.0: Composing Blocks at Runtime",
+  "link": "https://symfony.com/blog/new-in-twig-4-0-composing-blocks-at-runtime?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-09-25T08:58:00.000Z",
+  "content": "<html><head></head><body>Contributed by\n                    Fabien Potencier\n                                \n\nA CMS often lets each site customize how content fields are displayed. The\ndefault theme…</body></html>",
+  "source": "Symfony",
+  "author": " Fabien Potencier ",
+  "creatorId": "symfony",
+  "tags": [
+    "symfony"
+  ]
+}

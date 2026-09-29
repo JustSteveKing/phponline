@@ -1,0 +1,13 @@
+{
+  "id": "juststeveking/articles-api-versioning-in-laravel",
+  "title": "API Versioning in Laravel - All you need to know",
+  "link": "https://www.juststeveking.com/articles/api-versioning-in-laravel/?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2023-11-25T00:00:00.000Z",
+  "content": "<html><head></head><body>All you need to know about API Versioning. What is it, what types of versioning exist, how are they used and why you might need it?</body></html>",
+  "source": "juststeveking",
+  "author": "Steve McDougall — Articles",
+  "creatorId": "juststeveking",
+  "tags": [
+    "laravel"
+  ]
+}

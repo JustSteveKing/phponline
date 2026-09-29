@@ -1,0 +1,14 @@
+{
+  "id": "laravel/blog-vapor-sub-minute-scheduled-tasks",
+  "title": "Vapor: Sub-Minute Scheduled Tasks",
+  "link": "https://laravel.com/blog/vapor-sub-minute-scheduled-tasks?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2023-12-21T10:34:00.000Z",
+  "content": "<html><head></head><body>To invoke Laravel's internal scheduler, you must call the schedule:run Artisan command once every minute. In a traditional serverful hosting environment, you may achieve this using a utility such as cron.</body></html>",
+  "source": "laravel",
+  "author": "Joe Dixon",
+  "creatorId": "laravel",
+  "tags": [
+    "laravel",
+    "devops"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "northmeetsouth/no-mans-sky-http2-and-majestic-monoliths",
+  "title": "No Man's Sky, HTTP2, and Majestic Monoliths",
+  "link": "https://share.transistor.fm/s/f549ea3d?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2016-08-16T11:30:00.000Z",
+  "content": "In this episode, Jacob and Michael talk about the recently released No Man's Sky, HTTP/2 middleware in Laravel, MailThief, and how Majestic Monoliths stack up against microservices.",
+  "coverImage": "https://img.transistorcdn.com/o0MPlR4ONrlBZKZHepre3TvyGWjeJrx1FXO7mSZ34Fg/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9lcGlz/b2RlLzEwNjYzNC8x/NTcwNTc1MTgxLWFy/dHdvcmsuanBn.jpg",
+  "podcast": "NorthMeetSouth",
+  "audioUrl": "https://media.transistor.fm/f549ea3d/1ef4a6a8.mp3",
+  "duration": "1717",
+  "episode": "7",
+  "season": "",
+  "creatorId": "northmeetsouth"
+}

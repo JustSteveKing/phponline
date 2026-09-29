@@ -1,0 +1,13 @@
+{
+  "id": "juststeveking/articles-modern-php-features-explained",
+  "title": "Modern PHP features explained - PHP 8.0 and 8.1",
+  "link": "https://www.juststeveking.com/articles/modern-php-features-explained/?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2022-10-27T00:00:00.000Z",
+  "content": "<html><head></head><body>Explore PHP 8.0 and 8.1 features including constructor promotion, union types, and match expressions.</body></html>",
+  "source": "juststeveking",
+  "author": "Steve McDougall — Articles",
+  "creatorId": "juststeveking",
+  "tags": [
+    "php8"
+  ]
+}

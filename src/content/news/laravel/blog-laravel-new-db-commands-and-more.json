@@ -1,0 +1,13 @@
+{
+  "id": "laravel/blog-laravel-new-db-commands-and-more",
+  "title": "Laravel: New DB Commands",
+  "link": "https://laravel.com/blog/laravel-new-db-commands-and-more?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2022-08-09T13:50:00.000Z",
+  "content": "<html><head></head><body>Following last week's release, which again focused on Artisan, this week Laravel v9.24 introduces three new DB commands and more.</body></html>",
+  "source": "laravel",
+  "author": "Taylor Otwell",
+  "creatorId": "laravel",
+  "tags": [
+    "laravel"
+  ]
+}

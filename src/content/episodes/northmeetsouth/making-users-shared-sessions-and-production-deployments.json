@@ -1,0 +1,14 @@
+{
+  "id": "northmeetsouth/making-users-shared-sessions-and-production-deployments",
+  "title": "Making users, shared sessions, and production deployments",
+  "link": "https://share.transistor.fm/s/0cf4f8d2?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2017-06-11T21:00:00.000Z",
+  "content": "In our golden episode, Jake and Michael talk about making users in a Laravel app, sharing sessions between servers and applications, and answer a listener question on our production deployment workflows.",
+  "coverImage": "https://img.transistorcdn.com/XTN-e3hwboJSyiann6tD7GDbbcMNX0L0FbzrtJBdEYM/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9lcGlz/b2RlLzEwNjY1Ni8x/NTcwNTc1MjM2LWFy/dHdvcmsuanBn.jpg",
+  "podcast": "NorthMeetSouth",
+  "audioUrl": "https://media.transistor.fm/0cf4f8d2/1982d337.mp3",
+  "duration": "2489",
+  "episode": "30",
+  "season": "",
+  "creatorId": "northmeetsouth"
+}

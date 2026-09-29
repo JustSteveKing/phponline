@@ -1,0 +1,14 @@
+{
+  "id": "laravel/blog-1m-deploys-on-laravel-cloud-lessons-on-billing-admin-integrations",
+  "title": "1M Deploys on Laravel Cloud: Lessons on Billing, Admin & Integrations",
+  "link": "https://laravel.com/blog/1m-deploys-on-laravel-cloud-lessons-on-billing-admin-integrations?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2025-09-15T15:05:49.000Z",
+  "content": "<html><head></head><body>Laravel Cloud hit 1M deployments since EA. Here’s how we built billing, admin tools, and integrations to support every deployment.\n</body></html>",
+  "source": "laravel",
+  "author": "Joe Dixon",
+  "creatorId": "laravel",
+  "tags": [
+    "laravel",
+    "devops"
+  ]
+}

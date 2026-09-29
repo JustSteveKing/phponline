@@ -1,0 +1,14 @@
+{
+  "id": "laravel-news-podcast/laravel-releases-cookbooks-and-signed-routes",
+  "title": "Laravel releases, cookbooks, and signed routes",
+  "link": "https://podcast.laravel-news.com/60?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2018-04-03T14:00:00.000Z",
+  "content": "Jake and Michael return to discuss the latest Laravel releases, community projects, and upcoming changes.",
+  "coverImage": "https://img.transistorcdn.com/pE315aqQARl7di-LICDhYHUdQS_V-wYmsoDpNcZp1SU/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9lcGlz/b2RlLzE2NDI0OC8x/NTc2MzQwODYwLWFy/dHdvcmsuanBn.jpg",
+  "podcast": "Laravel News Podcast",
+  "audioUrl": "https://media.transistor.fm/c9034b0d/1192cc57.mp3",
+  "duration": "2998",
+  "episode": "60",
+  "season": "",
+  "creatorId": "laravel-news"
+}

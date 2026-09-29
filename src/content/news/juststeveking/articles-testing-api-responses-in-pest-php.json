@@ -1,0 +1,14 @@
+{
+  "id": "juststeveking/articles-testing-api-responses-in-pest-php",
+  "title": "Testing API responses in PestPHP",
+  "link": "https://www.juststeveking.com/articles/testing-api-responses-in-pest-php/?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2022-05-11T00:00:00.000Z",
+  "content": "<html><head></head><body>Efficient API Response Testing in Laravel with pestPHP - Learn to test Laravel API responses effectively using pestPHP and fixtures.</body></html>",
+  "source": "juststeveking",
+  "author": "Steve McDougall — Articles",
+  "creatorId": "juststeveking",
+  "tags": [
+    "laravel",
+    "testing"
+  ]
+}

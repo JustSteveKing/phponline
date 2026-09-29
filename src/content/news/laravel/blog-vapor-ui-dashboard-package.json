@@ -1,0 +1,11 @@
+{
+  "id": "laravel/blog-vapor-ui-dashboard-package",
+  "title": "Vapor: UI Dashboard Package",
+  "link": "https://laravel.com/blog/vapor-ui-dashboard-package?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2020-09-03T09:45:00.000Z",
+  "content": "<html><head></head><body>Today on Vapor, we're proud to introduce you to our new open-source package: Vapor UI. In short, this package provides a beautiful dashboard through your application that allows you to monitor your application's logs...</body></html>",
+  "source": "laravel",
+  "author": "Nuno Maduro",
+  "creatorId": "laravel",
+  "tags": []
+}

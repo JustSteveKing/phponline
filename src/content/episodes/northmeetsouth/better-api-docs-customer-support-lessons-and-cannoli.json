@@ -1,0 +1,14 @@
+{
+  "id": "northmeetsouth/better-api-docs-customer-support-lessons-and-cannoli",
+  "title": "Better API docs, customer support lessons, and cannoli",
+  "link": "https://share.transistor.fm/s/aa9c2d2e?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-07-02T14:00:00.000Z",
+  "content": "\n        <p>Jake shares lessons from rebuilding a permissions system around flexible roles, temporary permission leases, and delegated user management. He also discusses adding Apple Pay and Google Pay, plus designing automated text-message payment flows that use numbered choices instead of complicated keywords.</p><p><br>Michael talks about building lender integrations, the importance of adding real context to API documentation, and using Claude to turn JSON specifications into PHP DTOs and enums. He also reflects on his team’s new helpdesk rotation, where direct exposure to users has uncovered long-standing bugs, inefficient manual processes, and opportunities for developers to better understand the people using their software.</p><p><br>They finish with the challenges of parenting teenagers, preparations for Laracon US in Boston, including a search for coffee, donuts, bagels, and cannoli.</p>\n<ul><li>(00:00) - Club World Cup surprises and sports talk\r</li>\n<li>(03:12) - UFC, LeBron and basketball moves\r</li>\n<li>(06:33) - Rebuilding roles and permissions\r</li>\n<li>(08:39) - Permission leases and delegated management\r</li>\n<li>(10:02) - Apple Pay, Google Pay and text-based payments\r</li>\n<li>(11:50) - Lender integrations and better API documentation\r</li>\n<li>(14:08) - A new developer and the helpdesk rotation\r</li>\n<li>(17:13) - Automated tickets and failed queue jobs\r</li>\n<li>(18:54) - The address autocomplete bug\r</li>\n<li>(19:58) - When tiny code changes create hidden failures\r</li>\n<li>(23:02) - Why support requests need a real ticket\r</li>\n<li>(25:17) - Developers learning directly from customers\r</li>\n<li>(27:53) - Cross-department training and business context\r</li>\n<li>(30:51) - Building trust beyond Slack\r</li>\n<li>(32:02) - Weekly stress, workload and personal check-ins\r</li>\n<li>(35:18) - Parenting teenagers and setting curfews\r</li>\n<li>(37:10) - Planning for Laracon US in Boston\r</li>\n<li>(40:00) - Australian and American school calendars\r</li>\n<li>(42:51) - Vacations, PTO and wrapping up</li>\n</ul>\n      ",
+  "coverImage": "https://img.transistorcdn.com/gTGjKd44Qy-t3yz9_V60jp8N2Qe5KN4QwfB-5FNuQPM/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9zaG93/LzQ4ODMvMTU3Mjc3/NzAzNi1hcnR3b3Jr/LmpwZw.jpg",
+  "podcast": "NorthMeetSouth",
+  "audioUrl": "https://media.transistor.fm/aa9c2d2e/467c6247.mp3",
+  "duration": "2702",
+  "episode": "196",
+  "season": "",
+  "creatorId": "northmeetsouth"
+}

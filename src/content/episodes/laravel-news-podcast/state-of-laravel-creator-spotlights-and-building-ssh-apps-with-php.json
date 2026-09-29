@@ -1,0 +1,14 @@
+{
+  "id": "laravel-news-podcast/state-of-laravel-creator-spotlights-and-building-ssh-apps-with-php",
+  "title": "State of Laravel, creator spotlights, and building SSH apps with PHP",
+  "link": "https://podcast.laravel-news.com/220?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2024-08-01T14:00:00.000Z",
+  "content": "\n        <p>Jake and Michael discuss all the latest Laravel releases, tutorials, and happenings in the community.</p><p>This episode is sponsored by <a href=\"https://sentry.io/\"><strong>Sentry</strong></a> - code breaks, fix it faster. Don't just observe, take action today!</p><p><strong>Show links</strong></p><ul><li><a href=\"https://x.com/LaraconAU/status/1818454280292254060\">Taylor Otwell is attending Laracon AU 2024!</a></li><li><a href=\"https://laravel-news.com/laravel-11-19-0\">Assert the Exact JSON Structure of a Response in Laravel 11.19 </a></li><li><a href=\"https://laravel-news.com/state-of-laravel-survey-2024\">Take the Annual State of Laravel 2024 Survey </a></li><li><a href=\"https://laravel-news.com/mysql-explain\">Visual EXPLAIN for MySQL and Laravel </a></li><li><a href=\"https://laravel-news.com/vs-code-snippets-for-livewire-and-alpinejs\">VS Code Snippets for Livewire and Alpine.js </a></li><li><a href=\"https://laravel-news.com/built-with-laravel\">Introducing Built with Laravel </a></li><li><a href=\"https://laravel-news.com/laravel-advanced-string-package\">Laravel Advanced String Package </a></li><li><a href=\"https://laravel-news.com/livewire-filepond\">Upload Files Using Filepond in Livewire Components </a></li><li><a href=\"https://laravel-news.com/laravel-commentable-package\">Add Comments to your Laravel Application with the Commenter Package </a></li><li><a href=\"https://laravel-news.com/ssh-php\">Build SSH Apps with PHP and Laravel Prompts </a></li><li><a href=\"https://laravel-news.com/model-events\">A guide to Laravel's model events </a></li><li><a href=\"https://laravel-news.com/api-versioning-in-laravel-11\">API Versioning in Laravel 11 </a></li></ul>\n      ",
+  "coverImage": "https://img.transistorcdn.com/qmJ1PPS58Dv5ZdzfP2OsERDEhhL_6EPX8Tjmyurk5f0/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9zaG93/LzY0MDUvMTY5NDc4/NzE0OS1hcnR3b3Jr/LmpwZw.jpg",
+  "podcast": "Laravel News Podcast",
+  "audioUrl": "https://media.transistor.fm/dc40f00c/2826845a.mp3",
+  "duration": "1940",
+  "episode": "220",
+  "season": "",
+  "creatorId": "laravel-news"
+}

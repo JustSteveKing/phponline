@@ -1,0 +1,14 @@
+{
+  "id": "laravel-news-podcast/laravel-macros-frontend-presets-and-jigsaw",
+  "title": "Laravel Macros, frontend presets, and Jigsaw",
+  "link": "https://podcast.laravel-news.com/36?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2017-04-25T11:00:00.000Z",
+  "content": "Jake and Michael recap a relatively quiet period of change on the Laravel landscape, talking about 5.4 maintenance releases, upcoming features in Laravel 5.5, and some contributions from the community.",
+  "coverImage": "https://img.transistorcdn.com/BeuZN2rAsQtsDo0lzb9CpkWfzZHJ9q4egunJbqYfJes/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9lcGlz/b2RlLzE2NDIyNC8x/NTc2MzQwNzU3LWFy/dHdvcmsuanBn.jpg",
+  "podcast": "Laravel News Podcast",
+  "audioUrl": "https://media.transistor.fm/962863bd/508230d9.mp3",
+  "duration": "1613",
+  "episode": "36",
+  "season": "",
+  "creatorId": "laravel-news"
+}

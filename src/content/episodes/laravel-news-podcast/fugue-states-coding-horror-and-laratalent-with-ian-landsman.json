@@ -1,0 +1,14 @@
+{
+  "id": "laravel-news-podcast/fugue-states-coding-horror-and-laratalent-with-ian-landsman",
+  "title": "Fugue States, Coding Horror, and LaraTalent with Ian Landsman",
+  "link": "https://podcast.laravel-news.com/56?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2018-02-21T15:00:00.000Z",
+  "content": "Jake and Michael are joined by the Godfather of Laravel, Ian Landsman, to talk all about hiring developers and the latest platform to do so, LaraTalent.",
+  "coverImage": "https://img.transistorcdn.com/J3PcV9edQTPD8aBLE5VhoxA38cb1AHQfEGSX01JKsjY/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9lcGlz/b2RlLzE2NDI0NC8x/NTc2MzQwODQyLWFy/dHdvcmsuanBn.jpg",
+  "podcast": "Laravel News Podcast",
+  "audioUrl": "https://media.transistor.fm/95d2e5be/d55c8672.mp3",
+  "duration": "2526",
+  "episode": "56",
+  "season": "",
+  "creatorId": "laravel-news"
+}

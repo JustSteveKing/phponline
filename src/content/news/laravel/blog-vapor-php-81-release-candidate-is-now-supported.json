@@ -1,0 +1,13 @@
+{
+  "id": "laravel/blog-vapor-php-81-release-candidate-is-now-supported",
+  "title": "Vapor: PHP 8.1 Release Candidate Is Now Supported",
+  "link": "https://laravel.com/blog/vapor-php-81-release-candidate-is-now-supported?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2021-10-19T09:00:00.000Z",
+  "content": "<html><head></head><body>Starting today, you may use PHP 8.1 Release Candidates in your Vapor environments. To get started, simply specify \"php-8.1:al2\" as your preferred runtime in your \"vapor.yml\" configuration file.</body></html>",
+  "source": "laravel",
+  "author": "Nuno Maduro",
+  "creatorId": "laravel",
+  "tags": [
+    "php8"
+  ]
+}

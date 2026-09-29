@@ -1,0 +1,14 @@
+{
+  "id": "laravel-news-podcast/interview-with-shawn-mccool-about-laracon-eu-and-laravel-spark",
+  "title": "Interview with Shawn McCool about Laracon EU and Laravel Spark",
+  "link": "https://podcast.laravel-news.com/11?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2016-03-08T15:00:00.000Z",
+  "content": "LN11: In this episode, we talk with Shawn McCool about Laracon.eu and we discuss the latest news in the Laravel world.",
+  "coverImage": "https://img.transistorcdn.com/bnaEGQlM9KbLzWgSAuCHaxgs14NJcisPyFBwRg7SbvQ/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9lcGlz/b2RlLzE2NDE5OS8x/NTc2MzQwNjQ4LWFy/dHdvcmsuanBn.jpg",
+  "podcast": "Laravel News Podcast",
+  "audioUrl": "https://media.transistor.fm/daebbbde/3360d582.mp3",
+  "duration": "3597",
+  "episode": "11",
+  "season": "",
+  "creatorId": "laravel-news"
+}

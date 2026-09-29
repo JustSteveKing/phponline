@@ -1,0 +1,13 @@
+{
+  "id": "php/id2015-05-25-1",
+  "title": "DevConf 2015",
+  "link": "http://php.net/conferences/index.php?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev#id2015-05-25-1",
+  "pubDate": "2015-05-25T16:57:52.000Z",
+  "content": "<html><head></head><body><div type=\"xhtml\"><div xmlns=\"http://www.w3.org/1999/xhtml\"><p>\n      DevConf 2015 in Moscow, Russia on Jun 19-20\n     </p><p>\n      DevConf is the ultimate meeting place for russian-speaking web-developers,\n      combining several language-specific conferences under one roof.\n     </p><p>\n      This year DevConf will include the following sections:\n     </p><p>\n      Each section will feature several talks from the active contributors/authors of the language.\n\t  Among the invited speakers are Dmitry Stogov (Zend), Egor Homakov (Sakurity), Sveta Smirnova (Percona),\n\t  speakers from 1C, Avito, Badoo, LinguaLeo, Mail.ru, Wamba and other companies.\n      See more details on .\n     <a href=\"http://devconf.ru\">the official website</a></p><ul><li>DevConf::PHP();</li><li>DevConf::Ruby();</li><li>DevConf::Python();</li><li>DevConf::Javascript();</li><li>DevConf::Storage();</li></ul></div></div></body></html>",
+  "source": "php",
+  "author": "PHP.net news & announcements",
+  "creatorId": "php-net",
+  "tags": [
+    "security"
+  ]
+}

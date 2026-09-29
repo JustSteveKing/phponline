@@ -1,0 +1,13 @@
+{
+  "id": "juststeveking/articles-building-your-website-using-jigsaw",
+  "title": "Building your website using Jigsaw",
+  "link": "https://www.juststeveking.com/articles/building-your-website-using-jigsaw/?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2022-07-12T00:00:00.000Z",
+  "content": "<html><head></head><body>Learn to build a markdown-based personal website with Jigsaw, Laravel's static site generator.</body></html>",
+  "source": "juststeveking",
+  "author": "Steve McDougall — Articles",
+  "creatorId": "juststeveking",
+  "tags": [
+    "laravel"
+  ]
+}

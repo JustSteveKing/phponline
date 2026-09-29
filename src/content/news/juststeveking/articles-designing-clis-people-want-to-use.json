@@ -1,0 +1,11 @@
+{
+  "id": "juststeveking/articles-designing-clis-people-want-to-use",
+  "title": "Designing CLIs people want to use",
+  "link": "https://www.juststeveking.com/articles/designing-clis-people-want-to-use/?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-09-02T00:00:00.000Z",
+  "content": "<html><head></head><body>API design is a user experience problem and nobody argues any more. Then we build a CLI and forget all of it. Cobra defaults, which ones are wrong, and what I do instead.</body></html>",
+  "source": "juststeveking",
+  "author": "Steve McDougall — Articles",
+  "creatorId": "juststeveking",
+  "tags": []
+}

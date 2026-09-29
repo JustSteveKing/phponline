@@ -1,0 +1,14 @@
+{
+  "id": "spatie/blog-five-levels-of-handling-images-in-laravel",
+  "title": "5 levels of handling images in Laravel",
+  "link": "https://spatie.be/blog/five-levels-of-handling-images-in-laravel?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2025-05-20T09:58:29.000Z",
+  "content": "<html><head></head><body><p>Need to handle image uploads in your Laravel app? In this post, we start with the basics and level up step-by-step—from a simple form upload to full-blown image handling with resizing, optimization, and a slick drag &amp; drop UI. Whether you're building something quick or scaling up, there’s a Spatie package (or two) that can help you out.</p>\n\n            </body></html>",
+  "source": "spatie",
+  "author": "Spatie: Blog",
+  "creatorId": "spatie",
+  "tags": [
+    "laravel",
+    "performance"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "laravel/blog-laravel-mcp-server-auth-security-best-practices",
+  "title": "Laravel MCP Server: Auth & Security Best Practices",
+  "link": "https://laravel.com/blog/laravel-mcp-server-auth-security-best-practices?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-03-13T17:28:13.000Z",
+  "content": "<html><head></head><body>Add authentication to your Laravel MCP server without writing an authorization server. Plus, security best practices.</body></html>",
+  "source": "laravel",
+  "author": "Laravel Team",
+  "creatorId": "laravel",
+  "tags": [
+    "laravel",
+    "security",
+    "devops"
+  ]
+}

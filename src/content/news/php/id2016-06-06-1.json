@@ -1,0 +1,14 @@
+{
+  "id": "php/id2016-06-06-1",
+  "title": "DevConf 2016",
+  "link": "http://php.net/conferences/index.php?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev#id2016-06-06-1",
+  "pubDate": "2016-06-06T09:10:08.000Z",
+  "content": "<html><head></head><body><div type=\"xhtml\"><div xmlns=\"http://www.w3.org/1999/xhtml\"><p>\n           DevConf 2016 in Moscow, Russia on June 17-18.\n          </p><p>\n           DevConf is the ultimate meeting place for russian-speaking web-developers,\n              combining several language-specific conferences under one roof.\n              This year the conference will take place in .\n          <a href=\"http://devconf.ru/ru/members/location\">Skolkovo Moscow School of Management</a></p><p>\n           DevConf 2016 will include the following sections:\n          </p><p>\n           Each section will feature several talks from the active contributors/authors of the language.\n              Among the invited speakers are Dmitry Stogov (Zend), Ekaterina Marshalkina (Drupal), Eduard Medvedev (StackStorm),\n              Alexander Alekseev (Postgres Professional), Sergey Petrunya (MariaDB), Vasily Soshnikov (Mail.Ru),\n              Nik Zavarnickiy (LuaJIT), Anton Shramko (Rust), Valentin Bartenev (NGINX) and speakers from Lazada, Oracle and other companies.\n           See more details on .\n          <a href=\"http://devconf.ru\">the official website</a></p><ul><li>DevConf::PHP();</li><li>DevConf::Python();</li><li>DevConf::Javascript();</li><li>DevConf::Storage();</li><li>DevConf::Golang();</li><li>DevConf::DevOps();</li><li>DevConf::Ruby();</li></ul></div></div></body></html>",
+  "source": "php",
+  "author": "PHP.net news & announcements",
+  "creatorId": "php-net",
+  "tags": [
+    "security",
+    "performance"
+  ]
+}

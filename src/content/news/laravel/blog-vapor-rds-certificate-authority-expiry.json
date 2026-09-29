@@ -1,0 +1,14 @@
+{
+  "id": "laravel/blog-vapor-rds-certificate-authority-expiry",
+  "title": "Vapor: RDS Certificate Authority Expiry",
+  "link": "https://laravel.com/blog/vapor-rds-certificate-authority-expiry?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2023-09-21T15:29:00.000Z",
+  "content": "<html><head></head><body>AWS has been providing certificates from the rds-ca-2019 Certificate Authority, but these certificates are due to expire in August 2024. If you are running an RDS instance using this Certificate Authority, it must be updated to prevent any interruption in connectivity after this date.</body></html>",
+  "source": "laravel",
+  "author": "Joe Dixon",
+  "creatorId": "laravel",
+  "tags": [
+    "security",
+    "devops"
+  ]
+}

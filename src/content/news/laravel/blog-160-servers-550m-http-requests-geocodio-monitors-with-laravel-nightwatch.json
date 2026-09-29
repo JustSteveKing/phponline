@@ -1,0 +1,15 @@
+{
+  "id": "laravel/blog-160-servers-550m-http-requests-geocodio-monitors-with-laravel-nightwatch",
+  "title": "160+ Servers. 550M+ HTTP Requests. Geocodio Monitors with Laravel Nightwatch",
+  "link": "https://laravel.com/blog/160-servers-550m-http-requests-geocodio-monitors-with-laravel-nightwatch?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2025-06-16T18:31:00.000Z",
+  "content": "<html><head></head><body>Read how Geocodio uses Nightwatch for Laravel performance monitoring in production, unearthing issues across 160+ servers with zero system impact.</body></html>",
+  "source": "laravel",
+  "author": "Sam",
+  "creatorId": "laravel",
+  "tags": [
+    "laravel",
+    "performance",
+    "devops"
+  ]
+}

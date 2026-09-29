@@ -1,0 +1,13 @@
+{
+  "id": "laravel/blog-updates-to-laravels-versioning-policy",
+  "title": "Laravel: New Release Schedule",
+  "link": "https://laravel.com/blog/updates-to-laravels-versioning-policy?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2021-01-25T14:12:00.000Z",
+  "content": "<html><head></head><body>For the last 4 years, Laravel has released a new \"major\" version every 6 months. Before adopting the \"semantic versioning\" standard - the second number in the Laravel version number changed every 6 mo...</body></html>",
+  "source": "laravel",
+  "author": "Taylor Otwell",
+  "creatorId": "laravel",
+  "tags": [
+    "laravel"
+  ]
+}

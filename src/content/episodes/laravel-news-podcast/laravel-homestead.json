@@ -1,0 +1,14 @@
+{
+  "id": "laravel-news-podcast/laravel-homestead",
+  "title": "Laravel Homestead",
+  "link": "https://podcast.laravel-news.com/4?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2015-11-17T17:00:00.000Z",
+  "content": "LN04: Features of this episode include Fallout 4, Laravel Homestead, Lets Encrypt, some new Laravel packages, tutorials, and more...",
+  "coverImage": "https://img.transistorcdn.com/ziDqXS27GrhJmR8jfkbrEsEFgWJzoUmsJE2MkzvRNeE/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9lcGlz/b2RlLzE2NDE5Mi8x/NTc2MzQwNjIzLWFy/dHdvcmsuanBn.jpg",
+  "podcast": "Laravel News Podcast",
+  "audioUrl": "https://media.transistor.fm/938b6b13/84f06000.mp3",
+  "duration": "1564",
+  "episode": "4",
+  "season": "",
+  "creatorId": "laravel-news"
+}

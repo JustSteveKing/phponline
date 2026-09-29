@@ -1,0 +1,15 @@
+{
+  "id": "laravel/blog-migrating-a-hybrid-architecture-to-laravel-cloud-top-qa-questions-answered",
+  "title": "Migrating a Hybrid Architecture to Laravel Cloud: Top Q&A Questions Answered",
+  "link": "https://laravel.com/blog/migrating-a-hybrid-architecture-to-laravel-cloud-top-qa-questions-answered?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-05-21T14:13:10.000Z",
+  "content": "<html><head></head><body>Trybe shared how they migrated from Laravel Vapor to Laravel Cloud in a live webinar. Here are the top developer questions from the Q&amp;A, answered.</body></html>",
+  "source": "laravel",
+  "author": "Ana Tavares",
+  "creatorId": "laravel",
+  "tags": [
+    "laravel",
+    "architecture",
+    "devops"
+  ]
+}

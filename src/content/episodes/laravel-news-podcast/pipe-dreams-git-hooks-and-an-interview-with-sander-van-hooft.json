@@ -1,0 +1,14 @@
+{
+  "id": "laravel-news-podcast/pipe-dreams-git-hooks-and-an-interview-with-sander-van-hooft",
+  "title": "Pipe Dreams, Git Hooks, and an interview with Sander van Hooft",
+  "link": "https://podcast.laravel-news.com/85?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2019-06-19T14:00:00.000Z",
+  "content": "Jake and Michael discuss all the latest Laravel releases, tutorials, and happenings in the community.",
+  "coverImage": "https://img.transistorcdn.com/pxXs6z2eITjxyJILYRDz1NFSc8j53HCN29Q8xJ5NfZY/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9lcGlz/b2RlLzE2NDI3My8x/NTc2MzQwOTYyLWFy/dHdvcmsuanBn.jpg",
+  "podcast": "Laravel News Podcast",
+  "audioUrl": "https://media.transistor.fm/7506f32f/bd823459.mp3",
+  "duration": "3013",
+  "episode": "85",
+  "season": "",
+  "creatorId": "laravel-news"
+}

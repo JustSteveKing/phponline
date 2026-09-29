@@ -1,0 +1,11 @@
+{
+  "id": "juststeveking/articles-tabstack-cli",
+  "title": "Giving your agents a terminal: a first look at the tabstack CLI",
+  "link": "https://www.juststeveking.com/articles/tabstack-cli/?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-06-16T00:00:00.000Z",
+  "content": "<html><head></head><body>A hands-on look at Mozilla's tabstack CLI: a single Go binary that turns any URL into clean Markdown or JSON, runs browser automation, and scripts neatly.</body></html>",
+  "source": "juststeveking",
+  "author": "Steve McDougall — Articles",
+  "creatorId": "juststeveking",
+  "tags": []
+}

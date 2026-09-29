@@ -1,0 +1,13 @@
+{
+  "id": "laravel/blog-laravel-release-schedule",
+  "title": "Laravel's Release Schedule",
+  "link": "https://laravel.com/blog/laravel-release-schedule?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2019-04-15T13:51:00.000Z",
+  "content": "<html><head></head><body>Recently, some have been wondering how Laravel handles releases. So, I thought I'd shed some light on what our release schedule is.\n\nFor the framework releases (as well as Lumen), we do 2 major releas...</body></html>",
+  "source": "laravel",
+  "author": "Dries Vints",
+  "creatorId": "laravel",
+  "tags": [
+    "laravel"
+  ]
+}

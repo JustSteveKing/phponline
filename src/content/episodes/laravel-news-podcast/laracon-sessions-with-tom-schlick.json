@@ -1,0 +1,14 @@
+{
+  "id": "laravel-news-podcast/laracon-sessions-with-tom-schlick",
+  "title": "Laracon Sessions with Tom Schlick",
+  "link": "https://podcast.laravel-news.com/38?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2017-05-23T12:00:00.000Z",
+  "content": "In Laracon Sessions Episode Two, Jake and Michael are joined by Tom Schlick to discuss his talk on multi-tenancy in Laravel, as well as your regular dose of Laravel framework and community news.",
+  "coverImage": "https://img.transistorcdn.com/auq1JI2p1Vn4h6a4bMgUqxlqmAXwYd63SfAePSP_zsM/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9lcGlz/b2RlLzE2NDIyNi8x/NTc2MzQwNzY1LWFy/dHdvcmsuanBn.jpg",
+  "podcast": "Laravel News Podcast",
+  "audioUrl": "https://media.transistor.fm/a9084559/731ab212.mp3",
+  "duration": "1555",
+  "episode": "38",
+  "season": "",
+  "creatorId": "laravel-news"
+}

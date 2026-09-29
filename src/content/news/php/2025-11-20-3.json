@@ -1,0 +1,13 @@
+{
+  "id": "php/2025-11-20-3",
+  "title": "PHP 8.5.0 Released!",
+  "link": "https://www.php.net/index.php?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev#2025-11-20-3",
+  "pubDate": "2025-11-20T18:34:19.000Z",
+  "content": "<html><head></head><body><div type=\"xhtml\"><div xmlns=\"http://www.w3.org/1999/xhtml\"><p>The PHP development team announces the immediate availability of PHP 8.5.0. This release marks the latest minor release of the PHP language.</p><p>PHP 8.5 comes with numerous improvements and new features such as:</p><p>\n  For source downloads of PHP 8.5.0 please visit our ,\n  Windows source and binaries can also be found .\n  The list of changes is recorded in the .\n<a href=\"https://www.php.net/downloads.php\">downloads page</a><a href=\"https://www.php.net/downloads.php?os=windows&amp;version=8.5\">there</a><a href=\"https://www.php.net/ChangeLog-8.php#8.5.0\">ChangeLog</a></p><p>\n  The  is available in the PHP Manual.\n  Please consult it for the detailed list of new features and backward incompatible changes.\n<a href=\"https://php.net/manual/en/migration85.php\">migration guide</a></p><p>Kudos to all the contributors and supporters!</p><ul><li>New \"URI\" extension</li><li>New pipe operator (|&gt;)</li><li>Clone With</li><li>New #[\\NoDiscard] attribute</li><li>Support for closures, casts, and first class callables in constant expressions</li><li>And much much more...</li></ul></div></div></body></html>",
+  "source": "php",
+  "author": "PHP.net news & announcements",
+  "creatorId": "php-net",
+  "tags": [
+    "php8"
+  ]
+}

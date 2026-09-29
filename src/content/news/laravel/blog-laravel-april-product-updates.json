@@ -1,0 +1,15 @@
+{
+  "id": "laravel/blog-laravel-april-product-updates",
+  "title": "Laravel April Product Updates",
+  "link": "https://laravel.com/blog/laravel-april-product-updates?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-05-01T22:06:58.000Z",
+  "content": "<html><head></head><body>Passkeys, debounceable jobs, MCP UI app support, mobile Cloud, and PHP 8.5 in Forge. Here's everything that shipped in April.</body></html>",
+  "source": "laravel",
+  "author": "Laravel Team",
+  "creatorId": "laravel",
+  "tags": [
+    "laravel",
+    "php8",
+    "devops"
+  ]
+}

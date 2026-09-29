@@ -1,0 +1,14 @@
+{
+  "id": "laravel/blog-laravel-internals-episode-1",
+  "title": "Laravel Internals: Episode #1",
+  "link": "https://laravel.com/blog/laravel-internals-episode-1?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2020-11-19T14:25:00.000Z",
+  "content": "<html><head></head><body>The Laravel team is proud to introduce you to our new podcast: Laravel Internals - a live YouTube podcast about Laravel, Forge, Vapor, Envoyer related news, and more.</body></html>",
+  "source": "laravel",
+  "author": "Nuno Maduro",
+  "creatorId": "laravel",
+  "tags": [
+    "laravel",
+    "internals"
+  ]
+}

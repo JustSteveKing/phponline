@@ -1,0 +1,16 @@
+{
+  "id": "laravel/blog-laravel-june-product-updates",
+  "title": "Laravel June product updates",
+  "link": "https://laravel.com/blog/laravel-june-product-updates?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-07-02T01:15:00.000Z",
+  "content": "<html><head></head><body>You can now run Symfony apps on Laravel Cloud, managed Valkey caches and object storage are available in Forge, Bus::bulk() for efficient batch dispatch, and MCP client and server tooling across Laravel's AI stack. Here's everything that shipped in June.</body></html>",
+  "source": "laravel",
+  "author": "Laravel Team",
+  "creatorId": "laravel",
+  "tags": [
+    "laravel",
+    "symfony",
+    "security",
+    "devops"
+  ]
+}

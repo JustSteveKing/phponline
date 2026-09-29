@@ -1,0 +1,14 @@
+{
+  "id": "laravel-news-podcast/vultures-relationsheets-and-community-contributions",
+  "title": "Vultures, relationsheets, and community contributions",
+  "link": "https://podcast.laravel-news.com/47?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2017-10-10T11:54:00.000Z",
+  "content": "Jake and Michael discuss the correct pronunciation of Vultr, new Laravel releases, testing Vue components with Laravel Dusk, and several community-contributed links.",
+  "coverImage": "https://img.transistorcdn.com/QfBWcvTPyDSCEOBWu_LBKRC1-j1BZU74vq2vL0w9AKI/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9lcGlz/b2RlLzE2NDIzNS8x/NTc2MzQwODAzLWFy/dHdvcmsuanBn.jpg",
+  "podcast": "Laravel News Podcast",
+  "audioUrl": "https://media.transistor.fm/e8905f94/efbb6f02.mp3",
+  "duration": "2738",
+  "episode": "47",
+  "season": "",
+  "creatorId": "laravel-news"
+}

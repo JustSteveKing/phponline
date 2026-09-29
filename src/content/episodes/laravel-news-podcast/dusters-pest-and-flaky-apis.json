@@ -1,0 +1,14 @@
+{
+  "id": "laravel-news-podcast/dusters-pest-and-flaky-apis",
+  "title": "Dusters, Pest, and Flaky APIs",
+  "link": "https://podcast.laravel-news.com/187?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2023-03-14T14:00:00.000Z",
+  "content": "\n        <p>Jake and Michael discuss all the latest Laravel releases, tutorials, and happenings in the community.</p><p>This episode is sponsored by <a href=\"https://honeybadger.io/?ref=laravelnewspodcast\">Honeybadger</a> - combining error monitoring, uptime monitoring and check-in monitoring into a single, easy to use platform and making you a DevOps hero.</p><p></p><ul><li>(02:35) - Laravel 10.2</li>\n<li>(04:28) - Laravel 10.3</li>\n<li>(11:34) - Linti and fix your Laravel code with Duster</li>\n<li>(14:43) - The future of Pest v2</li>\n<li>(17:58) - Sponsor: Honeybadger</li>\n<li>(19:05) - Filter and search Eloquent models with the model filter package</li>\n<li>(22:34) - Laravel notification log</li>\n<li>(25:04) - Flaky for Laravel</li>\n<li>(29:55) - A PHP SDK for the Dolby API</li>\n<li>(31:37) - A Laravel package to protect routes with a PIN code</li>\n<li>(33:04) - Convert HTML strings to translation functions</li>\n<li>(35:37) - Sharing PHPCS rules across projects and teams</li>\n<li>(36:39) - Uploading files in Laravel using FilePond</li>\n<li>(38:47) - Livesstream: Playing with Laravel pipelines</li>\n<li>(40:04) - Building a kanban board with Laravel and Vue.Draggable</li>\n</ul><ul><li><a href=\"https://peakd.com/hive-168588/@crell/using-psr-3-placeholders-properly\">Using PSR-3 placeholders properly</a></li><li><a href=\"https://laravelshift.com/phpunit-to-pest-converter\">Pest Converter - Convert your tests from PHPUnit to Pest</a></li></ul>\n      ",
+  "coverImage": "https://img.transistorcdn.com/qmJ1PPS58Dv5ZdzfP2OsERDEhhL_6EPX8Tjmyurk5f0/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9zaG93/LzY0MDUvMTY5NDc4/NzE0OS1hcnR3b3Jr/LmpwZw.jpg",
+  "podcast": "Laravel News Podcast",
+  "audioUrl": "https://media.transistor.fm/1837bd24/3ba99921.mp3",
+  "duration": "2487",
+  "episode": "187",
+  "season": "",
+  "creatorId": "laravel-news"
+}

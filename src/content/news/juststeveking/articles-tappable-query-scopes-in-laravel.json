@@ -1,0 +1,13 @@
+{
+  "id": "juststeveking/articles-tappable-query-scopes-in-laravel",
+  "title": "Tappable Query Scopes in Laravel",
+  "link": "https://www.juststeveking.com/articles/tappable-query-scopes-in-laravel/?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2022-05-06T00:00:00.000Z",
+  "content": "<html><head></head><body>Enhance Laravel Query Scopes with Tappable Query Scopes - Learn about tappable query scopes in Laravel, a clean way to apply multiple scopes.</body></html>",
+  "source": "juststeveking",
+  "author": "Steve McDougall — Articles",
+  "creatorId": "juststeveking",
+  "tags": [
+    "laravel"
+  ]
+}

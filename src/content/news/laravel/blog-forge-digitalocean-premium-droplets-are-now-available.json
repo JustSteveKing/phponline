@@ -1,0 +1,14 @@
+{
+  "id": "laravel/blog-forge-digitalocean-premium-droplets-are-now-available",
+  "title": "Forge: DigitalOcean Premium Droplets Are Now Available",
+  "link": "https://laravel.com/blog/forge-digitalocean-premium-droplets-are-now-available?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2021-04-01T09:38:00.000Z",
+  "content": "<html><head></head><body>A few weeks ago, DigitalOcean introduced new Premium Droplets with faster Intel and AMD CPUs, enhanced memory performance, and high-performance disks. And starting today, you may use these Droplets on Forge when specifying the \"Server Size\" while creating a new server.</body></html>",
+  "source": "laravel",
+  "author": "Nuno Maduro",
+  "creatorId": "laravel",
+  "tags": [
+    "performance",
+    "devops"
+  ]
+}

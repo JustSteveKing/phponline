@@ -1,0 +1,15 @@
+{
+  "id": "laravel/blog-laravel-may-product-updates",
+  "title": "Laravel May Product Updates",
+  "link": "https://laravel.com/blog/laravel-may-product-updates?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-06-04T18:33:37.000Z",
+  "content": "<html><head></head><body>Full-stack scale-to-zero compute and managed queues on Laravel Cloud, @fonts and MySQL 8.4 in Forge. Here's everything that shipped in May. </body></html>",
+  "source": "laravel",
+  "author": "Laravel Team",
+  "creatorId": "laravel",
+  "tags": [
+    "laravel",
+    "databases",
+    "devops"
+  ]
+}

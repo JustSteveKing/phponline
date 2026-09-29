@@ -1,0 +1,13 @@
+{
+  "id": "php/id2015-07-10-2",
+  "title": "PHP 5.5.27 released",
+  "link": "http://php.net/index.php?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev#id2015-07-10-2",
+  "pubDate": "2015-07-10T09:24:47.000Z",
+  "content": "<html><head></head><body><div type=\"xhtml\"><div xmlns=\"http://www.w3.org/1999/xhtml\"><p>The PHP development team announces the immediate availability of PHP\n     5.5.27. Several bugs were fixed in this release as well as CVE-2015-3152.\n\n     All PHP 5.5 users are encouraged to upgrade to this version.\n     </p><p>\n     According to , this PHP 5.5 version\n     is the last planned release that contains regular bugfixes. All the consequent releases\n     will contain only security-relevant fixes, for the term of one year.\n     PHP 5.5 users that need further bugfixes are encouraged to upgrade to PHP 5.6.\n     <a href=\"http://php.net/supported-versions.php\">our release calendar</a></p><p>For source downloads of PHP 5.5.27 please visit our ,\n     Windows binaries can be found on .\n     The list of changes is recorded in the .\n     <a href=\"http://www.php.net/downloads.php\">downloads page</a><a href=\"http://windows.php.net/download/\">windows.php.net/download/</a><a href=\"http://www.php.net/ChangeLog-5.php#5.5.27\">ChangeLog</a></p></div></div></body></html>",
+  "source": "php",
+  "author": "PHP.net news & announcements",
+  "creatorId": "php-net",
+  "tags": [
+    "security"
+  ]
+}

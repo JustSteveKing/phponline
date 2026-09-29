@@ -1,0 +1,15 @@
+{
+  "id": "php/id2017-05-18-1",
+  "title": "DevCOnf 2017",
+  "link": "http://php.net/conferences/index.php?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev#id2017-05-18-1",
+  "pubDate": "2017-05-18T13:43:56.000Z",
+  "content": "<html><head></head><body><div type=\"xhtml\"><div xmlns=\"http://www.w3.org/1999/xhtml\"><p>\n      DevConf 2017 in Moscow, Russia on June 17-18.\n     </p><p>\n      DevConf is the ultimate meeting place for russian-speaking web-developers,\n      combining several language-specific conferences under one roof.\n      This year the conference will take place in .\n     <a href=\"http://devconf.ru/ru/members/location\">Izmaylovo</a></p><p>\n      DevConf 2017 will include the following sections:\n     </p><p>\n      Special Events:\n     </p><p>\n      Each section will feature several talks from the active contributors/authors of the language.\n      Among the invited speakers are Valentin Bartenev (NGINX), Ilya Gusev (PHP7.1)\n      Dmitry Lenev (MySQL), Oleg Bartunov (Postgres),\n      Ivan Panchenko (Postgres), Grigory Kochanov (Oracle),\n      Vladimir Yldashev (Laravel), Anton Shramko (Rust),\n      Konstantin Osipov (Tarantool), Andrey Trifanov (Lua),\n      Ilya Alexeev (OpenStack), Ilya Klimov (VueJS),\n      Alexey Pirogov (Haskell), Alexey Ohrimenko (Angular),\n      Grigory Petrov (React VR), Adel Fayzrakhmanov (Toptal)\n      and speakers from other companies. See more details on the official website.\n     </p><ul><li>DevConf::Backend();</li><li>DevConf::Frontend();</li><li>DevConf::Management();</li><li>DevConf::Storage();</li><li>DevConf::DevOps();</li></ul><ul><li>DevConf::YiiConf(); - June 16</li><li>Joomla Day - June 17</li></ul></div></div></body></html>",
+  "source": "php",
+  "author": "PHP.net news & announcements",
+  "creatorId": "php-net",
+  "tags": [
+    "laravel",
+    "security",
+    "databases"
+  ]
+}

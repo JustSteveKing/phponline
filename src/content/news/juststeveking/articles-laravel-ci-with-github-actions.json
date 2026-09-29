@@ -1,0 +1,14 @@
+{
+  "id": "juststeveking/articles-laravel-ci-with-github-actions",
+  "title": "Laravel CI with GitHub Actions",
+  "link": "https://www.juststeveking.com/articles/laravel-ci-with-github-actions/?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2023-02-23T00:00:00.000Z",
+  "content": "<html><head></head><body>Automate Laravel CI with GitHub Actions - Learn testing, PHPStan static analysis setup in this tutorial.</body></html>",
+  "source": "juststeveking",
+  "author": "Steve McDougall — Articles",
+  "creatorId": "juststeveking",
+  "tags": [
+    "laravel",
+    "testing"
+  ]
+}

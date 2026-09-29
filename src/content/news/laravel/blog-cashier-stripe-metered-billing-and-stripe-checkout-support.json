@@ -1,0 +1,11 @@
+{
+  "id": "laravel/blog-cashier-stripe-metered-billing-and-stripe-checkout-support",
+  "title": "Cashier Stripe: Metered Billing and Stripe Checkout Support",
+  "link": "https://laravel.com/blog/cashier-stripe-metered-billing-and-stripe-checkout-support?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2021-02-08T16:25:00.000Z",
+  "content": "<html><head></head><body>Today we are excited to announce that Cashier Stripe has received some long anticipated updates, including support for [Stripe Checkout](https://stripe.com/en-be/payments/checkout) as well as support...</body></html>",
+  "source": "laravel",
+  "author": "Dries Vints",
+  "creatorId": "laravel",
+  "tags": []
+}

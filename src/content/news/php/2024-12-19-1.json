@@ -1,0 +1,14 @@
+{
+  "id": "php/2024-12-19-1",
+  "title": "PHP 8.2.27 Released!",
+  "link": "https://www.php.net/index.php?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev#2024-12-19-1",
+  "pubDate": "2024-12-19T15:47:10.000Z",
+  "content": "<html><head></head><body><div type=\"xhtml\"><div xmlns=\"http://www.w3.org/1999/xhtml\"><p>The PHP development team announces the immediate availability of PHP 8.2.27. This is a bug fix release.</p><p>All PHP 8.2 users are encouraged to upgrade to this version.</p><p>For source downloads of PHP 8.2.27 please visit our ,\n        Windows source and binaries can be found on .\n        The list of changes is recorded in the .\n      <a href=\"https://www.php.net/downloads.php\">downloads page</a><a href=\"https://windows.php.net/download/\">windows.php.net/download/</a><a href=\"https://www.php.net/ChangeLog-8.php#8.2.27\">ChangeLog</a></p><p>Please note, this is the last bug-fix release for the 8.2.x series. Security fix support will continue until 31 Dec 2026.\n        For more information, please check our  page.\n      <a href=\"https://www.php.net/supported-versions\">Supported Versions</a></p></div></div></body></html>",
+  "source": "php",
+  "author": "PHP.net news & announcements",
+  "creatorId": "php-net",
+  "tags": [
+    "security",
+    "php8"
+  ]
+}

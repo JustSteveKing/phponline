@@ -1,0 +1,11 @@
+{
+  "id": "php/id2020-02-17-1",
+  "title": "LoopRun Barcelona 2020",
+  "link": "https://www.php.net/conferences/index.php?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev#id2020-02-17-1",
+  "pubDate": "2020-02-17T10:52:20.000Z",
+  "content": "<html><head></head><body><div type=\"xhtml\"><div xmlns=\"http://www.w3.org/1999/xhtml\">\n     LoopRun Barcelona is an international PHP conference about asynchronous, concurrent and non-blocking PHP libraries.\n     \n     In our first edition, we will host ReactPHP and Swoole maintainers, and we will present the first frameworks on top of these libraries, like DriftPHP. We will provide, as well, some live workshops to help people make their first steps.\n     \n     Make sure you join us next March 26th - 27th in Barcelona.\n     Looking forward to seeing you all there!\n    </div></div></body></html>",
+  "source": "php",
+  "author": "PHP.net news & announcements",
+  "creatorId": "php-net",
+  "tags": []
+}

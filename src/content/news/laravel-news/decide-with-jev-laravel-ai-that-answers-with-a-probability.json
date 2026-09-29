@@ -1,0 +1,14 @@
+{
+  "id": "laravel-news/decide-with-jev-laravel-ai-that-answers-with-a-probability",
+  "title": "Decide with Jev: Laravel AI That Answers with a Probability",
+  "link": "https://laravel-news.com/decide-with-jev-laravel-ai-that-answers-with-a-probability?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-09-25T09:41:18.000Z",
+  "content": "<html><head></head><body><iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/vjKzu1dp8zQ\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen=\"\"></iframe>\n                                        <hr>\n\n                    <p>Decide with Jev is a new mini course where we build an app that checks if a draft does what its brief asked for. It uses Jev, an AI model from TypeSafe that answers with a number instead of text. In episode 1 we set it up and test it: a complete draft scores 0.96, and a thin one scores 0.02.</p>\n\n                    <p>The post <a href=\"https://laravel-news.com/decide-with-jev-laravel-ai-that-answers-with-a-probability\">Decide with Jev: Laravel AI That Answers with a Probability</a> appeared first on <a href=\"https://laravel-news.com\">Laravel News</a>.</p>\n                    <p>Join the <a href=\"https://laravel-news.com/newsletter\">Laravel Newsletter</a> to get <a href=\"https://laravel-news.com\">Laravel</a> articles like this directly in your inbox.</p>\n\n                    </body></html>",
+  "source": "laravel-news",
+  "author": "Harris Raftopoulos",
+  "creatorId": "laravel-news",
+  "tags": [
+    "laravel",
+    "internals"
+  ]
+}

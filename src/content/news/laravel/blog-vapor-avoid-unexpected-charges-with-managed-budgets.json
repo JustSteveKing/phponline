@@ -1,0 +1,13 @@
+{
+  "id": "laravel/blog-vapor-avoid-unexpected-charges-with-managed-budgets",
+  "title": "Vapor: Avoid Unexpected Charges With Managed Budgets",
+  "link": "https://laravel.com/blog/vapor-avoid-unexpected-charges-with-managed-budgets?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2022-11-29T13:00:00.000Z",
+  "content": "<html><head></head><body>Starting today, you may use Vapor's managed budgets when creating or editing your cloud provider. Here, you can define your monthly AWS budget in USD and configure multiple alarms to notify the team owner via email if there is a spike in costs.</body></html>",
+  "source": "laravel",
+  "author": "Nuno Maduro",
+  "creatorId": "laravel",
+  "tags": [
+    "devops"
+  ]
+}

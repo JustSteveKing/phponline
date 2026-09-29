@@ -1,0 +1,13 @@
+{
+  "id": "juststeveking/articles-running-phpstan-on-max-with-laravel",
+  "title": "Running PHPStan on max with Laravel",
+  "link": "https://www.juststeveking.com/articles/running-phpstan-on-max-with-laravel/?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2022-06-20T00:00:00.000Z",
+  "content": "<html><head></head><body>Discover how to enhance your Laravel project with static analysis using Larastan. Add confidence and type safety to your code.</body></html>",
+  "source": "juststeveking",
+  "author": "Steve McDougall — Articles",
+  "creatorId": "juststeveking",
+  "tags": [
+    "laravel"
+  ]
+}

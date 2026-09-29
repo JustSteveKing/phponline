@@ -1,0 +1,13 @@
+{
+  "id": "laravel/blog-vapor-using-a-separate-lambda-function-for-queues",
+  "title": "Vapor: Separate Queue Lambdas",
+  "link": "https://laravel.com/blog/vapor-using-a-separate-lambda-function-for-queues?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2020-01-14T20:26:00.000Z",
+  "content": "<html><head></head><body>Starting today, new Vapor deployments will ensure a separate AWS Lambda function exists for running your queued jobs.\n\nBefore this change, queued jobs executed within the CLI Lambda. This Lambda is al...</body></html>",
+  "source": "laravel",
+  "author": "Mohamed Said",
+  "creatorId": "laravel",
+  "tags": [
+    "devops"
+  ]
+}

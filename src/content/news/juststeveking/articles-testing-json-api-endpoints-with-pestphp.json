@@ -1,0 +1,14 @@
+{
+  "id": "juststeveking/articles-testing-json-api-endpoints-with-pestphp",
+  "title": "Testing JSON:API Endpoints with PestPHP",
+  "link": "https://www.juststeveking.com/articles/testing-json-api-endpoints-with-pestphp/?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2023-02-10T00:00:00.000Z",
+  "content": "<html><head></head><body>Efficient JSON:API Endpoint Testing with pestPHP - Learn how to effectively test JSON:API endpoints in Laravel using pestPHP.</body></html>",
+  "source": "juststeveking",
+  "author": "Steve McDougall — Articles",
+  "creatorId": "juststeveking",
+  "tags": [
+    "laravel",
+    "testing"
+  ]
+}

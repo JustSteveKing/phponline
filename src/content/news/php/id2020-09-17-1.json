@@ -1,0 +1,15 @@
+{
+  "id": "php/id2020-09-17-1",
+  "title": "PHP 8.0.0 Beta 4 available for testing",
+  "link": "https://www.php.net/index.php?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev#id2020-09-17-1",
+  "pubDate": "2020-09-17T14:25:00.000Z",
+  "content": "<html><head></head><body><div type=\"xhtml\"><div xmlns=\"http://www.w3.org/1999/xhtml\"><p>\n        The PHP team is pleased to announce the seventh testing release of PHP 8.0.0, Beta 4.\n        This point in the release cycle would normally be RC1, however we're still finalizing\n        development of the JIT and squaring away named arguments, so we've opted for an extra\n        beta release with plans to start the RC cycle in two weeks.\n      </p><p>\n        At this time, we're not planning to adjust the GA date,\n        however this may change during the course of the RC cycle.\n        The updated release schedule can, as always, be found on the\n        .\n      <a href=\"https://wiki.php.net/todo/php80\">PHP Wiki</a></p><p>For source downloads of PHP 8.0.0 Beta 4 please visit the .<a href=\"https://downloads.php.net/~pollita\">download page</a></p><p>Please carefully test this version and report any issues found in the .<a href=\"https://bugs.php.net\">bug reporting system</a></p><p><b>Please DO NOT use this version in production, it is an early test version.</b></p><p>\n        For more information on the new features and other changes, you can read the\n         file,\n        or the \n        file for a complete list of upgrading notes. These files can also be found in the release archive.\n      <a href=\"https://github.com/php/php-src/blob/php-8.0.0beta4/NEWS\">NEWS</a><a href=\"https://github.com/php/php-src/blob/php-8.0.0beta4/UPGRADING\">UPGRADING</a></p><p>The next release will be the Release Candidate 1, planned for Oct 1 2020.</p><p>The signatures for the release can be found in  or on .<a href=\"https://gist.github.com/sgolemon/ddef47870381cae12120d41f59374847\">the manifest</a><a href=\"https://qa.php.net/\">the QA site</a></p><p>Thank you for helping us make PHP better.</p></div></div></body></html>",
+  "source": "php",
+  "author": "PHP.net news & announcements",
+  "creatorId": "php-net",
+  "tags": [
+    "performance",
+    "testing",
+    "php8"
+  ]
+}

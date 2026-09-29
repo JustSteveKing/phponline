@@ -1,0 +1,14 @@
+{
+  "id": "laravel/blog-security-laravel-62011-7302-8221-released",
+  "title": "Security: Laravel 6.20.11, 7.30.2, 8.22.1 Released",
+  "link": "https://laravel.com/blog/security-laravel-62011-7302-8221-released?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2021-01-13T15:12:00.000Z",
+  "content": "<html><head></head><body>This morning we released Laravel 6.20.11, 7.30.2, and 8.22.1. These updates contain a security related patch; therefore, we encourage all Laravel users to update their applications as soon as possible...</body></html>",
+  "source": "laravel",
+  "author": "Taylor Otwell",
+  "creatorId": "laravel",
+  "tags": [
+    "laravel",
+    "security"
+  ]
+}

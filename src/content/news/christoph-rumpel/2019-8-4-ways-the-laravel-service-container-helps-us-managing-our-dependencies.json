@@ -1,0 +1,14 @@
+{
+  "id": "christoph-rumpel/2019-8-4-ways-the-laravel-service-container-helps-us-managing-our-dependencies",
+  "title": "4 Ways The Laravel Service Container Helps Us Managing Our Dependencies",
+  "link": "https://christoph-rumpel.com/2019/8/4-ways-the-laravel-service-container-helps-us-managing-our-dependencies?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2019-08-01T20:04:28.000Z",
+  "content": "<html><head></head><body>The service container is a quite complex topic, and I see many struggling to understand what it does. It was the same for me, and the main reason is that many explanations concentrate on \"how\" to use the container. With this article, I want to give you my introduction to this topic by focusing on the \"why\" and \"when\" the container can help us with our dependencies.\n            </body></html>",
+  "source": "christoph-rumpel",
+  "author": "Christoph Rumpel Blog Feed",
+  "creatorId": "christoph-rumpel",
+  "tags": [
+    "laravel",
+    "devops"
+  ]
+}

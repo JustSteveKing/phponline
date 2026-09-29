@@ -1,0 +1,14 @@
+{
+  "id": "laravel-news-podcast/laracon-us-2019-recap",
+  "title": "Laracon US 2019 recap",
+  "link": "https://podcast.laravel-news.com/88?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2019-08-06T14:00:00.000Z",
+  "content": "Jake and Michael recap some Laracon US 2019 highlights, and cover off the exciting annoucements form the conference.",
+  "coverImage": "https://img.transistorcdn.com/SW7rznaeZLq4WkhlF0O_1HnTl7uXk5oxCMzmTPwJBNc/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9lcGlz/b2RlLzE2NDI3Ni8x/NTc2MzQwOTc0LWFy/dHdvcmsuanBn.jpg",
+  "podcast": "Laravel News Podcast",
+  "audioUrl": "https://media.transistor.fm/97bd02cd/c1ba5750.mp3",
+  "duration": "2470",
+  "episode": "88",
+  "season": "",
+  "creatorId": "laravel-news"
+}

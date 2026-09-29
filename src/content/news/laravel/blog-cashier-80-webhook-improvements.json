@@ -1,0 +1,13 @@
+{
+  "id": "laravel/blog-cashier-80-webhook-improvements",
+  "title": "Cashier 8.0 Webhook Improvements",
+  "link": "https://laravel.com/blog/cashier-80-webhook-improvements?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2018-10-29T16:50:00.000Z",
+  "content": "<html><head></head><body>Last week we tagged version 8.0.0 of Laravel Cashier. This release should not contain any breaking changes from the 7.0 series of Cashier; however, thanks to a community contribution, the release does add automatic support for more Stripe webhooks.</body></html>",
+  "source": "laravel",
+  "author": "Taylor Otwell",
+  "creatorId": "laravel",
+  "tags": [
+    "laravel"
+  ]
+}

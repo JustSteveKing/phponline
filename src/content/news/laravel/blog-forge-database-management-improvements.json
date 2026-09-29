@@ -1,0 +1,14 @@
+{
+  "id": "laravel/blog-forge-database-management-improvements",
+  "title": "Forge: Database Management Improvements",
+  "link": "https://laravel.com/blog/forge-database-management-improvements?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2020-11-30T14:20:00.000Z",
+  "content": "<html><head></head><body>One of Forge's killer features is that it can provision servers with your choice of database: MySQL, MariaDB or PostgreSQL. Once the server has provisioned you can then use Forge to:\n\n- Create new dat...</body></html>",
+  "source": "laravel",
+  "author": "James Brooks",
+  "creatorId": "laravel",
+  "tags": [
+    "databases",
+    "devops"
+  ]
+}

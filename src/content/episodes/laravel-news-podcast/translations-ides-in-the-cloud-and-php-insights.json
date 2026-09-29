@@ -1,0 +1,14 @@
+{
+  "id": "laravel-news-podcast/translations-ides-in-the-cloud-and-php-insights",
+  "title": "Translations, IDEs in the cloud, and PHP insights",
+  "link": "https://podcast.laravel-news.com/83?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2019-05-21T14:00:00.000Z",
+  "content": "Jake and Michael discuss all the latest Laravel releases, tutorials, and happenings in the community.",
+  "coverImage": "https://img.transistorcdn.com/7Ccafq8zOpBHkq52k-eApafVQlCaiju_vzkm4dEW7Xo/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9lcGlz/b2RlLzE2NDI3MS8x/NTc2MzQwOTU0LWFy/dHdvcmsuanBn.jpg",
+  "podcast": "Laravel News Podcast",
+  "audioUrl": "https://media.transistor.fm/311a0a30/7d874d88.mp3",
+  "duration": "2010",
+  "episode": "83",
+  "season": "",
+  "creatorId": "laravel-news"
+}

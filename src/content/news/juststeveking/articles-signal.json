@@ -1,0 +1,11 @@
+{
+  "id": "juststeveking/articles-signal",
+  "title": "Introducing Signal: documentation that lives in your code",
+  "link": "https://www.juststeveking.com/articles/signal/?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-04-30T00:00:00.000Z",
+  "content": "<html><head></head><body>Signal is a PHP library that generates living documentation from native attributes. Annotate your classes, run one command, get accurate docs.</body></html>",
+  "source": "juststeveking",
+  "author": "Steve McDougall — Articles",
+  "creatorId": "juststeveking",
+  "tags": []
+}

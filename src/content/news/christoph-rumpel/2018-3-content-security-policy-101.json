@@ -1,0 +1,13 @@
+{
+  "id": "christoph-rumpel/2018-3-content-security-policy-101",
+  "title": "Content Security Policy 101",
+  "link": "https://christoph-rumpel.com/2018/3/content-security-policy-101?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2018-03-12T20:04:28.000Z",
+  "content": "<html><head></head><body>As more and more services get digital these days, security has become a significant aspect of every application. Especially when it comes to third-party code, it is tough to guarantee safety. But in general, XSS and Code Injection is a big problem these days. Content Security Policy provides another layer of security that helps to detect and protect different attacks. Today, I will introduce this concept and its main features, as well as show real-world examples.\n            </body></html>",
+  "source": "christoph-rumpel",
+  "author": "Christoph Rumpel Blog Feed",
+  "creatorId": "christoph-rumpel",
+  "tags": [
+    "security"
+  ]
+}

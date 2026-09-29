@@ -1,0 +1,13 @@
+{
+  "id": "laravel/blog-how-to-fix-502-error-php-fpm-socket-issues-in-php-laravel-forge",
+  "title": "How to Fix 502 Error: PHP-FPM Socket Issues in PHP/Laravel Forge",
+  "link": "https://laravel.com/blog/how-to-fix-502-error-php-fpm-socket-issues-in-php-laravel-forge?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2025-10-29T19:04:23.000Z",
+  "content": "<html><head></head><body>Learn how missing or broken PHP-FPM sockets cause 502 Bad Gateway issues in Nginx, and how to restart PHP-FPM to resolve them.</body></html>",
+  "source": "laravel",
+  "author": "Laravel Team",
+  "creatorId": "laravel",
+  "tags": [
+    "laravel"
+  ]
+}

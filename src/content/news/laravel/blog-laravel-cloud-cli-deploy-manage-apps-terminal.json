@@ -1,0 +1,14 @@
+{
+  "id": "laravel/blog-laravel-cloud-cli-deploy-manage-apps-terminal",
+  "title": "Laravel Cloud CLI: Deploy and Manage Laravel Apps from the Terminal",
+  "link": "https://laravel.com/blog/laravel-cloud-cli-deploy-manage-apps-terminal?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-03-20T13:11:21.000Z",
+  "content": "<html><head></head><body>The Laravel Cloud CLI lets you deploy Laravel apps, manage environments, and run Artisan commands from the terminal. Install via Composer and skip the dashboard.</body></html>",
+  "source": "laravel",
+  "author": "Laravel Team",
+  "creatorId": "laravel",
+  "tags": [
+    "laravel",
+    "devops"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "laravel-news-podcast/welcome-jacob-bennett-and-michael-dyrynda-as-the-new-hosts",
+  "title": "Welcome Jacob Bennett and Michael Dyrynda as the new hosts",
+  "link": "https://podcast.laravel-news.com/29?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2017-01-17T16:00:00.000Z",
+  "content": "In this episode, we welcome the new hosts of the podcast.",
+  "coverImage": "https://img.transistorcdn.com/4r-6ElGfvbqyVnX2pEPMJBhk3pSUdZm9_LGioy9DksY/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9lcGlz/b2RlLzE2NDIxNy8x/NTc2MzQwNzI2LWFy/dHdvcmsuanBn.jpg",
+  "podcast": "Laravel News Podcast",
+  "audioUrl": "https://media.transistor.fm/85b9e8bf/93f61883.mp3",
+  "duration": "2703",
+  "episode": "29",
+  "season": "",
+  "creatorId": "laravel-news"
+}

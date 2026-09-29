@@ -1,0 +1,15 @@
+{
+  "id": "laravel/blog-building-laravel-cloud-the-web-application",
+  "title": "Building Laravel Cloud: The Web Application",
+  "link": "https://laravel.com/blog/building-laravel-cloud-the-web-application?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2025-08-11T17:27:45.000Z",
+  "content": "<html><head></head><body>How we built Laravel Cloud’s web app: from the RILT stack and action pattern to testing, local fakes, and following Laravel conventions to stay fast and flexible.</body></html>",
+  "source": "laravel",
+  "author": "Joe Dixon",
+  "creatorId": "laravel",
+  "tags": [
+    "laravel",
+    "testing",
+    "devops"
+  ]
+}

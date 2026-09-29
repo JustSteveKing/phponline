@@ -1,0 +1,14 @@
+{
+  "id": "laravel/blog-deploying-soketi-to-laravel-forge",
+  "title": "Deploying Soketi to Laravel Forge",
+  "link": "https://laravel.com/blog/deploying-soketi-to-laravel-forge?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2022-01-05T14:30:00.000Z",
+  "content": "<html><head></head><body>Soketi is a simple, fast and resilient open-source WebSockets server written in Typescript. It's fully compatible with the Pusher v7 protocol which makes it a great replacement to Pusher when using Laravel Echo.</body></html>",
+  "source": "laravel",
+  "author": "James Brooks",
+  "creatorId": "laravel",
+  "tags": [
+    "laravel",
+    "devops"
+  ]
+}

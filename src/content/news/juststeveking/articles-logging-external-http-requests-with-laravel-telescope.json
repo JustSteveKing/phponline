@@ -1,0 +1,13 @@
+{
+  "id": "juststeveking/articles-logging-external-http-requests-with-laravel-telescope",
+  "title": "Logging external HTTP Requests with Laravel Telescope",
+  "link": "https://www.juststeveking.com/articles/logging-external-http-requests-with-laravel-telescope/?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2022-06-21T00:00:00.000Z",
+  "content": "<html><head></head><body>Track and debug third-party API requests with Laravel Telescope for improved visibility in your Laravel application.</body></html>",
+  "source": "juststeveking",
+  "author": "Steve McDougall — Articles",
+  "creatorId": "juststeveking",
+  "tags": [
+    "laravel"
+  ]
+}

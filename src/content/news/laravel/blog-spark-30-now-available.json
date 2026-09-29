@@ -1,0 +1,11 @@
+{
+  "id": "laravel/blog-spark-30-now-available",
+  "title": "Spark 3.0 Now Available!",
+  "link": "https://laravel.com/blog/spark-30-now-available?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2023-01-10T14:45:00.000Z",
+  "content": "<html><head></head><body>Today we're happy to announce that Spark 3.0 is available!\n\nSpark Stripe 3.0 includes support for Cashier Stripe 14, offering the latest compatibility enhancements with Stripe. Check out our upgrade guide to update your Spark installation to this new major version.</body></html>",
+  "source": "laravel",
+  "author": "Dries Vints",
+  "creatorId": "laravel",
+  "tags": []
+}

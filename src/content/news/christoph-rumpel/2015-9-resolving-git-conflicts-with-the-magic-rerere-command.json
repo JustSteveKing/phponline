@@ -1,0 +1,11 @@
+{
+  "id": "christoph-rumpel/2015-9-resolving-git-conflicts-with-the-magic-rerere-command",
+  "title": "Resolving Git conflicts with the magic rerere command",
+  "link": "https://christoph-rumpel.com/2015/9/resolving-git-conflicts-with-the-magic-rerere-command?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2015-09-04T20:04:28.000Z",
+  "content": "<html><head></head><body>Git is huge! You can learn something new about it every day. Did you know that there is a barely known command called rerere? Let's take a look and learn something new to deal with merge conflicts.\n            </body></html>",
+  "source": "christoph-rumpel",
+  "author": "Christoph Rumpel Blog Feed",
+  "creatorId": "christoph-rumpel",
+  "tags": []
+}

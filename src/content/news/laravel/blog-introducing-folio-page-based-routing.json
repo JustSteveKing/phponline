@@ -1,0 +1,13 @@
+{
+  "id": "laravel/blog-introducing-folio-page-based-routing",
+  "title": "Introducing Folio: Page Based Routing",
+  "link": "https://laravel.com/blog/introducing-folio-page-based-routing?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2023-07-25T14:00:00.000Z",
+  "content": "<html><head></head><body>Today, we are releasing the first beta of Laravel Folio. Folio is a powerful page-based router designed to simplify routing in Laravel applications. With Laravel Folio, generating a route becomes as effortless as creating a Blade template within your application's \"resources/views/pages\" directory.</body></html>",
+  "source": "laravel",
+  "author": "Nuno Maduro",
+  "creatorId": "laravel",
+  "tags": [
+    "laravel"
+  ]
+}

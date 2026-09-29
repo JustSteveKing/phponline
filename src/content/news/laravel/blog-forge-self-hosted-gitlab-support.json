@@ -1,0 +1,13 @@
+{
+  "id": "laravel/blog-forge-self-hosted-gitlab-support",
+  "title": "Forge: Self-Hosted GitLab Support",
+  "link": "https://laravel.com/blog/forge-self-hosted-gitlab-support?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2020-10-07T14:37:00.000Z",
+  "content": "<html><head></head><body>Forge has always supported using a custom Git provider for your projects, but starting today Forge has first-party support for self-hosted GitLab installations.\n\n![](https://laravel-blog-assets.s3.ama...</body></html>",
+  "source": "laravel",
+  "author": "James Brooks",
+  "creatorId": "laravel",
+  "tags": [
+    "laravel"
+  ]
+}

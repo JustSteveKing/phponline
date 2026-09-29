@@ -1,0 +1,14 @@
+{
+  "id": "laravel/blog-managed-queues-autoscaling-queue-workers-on-laravel-cloud",
+  "title": "Managed Queues: Autoscaling Queue Workers on Laravel Cloud",
+  "link": "https://laravel.com/blog/managed-queues-autoscaling-queue-workers-on-laravel-cloud?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-08-06T15:15:00.000Z",
+  "content": "<html><head></head><body>Laravel Cloud’s managed queues autoscale workers on queue pressure, surface failed jobs in a built-in dashboard, and scale to zero when idle.</body></html>",
+  "source": "laravel",
+  "author": "Laravel Team",
+  "creatorId": "laravel",
+  "tags": [
+    "laravel",
+    "devops"
+  ]
+}

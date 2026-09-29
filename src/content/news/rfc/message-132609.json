@@ -1,0 +1,14 @@
+{
+  "id": "rfc/message-132609",
+  "title": "Pre-RFC: adding a Regex\\CompiledRegex class for compiling regular expressions",
+  "link": "https://externals.io/message/132609?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-09-23T19:01:54.000Z",
+  "content": "<html><head></head><body>Pre-RFC: adding a Regex\\CompiledRegex class for compiling regular expressions</body></html>",
+  "source": "rfc",
+  "author": "#externals - Latest RFC Threads",
+  "status": "RFC",
+  "creatorId": "internals",
+  "tags": [
+    "internals"
+  ]
+}

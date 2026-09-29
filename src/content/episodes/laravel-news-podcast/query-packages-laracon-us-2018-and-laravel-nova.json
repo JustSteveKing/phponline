@@ -1,0 +1,14 @@
+{
+  "id": "laravel-news-podcast/query-packages-laracon-us-2018-and-laravel-nova",
+  "title": "Query packages, Laracon US 2018, and Laravel Nova",
+  "link": "https://podcast.laravel-news.com/66?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2018-07-31T14:29:00.000Z",
+  "content": "Jake and Michael discuss all the latest Laravel releases, tutorials, and happenings in the community.",
+  "coverImage": "https://img.transistorcdn.com/rJUUKnulfr7jf28v5u5lBgUcmlmreaxM4YKdmoCRsMw/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9lcGlz/b2RlLzE2NDI1NC8x/NTc2MzQwODg0LWFy/dHdvcmsuanBn.jpg",
+  "podcast": "Laravel News Podcast",
+  "audioUrl": "https://media.transistor.fm/3be323b4/2158b91f.mp3",
+  "duration": "3135",
+  "episode": "66",
+  "season": "",
+  "creatorId": "laravel-news"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "northmeetsouth/wrong-abstractions-valet-and-mailthief",
+  "title": "Wrong Abstractions, Valet, and MailThief",
+  "link": "https://share.transistor.fm/s/e11d506e?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2016-06-28T23:13:00.000Z",
+  "content": "In this episode, Jacob and Michael discuss Sandi Metz's article \"The Wrong Abstraction\", Laravel Valet and their experiences with developing on both Mac and Windows, and the new mail testing package from Tighten Co, MailThief.",
+  "coverImage": "https://img.transistorcdn.com/RCL3Tma-kGz3WkP_ALsEYSa8z4o-VwoOay60c5QCB7M/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9lcGlz/b2RlLzEwNjYzMC8x/NTcwNTc1MTcxLWFy/dHdvcmsuanBn.jpg",
+  "podcast": "NorthMeetSouth",
+  "audioUrl": "https://media.transistor.fm/e11d506e/60093e0f.mp3",
+  "duration": "1783",
+  "episode": "3",
+  "season": "",
+  "creatorId": "northmeetsouth"
+}

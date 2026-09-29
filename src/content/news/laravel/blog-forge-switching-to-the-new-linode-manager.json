@@ -1,0 +1,11 @@
+{
+  "id": "laravel/blog-forge-switching-to-the-new-linode-manager",
+  "title": "Forge: Switching To The New Linode Manager",
+  "link": "https://laravel.com/blog/forge-switching-to-the-new-linode-manager?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2019-01-11T14:17:00.000Z",
+  "content": "<html><head></head><body>Forge is now supporting tokens generated from Linode's new manager.</body></html>",
+  "source": "laravel",
+  "author": "Mohamed Said",
+  "creatorId": "laravel",
+  "tags": []
+}

@@ -1,0 +1,13 @@
+{
+  "id": "laravel/blog-laravel-v10-released",
+  "title": "Laravel 10 Released",
+  "link": "https://laravel.com/blog/laravel-v10-released?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2023-02-13T19:29:00.000Z",
+  "content": "<html><head></head><body>Today we're thrilled to announce that we have tagged the Laravel 10.0 release!\n\nLaravel 10 continues the improvements made in Laravel 9 by introducing argument and return types to all application skel...</body></html>",
+  "source": "laravel",
+  "author": "Taylor Otwell",
+  "creatorId": "laravel",
+  "tags": [
+    "laravel"
+  ]
+}

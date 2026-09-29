@@ -1,0 +1,13 @@
+{
+  "id": "juststeveking/articles-adventures-in-php-php-sdk-builder",
+  "title": "Adventures in PHP - PHP SDK Builder",
+  "link": "https://www.juststeveking.com/articles/adventures-in-php-php-sdk-builder/?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2020-10-26T00:00:00.000Z",
+  "content": "<html><head></head><body>Learn how to build efficient, interoperable PHP SDKs using Laravel Forge and PSR-18 standards.</body></html>",
+  "source": "juststeveking",
+  "author": "Steve McDougall — Articles",
+  "creatorId": "juststeveking",
+  "tags": [
+    "laravel"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "id": "laravel/blog-forge-lets-encrypt-compatibility-changes",
+  "title": "Forge: Let's Encrypt Compatibility Changes",
+  "link": "https://laravel.com/blog/forge-lets-encrypt-compatibility-changes?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2021-09-28T12:30:00.000Z",
+  "content": "<html><head></head><body>On Thursday, September 30th there will be a small change in how older browsers and devices will treat Let's Encrypt's certificates. While most sites will be unaffected, it will likely impact you if you're providing an API or support IoT devices.</body></html>",
+  "source": "laravel",
+  "author": "Claudio Dekker",
+  "creatorId": "laravel",
+  "tags": []
+}

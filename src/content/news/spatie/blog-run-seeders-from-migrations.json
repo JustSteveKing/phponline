@@ -1,0 +1,13 @@
+{
+  "id": "spatie/blog-run-seeders-from-migrations",
+  "title": "Run seeders from migrations",
+  "link": "https://spatie.be/blog/run-seeders-from-migrations?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-03-09T13:54:39.000Z",
+  "content": "<html><head></head><body><p>Manually running seeders on a production server is error-prone and can cause downtime if it goes wrong. Seed data from migrations to stay in the deployment pipeline without manual intervention.</p>\n\n            </body></html>",
+  "source": "spatie",
+  "author": "Spatie: Blog",
+  "creatorId": "spatie",
+  "tags": [
+    "devops"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "laravel-news-podcast/streaming-jets-wrapping-words-and-acid-compliant-operations",
+  "title": "Streaming jets, wrapping words, and ACID-compliant operations",
+  "link": "https://podcast.laravel-news.com/199?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2023-09-06T14:00:00.000Z",
+  "content": "\n        <p>Jake and Michael discuss all the latest Laravel releases, tutorials, and happenings in the community.</p><p></p><ul><li>(02:17) - Laravel 10.20 released</li>\n<li>(14:04) - Laravel 10.21 released</li>\n<li>(19:04) - Laravel 10.22 released</li>\n<li>(25:53) - Livewire v3 has been released</li>\n<li>(28:18) - Laravel Jetstream 4.0 with Livewire 3 support</li>\n<li>(29:28) - Laravel String Wordwrap</li>\n<li>(30:05) - Laracon EU 2024 - Save the date!</li>\n<li>(31:50) - Pest Driven Laravel course is now on Laracasts</li>\n<li>(32:58) - Mary UI: Laravel Blade components for Livewire 3</li>\n<li>(34:42) - An introducton to Sharp for Laravel, an open source content management framework</li>\n<li>(36:36) - Generate Saloon SDKs from Postman or OpenAPI</li>\n<li>(39:56) - Boost your Eloquent models with Laravel Lift</li>\n<li>(46:09) - MJML to HTML using PHP</li>\n<li>(50:11) - Run GitHub Actions locally with Act</li>\n<li>(51:55) - Laravel API toolkit</li>\n<li>(53:01) - firstOrCreate() vs createOrFirst()</li>\n<li>(53:17) - Using AWS S3 for Laravel storage</li>\n<li>(53:33) - Using Language Servers in Sublime Text</li>\n<li>(54:09) - Installing Xdebug with Laravel Herd</li>\n</ul>\n      ",
+  "coverImage": "https://img.transistorcdn.com/qmJ1PPS58Dv5ZdzfP2OsERDEhhL_6EPX8Tjmyurk5f0/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9zaG93/LzY0MDUvMTY5NDc4/NzE0OS1hcnR3b3Jr/LmpwZw.jpg",
+  "podcast": "Laravel News Podcast",
+  "audioUrl": "https://media.transistor.fm/92c5062e/f9113479.mp3",
+  "duration": "3359",
+  "episode": "199",
+  "season": "",
+  "creatorId": "laravel-news"
+}

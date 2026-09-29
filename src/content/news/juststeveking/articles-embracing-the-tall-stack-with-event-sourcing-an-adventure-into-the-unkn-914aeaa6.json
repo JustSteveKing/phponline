@@ -1,0 +1,13 @@
+{
+  "id": "juststeveking/articles-embracing-the-tall-stack-with-event-sourcing-an-adventure-into-the-unknown",
+  "title": "Embracing The Tall Stack with Event Sourcing, an adventure into the unknown",
+  "link": "https://www.juststeveking.com/articles/embracing-the-tall-stack-with-event-sourcing-an-adventure-into-the-unknown/?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2020-06-04T00:00:00.000Z",
+  "content": "<html><head></head><body>Dive into blending Laravel's TALL stack with event sourcing, learning to create efficient and reactive PHP applications with modern web development techniques.</body></html>",
+  "source": "juststeveking",
+  "author": "Steve McDougall — Articles",
+  "creatorId": "juststeveking",
+  "tags": [
+    "laravel"
+  ]
+}

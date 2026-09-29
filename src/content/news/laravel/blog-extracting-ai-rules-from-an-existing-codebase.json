@@ -1,0 +1,13 @@
+{
+  "id": "laravel/blog-extracting-ai-rules-from-an-existing-codebase",
+  "title": "Extracting AI rules from an existing codebase",
+  "link": "https://laravel.com/blog/extracting-ai-rules-from-an-existing-codebase?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-08-31T17:15:00.000Z",
+  "content": "<html><head></head><body>How Laravel Boost uses an agent skill to find existing project conventions and record the useful ones as scoped rules.</body></html>",
+  "source": "laravel",
+  "author": "Pushpak Chhajed",
+  "creatorId": "laravel",
+  "tags": [
+    "laravel"
+  ]
+}

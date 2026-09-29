@@ -1,0 +1,14 @@
+{
+  "id": "laravel/blog-security-release-laravel-61834-7232",
+  "title": "Security Release: Laravel 6.18.34, 7.23.2",
+  "link": "https://laravel.com/blog/security-release-laravel-61834-7232?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2020-08-06T15:07:00.000Z",
+  "content": "<html><head></head><body>Today we released a security patch for Laravel 6.x and 7.x.\n\nIn previous releases of Laravel, it was possible to mass assign Eloquent attributes that included the model's table name:\n\n```\n$model-&gt;fill...</body></html>",
+  "source": "laravel",
+  "author": "Taylor Otwell",
+  "creatorId": "laravel",
+  "tags": [
+    "laravel",
+    "security"
+  ]
+}

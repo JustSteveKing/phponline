@@ -1,0 +1,13 @@
+{
+  "id": "laravel/blog-meet-maestro-how-we-manage-21-laravel-starter-kit-variants-without-losing-our-minds",
+  "title": "Meet Maestro: How We Manage 21 Laravel Starter Kit Variants Without Losing Our Minds",
+  "link": "https://laravel.com/blog/meet-maestro-how-we-manage-21-laravel-starter-kit-variants-without-losing-our-minds?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-04-02T13:42:04.000Z",
+  "content": "<html><head></head><body>Learn how Maestro solves the challenge of maintaining 21 Laravel starter kit variants across 8 repositories, using layered builds, priority-based sync, and a contributor workflow designed to scale. </body></html>",
+  "source": "laravel",
+  "author": "Wendell Adriel",
+  "creatorId": "laravel",
+  "tags": [
+    "laravel"
+  ]
+}

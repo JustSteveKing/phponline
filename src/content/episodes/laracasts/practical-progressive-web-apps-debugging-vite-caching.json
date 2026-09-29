@@ -1,0 +1,12 @@
+{
+  "id": "laracasts/practical-progressive-web-apps-debugging-vite-caching",
+  "title": "Practical Progressive Web Apps\n: Debugging Vite Caching",
+  "link": "https://laracasts.com/episodes/4149?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-08-18T09:00:00.000Z",
+  "content": "Our service worker is precaching pages, but the offline view still falls apart in development when Vite...",
+  "podcast": "Laracasts",
+  "duration": "",
+  "episode": "",
+  "season": "",
+  "creatorId": "laracasts"
+}

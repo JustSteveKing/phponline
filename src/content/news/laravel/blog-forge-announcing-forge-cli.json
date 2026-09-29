@@ -1,0 +1,13 @@
+{
+  "id": "laravel/blog-forge-announcing-forge-cli",
+  "title": "Forge: Introducing The Forge CLI",
+  "link": "https://laravel.com/blog/forge-announcing-forge-cli?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2021-08-09T11:22:00.000Z",
+  "content": "<html><head></head><body>Today we're proud to introduce you to our new command-line tool: Forge CLI. In short, this new open-source tool provides a number of helpful commands that can assist you in managing your Forge servers, sites, and resources, from the command-line.</body></html>",
+  "source": "laravel",
+  "author": "Nuno Maduro",
+  "creatorId": "laravel",
+  "tags": [
+    "devops"
+  ]
+}

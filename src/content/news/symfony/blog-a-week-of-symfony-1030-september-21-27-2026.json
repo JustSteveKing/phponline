@@ -1,0 +1,14 @@
+{
+  "id": "symfony/blog-a-week-of-symfony-1030-september-21-27-2026",
+  "title": "A Week of Symfony #1030",
+  "link": "https://symfony.com/blog/a-week-of-symfony-1030-september-21-27-2026?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-09-27T07:51:00.000Z",
+  "content": "<html><head></head><body>This week, Symfony continued unveiling new Symfony 8.2 features, including new Messenger options and better performance, role hierarchy improvements, JSON Schema for configuration, and new Mailer features. In addition, Symfony UX 3.5 was released with a new…</body></html>",
+  "source": "Symfony",
+  "author": " Javier Eguiluz ",
+  "creatorId": "symfony",
+  "tags": [
+    "symfony",
+    "performance"
+  ]
+}

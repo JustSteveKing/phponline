@@ -1,0 +1,14 @@
+{
+  "id": "laravel-news-podcast/style-guides-testing-vue-and-cookies",
+  "title": "Style guides, testing Vue, and Cookies",
+  "link": "https://podcast.laravel-news.com/48?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2017-10-24T13:30:00.000Z",
+  "content": "Jake and Michael talk about a great number of new things from the Vue camp, talk a bit about handling form validation, changes in the Laravel framework, and rapid fire through some community links.",
+  "coverImage": "https://img.transistorcdn.com/LTiZZ2rn7Xh5L8TPQT4LUgz2v8eRdJbKFT7uqNV6Rd8/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9lcGlz/b2RlLzE2NDIzNi8x/NTc2MzQwODA3LWFy/dHdvcmsuanBn.jpg",
+  "podcast": "Laravel News Podcast",
+  "audioUrl": "https://media.transistor.fm/d3850583/d56fb44f.mp3",
+  "duration": "2363",
+  "episode": "48",
+  "season": "",
+  "creatorId": "laravel-news"
+}

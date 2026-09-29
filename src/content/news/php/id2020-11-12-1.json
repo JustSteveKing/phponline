@@ -1,0 +1,14 @@
+{
+  "id": "php/id2020-11-12-1",
+  "title": "PHP 8.0.0 Release Candidate 4 available for testing",
+  "link": "https://www.php.net/index.php?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev#id2020-11-12-1",
+  "pubDate": "2020-11-12T11:49:58.000Z",
+  "content": "<html><head></head><body><div type=\"xhtml\"><div xmlns=\"http://www.w3.org/1999/xhtml\"><p>\n        The PHP team is pleased to announce the tenth testing release of PHP 8.0.0, Release Candidate 4.\n      </p><p>\n        At this time, we're not planning to adjust the GA date,\n        however this may change during the course of the RC cycle.\n        The updated release schedule can, as always, be found on the\n        .\n      <a href=\"https://wiki.php.net/todo/php80\">PHP Wiki page about the PHP 8.0</a></p><p>For source downloads of PHP 8.0.0 Release Candidate 4 please visit the .<a href=\"https://downloads.php.net/~carusogabriel\">download page</a></p><p>Please carefully test this version and report any issues found in the .<a href=\"https://bugs.php.net\">bug reporting system</a></p><p><b>Please DO NOT use this version in production, it is an early test version.</b></p><p>\n        For more information on the new features and other changes, you can read the\n         file,\n        or the \n        file for a complete list of upgrading notes. These files can also be found in the release archive.\n      <a href=\"https://github.com/php/php-src/blob/php-8.0.0RC4/NEWS\">NEWS</a><a href=\"https://github.com/php/php-src/blob/php-8.0.0RC4/UPGRADING\">UPGRADING</a></p><p>The next release will be the General Availability, planned for Nov 26 2020.</p><p>The signatures for the release can be found in  or on .<a href=\"https://gist.github.com/carusogabriel/7c9f2bdb6349925ab6ae4b20558d07c7\">the manifest</a><a href=\"https://qa.php.net/\">the QA site</a></p><p>Thank you for helping us make PHP better.</p></div></div></body></html>",
+  "source": "php",
+  "author": "PHP.net news & announcements",
+  "creatorId": "php-net",
+  "tags": [
+    "testing",
+    "php8"
+  ]
+}

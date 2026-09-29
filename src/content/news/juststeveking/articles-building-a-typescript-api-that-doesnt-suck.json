@@ -1,0 +1,11 @@
+{
+  "id": "juststeveking/articles-building-a-typescript-api-that-doesnt-suck",
+  "title": "Building A TypeScript API That Doesn't Suck",
+  "link": "https://www.juststeveking.com/articles/building-a-typescript-api-that-doesnt-suck/?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2025-12-03T00:00:00.000Z",
+  "content": "<html><head></head><body>Learn how to build a TypeScript SDK the right way: ditching axios for ofetch, using factory patterns, and creating production-ready code.</body></html>",
+  "source": "juststeveking",
+  "author": "Steve McDougall — Articles",
+  "creatorId": "juststeveking",
+  "tags": []
+}

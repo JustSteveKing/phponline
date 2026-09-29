@@ -1,0 +1,14 @@
+{
+  "id": "juststeveking/articles-api-tips-and-tricks-from-my-book",
+  "title": "The Tips Behind API Artisan: Building Laravel APIs Developers Actually Want to Use",
+  "link": "https://www.juststeveking.com/articles/api-tips-and-tricks-from-my-book/?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-06-11T00:00:00.000Z",
+  "content": "<html><head></head><body>Practical tips for building Laravel APIs developers trust: contract-first design, versioning, RFC 9457 errors, idempotency and more. Free book inside.</body></html>",
+  "source": "juststeveking",
+  "author": "Steve McDougall — Articles",
+  "creatorId": "juststeveking",
+  "tags": [
+    "laravel",
+    "internals"
+  ]
+}

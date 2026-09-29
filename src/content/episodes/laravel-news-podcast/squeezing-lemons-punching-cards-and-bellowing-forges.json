@@ -1,0 +1,14 @@
+{
+  "id": "laravel-news-podcast/squeezing-lemons-punching-cards-and-bellowing-forges",
+  "title": "Squeezing lemons, punching cards, and bellowing forges",
+  "link": "https://podcast.laravel-news.com/194?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2023-06-21T14:00:00.000Z",
+  "content": "\n        <p>Jake and Michael discuss all the latest Laravel releases, tutorials, and happenings in the community.</p><p>This episode is sponsored by <a href=\"https://honeybadger.io/?ref=laravelnewspodcast\">Honeybadger</a> - combining error monitoring, uptime monitoring and check-in monitoring into a single, easy to use platform and making you a DevOps hero.</p><p></p><ul><li>(01:56) - Define casts in a query</li>\n<li>(03:55) - Lemon Squeezy for Laravel 1.0 is here</li>\n<li>(06:38) - Add strict typing to inline variables in PHP with Strictus</li>\n<li>(09:24) - Hooks for Alpine.js</li>\n<li>(10:37) - PunchcardP Object configs for Laravel</li>\n<li>(14:15) - Sponsor: Honeybadger</li>\n<li>(15:11) - Resend email package for Laravel and PHP</li>\n<li>(16:34) - Restore database backups in Laravel</li>\n<li>(18:01) - Laravel Tailwind Merge</li>\n<li>(24:15) - Bellows: Supercharge your Laravel Forge account</li>\n<li>(28:35) - Lifecycle hooks in Laravel - How to build them, and why you'd want them</li>\n<li>(32:49) - Working with third party services in Laravel</li>\n</ul>\n      ",
+  "coverImage": "https://img.transistorcdn.com/qmJ1PPS58Dv5ZdzfP2OsERDEhhL_6EPX8Tjmyurk5f0/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9zaG93/LzY0MDUvMTY5NDc4/NzE0OS1hcnR3b3Jr/LmpwZw.jpg",
+  "podcast": "Laravel News Podcast",
+  "audioUrl": "https://media.transistor.fm/6d2d53fe/f70d9278.mp3",
+  "duration": "2219",
+  "episode": "194",
+  "season": "",
+  "creatorId": "laravel-news"
+}

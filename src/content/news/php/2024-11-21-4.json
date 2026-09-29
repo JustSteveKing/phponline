@@ -1,0 +1,14 @@
+{
+  "id": "php/2024-11-21-4",
+  "title": "PHP 8.4.1 Released!",
+  "link": "https://www.php.net/index.php?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev#2024-11-21-4",
+  "pubDate": "2024-11-21T06:55:34.000Z",
+  "content": "<html><head></head><body><div type=\"xhtml\"><div xmlns=\"http://www.w3.org/1999/xhtml\"><p>The PHP development team announces the immediate availability of PHP 8.4.1. This release marks the latest minor release of the PHP language.</p><p>PHP 8.4 comes with numerous improvements and new features such as:</p><p>\n        For source downloads of PHP 8.4.1 please visit our ,\n        Windows source and binaries can be found on .\n        The list of changes is recorded in the .\n      <a href=\"https://www.php.net/downloads.php\">downloads page</a><a href=\"https://windows.php.net/download/\">windows.php.net/download/</a><a href=\"https://www.php.net/ChangeLog-8.php#8.4.1\">ChangeLog</a></p><p>\n        The  is available in the PHP Manual.\n        Please consult it for the detailed list of new features and backward incompatible changes.\n      <a href=\"https://php.net/manual/en/migration84.php\">migration guide</a></p><p>Kudos to all the contributors and supporters!</p><ul><li><a href=\"https://www.php.net/manual/en/migration84.new-features.php#migration84.new-features.core.property-hooks\">Property Hooks</a></li><li><a href=\"https://www.php.net/manual/en/migration84.new-features.php#migration84.new-features.core.asymmetric-property-visibility\">Asymmetric Property Visibility</a></li><li><a href=\"https://www.php.net/manual/en/migration84.new-features.php#migration84.new-features.core.lazy-objects\">Lazy Objects</a></li><li><a href=\"https://www.php.net/manual/en/migration84.new-features.php#migration84.new-features.pdo\">PDO driver-specific subclasses</a></li><li><a href=\"https://www.php.net/manual/en/migration84.new-classes.php#migration84.new-classes.bcmath\">BCMath object type</a></li><li>And much much more...</li></ul></div></div></body></html>",
+  "source": "php",
+  "author": "PHP.net news & announcements",
+  "creatorId": "php-net",
+  "tags": [
+    "php8",
+    "internals"
+  ]
+}

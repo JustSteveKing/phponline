@@ -1,0 +1,11 @@
+{
+  "id": "laravel/blog-vapor-queue-management",
+  "title": "Vapor: Queue Management",
+  "link": "https://laravel.com/blog/vapor-queue-management?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2023-04-04T13:34:00.000Z",
+  "content": "<html><head></head><body>Today, we're excited to announce that we're bringing queue management to the Vapor dashboard!</body></html>",
+  "source": "laravel",
+  "author": "Joe Dixon",
+  "creatorId": "laravel",
+  "tags": []
+}

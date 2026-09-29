@@ -1,0 +1,13 @@
+{
+  "id": "laravel/blog-cashier-v11",
+  "title": "Cashier v11",
+  "link": "https://laravel.com/blog/cashier-v11?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2020-04-07T15:33:00.000Z",
+  "content": "<html><head></head><body>We're very excited to announce the immediate availability of Cashier v11. This release of Cashier introduces support for [Multiplan Subscriptions](https://laravel.com/framework/docs/billing#multiplan-...</body></html>",
+  "source": "laravel",
+  "author": "Dries Vints",
+  "creatorId": "laravel",
+  "tags": [
+    "laravel"
+  ]
+}

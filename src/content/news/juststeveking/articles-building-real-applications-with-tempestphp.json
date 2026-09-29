@@ -1,0 +1,13 @@
+{
+  "id": "juststeveking/articles-building-real-applications-with-tempestphp",
+  "title": "Building Real Applications with TempestPHP",
+  "link": "https://www.juststeveking.com/articles/building-real-applications-with-tempestphp/?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-03-09T00:00:00.000Z",
+  "content": "<html><head></head><body>How to structure TempestPHP applications with domain-first folders, repositories, command handlers, and thin controllers that stay maintainable.</body></html>",
+  "source": "juststeveking",
+  "author": "Steve McDougall — Articles",
+  "creatorId": "juststeveking",
+  "tags": [
+    "testing"
+  ]
+}

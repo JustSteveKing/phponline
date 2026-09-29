@@ -1,0 +1,14 @@
+{
+  "id": "laravel-news-podcast/laravel-quickstart-tutorials",
+  "title": "Laravel Quickstart Tutorials",
+  "link": "https://podcast.laravel-news.com/3?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2015-11-03T17:07:00.000Z",
+  "content": "LN03: Laravel Quickstart Guides, New Features coming to Laravel 5.2, Bootstrap/Sass/Elixir, Laravel Tagging Package, Password strength, Why Developers hate being interrupted.",
+  "coverImage": "https://img.transistorcdn.com/o50BIp0Rjd67X1sGwn6PzbeLhKfU1XN9NMoG8xDQCRA/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9lcGlz/b2RlLzE2NDE5MS8x/NTc2MzQwNjE5LWFy/dHdvcmsuanBn.jpg",
+  "podcast": "Laravel News Podcast",
+  "audioUrl": "https://media.transistor.fm/f507faa5/0f1c9141.mp3",
+  "duration": "1594",
+  "episode": "3",
+  "season": "",
+  "creatorId": "laravel-news"
+}

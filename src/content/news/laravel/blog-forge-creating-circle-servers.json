@@ -1,0 +1,14 @@
+{
+  "id": "laravel/blog-forge-creating-circle-servers",
+  "title": "Forge: Creating Circle Servers",
+  "link": "https://laravel.com/blog/forge-creating-circle-servers?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2021-01-08T01:49:00.000Z",
+  "content": "<html><head></head><body>As a circle owner in Laravel Forge, you can now allow your circle members to create servers using the server provider credentials of your choice:</body></html>",
+  "source": "laravel",
+  "author": "Mohamed Said",
+  "creatorId": "laravel",
+  "tags": [
+    "laravel",
+    "devops"
+  ]
+}

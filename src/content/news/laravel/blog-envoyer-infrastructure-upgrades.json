@@ -1,0 +1,15 @@
+{
+  "id": "laravel/blog-envoyer-infrastructure-upgrades",
+  "title": "Envoyer: Infrastructure Upgrades",
+  "link": "https://laravel.com/blog/envoyer-infrastructure-upgrades?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2021-06-14T10:46:00.000Z",
+  "content": "<html><head></head><body>On June 12th we upgraded Envoyer's infrastructure, which allowed us to migrate to PHP 8, Laravel 8, and Spark Next. Due to the upgrades, it means that Envoyer is now using new IP addresses.\n\nWe emaile...</body></html>",
+  "source": "laravel",
+  "author": "James Brooks",
+  "creatorId": "laravel",
+  "tags": [
+    "laravel",
+    "php8",
+    "devops"
+  ]
+}

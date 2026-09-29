@@ -1,0 +1,14 @@
+{
+  "id": "laravel/blog-security-release-laravel-61827-7220",
+  "title": "Security Release: Laravel 6.18.29, 7.22.2",
+  "link": "https://laravel.com/blog/security-release-laravel-61827-7220?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2020-07-27T13:48:00.000Z",
+  "content": "<html><head></head><body>Today we have released a security patch for Laravel versions 6.x and 7.x. These releases have been released as Laravel 6.18.29 and 7.22.2. All Laravel users are encouraged to upgrade to these versions...</body></html>",
+  "source": "laravel",
+  "author": "Taylor Otwell",
+  "creatorId": "laravel",
+  "tags": [
+    "laravel",
+    "security"
+  ]
+}

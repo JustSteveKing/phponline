@@ -1,0 +1,13 @@
+{
+  "id": "juststeveking/articles-building-a-slide-over-panel-component-with-livewire",
+  "title": "Building a slide-over panel component with Livewire",
+  "link": "https://www.juststeveking.com/articles/building-a-slide-over-panel-component-with-livewire/?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2022-10-06T00:00:00.000Z",
+  "content": "<html><head></head><body>Learn to build a versatile slide-over component in Laravel Livewire for TALL Stack applications, enhancing UI with a simple, reusable solution.</body></html>",
+  "source": "juststeveking",
+  "author": "Steve McDougall — Articles",
+  "creatorId": "juststeveking",
+  "tags": [
+    "laravel"
+  ]
+}

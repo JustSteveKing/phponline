@@ -1,0 +1,13 @@
+{
+  "id": "php/id2018-12-06-3",
+  "title": "PHP 7.2.13 Released",
+  "link": "http://php.net/index.php?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev#id2018-12-06-3",
+  "pubDate": "2018-12-06T16:09:43.000Z",
+  "content": "<html><head></head><body><div type=\"xhtml\"><div xmlns=\"http://www.w3.org/1999/xhtml\"><p>The PHP development team announces the immediate availability of PHP 7.2.13.\n     This is a security release.</p><p>All PHP 7.2 users are encouraged to upgrade to this version.</p><p>For source downloads of PHP 7.2.13 please visit our ,\n     Windows source and binaries can be found on .\n     The list of changes is recorded in the .\n     <a href=\"http://www.php.net/downloads.php\">downloads page</a><a href=\"http://windows.php.net/download/\">windows.php.net/download/</a><a href=\"http://www.php.net/ChangeLog-7.php#7.2.13\">ChangeLog</a></p></div></div></body></html>",
+  "source": "php",
+  "author": "PHP.net news & announcements",
+  "creatorId": "php-net",
+  "tags": [
+    "security"
+  ]
+}

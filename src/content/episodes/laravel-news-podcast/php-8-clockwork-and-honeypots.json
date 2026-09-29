@@ -1,0 +1,14 @@
+{
+  "id": "laravel-news-podcast/php-8-clockwork-and-honeypots",
+  "title": "PHP 8, Clockwork, and Honeypots",
+  "link": "https://podcast.laravel-news.com/133?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2020-12-09T15:00:00.000Z",
+  "content": "Jake and Michael discuss all the latest Laravel releases, tutorials, and happenings in the community.",
+  "coverImage": "https://img.transistorcdn.com/qmJ1PPS58Dv5ZdzfP2OsERDEhhL_6EPX8Tjmyurk5f0/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9zaG93/LzY0MDUvMTY5NDc4/NzE0OS1hcnR3b3Jr/LmpwZw.jpg",
+  "podcast": "Laravel News Podcast",
+  "audioUrl": "https://media.transistor.fm/fc4ffddb/03f6224b.mp3",
+  "duration": "2810",
+  "episode": "133",
+  "season": "",
+  "creatorId": "laravel-news"
+}

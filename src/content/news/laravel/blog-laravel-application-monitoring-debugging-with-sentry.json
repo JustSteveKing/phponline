@@ -1,0 +1,13 @@
+{
+  "id": "laravel/blog-laravel-application-monitoring-debugging-with-sentry",
+  "title": "Laravel Application Monitoring & Debugging with Sentry",
+  "link": "https://laravel.com/blog/laravel-application-monitoring-debugging-with-sentry?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2024-06-03T20:14:00.000Z",
+  "content": "<html><head></head><body>At Laravel, we equip PHP developers with the most advanced tools to create exceptional applications. Today, we announce our partnership with Sentry, making it a preferred monitoring and debugging solution for Laravel projects using Forge or Vapor. This collaboration marks a significant step forward in our mission to ensure that PHP developers have access to modern, powerful tools to streamline app development.</body></html>",
+  "source": "laravel",
+  "author": "James Brooks",
+  "creatorId": "laravel",
+  "tags": [
+    "laravel"
+  ]
+}

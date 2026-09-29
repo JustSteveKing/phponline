@@ -1,0 +1,11 @@
+{
+  "id": "php/id2020-03-19-3",
+  "title": "PHP 7.4.4 Released!",
+  "link": "https://www.php.net/index.php?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev#id2020-03-19-3",
+  "pubDate": "2020-03-19T14:46:06.000Z",
+  "content": "<html><head></head><body><div type=\"xhtml\"><div xmlns=\"http://www.w3.org/1999/xhtml\"><p>The PHP development team announces the immediate availability of PHP 7.4.4.\n     This is a bug fix release.</p><p>All PHP 7.4 users are encouraged to upgrade to this version.</p><p>For source downloads of PHP 7.4.4 please visit our\n      page Windows binaries can\n     be found on the \n     site. The list of changes is recorded in the\n     .<a href=\"http://www.php.net/downloads\">downloads</a><a href=\"http://windows.php.net/download\">PHP for Windows</a><a href=\"http://www.php.net/ChangeLog-7.php#7.4.4\">ChangeLog</a></p></div></div></body></html>",
+  "source": "php",
+  "author": "PHP.net news & announcements",
+  "creatorId": "php-net",
+  "tags": []
+}

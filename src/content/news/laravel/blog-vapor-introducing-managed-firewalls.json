@@ -1,0 +1,11 @@
+{
+  "id": "laravel/blog-vapor-introducing-managed-firewalls",
+  "title": "Vapor: Introducing Managed Firewalls",
+  "link": "https://laravel.com/blog/vapor-introducing-managed-firewalls?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2021-05-27T13:30:00.000Z",
+  "content": "<html><head></head><body>Today, we are proud to introduce Vapor's managed firewalls for basic protection against denial-of-service attacks targeting your environment, as well as protection against pervasive bot traffic that can consume your environment's resources.</body></html>",
+  "source": "laravel",
+  "author": "Nuno Maduro",
+  "creatorId": "laravel",
+  "tags": []
+}

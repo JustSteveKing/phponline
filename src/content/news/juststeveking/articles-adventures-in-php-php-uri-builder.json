@@ -1,0 +1,11 @@
+{
+  "id": "juststeveking/articles-adventures-in-php-php-uri-builder",
+  "title": "Adventures in PHP - PHP URI Builder",
+  "link": "https://www.juststeveking.com/articles/adventures-in-php-php-uri-builder/?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2020-10-13T00:00:00.000Z",
+  "content": "<html><head></head><body>Introducing 'uri-builder', a PHP package with a fluent interface for easy URI string creation, simplifying API calls and URL manipulation.</body></html>",
+  "source": "juststeveking",
+  "author": "Steve McDougall — Articles",
+  "creatorId": "juststeveking",
+  "tags": []
+}

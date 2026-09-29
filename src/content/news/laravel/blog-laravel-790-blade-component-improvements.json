@@ -1,0 +1,13 @@
+{
+  "id": "laravel/blog-laravel-790-blade-component-improvements",
+  "title": "Laravel 7.9.0 - Blade Component Improvements",
+  "link": "https://laravel.com/blog/laravel-790-blade-component-improvements?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2020-04-28T14:08:00.000Z",
+  "content": "<html><head></head><body>Today I released Laravel 7.9.0. This release includes two improvements for Blade components.\n\n### Blade Echo Within Attributes\n\nFirst, the release fixes a developer experience issue when using Blade c...</body></html>",
+  "source": "laravel",
+  "author": "Taylor Otwell",
+  "creatorId": "laravel",
+  "tags": [
+    "laravel"
+  ]
+}

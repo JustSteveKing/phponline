@@ -1,0 +1,13 @@
+{
+  "id": "laravel/blog-envoyer-healthchecker-upgrades",
+  "title": "Envoyer: Healthchecker Upgrades",
+  "link": "https://laravel.com/blog/envoyer-healthchecker-upgrades?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2020-05-27T21:48:00.000Z",
+  "content": "<html><head></head><body>On Tuesday 26th May, we upgraded Envoyer's \"health check\" servers in NYC, London, and Singapore.\n\nDue to the upgrades, the service now operates from three new IP addresses. We have documented the new...</body></html>",
+  "source": "laravel",
+  "author": "James Brooks",
+  "creatorId": "laravel",
+  "tags": [
+    "devops"
+  ]
+}

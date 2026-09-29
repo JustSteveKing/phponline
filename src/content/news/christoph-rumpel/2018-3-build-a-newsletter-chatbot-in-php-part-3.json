@@ -1,0 +1,13 @@
+{
+  "id": "christoph-rumpel/2018-3-build-a-newsletter-chatbot-in-php-part-3",
+  "title": "Build a newsletter chatbot in PHP - Part 3",
+  "link": "https://christoph-rumpel.com/2018/3/build-a-newsletter-chatbot-in-php-part-3?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2018-03-26T20:04:28.000Z",
+  "content": "<html><head></head><body>In part one and two we created a Facebook Messenger chatbot that let your users subscribe to your newsletter. We stored that information in the database and sent out our first newsletter. In the last third part, we integrate this bot to a website and write our first tests.\n            </body></html>",
+  "source": "christoph-rumpel",
+  "author": "Christoph Rumpel Blog Feed",
+  "creatorId": "christoph-rumpel",
+  "tags": [
+    "databases"
+  ]
+}

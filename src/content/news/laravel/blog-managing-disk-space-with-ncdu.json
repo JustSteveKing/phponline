@@ -1,0 +1,13 @@
+{
+  "id": "laravel/blog-managing-disk-space-with-ncdu",
+  "title": "Managing Disk Space With \"ncdu\"",
+  "link": "https://laravel.com/blog/managing-disk-space-with-ncdu?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2022-01-06T10:50:00.000Z",
+  "content": "<html><head></head><body>Linux ships with a useful command called `du` (Disk Usage), which is used to find the size of files and directories.\n\nWhen provisioning your server, Forge installs `ncdu` which is an advanced version of `du` that allows you to easily navigate your directories via an ncurses interface. This makes it much quicker to identify large files and directories.</body></html>",
+  "source": "laravel",
+  "author": "James Brooks",
+  "creatorId": "laravel",
+  "tags": [
+    "devops"
+  ]
+}

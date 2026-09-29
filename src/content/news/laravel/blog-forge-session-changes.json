@@ -1,0 +1,14 @@
+{
+  "id": "laravel/blog-forge-session-changes",
+  "title": "Forge: Session Changes",
+  "link": "https://laravel.com/blog/forge-session-changes?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2021-03-19T09:49:00.000Z",
+  "content": "<html><head></head><body>On the morning of March 18th all Laravel Forge sessions were manually logged out. This was done so that we could enable a new security feature in Forge that allows you to manage other browser sessions...</body></html>",
+  "source": "laravel",
+  "author": "James Brooks",
+  "creatorId": "laravel",
+  "tags": [
+    "laravel",
+    "security"
+  ]
+}

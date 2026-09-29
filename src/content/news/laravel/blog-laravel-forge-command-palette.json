@@ -1,0 +1,14 @@
+{
+  "id": "laravel/blog-laravel-forge-command-palette",
+  "title": "Laravel Forge Command Palette",
+  "link": "https://laravel.com/blog/laravel-forge-command-palette?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2022-04-19T13:41:00.000Z",
+  "content": "<html><head></head><body>Today we're happy to ship a wonderful new feature to Laravel Forge: the Forge Command Palette! We love making Forge the fastest, simplest, and most enjoyable way to manage your Laravel servers across...</body></html>",
+  "source": "laravel",
+  "author": "Taylor Otwell",
+  "creatorId": "laravel",
+  "tags": [
+    "laravel",
+    "devops"
+  ]
+}

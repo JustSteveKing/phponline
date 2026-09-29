@@ -1,0 +1,14 @@
+{
+  "id": "laravel/blog-laravel-march-product-updates",
+  "title": "Laravel March Product Updates",
+  "link": "https://laravel.com/blog/laravel-march-product-updates?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-04-01T22:26:49.000Z",
+  "content": "<html><head></head><body># Laravel March Product Updates\n\nMarch was a big month for product updates. Laravel 13 brings first-party AI tooling to the framework, Laravel Cloud now has a free trial with no credit card required,...</body></html>",
+  "source": "laravel",
+  "author": "Laravel Team",
+  "creatorId": "laravel",
+  "tags": [
+    "laravel",
+    "devops"
+  ]
+}

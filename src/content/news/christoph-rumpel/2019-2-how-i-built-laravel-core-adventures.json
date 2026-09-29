@@ -1,0 +1,14 @@
+{
+  "id": "christoph-rumpel/2019-2-how-i-built-laravel-core-adventures",
+  "title": "How I Built Laravel Core Adventures",
+  "link": "https://christoph-rumpel.com/2019/2/how-i-built-laravel-core-adventures?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2019-02-22T20:04:28.000Z",
+  "content": "<html><head></head><body>Most interesting about a new product, except the product itself, are the little details and decisions that shaped it to what it became. This article is my approach to tell you all the problems, ideas, and solutions that created Laravel Core Adventures. It is not rocket science, but it is REAL.\n            </body></html>",
+  "source": "christoph-rumpel",
+  "author": "Christoph Rumpel Blog Feed",
+  "creatorId": "christoph-rumpel",
+  "tags": [
+    "laravel",
+    "internals"
+  ]
+}

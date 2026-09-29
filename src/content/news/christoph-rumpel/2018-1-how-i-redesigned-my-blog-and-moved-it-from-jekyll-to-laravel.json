@@ -1,0 +1,14 @@
+{
+  "id": "christoph-rumpel/2018-1-how-i-redesigned-my-blog-and-moved-it-from-jekyll-to-laravel",
+  "title": "How I redesigned my blog and moved it from Jekyll to Laravel",
+  "link": "https://christoph-rumpel.com/2018/1/how-i-redesigned-my-blog-and-moved-it-from-jekyll-to-laravel?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2018-01-11T20:04:28.000Z",
+  "content": "<html><head></head><body>One of my resolutions for 2017 was to redesign my blog. One week before the new year I faced myself with the challenge and thought to myself if this was still doable. Somehow I managed it, and here it is. In this article, I will explain the process and show you how I redesigned the blog with Tailwind CSS and moved it from Jekyll to Laravel with keeping almost the same performance.\n            </body></html>",
+  "source": "christoph-rumpel",
+  "author": "Christoph Rumpel Blog Feed",
+  "creatorId": "christoph-rumpel",
+  "tags": [
+    "laravel",
+    "performance"
+  ]
+}

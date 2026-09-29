@@ -1,0 +1,14 @@
+{
+  "id": "northmeetsouth/world-champions-deploying-from-github-actions-and-feature-flags",
+  "title": "World champions, deploying from GitHub Actions, and feature flags",
+  "link": "https://share.transistor.fm/s/ce900617?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2023-06-13T13:53:00.000Z",
+  "content": "\n        <p>Jake and Michael discuss the world champion Denver Nuggets, building assets and deploying apps in GitHub Actions, and feature flags with Laravel Pennant.</p><p>This episode is brought to you by our friends at <a href=\"https://www.workvivo.com/\">Workvivo</a> - The leading employee communication app.</p><p><strong>Show links</strong></p><ul><li><a href=\"https://github.com/actions/cache\">Cache dependencies in GitHub Actions</a></li><li><a href=\"https://laravel.com/docs/10.x/pennant\">Laravel Pennant</a></li></ul>\n      ",
+  "coverImage": "https://img.transistorcdn.com/gTGjKd44Qy-t3yz9_V60jp8N2Qe5KN4QwfB-5FNuQPM/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9zaG93/LzQ4ODMvMTU3Mjc3/NzAzNi1hcnR3b3Jr/LmpwZw.jpg",
+  "podcast": "NorthMeetSouth",
+  "audioUrl": "https://media.transistor.fm/ce900617/0b901daf.mp3",
+  "duration": "2387",
+  "episode": "138",
+  "season": "",
+  "creatorId": "northmeetsouth"
+}

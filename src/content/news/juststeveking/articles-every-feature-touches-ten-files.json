@@ -1,0 +1,11 @@
+{
+  "id": "juststeveking/articles-every-feature-touches-ten-files",
+  "title": "Every Feature Touches Ten Files",
+  "link": "https://www.juststeveking.com/articles/every-feature-touches-ten-files/?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-08-26T00:00:00.000Z",
+  "content": "<html><head></head><body>Ten files open for a one line change is either layering working correctly or one idea smeared across a codebase. The count does not tell you which, and git history does.</body></html>",
+  "source": "juststeveking",
+  "author": "Steve McDougall — Articles",
+  "creatorId": "juststeveking",
+  "tags": []
+}

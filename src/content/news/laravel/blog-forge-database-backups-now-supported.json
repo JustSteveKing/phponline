@@ -1,0 +1,14 @@
+{
+  "id": "laravel/blog-forge-database-backups-now-supported",
+  "title": "Forge: Database Backups Now Supported",
+  "link": "https://laravel.com/blog/forge-database-backups-now-supported?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2020-02-12T15:18:00.000Z",
+  "content": "<html><head></head><body>Yesterday we launched an exciting new feature for [Laravel Forge](https://forge.laravel.com): database backups! Laravel team member James Brooks has been working hard on this feature for several weeks...</body></html>",
+  "source": "laravel",
+  "author": "Taylor Otwell",
+  "creatorId": "laravel",
+  "tags": [
+    "laravel",
+    "databases"
+  ]
+}

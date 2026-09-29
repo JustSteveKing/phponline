@@ -1,0 +1,14 @@
+{
+  "id": "laravel-news-podcast/jack-reads-the-news",
+  "title": "Jack reads the news",
+  "link": "https://podcast.laravel-news.com/18?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2016-05-31T19:00:00.000Z",
+  "content": "LN18: Jack reads the Laravel related news this week.",
+  "coverImage": "https://img.transistorcdn.com/5VXAy9ZTSZBSBfBEfr_LzaxdOEUx6pmtLns-prdbVr0/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9lcGlz/b2RlLzE2NDIwNi8x/NTc2MzQwNjc4LWFy/dHdvcmsuanBn.jpg",
+  "podcast": "Laravel News Podcast",
+  "audioUrl": "https://media.transistor.fm/f8ea17c1/f640004f.mp3",
+  "duration": "646",
+  "episode": "18",
+  "season": "",
+  "creatorId": "laravel-news"
+}

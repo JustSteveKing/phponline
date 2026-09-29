@@ -1,0 +1,13 @@
+{
+  "id": "christoph-rumpel/2024-9-all-laravel-php-attributes-at-your-disposal",
+  "title": "All Laravel PHP Attributes at Your Disposal",
+  "link": "https://christoph-rumpel.com/2024/9/all-laravel-php-attributes-at-your-disposal?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2024-09-16T20:04:28.000Z",
+  "content": "<html><head></head><body>PHP attributes are a great way to add metadata to your classes, methods, and properties. Laravel provides a bunch of them out of the box, you can use in your applications.\n            </body></html>",
+  "source": "christoph-rumpel",
+  "author": "Christoph Rumpel Blog Feed",
+  "creatorId": "christoph-rumpel",
+  "tags": [
+    "laravel"
+  ]
+}

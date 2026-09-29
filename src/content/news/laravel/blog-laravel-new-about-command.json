@@ -1,0 +1,13 @@
+{
+  "id": "laravel/blog-laravel-new-about-command",
+  "title": "Laravel: New \"about\" Command",
+  "link": "https://laravel.com/blog/laravel-new-about-command?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2022-07-19T13:02:00.000Z",
+  "content": "<html><head></head><body>Following on from the recently introduced fresh new look for Artisan, we took some time to identify new Artisan commands to further improve the Laravel experience.\n\nAnother newly introduced command is \"about\". This command displays information about your application's environment.</body></html>",
+  "source": "laravel",
+  "author": "James Brooks",
+  "creatorId": "laravel",
+  "tags": [
+    "laravel"
+  ]
+}

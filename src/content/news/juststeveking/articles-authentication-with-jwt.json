@@ -1,0 +1,14 @@
+{
+  "id": "juststeveking/articles-authentication-with-jwt",
+  "title": "Building Modern Laravel APIs: Authentication with JWT",
+  "link": "https://www.juststeveking.com/articles/authentication-with-jwt/?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-04-11T00:00:00.000Z",
+  "content": "<html><head></head><body>Add JWT auth to a Laravel API with register, login, refresh, and logout flows using Form Request DTOs, Action classes, and auth:api middleware.</body></html>",
+  "source": "juststeveking",
+  "author": "Steve McDougall — Articles",
+  "creatorId": "juststeveking",
+  "tags": [
+    "laravel",
+    "security"
+  ]
+}

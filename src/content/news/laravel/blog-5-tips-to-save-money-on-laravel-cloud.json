@@ -1,0 +1,14 @@
+{
+  "id": "laravel/blog-5-tips-to-save-money-on-laravel-cloud",
+  "title": "5 Tips to Save Money on Laravel Cloud",
+  "link": "https://laravel.com/blog/5-tips-to-save-money-on-laravel-cloud?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-06-05T15:30:22.000Z",
+  "content": "<html><head></head><body>Five ways to reduce your Laravel Cloud bill: enable scale to zero, set a spending cap, use the usage page, switch to managed queues, and share resources.</body></html>",
+  "source": "laravel",
+  "author": "Laravel Team",
+  "creatorId": "laravel",
+  "tags": [
+    "laravel",
+    "devops"
+  ]
+}

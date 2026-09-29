@@ -1,0 +1,16 @@
+{
+  "id": "php/id2025-10-31-1",
+  "title": "betterCode PHP 2025",
+  "link": "https://www.php.net/conferences/index.php?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev#id2025-10-31-1",
+  "pubDate": "2025-10-31T12:00:00.000Z",
+  "content": "<html><head></head><body><div type=\"xhtml\"><div xmlns=\"http://www.w3.org/1999/xhtml\"><p>With version 8.5, PHP continues to evolve in its thirtieth year: the new pipe operator and numerous performance improvements make your development more efficient. At the same time, FrankenPHP is establishing itself in Caddy Server, a European open-source solution, as a modern alternative to Nginx.</p><p>betterCode() PHP supports you in using PHP 8.5, switching to FrankenPHP and the Caddy Server. Artificial intelligence is also part of the software development toolkit today: if you want to use it effectively, you need clear architectures, clean code, and solid patterns.</p><p> is an online conference lasting one day, with most of the presentations delivered in German.<a href=\"https://php.bettercode.eu/\">betterCode() PHP 2025</a></p></div></div></body></html>",
+  "source": "php",
+  "author": "PHP.net news & announcements",
+  "creatorId": "php-net",
+  "tags": [
+    "performance",
+    "php8",
+    "architecture",
+    "devops"
+  ]
+}

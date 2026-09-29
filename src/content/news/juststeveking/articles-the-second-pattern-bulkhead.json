@@ -1,0 +1,11 @@
+{
+  "id": "juststeveking/articles-the-second-pattern-bulkhead",
+  "title": "The Second Pattern: Bulkhead",
+  "link": "https://www.juststeveking.com/articles/the-second-pattern-bulkhead/?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-09-01T00:00:00.000Z",
+  "content": "<html><head></head><body>Carrier B did not go down, it got slow, and every worker sat inside an eleven second call that returned a valid 200. Circuit breakers ask the wrong question about that.</body></html>",
+  "source": "juststeveking",
+  "author": "Steve McDougall — Articles",
+  "creatorId": "juststeveking",
+  "tags": []
+}

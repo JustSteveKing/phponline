@@ -1,0 +1,11 @@
+{
+  "id": "christoph-rumpel/2015-5-clean-up-your-commits-for-a-pull-request",
+  "title": "Clean up your commits for a pull request",
+  "link": "https://christoph-rumpel.com/2015/5/clean-up-your-commits-for-a-pull-request?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2015-05-06T20:04:28.000Z",
+  "content": "<html><head></head><body>When you contribute to an Open Source project through a pull request, the maintainer often wants you to clean up your commits. I will show you what that means and why git rebase is your command of choice here.\n            </body></html>",
+  "source": "christoph-rumpel",
+  "author": "Christoph Rumpel Blog Feed",
+  "creatorId": "christoph-rumpel",
+  "tags": []
+}

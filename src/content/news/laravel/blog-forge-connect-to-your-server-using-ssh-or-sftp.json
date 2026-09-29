@@ -1,0 +1,14 @@
+{
+  "id": "laravel/blog-forge-connect-to-your-server-using-ssh-or-sftp",
+  "title": "Connect to your Forge server using SSH or SFTP",
+  "link": "https://laravel.com/blog/forge-connect-to-your-server-using-ssh-or-sftp?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2019-02-07T18:27:00.000Z",
+  "content": "<html><head></head><body>Using Laravel Forge you can easily configure push-to-deploy to your sites, you can also manually deploy from the dashboard. However, sometimes you wish to access your sites' files directly using SSH o...</body></html>",
+  "source": "laravel",
+  "author": "Mohamed Said",
+  "creatorId": "laravel",
+  "tags": [
+    "laravel",
+    "devops"
+  ]
+}

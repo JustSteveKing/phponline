@@ -1,0 +1,14 @@
+{
+  "id": "laravel/blog-forge-phpmyadmin-one-click-install",
+  "title": "Forge: phpMyAdmin One Click Install",
+  "link": "https://laravel.com/blog/forge-phpmyadmin-one-click-install?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2020-08-12T15:42:00.000Z",
+  "content": "<html><head></head><body>Beginning today, phpMyAdmin is now available as a \"one click\" installation option on Laravel Forge!\n\n![](https://laravel-blog-assets.s3.amazonaws.com/keKwe2lWseOUZozsiyEcow7fe1eBKAR0XPUVSwfk.png)When...</body></html>",
+  "source": "laravel",
+  "author": "Taylor Otwell",
+  "creatorId": "laravel",
+  "tags": [
+    "laravel",
+    "devops"
+  ]
+}

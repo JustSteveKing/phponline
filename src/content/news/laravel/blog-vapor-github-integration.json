@@ -1,0 +1,11 @@
+{
+  "id": "laravel/blog-vapor-github-integration",
+  "title": "Vapor: GitHub Integration + Scaffolding",
+  "link": "https://laravel.com/blog/vapor-github-integration?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2022-06-13T13:15:00.000Z",
+  "content": "<html><head></head><body>Today, we are excited to announce that you may create Vapor projects by simply connecting your GitHub account and letting Vapor do the rest! Need more details? Here's what we mean. Starting today, Vapor can create a new GitHub repository, deploy the new application to Vapor, and configure GitHub actions to deploy to Vapor each time you push fresh code to your new application.</body></html>",
+  "source": "laravel",
+  "author": "Nuno Maduro",
+  "creatorId": "laravel",
+  "tags": []
+}

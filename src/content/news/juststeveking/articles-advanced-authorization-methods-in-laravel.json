@@ -1,0 +1,14 @@
+{
+  "id": "juststeveking/articles-advanced-authorization-methods-in-laravel",
+  "title": "Advanced Authorization methods in Laravel",
+  "link": "https://www.juststeveking.com/articles/advanced-authorization-methods-in-laravel/?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2025-02-13T00:00:00.000Z",
+  "content": "<html><head></head><body>Unravel Laravels authorization built-in Gates, Policies &amp; advanced ReBAC, ABAC, PBAC methods for secure, scalable app access control.</body></html>",
+  "source": "juststeveking",
+  "author": "Steve McDougall — Articles",
+  "creatorId": "juststeveking",
+  "tags": [
+    "laravel",
+    "security"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "laravel/blog-laravel-february-product-updates",
+  "title": "Laravel February Product Updates",
+  "link": "https://laravel.com/blog/laravel-february-product-updates?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-03-02T16:19:42.000Z",
+  "content": "<html><head></head><body>Laravel Cloud API &amp; CLI, MySQL 8.4 upgrade notice, Forge MySQL 9, Nightwatch MCP &amp; Linear integration, and new Framework AI updates.</body></html>",
+  "source": "laravel",
+  "author": "Laravel Team",
+  "creatorId": "laravel",
+  "tags": [
+    "laravel",
+    "databases",
+    "devops"
+  ]
+}

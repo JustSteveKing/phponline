@@ -1,0 +1,14 @@
+{
+  "id": "php/id2021-09-23-2",
+  "title": "PHP 8.0.11 Released!",
+  "link": "https://www.php.net/index.php?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev#id2021-09-23-2",
+  "pubDate": "2021-09-23T14:41:58.000Z",
+  "content": "<html><head></head><body><div type=\"xhtml\"><div xmlns=\"http://www.w3.org/1999/xhtml\"><p>The PHP development team announces the immediate availability of PHP 8.0.11. This is a security release fixing CVE-2021-21706.</p><p>All PHP 8.0 users are encouraged to upgrade to this version.</p><p>For source downloads of PHP 8.0.11 please visit our ,\nWindows source and binaries can be found on .\nThe list of changes is recorded in the .\n<a href=\"https://www.php.net/downloads.php\">downloads page</a><a href=\"https://windows.php.net/download/\">windows.php.net/download/</a><a href=\"https://www.php.net/ChangeLog-8.php#8.0.11\">ChangeLog</a></p></div></div></body></html>",
+  "source": "php",
+  "author": "PHP.net news & announcements",
+  "creatorId": "php-net",
+  "tags": [
+    "security",
+    "php8"
+  ]
+}

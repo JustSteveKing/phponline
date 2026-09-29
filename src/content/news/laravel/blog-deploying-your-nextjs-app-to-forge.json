@@ -1,0 +1,13 @@
+{
+  "id": "laravel/blog-deploying-your-nextjs-app-to-forge",
+  "title": "Deploying your Next.js App To Forge",
+  "link": "https://laravel.com/blog/deploying-your-nextjs-app-to-forge?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2021-06-24T14:00:00.000Z",
+  "content": "<html><head></head><body>Next.js is a React framework developed by [Vercel](https://vercel.com). It includes functionality such as server-side rendering and static site generation. Today we’ll explain how you can deploy your...</body></html>",
+  "source": "laravel",
+  "author": "James Brooks",
+  "creatorId": "laravel",
+  "tags": [
+    "devops"
+  ]
+}

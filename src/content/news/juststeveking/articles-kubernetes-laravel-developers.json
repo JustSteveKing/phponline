@@ -1,0 +1,14 @@
+{
+  "id": "juststeveking/articles-kubernetes-laravel-developers",
+  "title": "Kubernetes for Laravel developers",
+  "link": "https://www.juststeveking.com/articles/kubernetes-laravel-developers/?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-01-19T00:00:00.000Z",
+  "content": "<html><head></head><body>Learn how Laravel developers can leverage Kubernetes for scalable and efficient application deployment.</body></html>",
+  "source": "juststeveking",
+  "author": "Steve McDougall — Articles",
+  "creatorId": "juststeveking",
+  "tags": [
+    "laravel",
+    "devops"
+  ]
+}

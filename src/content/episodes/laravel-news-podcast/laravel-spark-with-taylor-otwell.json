@@ -1,0 +1,14 @@
+{
+  "id": "laravel-news-podcast/laravel-spark-with-taylor-otwell",
+  "title": "Laravel Spark with Taylor Otwell",
+  "link": "https://podcast.laravel-news.com/14?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2016-04-19T06:00:00.000Z",
+  "content": "LN14: Laravel Spark is here and Taylor Otwell is here to talk about it!!!",
+  "coverImage": "https://img.transistorcdn.com/Cu84prRtQzImHzNS16UxsfaSI3p-kFdhQ6AleLDyw6w/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9lcGlz/b2RlLzE2NDIwMi8x/NTc2MzQwNjYxLWFy/dHdvcmsuanBn.jpg",
+  "podcast": "Laravel News Podcast",
+  "audioUrl": "https://media.transistor.fm/378f8a37/ba7dae10.mp3",
+  "duration": "2491",
+  "episode": "14",
+  "season": "",
+  "creatorId": "laravel-news"
+}

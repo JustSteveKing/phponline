@@ -1,0 +1,14 @@
+{
+  "id": "juststeveking/articles-api-first-laravel-projects",
+  "title": "API-First Laravel Projects",
+  "link": "https://www.juststeveking.com/articles/api-first-laravel-projects/?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2025-11-18T00:00:00.000Z",
+  "content": "<html><head></head><body>Beginner-friendly, API-first Laravel path: 10 progressive projects covering resources, auth, search, multi-tenancy, webhooks, rate limits, and GraphQL.</body></html>",
+  "source": "juststeveking",
+  "author": "Steve McDougall — Articles",
+  "creatorId": "juststeveking",
+  "tags": [
+    "laravel",
+    "security"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "laravel/blog-your-ai-agent-can-now-deploy-to-laravel-cloud",
+  "title": "Your AI Agent Can Now Deploy to Laravel Cloud",
+  "link": "https://laravel.com/blog/your-ai-agent-can-now-deploy-to-laravel-cloud?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-02-23T16:18:57.000Z",
+  "content": "<html><head></head><body>Laravel Cloud's API lets AI agents deploy, scale, and manage infrastructure through conversation. See how Florian built a working OpenClaw skill in a few hours.</body></html>",
+  "source": "laravel",
+  "author": "Laravel Team",
+  "creatorId": "laravel",
+  "tags": [
+    "laravel",
+    "devops"
+  ]
+}

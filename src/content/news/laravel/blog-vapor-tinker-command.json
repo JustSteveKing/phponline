@@ -1,0 +1,13 @@
+{
+  "id": "laravel/blog-vapor-tinker-command",
+  "title": "Vapor Tinker Command",
+  "link": "https://laravel.com/blog/vapor-tinker-command?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2020-06-09T15:23:00.000Z",
+  "content": "<html><head></head><body>Today we released version v1.7.0 of `laravel/vapor-cli`. This release includes a new `tinker` command. Using the new command, you can execute code on Vapor using Laravel Tinker.</body></html>",
+  "source": "laravel",
+  "author": "Mohamed Said",
+  "creatorId": "laravel",
+  "tags": [
+    "laravel"
+  ]
+}

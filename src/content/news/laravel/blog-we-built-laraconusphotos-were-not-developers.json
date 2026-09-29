@@ -1,0 +1,14 @@
+{
+  "id": "laravel/blog-we-built-laraconusphotos-were-not-developers",
+  "title": "We built laracon.us/photos. We’re not developers.",
+  "link": "https://laravel.com/blog/we-built-laraconusphotos-were-not-developers?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-08-17T13:50:00.000Z",
+  "content": "<html><head></head><body>We had hundreds of Laracon photos and no good way to share them. So two field marketers built laracon.us/photos with Claude, Laravel, and Laravel Cloud.</body></html>",
+  "source": "laravel",
+  "author": "Sam",
+  "creatorId": "laravel",
+  "tags": [
+    "laravel",
+    "devops"
+  ]
+}

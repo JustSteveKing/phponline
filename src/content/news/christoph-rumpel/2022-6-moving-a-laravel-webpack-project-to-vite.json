@@ -1,0 +1,13 @@
+{
+  "id": "christoph-rumpel/2022-6-moving-a-laravel-webpack-project-to-vite",
+  "title": "Moving A Laravel Webpack Project To Vite",
+  "link": "https://christoph-rumpel.com/2022/6/moving-a-laravel-webpack-project-to-vite?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2022-06-29T20:04:28.000Z",
+  "content": "<html><head></head><body>Vite is the new front-end tooling for Laravel. Let's see how we can move a given Laravel project to Vite together.\n            </body></html>",
+  "source": "christoph-rumpel",
+  "author": "Christoph Rumpel Blog Feed",
+  "creatorId": "christoph-rumpel",
+  "tags": [
+    "laravel"
+  ]
+}

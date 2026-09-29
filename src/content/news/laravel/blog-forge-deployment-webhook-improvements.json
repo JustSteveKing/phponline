@@ -1,0 +1,14 @@
+{
+  "id": "laravel/blog-forge-deployment-webhook-improvements",
+  "title": "Forge: Deployment Webhook Improvements",
+  "link": "https://laravel.com/blog/forge-deployment-webhook-improvements?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2023-05-02T06:19:00.000Z",
+  "content": "<html><head></head><body>Laravel Forge's \"quick deploy\" feature gives your team a seamless push-to-deploy experience. Whenever new code is pushed to your deployed branch, Forge will kick off a new deployment. This ensures tha...</body></html>",
+  "source": "laravel",
+  "author": "Tim MacDonald",
+  "creatorId": "laravel",
+  "tags": [
+    "laravel",
+    "devops"
+  ]
+}

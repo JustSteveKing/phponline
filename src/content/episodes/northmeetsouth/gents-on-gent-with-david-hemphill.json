@@ -1,0 +1,14 @@
+{
+  "id": "northmeetsouth/gents-on-gent-with-david-hemphill",
+  "title": "Gents on Gent with David Hemphill",
+  "link": "https://share.transistor.fm/s/320d0c83?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-04-23T13:58:00.000Z",
+  "content": "\n        <p>Michael and Jake are joined by David Hemphill to discuss David's macOS app Gent, a task runner built on the \"Ralph loop\" pattern for AI-powered coding workflows.</p><p>The conversation covers how Gent takes a project requirements document (PRD), breaks it into small tasks that fit within a single context window, and runs them sequentially or in parallel using copy-on-write clones and Git worktrees.</p><p>We discuss our own evolving workflows with Claude Code, including plan mode, the \"Grill Me\" skill for stress-testing plans, managing context windows, and the /rewind command.</p><p><strong>Show Links</strong></p><ul><li><a href=\"https://x.com/davidhemphill\">David Hemphill</a></li><li><a href=\"https://usegent.com/\">Gent</a></li><li><a href=\"https://ghuntley.com/loop/\">Ralph loop</a></li><li><a href=\"https://www.conductor.build/\">Conductor</a></li><li><a href=\"https://getpolyscope.com/\">Polyscope</a></li><li><a href=\"https://www.geocod.io/code-and-coordinates/2026-02-18-introducing-chief/\">Chief</a></li><li><a href=\"https://github.com/mattpocock/skills/blob/main/grill-me/SKILL.md\">\"Grill Me\" skill</a></li><li><a href=\"https://www.youtube.com/mattpocockuk\">Matt Pocock / AI Hero</a></li><li><a href=\"https://soloterm.com/\">Solo</a></li><li><a href=\"https://www.ivanturkovic.com/2026/01/22/history-software-simplification-cobol-ai-hype/\">The Eternal Promise: A History of Attempts to Eliminate Programmers</a></li><li><a href=\"https://laracon.us\">Laracon</a></li></ul>\n      ",
+  "coverImage": "https://img.transistorcdn.com/gTGjKd44Qy-t3yz9_V60jp8N2Qe5KN4QwfB-5FNuQPM/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9zaG93/LzQ4ODMvMTU3Mjc3/NzAzNi1hcnR3b3Jr/LmpwZw.jpg",
+  "podcast": "NorthMeetSouth",
+  "audioUrl": "https://media.transistor.fm/320d0c83/232a37f0.mp3",
+  "duration": "3635",
+  "episode": "191",
+  "season": "",
+  "creatorId": "northmeetsouth"
+}

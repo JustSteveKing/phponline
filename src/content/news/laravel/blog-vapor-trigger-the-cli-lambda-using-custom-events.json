@@ -1,0 +1,14 @@
+{
+  "id": "laravel/blog-vapor-trigger-the-cli-lambda-using-custom-events",
+  "title": "Vapor: Custom Lambda Events",
+  "link": "https://laravel.com/blog/vapor-trigger-the-cli-lambda-using-custom-events?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2020-02-26T15:23:00.000Z",
+  "content": "<html><head></head><body>Today we released `laravel/vapor-core` version `v2.5.1` with the ability to handle custom Lambda events. To get started, implement a `vapor:handle` artisan command in your application with the followi...</body></html>",
+  "source": "laravel",
+  "author": "Mohamed Said",
+  "creatorId": "laravel",
+  "tags": [
+    "laravel",
+    "internals"
+  ]
+}

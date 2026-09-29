@@ -1,0 +1,13 @@
+{
+  "id": "laravel/blog-introducing-laravel-mcp-build-with-the-universal-ai-standard",
+  "title": "Introducing Laravel MCP: Build with the Universal AI Standard",
+  "link": "https://laravel.com/blog/introducing-laravel-mcp-build-with-the-universal-ai-standard?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2025-09-18T14:45:00.000Z",
+  "content": "<html><head></head><body>The Laravel MCP library enables you to build Model Context Protocols with ease, so your apps can meet users where they are and where they’ll be: AI chats.</body></html>",
+  "source": "laravel",
+  "author": "Ashley Hindle",
+  "creatorId": "laravel",
+  "tags": [
+    "laravel"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "laravel/blog-finding-402-errors-within-hours-of-installing-laravel-nightwatch",
+  "title": "Finding 402 Errors Within Hours of Installing Laravel Nightwatch",
+  "link": "https://laravel.com/blog/finding-402-errors-within-hours-of-installing-laravel-nightwatch?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2025-07-22T14:38:00.000Z",
+  "content": "<html><head></head><body>Dev shop Tighten used Laravel Nightwatch to uncover 402 errors, slow routes, and user issues within hours of installation.</body></html>",
+  "source": "laravel",
+  "author": "Ana Tavares",
+  "creatorId": "laravel",
+  "tags": [
+    "laravel"
+  ]
+}

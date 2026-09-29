@@ -1,0 +1,14 @@
+{
+  "id": "laravel-news-podcast/releases-live-events-and-eloquent-eloquent",
+  "title": "Releases, live events, and eloquent eloquent",
+  "link": "https://podcast.laravel-news.com/61?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2018-04-17T14:00:00.000Z",
+  "content": "Jake and Michael discuss all the latest Laravel releases, tutorials, and happenings in the community.",
+  "coverImage": "https://img.transistorcdn.com/GY5ekKsq-yuBUoMhu_7jkKNxR2WRpFh1J53OaONrdD8/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9lcGlz/b2RlLzE2NDI0OS8x/NTc2MzQwODY0LWFy/dHdvcmsuanBn.jpg",
+  "podcast": "Laravel News Podcast",
+  "audioUrl": "https://media.transistor.fm/0590a010/e0ab355a.mp3",
+  "duration": "2288",
+  "episode": "61",
+  "season": "",
+  "creatorId": "laravel-news"
+}

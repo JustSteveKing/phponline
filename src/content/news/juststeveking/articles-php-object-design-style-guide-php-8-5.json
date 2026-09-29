@@ -1,0 +1,13 @@
+{
+  "id": "juststeveking/articles-php-object-design-style-guide-php-8-5",
+  "title": "The Object Design Style Guide for PHP 8.5 - Discipline without friction",
+  "link": "https://www.juststeveking.com/articles/php-object-design-style-guide-php-8-5/?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-02-16T00:00:00.000Z",
+  "content": "<html><head></head><body>How PHP 8.5 absorbs Noback's Object Design Style Guide patterns directly into syntax, eliminating ceremony.</body></html>",
+  "source": "juststeveking",
+  "author": "Steve McDougall — Articles",
+  "creatorId": "juststeveking",
+  "tags": [
+    "php8"
+  ]
+}

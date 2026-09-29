@@ -1,0 +1,14 @@
+{
+  "id": "christoph-rumpel/2017-1-Browser-Tests-with-Laravel-Dusk",
+  "title": "Browser tests with Laravel Dusk",
+  "link": "https://christoph-rumpel.com/2017/1/Browser-Tests-with-Laravel-Dusk?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2017-01-17T20:04:28.000Z",
+  "content": "<html><head></head><body>With Laravel 5.4 there will be also a new testing tool available called Dusk. Do we really need another testing tool? Yes we do! Let’s see why.\n            </body></html>",
+  "source": "christoph-rumpel",
+  "author": "Christoph Rumpel Blog Feed",
+  "creatorId": "christoph-rumpel",
+  "tags": [
+    "laravel",
+    "testing"
+  ]
+}

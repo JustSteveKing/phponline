@@ -1,0 +1,13 @@
+{
+  "id": "juststeveking/articles-laravel-model-factories",
+  "title": "Using Laravel Model Factories in your tests",
+  "link": "https://www.juststeveking.com/articles/laravel-model-factories/?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2022-07-28T00:00:00.000Z",
+  "content": "<html><head></head><body>Master the use of Laravel Model Factories for predictable test data. Learn how to define and modify states for various scenarios in your app.</body></html>",
+  "source": "juststeveking",
+  "author": "Steve McDougall — Articles",
+  "creatorId": "juststeveking",
+  "tags": [
+    "laravel"
+  ]
+}

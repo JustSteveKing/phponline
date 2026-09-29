@@ -1,0 +1,14 @@
+{
+  "id": "laravel/blog-security-laravel-712-released",
+  "title": "Security: Laravel 7.1.2 Released",
+  "link": "https://laravel.com/blog/security-laravel-712-released?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2020-03-13T13:55:00.000Z",
+  "content": "<html><head></head><body>Today we released Laravel 7.1.2 to address a possible XSS related attack vector in the Laravel 7.x Blade Component tag attributes when users are allowed to dictate the value of attributes. All Laravel...</body></html>",
+  "source": "laravel",
+  "author": "Taylor Otwell",
+  "creatorId": "laravel",
+  "tags": [
+    "laravel",
+    "security"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "laravel/blog-unique-rule-sql-injection-warning",
+  "title": "Unique Rule SQL Injection Warning",
+  "link": "https://laravel.com/blog/unique-rule-sql-injection-warning?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2019-03-19T14:23:00.000Z",
+  "content": "<html><head></head><body>Yesterday I received an email from a security researcher pointing out the possibility of SQL injection when user controlled input is passed as the...</body></html>",
+  "source": "laravel",
+  "author": "Taylor Otwell",
+  "creatorId": "laravel",
+  "tags": [
+    "security",
+    "databases"
+  ]
+}

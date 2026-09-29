@@ -1,0 +1,14 @@
+{
+  "id": "laravel-news-podcast/volted-breeze-tomatoes-and-splades",
+  "title": "Volted Breeze, tomatoes, and splades",
+  "link": "https://podcast.laravel-news.com/202?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2023-10-18T14:00:00.000Z",
+  "content": "\n        <p>Jake and Michael discuss all the latest Laravel releases, tutorials, and happenings in the community.</p><p></p><ul><li>(02:52) - Laravel 10.26 released</li>\n<li>(07:06) - Laravel Breeze with Volt functional API</li>\n<li>(08:42) - Bolt SQL - Fast and beautiful database client</li>\n<li>(15:45) - Run Pest tests in VS Code with Better PHPUnit</li>\n<li>(16:48) - Configure and display a schedule of opening hours in PHP</li>\n<li>(19:26) - PHP desktop and mobile user agent parser</li>\n<li>(21:31) - Tomato PHP</li>\n<li>(23:42) - LangCountry is a localization package for Laravel</li>\n<li>(29:07) - Write Single Page Applications using Laravel Splade</li>\n<li>(33:12) - Leveraging component caching with computed properties in Laravel Livewire</li>\n<li>(33:53) - How to add a confirmation dialog with Livewire</li>\n<li>(34:12) - How to remove all extra spaces in a string with Laravel</li>\n<li>(35:50) - Building a sitemap in your Laravel app with the Spatie Sitemap</li>\n</ul>\n      ",
+  "coverImage": "https://img.transistorcdn.com/qmJ1PPS58Dv5ZdzfP2OsERDEhhL_6EPX8Tjmyurk5f0/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9zaG93/LzY0MDUvMTY5NDc4/NzE0OS1hcnR3b3Jr/LmpwZw.jpg",
+  "podcast": "Laravel News Podcast",
+  "audioUrl": "https://media.transistor.fm/001c088a/fea09019.mp3",
+  "duration": "2239",
+  "episode": "202",
+  "season": "",
+  "creatorId": "laravel-news"
+}

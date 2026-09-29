@@ -1,0 +1,11 @@
+{
+  "id": "laravel/blog-vapor-serving-assets-from-root-domain",
+  "title": "Vapor: Serving Assets From The Root Domain",
+  "link": "https://laravel.com/blog/vapor-serving-assets-from-root-domain?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2020-09-23T11:52:00.000Z",
+  "content": "<html><head></head><body>Starting today, you can now serve assets from the root domain. To get started, just head over to your application's `config/vapor.php` file, and add an array of assets that should be served</body></html>",
+  "source": "laravel",
+  "author": "Nuno Maduro",
+  "creatorId": "laravel",
+  "tags": []
+}

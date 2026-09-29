@@ -1,0 +1,13 @@
+{
+  "id": "christoph-rumpel/2018-3-content-security-policy-hash-algorithm-and-turbolinks",
+  "title": "Content Security Policy, Hash-Algorithm and Turbolinks",
+  "link": "https://christoph-rumpel.com/2018/3/content-security-policy-hash-algorithm-and-turbolinks?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2018-03-18T20:04:28.000Z",
+  "content": "<html><head></head><body>Due to the integration of CSP to my site, I had to turn off Turbolinks. It just wasn't working together; until now!\n            </body></html>",
+  "source": "christoph-rumpel",
+  "author": "Christoph Rumpel Blog Feed",
+  "creatorId": "christoph-rumpel",
+  "tags": [
+    "security"
+  ]
+}

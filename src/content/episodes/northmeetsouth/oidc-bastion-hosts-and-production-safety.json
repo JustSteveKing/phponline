@@ -1,0 +1,14 @@
+{
+  "id": "northmeetsouth/oidc-bastion-hosts-and-production-safety",
+  "title": "OIDC, bastion hosts, and production safety",
+  "link": "https://share.transistor.fm/s/f6e205ec?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-03-19T14:00:00.000Z",
+  "content": "\n        <p>In this episode, Jake and Michael dive into modern infrastructure security practices, sparked by an annual audit and the painful process of rotating AWS IAM tokens. That experience leads into a broader discussion on why long-lived credentials in GitHub Actions are risky, and how OIDC (OpenID Connect) enables a more secure, short-lived, role-based alternative.</p><p><strong>Show links</strong></p><ul><li><a href=\"https://github.com/nccgroup/ScoutSuite\">Scout Suite</a></li><li><a href=\"https://docs.github.com/en/actions/how-tos/secure-your-work/security-harden-deployments/oidc-in-aws\">OpenID Connect (OIDC)</a></li><li><a href=\"https://forge.laravel.com\">Laravel Forge</a></li><li><a href=\"https://laravel.com/docs/horizon\">Laravel Horizon</a></li><li><a href=\"https://scramble.dedoc.co/\">Scramble</a></li><li><a href=\"https://claude.ai\">Claude</a></li><li><a href=\"https://www.ibm.com/think/topics/lora#:~:text=Low%2Drank%20adaptation%20(LoRA)%20is%20a%20machine%20learning,low%2Drank%20matrices%20through%20gradient%20descent%20during%20fine%2Dtuning\">LoRA (Low-Rank Adaptation)</a></li></ul>\n      ",
+  "coverImage": "https://img.transistorcdn.com/gTGjKd44Qy-t3yz9_V60jp8N2Qe5KN4QwfB-5FNuQPM/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9zaG93/LzQ4ODMvMTU3Mjc3/NzAzNi1hcnR3b3Jr/LmpwZw.jpg",
+  "podcast": "NorthMeetSouth",
+  "audioUrl": "https://media.transistor.fm/f6e205ec/9eb5acfd.mp3",
+  "duration": "2291",
+  "episode": "189",
+  "season": "",
+  "creatorId": "northmeetsouth"
+}

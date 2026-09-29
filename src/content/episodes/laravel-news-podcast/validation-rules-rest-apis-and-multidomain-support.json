@@ -1,0 +1,14 @@
+{
+  "id": "laravel-news-podcast/validation-rules-rest-apis-and-multidomain-support",
+  "title": "Validation rules, REST APIs, and multidomain support",
+  "link": "https://podcast.laravel-news.com/106?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2019-11-12T15:00:00.000Z",
+  "content": "Jake and Michael discuss all the latest Laravel releases, tutorials, and happenings in the community.",
+  "coverImage": "https://img.transistorcdn.com/Nx0bgb_pKUCw78oiz2ogmBvw5ju7ygg_nA5mgKzRy9A/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9lcGlz/b2RlLzE2NDI5NC8x/NTc2MzQxMDU2LWFy/dHdvcmsuanBn.jpg",
+  "podcast": "Laravel News Podcast",
+  "audioUrl": "https://media.transistor.fm/cad54237/e12939dc.mp3",
+  "duration": "2087",
+  "episode": "106",
+  "season": "",
+  "creatorId": "laravel-news"
+}

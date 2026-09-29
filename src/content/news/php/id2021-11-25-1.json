@@ -1,0 +1,14 @@
+{
+  "id": "php/id2021-11-25-1",
+  "title": "PHP 8.1.0 Released!",
+  "link": "https://www.php.net/index.php?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev#id2021-11-25-1",
+  "pubDate": "2021-11-25T16:43:08.000Z",
+  "content": "<html><head></head><body><div type=\"xhtml\"><div xmlns=\"http://www.w3.org/1999/xhtml\"><p>The PHP development team announces the immediate availability of PHP 8.1.0. This release marks the latest minor release of the PHP language.</p><p>PHP 8.1 comes with numerous improvements and new features such as:</p><p>Take a look at the  for more information.<a href=\"https://www.php.net/releases/8.1/\">PHP 8.1 Announcement Addendum</a></p><p>For source downloads of PHP 8.1.0 please visit our ,\nWindows source and binaries can be found on .\nThe list of changes is recorded in the .\n<a href=\"https://www.php.net/downloads.php\">downloads page</a><a href=\"https://windows.php.net/download/\">windows.php.net/download/</a><a href=\"https://www.php.net/ChangeLog-8.php#8.1.0\">ChangeLog</a></p><p>The  is available in the PHP Manual.\nPlease consult it for the detailed list of new features and backward incompatible changes.<a href=\"http://php.net/manual/en/migration81.php\">migration guide</a></p><p>Many thanks to all the contributors and supporters!</p><ul><li><a href=\"https://www.php.net/manual/en/language.enumerations.php\">Enumerations</a></li><li><a href=\"https://wiki.php.net/rfc/readonly_properties_v2\">Readonly properties</a></li><li><a href=\"https://wiki.php.net/rfc/fibers\">Fibers</a></li><li><a href=\"https://wiki.php.net/rfc/pure-intersection-types\">Pure Intersection Types</a></li><li> return type<a href=\"https://www.php.net/manual/en/migration81.new-features.php#migration81.new-features.core.never-type\">never</a></li><li><a href=\"https://www.php.net/manual/en/migration81.new-features.php#migration81.new-features.core.callable-syntax\">First-class Callable Syntax</a></li><li>\"final\" modifier for class constants</li><li>New  and  functions<a href=\"https://www.php.net/manual/en/function.fsync.php\">fsync</a><a href=\"https://www.php.net/manual/en/function.fdatasync.php\">fdatasync</a></li><li>New  function<a href=\"https://www.php.net/manual/en/function.array-is-list.php\">array_is_list</a></li><li>Explicit <a href=\"https://www.php.net/manual/en/migration81.new-features.php#migration81.new-features.core.octal-literal-prefix\">Octal numeral notation</a></li><li>And much much more...</li></ul></div></div></body></html>",
+  "source": "php",
+  "author": "PHP.net news & announcements",
+  "creatorId": "php-net",
+  "tags": [
+    "php8",
+    "internals"
+  ]
+}

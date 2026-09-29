@@ -1,0 +1,14 @@
+{
+  "id": "laravel/blog-laravel-cookie-security-releases",
+  "title": "Laravel Cookie Security Releases",
+  "link": "https://laravel.com/blog/laravel-cookie-security-releases?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2020-07-27T19:09:00.000Z",
+  "content": "<html><head></head><body>Today we released several fixes to address a security vulnerability in the framework that we were notified of during the weekend.\n\nApplication's using the \"cookie\" session driver were the primary appl...</body></html>",
+  "source": "laravel",
+  "author": "Taylor Otwell",
+  "creatorId": "laravel",
+  "tags": [
+    "laravel",
+    "security"
+  ]
+}

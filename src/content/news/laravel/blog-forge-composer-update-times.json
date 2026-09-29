@@ -1,0 +1,13 @@
+{
+  "id": "laravel/blog-forge-composer-update-times",
+  "title": "Forge: Composer Update Times",
+  "link": "https://laravel.com/blog/forge-composer-update-times?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2020-05-05T14:23:00.000Z",
+  "content": "<html><head></head><body>At the beginning of April, we deployed a change to all new and existing Forge servers to randomize the `composer self-update` cron task.\n\nPreviously, all Forge servers would attempt to update Composer...</body></html>",
+  "source": "laravel",
+  "author": "James Brooks",
+  "creatorId": "laravel",
+  "tags": [
+    "devops"
+  ]
+}

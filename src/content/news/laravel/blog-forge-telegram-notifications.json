@@ -1,0 +1,13 @@
+{
+  "id": "laravel/blog-forge-telegram-notifications",
+  "title": "Forge: Telegram Notifications",
+  "link": "https://laravel.com/blog/forge-telegram-notifications?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2020-05-06T19:32:00.000Z",
+  "content": "<html><head></head><body>Forge can now send deployment notifications to your [Telegram](https://telegram.com) group chat.\n\nYou can configure Telegram within the Notifications tab of your site. Check the documentation [here](&lt;...</body></html>",
+  "source": "laravel",
+  "author": "James Brooks",
+  "creatorId": "laravel",
+  "tags": [
+    "devops"
+  ]
+}

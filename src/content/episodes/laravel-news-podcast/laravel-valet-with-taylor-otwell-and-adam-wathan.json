@@ -1,0 +1,14 @@
+{
+  "id": "laravel-news-podcast/laravel-valet-with-taylor-otwell-and-adam-wathan",
+  "title": "Laravel Valet with Taylor Otwell and Adam Wathan",
+  "link": "https://podcast.laravel-news.com/16?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2016-05-07T15:30:00.000Z",
+  "content": "LN16: Laravel Valet is a new high-speed development environment by Taylor Otwell and Adam Wathan.\n\nIn this special edition episode of the Laravel News Podcast Eric and Jack are Joined by Taylor and Adam as they discuss everything about Valet, how it came to be and the amazingly short time from idea to completed product. They talk about the internals, how it works, how external sharing works, the driver architecture and more.",
+  "coverImage": "https://img.transistorcdn.com/J-Vfrewh_tFI7l1svafjpTR7RcZzadzJlHN9QD1ld6E/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9lcGlz/b2RlLzE2NDIwNC8x/NTc2MzQwNjY5LWFy/dHdvcmsuanBn.jpg",
+  "podcast": "Laravel News Podcast",
+  "audioUrl": "https://media.transistor.fm/908728ec/f466f130.mp3",
+  "duration": "2111",
+  "episode": "16",
+  "season": "",
+  "creatorId": "laravel-news"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "laravel/blog-introducing-websockets-for-laravel-cloud-powered-by-laravel-reverb",
+  "title": "Introducing WebSockets for Laravel Cloud, Powered by Laravel Reverb",
+  "link": "https://laravel.com/blog/introducing-websockets-for-laravel-cloud-powered-by-laravel-reverb?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2025-11-13T16:31:00.000Z",
+  "content": "<html><head></head><body>Launch real-time features in seconds with WebSockets for Laravel Cloud: managed Laravel Reverb clusters for up to 50% less than third-party tools.</body></html>",
+  "source": "laravel",
+  "author": "Alex Debecker",
+  "creatorId": "laravel",
+  "tags": [
+    "laravel",
+    "devops"
+  ]
+}

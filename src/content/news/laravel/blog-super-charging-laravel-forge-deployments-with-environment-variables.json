@@ -1,0 +1,14 @@
+{
+  "id": "laravel/blog-super-charging-laravel-forge-deployments-with-environment-variables",
+  "title": "Super-charging Laravel Forge Deployments with Environment Variables",
+  "link": "https://laravel.com/blog/super-charging-laravel-forge-deployments-with-environment-variables?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2022-06-24T17:08:00.000Z",
+  "content": "<html><head></head><body>Aside from provisioning servers and creating sites, Laravel Forge does so much more, including deploying code to your sites.</body></html>",
+  "source": "laravel",
+  "author": "James Brooks",
+  "creatorId": "laravel",
+  "tags": [
+    "laravel",
+    "devops"
+  ]
+}

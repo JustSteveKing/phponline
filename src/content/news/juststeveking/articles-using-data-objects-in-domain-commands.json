@@ -1,0 +1,14 @@
+{
+  "id": "juststeveking/articles-using-data-objects-in-domain-commands",
+  "title": "Using Data Objects; Domain Commands",
+  "link": "https://www.juststeveking.com/articles/using-data-objects-in-domain-commands/?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2022-05-03T00:00:00.000Z",
+  "content": "<html><head></head><body>Laravel DDD; Use Data Objects and Domain Commands to escape 'array hell' and perform clean write operations in your application.</body></html>",
+  "source": "juststeveking",
+  "author": "Steve McDougall — Articles",
+  "creatorId": "juststeveking",
+  "tags": [
+    "laravel",
+    "architecture"
+  ]
+}

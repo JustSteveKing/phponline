@@ -1,0 +1,14 @@
+{
+  "id": "laravel/blog-envoyer-refreshed-deployment-steps",
+  "title": "Envoyer: Refreshed Deployment Steps",
+  "link": "https://laravel.com/blog/envoyer-refreshed-deployment-steps?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2020-09-22T07:23:00.000Z",
+  "content": "<html><head></head><body>Yesterday we shipped an updated to [Envoyer](https://envoyer.io) that gives deployment steps a much needed refresh.\n\n![Envoyer Deployment Steps](https://laravel-blog-assets.s3.amazonaws.com/zpU2i4q89m...</body></html>",
+  "source": "laravel",
+  "author": "James Brooks",
+  "creatorId": "laravel",
+  "tags": [
+    "laravel",
+    "devops"
+  ]
+}

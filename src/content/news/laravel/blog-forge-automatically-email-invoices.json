@@ -1,0 +1,11 @@
+{
+  "id": "laravel/blog-forge-automatically-email-invoices",
+  "title": "Forge: Automatically Email Invoices",
+  "link": "https://laravel.com/blog/forge-automatically-email-invoices?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2020-12-07T10:00:00.000Z",
+  "content": "<html><head></head><body>Beginning today, you may provide a list of email addresses that you would like to receive invoice PDFs when your Forge subscription successfully renews. This new feature is available on your \"Profile &gt; Subscription\" dashboard.</body></html>",
+  "source": "laravel",
+  "author": "Nuno Maduro",
+  "creatorId": "laravel",
+  "tags": []
+}

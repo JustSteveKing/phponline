@@ -1,0 +1,11 @@
+{
+  "id": "juststeveking/articles-the-second-pattern-idempotent-receiver",
+  "title": "The Second Pattern: Idempotent Receiver",
+  "link": "https://www.juststeveking.com/articles/the-second-pattern-idempotent-receiver/?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-08-30T00:00:00.000Z",
+  "content": "<html><head></head><body>Select then insert handles the easy half of duplicate delivery and misses the concurrent case, which is the half that actually fires. This time the framework has already done it properly.</body></html>",
+  "source": "juststeveking",
+  "author": "Steve McDougall — Articles",
+  "creatorId": "juststeveking",
+  "tags": []
+}

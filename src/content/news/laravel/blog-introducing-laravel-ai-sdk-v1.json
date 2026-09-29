@@ -1,0 +1,13 @@
+{
+  "id": "laravel/blog-introducing-laravel-ai-sdk-v1",
+  "title": "Introducing Laravel AI SDK v1.0",
+  "link": "https://laravel.com/blog/introducing-laravel-ai-sdk-v1?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-09-23T10:53:00.000Z",
+  "content": "<html><head></head><body>Laravel AI SDK v1.0 is here: one Laravel-native API for every provider, with conversation storage, streaming chat, agents, tool approvals, and Jev classification.</body></html>",
+  "source": "laravel",
+  "author": "Pushpak Chhajed",
+  "creatorId": "laravel",
+  "tags": [
+    "laravel"
+  ]
+}

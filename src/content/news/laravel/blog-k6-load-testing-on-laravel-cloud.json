@@ -1,0 +1,16 @@
+{
+  "id": "laravel/blog-k6-load-testing-on-laravel-cloud",
+  "title": "K6 Load Testing on Laravel Cloud: 17,000 Requests per Second and Autoscaling Under Pressure",
+  "link": "https://laravel.com/blog/k6-load-testing-on-laravel-cloud?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-03-25T11:35:18.000Z",
+  "content": "<html><head></head><body>Learn how to load test a Laravel app with k6: 20,000 virtual users, bimodal latency jitter, and Laravel Cloud autoscaling under real pressure. Here's what happened.</body></html>",
+  "source": "laravel",
+  "author": "Devon Garbalosa",
+  "creatorId": "laravel",
+  "tags": [
+    "laravel",
+    "performance",
+    "testing",
+    "devops"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "php/id2017-11-08-1",
+  "title": "SunshinePHP 2018 Conference",
+  "link": "http://php.net/conferences/index.php?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev#id2017-11-08-1",
+  "pubDate": "2017-11-08T00:00:01.000Z",
+  "content": "<html><head></head><body><div type=\"xhtml\"><div xmlns=\"http://www.w3.org/1999/xhtml\"><p>In February 2018 come to Miami, Florida and escape the cold to learn more about PHP and speak with other developers, like you, to see what others are doing. The  has been announced, and we've assembled a great line-up with the most current PHP related topics for you.<a href=\"http://sunshinephp.com/speakers\" title=\"SunshinePHP 2018 Speaker List\">SunshinePHP 2018 speaker list</a></p><p>Topics include:</p><p>Come celebrate our 6th year from February 8th to 10th, 2018 in sunny Miami, Florida. There will be a full tutorial day featuring 3-hour sessions followed by 2 days of 1-hour talks and inspirational keynotes.</p><p>Register now! <a href=\"http://sunshinephp.com/register\" title=\"SunshinePHP\">SunshinePHP.com</a></p><ul><li>Middleware</li><li>Security</li><li>API Development</li><li>DevOps</li><li>Continuous Delivery</li><li>Databases</li><li>Javascript</li><li>PHP Core</li><li>UI/UX</li><li>Frameworks</li><li>Scalability</li><li>Team Development</li></ul></div></div></body></html>",
+  "source": "php",
+  "author": "PHP.net news & announcements",
+  "creatorId": "php-net",
+  "tags": [
+    "security",
+    "internals",
+    "databases"
+  ]
+}

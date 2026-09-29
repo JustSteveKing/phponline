@@ -1,0 +1,14 @@
+{
+  "id": "juststeveking/articles-isolated-development-without-docker",
+  "title": "Isolated local development without Docker",
+  "link": "https://www.juststeveking.com/articles/isolated-development-without-docker/?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-01-07T00:00:00.000Z",
+  "content": "<html><head></head><body>Learn how to use Devbox to create isolated local development environments for Laravel projects without the overhead of Docker.</body></html>",
+  "source": "juststeveking",
+  "author": "Steve McDougall — Articles",
+  "creatorId": "juststeveking",
+  "tags": [
+    "laravel",
+    "devops"
+  ]
+}

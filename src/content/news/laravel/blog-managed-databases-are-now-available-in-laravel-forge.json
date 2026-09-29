@@ -1,0 +1,14 @@
+{
+  "id": "laravel/blog-managed-databases-are-now-available-in-laravel-forge",
+  "title": "Managed Databases Are Now Available in Laravel Forge",
+  "link": "https://laravel.com/blog/managed-databases-are-now-available-in-laravel-forge?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-03-17T15:48:55.000Z",
+  "content": "<html><head></head><body>Let Laravel Forge handle managed Postgres clusters for you with automated backups, PITR, high availability, and monitoring, all from your Forge dashboard.</body></html>",
+  "source": "laravel",
+  "author": "Laravel Team",
+  "creatorId": "laravel",
+  "tags": [
+    "laravel",
+    "databases"
+  ]
+}

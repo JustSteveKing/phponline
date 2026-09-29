@@ -1,0 +1,11 @@
+{
+  "id": "laravel/blog-envoyer-transfer-projects",
+  "title": "Envoyer: Transfer Projects",
+  "link": "https://laravel.com/blog/envoyer-transfer-projects?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2021-09-08T08:10:00.000Z",
+  "content": "<html><head></head><body>Starting today, it's possible for project owners to transfer projects to another Envoyer account. Collaborators will not be able to transfer a project away from its owner.\n\nProject transfers may be in...</body></html>",
+  "source": "laravel",
+  "author": "James Brooks",
+  "creatorId": "laravel",
+  "tags": []
+}

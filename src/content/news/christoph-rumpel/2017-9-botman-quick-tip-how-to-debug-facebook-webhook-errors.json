@@ -1,0 +1,11 @@
+{
+  "id": "christoph-rumpel/2017-9-botman-quick-tip-how-to-debug-facebook-webhook-errors",
+  "title": "BotMan Quicktip - How to debug Facebook webhook errors",
+  "link": "https://christoph-rumpel.com/2017/9/botman-quick-tip-how-to-debug-facebook-webhook-errors?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2017-09-13T20:04:28.000Z",
+  "content": "<html><head></head><body>While setting up BotMan with Facebook Messenger I see a lot of people have problems to configure the needed webhook. This is why I want to share some information about how to debug this problem.\n            </body></html>",
+  "source": "christoph-rumpel",
+  "author": "Christoph Rumpel Blog Feed",
+  "creatorId": "christoph-rumpel",
+  "tags": []
+}

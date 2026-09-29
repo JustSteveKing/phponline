@@ -1,0 +1,14 @@
+{
+  "id": "juststeveking/articles-php-8-6-polling-api-rfc",
+  "title": "The Polling API Is the Most Underrated RFC PHP Has Shipped in Years",
+  "link": "https://www.juststeveking.com/articles/php-8-6-polling-api-rfc/?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-06-23T00:00:00.000Z",
+  "content": "<html><head></head><body>The Polling API gives PHP 8.6 native epoll and kqueue at last. Here's why the RFC nobody discussed is the most consequential in years.</body></html>",
+  "source": "juststeveking",
+  "author": "Steve McDougall — Articles",
+  "creatorId": "juststeveking",
+  "tags": [
+    "php8",
+    "internals"
+  ]
+}

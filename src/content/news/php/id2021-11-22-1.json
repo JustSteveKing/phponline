@@ -1,0 +1,13 @@
+{
+  "id": "php/id2021-11-22-1",
+  "title": "PHP Foundation Announced",
+  "link": "https://www.php.net/index.php?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev#id2021-11-22-1",
+  "pubDate": "2021-11-22T22:13:41.000Z",
+  "content": "<html><head></head><body><div type=\"xhtml\"><div xmlns=\"http://www.w3.org/1999/xhtml\"><p>\n         has been\n        \n        as an entity for funding the work of developing the PHP language.\n      <a href=\"https://opencollective.com/phpfoundation\">The PHP Foundation</a><a href=\"https://blog.jetbrains.com/phpstorm/2021/11/the-php-foundation/\">announced</a></p><p>\n        For more information regarding the structure and purpose of the foundation,\n        please check out the blog post at:\n        .\n      <a href=\"https://blog.jetbrains.com/phpstorm/2021/11/the-php-foundation/\">jetbrains.com</a></p></div></div></body></html>",
+  "source": "php",
+  "author": "PHP.net news & announcements",
+  "creatorId": "php-net",
+  "tags": [
+    "internals"
+  ]
+}

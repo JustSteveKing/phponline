@@ -1,0 +1,13 @@
+{
+  "id": "php/id2016-12-01-3",
+  "title": "PHP 7.1.0 Released",
+  "link": "http://php.net/index.php?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev#id2016-12-01-3",
+  "pubDate": "2016-12-01T17:55:05.000Z",
+  "content": "<html><head></head><body><div type=\"xhtml\"><div xmlns=\"http://www.w3.org/1999/xhtml\"><p>The PHP development team announces the immediate availability of PHP 7.1.0. This release is the first point release in the 7.x series.</p><p>PHP 7.1.0 comes with numerous improvements and new features such as</p><p>For source downloads of PHP 7.1.0 please visit our  page, Windows binaries can be found on the  site. The list of changes is recorded in the .<a href=\"http://www.php.net/downloads\">downloads</a><a href=\"http://windows.php.net/download\">PHP for Windows</a><a href=\"http://www.php.net/ChangeLog-7.php#7.1.0\">ChangeLog</a></p><p>The  is available in the PHP Manual. Please consult it for the detailed list of new features and backward incompatible changes.<a href=\"http://php.net/manual/en/migration71.php\">migration guide</a></p><p>Many thanks to all the contributors and supporters!</p><ul><li><a href=\"https://wiki.php.net/rfc/nullable_types\">Nullable types</a></li><li><a href=\"https://wiki.php.net/rfc/void_return_type\">Void return type</a></li><li><a href=\"https://wiki.php.net/rfc/iterable\">Iterable pseudo-type</a></li><li><a href=\"https://wiki.php.net/rfc/class_const_visibility\">Class constant visiblity modifiers</a></li><li> and <a href=\"https://wiki.php.net/rfc/short_list_syntax\">Square bracket syntax for <code>list()</code></a><a href=\"https://wiki.php.net/rfc/list_keys\">the ability to specify keys in <code>list()</code></a></li><li><a href=\"https://wiki.php.net/rfc/multiple-catch\">Catching multiple exceptions types</a></li><li><a href=\"https://wiki.php.net/rfc#php_71\">Many more features and changes…</a></li></ul></div></div></body></html>",
+  "source": "php",
+  "author": "PHP.net news & announcements",
+  "creatorId": "php-net",
+  "tags": [
+    "internals"
+  ]
+}

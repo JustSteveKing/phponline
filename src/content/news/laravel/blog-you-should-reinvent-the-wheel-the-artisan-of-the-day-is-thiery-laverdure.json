@@ -1,0 +1,13 @@
+{
+  "id": "laravel/blog-you-should-reinvent-the-wheel-the-artisan-of-the-day-is-thiery-laverdure",
+  "title": "You Should Reinvent the Wheel. The Artisan of the Day Is Thiery Laverdure.",
+  "link": "https://laravel.com/blog/you-should-reinvent-the-wheel-the-artisan-of-the-day-is-thiery-laverdure?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2025-08-08T16:40:00.000Z",
+  "content": "<html><head></head><body>When Thiery Laverdure saw Laravel Echo's JavaScript codebase, he saw the potential for a Laravel-style, swappable driver system to expand developer choice.</body></html>",
+  "source": "laravel",
+  "author": "Ana Tavares",
+  "creatorId": "laravel",
+  "tags": [
+    "laravel"
+  ]
+}

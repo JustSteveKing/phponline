@@ -1,0 +1,14 @@
+{
+  "id": "laravel/blog-laravel-loves-php-82",
+  "title": "Laravel Loves PHP 8.2",
+  "link": "https://laravel.com/blog/laravel-loves-php-82?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2022-12-19T17:00:00.000Z",
+  "content": "<html><head></head><body>Last week saw the official release of PHP 8.2, bringing with it features such as read-only classes, DNF types, and much more.\n\nAs you may have noticed, we've been busy preparing the Laravel framework,...</body></html>",
+  "source": "laravel",
+  "author": "Joe Dixon",
+  "creatorId": "laravel",
+  "tags": [
+    "laravel",
+    "php8"
+  ]
+}

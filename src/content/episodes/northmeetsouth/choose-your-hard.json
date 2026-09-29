@@ -1,0 +1,14 @@
+{
+  "id": "northmeetsouth/choose-your-hard",
+  "title": "Choose your hard",
+  "link": "https://share.transistor.fm/s/3dc52cb1?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2025-10-09T12:17:00.000Z",
+  "content": "\n        <p>Michael and Jake open with retro arcade serendipity (a Mortal Kombat cabinet sighting!) and tumble into family bowling, kid-approved card games, and why tactile gadgets are back in style.</p><p>Then they pivot hard into dev-mode: shadcn/ui (and shadcn-vue), Inertia, React-ish forms, and the age-old tradeoff between “batteries-included” simplicity and modern real-time UX.</p><p>Highlights:</p><ul><li>Mortal Kombat cabinet &amp; mini arcades, gift ideas for Laracon AU</li><li>Duckpin bowling explainer and family bowling stories (plus UNO, Yahtzee, Taco Cat Goat Cheese Pizza)</li><li>The “analog is cool again” thread: mechanical keyboards, a Keychron board, and a retro 3D-printed mouse shell for a Logitech M185</li><li>Dev deep-dive: shadcn docs, Inertia forms, partial reloads vs full refresh, Livewire/Alpine, and real-time updates with Pusher/Reverb</li></ul><p><b>Show links</b></p><ul><li><a href=\"https://retropie.org.uk/\">RetroPie</a> / <a href=\"https://arcade1up.com/\">Arcade1Up</a></li><li><a href=\"https://laracon.au\">Laracon AU</a></li><li><a href=\"https://en.wikipedia.org/wiki/Duckpin_bowling\">Duckpin bowling</a></li><li><a href=\"https://www.keychron.com/products/keychron-v4-qmk-custom-mechanical-keyboard\">Keychron keyboard</a></li><li><a href=\"https://www.etsy.com/au/listing/1827206383/the-pointer-two-a-vintage-retro-style\">3D-printed retro mouse shell for Logitech M185</a></li><li><a href=\"https://www.amazon.com.au/Taco-Cat-Goat-Cheese-Pizza/dp/B077Z1R28P\">Taco Cat Goat Cheese Pizza</a></li><li><a href=\"https://inertiajs.com/\">Inertia.js</a></li><li><a href=\"https://ui.shadcn.com\">shadcn/ui</a></li><li><a href=\"https://www.shadcn-vue.com/\">shadcn-vue</a></li><li><a href=\"https://livewire.laravel.com\">Livewire</a></li><li><a href=\"https://alpinejs.dev/\">Alpine.js</a></li><li><a href=\"https://pusher.com/\">Pusher</a></li><li><a href=\"https://reverb.laravel.com/\">Laravel Reverb</a></li><li><a href=\"https://axios-http.com/docs/intro\">Axios</a></li><li><a href=\"https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch\">fetch</a></li></ul>\n      ",
+  "coverImage": "https://img.transistorcdn.com/gTGjKd44Qy-t3yz9_V60jp8N2Qe5KN4QwfB-5FNuQPM/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9zaG93/LzQ4ODMvMTU3Mjc3/NzAzNi1hcnR3b3Jr/LmpwZw.jpg",
+  "podcast": "NorthMeetSouth",
+  "audioUrl": "https://media.transistor.fm/3dc52cb1/945ff891.mp3",
+  "duration": "2858",
+  "episode": "184",
+  "season": "",
+  "creatorId": "northmeetsouth"
+}

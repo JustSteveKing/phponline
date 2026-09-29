@@ -1,0 +1,14 @@
+{
+  "id": "laravel-news-podcast/presets-editors-and-laracon-2018",
+  "title": "Presets, Editors, and Laracon 2018",
+  "link": "https://podcast.laravel-news.com/50?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2017-11-21T11:30:00.000Z",
+  "content": "Jake and Michael take on episode 50 talking about survey results, frontend presets, code editors, Laracon in 2018, and a whole lot more.",
+  "coverImage": "https://img.transistorcdn.com/HSc7g8nqLjrGK0A_tB6IvFGxROQQHQiZkEJVq5qT19w/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9lcGlz/b2RlLzE2NDIzOC8x/NTc2MzQwODE2LWFy/dHdvcmsuanBn.jpg",
+  "podcast": "Laravel News Podcast",
+  "audioUrl": "https://media.transistor.fm/42837a9c/ed3ce196.mp3",
+  "duration": "3408",
+  "episode": "50",
+  "season": "",
+  "creatorId": "laravel-news"
+}

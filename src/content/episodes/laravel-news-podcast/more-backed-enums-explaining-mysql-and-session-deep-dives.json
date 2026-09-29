@@ -1,0 +1,14 @@
+{
+  "id": "laravel-news-podcast/more-backed-enums-explaining-mysql-and-session-deep-dives",
+  "title": "More backed enums, explaining MySQL, and session deep-dives",
+  "link": "https://podcast.laravel-news.com/224?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2024-10-03T14:00:00.000Z",
+  "content": "\n        <p>Jake and Michael discuss all the latest Laravel releases, tutorials, and happenings in the community.</p><p>This episode is sponsored by <a href=\"https://sentry.io/\"><strong>Sentry</strong></a> - code breaks, fix it faster. Don't just observe, take action today!</p><p><strong>Show links</strong></p><ul><li><a href=\"https://laravel-news.com/laravel-11-24-0\">Laravel 11.24 Released </a></li><li><a href=\"https://laravel-news.com/php-8-4-release-candidate-1\">PHP 8.4 Release Candidate 1 is here </a></li><li><a href=\"https://laravel-news.com/laravel-mongodb-5-0\">Laravel MongoDB releases version 5.0 </a></li><li><a href=\"https://laravel-news.com/laravel-roundup-october\">Laravel Roundup - October </a></li><li><a href=\"https://laravel-news.com/laravel-worldwide-meetup-september-2024\">The September 2024 Laravel Worldwide Meetup is Today </a></li><li><a href=\"https://laravel-news.com/mysql-explain-with-tobias-petry\">MySql Explain with Tobias Petry </a></li><li><a href=\"https://laravel-news.com/php-and-llms-with-alfred-nutile\">PHP and LLMs with Alfred Nutile </a></li><li><a href=\"https://laravel-news.com/laravel-config-checker-package\">Laravel Config Checker Package </a></li><li><a href=\"https://laravel-news.com/langcountry-launches-v4\">LangCountry launches v4 </a></li><li><a href=\"https://laravel-news.com/fetch-php\">Fetch PHP is a Lightweight HTTP Library Inspired by JavaScript's fetch() </a></li><li><a href=\"https://laravel-news.com/validate-console-command-input-with-the-command-validator-package\">Validate Console Command Input With the Command Validator Package </a></li><li><a href=\"https://laravel-news.com/laravel-sessions\">A Deep Dive into Sessions in Laravel </a></li><li><a href=\"https://laravel-news.com/split-log-levels-between-stdout-and-stderr-with-laravel\">Split Log Levels Between Stdout and Stderr With Laravel </a></li></ul>\n      ",
+  "coverImage": "https://img.transistorcdn.com/qmJ1PPS58Dv5ZdzfP2OsERDEhhL_6EPX8Tjmyurk5f0/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9zaG93/LzY0MDUvMTY5NDc4/NzE0OS1hcnR3b3Jr/LmpwZw.jpg",
+  "podcast": "Laravel News Podcast",
+  "audioUrl": "https://media.transistor.fm/9fdfefe7/296d16ab.mp3",
+  "duration": "2340",
+  "episode": "224",
+  "season": "",
+  "creatorId": "laravel-news"
+}

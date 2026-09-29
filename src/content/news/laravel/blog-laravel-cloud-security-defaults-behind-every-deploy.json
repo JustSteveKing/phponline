@@ -1,0 +1,15 @@
+{
+  "id": "laravel/blog-laravel-cloud-security-defaults-behind-every-deploy",
+  "title": "Laravel Cloud security defaults behind every deploy",
+  "link": "https://laravel.com/blog/laravel-cloud-security-defaults-behind-every-deploy?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-07-08T10:56:00.000Z",
+  "content": "<html><head></head><body>Laravel Cloud handles WAF, runtime patching, audit logs, network isolation, and package vulnerability scans by default. See what runs in the background.</body></html>",
+  "source": "laravel",
+  "author": "Laravel Team",
+  "creatorId": "laravel",
+  "tags": [
+    "laravel",
+    "security",
+    "devops"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "laravel-news-podcast/scaling-laravel-testing-vue-components-and-model-events",
+  "title": "Scaling Laravel, testing Vue components, and model events",
+  "link": "https://podcast.laravel-news.com/59?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2018-03-20T14:00:00.000Z",
+  "content": "Join Jake and Michael as they discuss the latest Laravel releases, Scaling Laravel, testing Vue components, and more.",
+  "coverImage": "https://img.transistorcdn.com/_mrAnbD5gNwUdjLSlTViTOuNi_Tv85kEHn3HSOlc6MY/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9lcGlz/b2RlLzE2NDI0Ny8x/NTc2MzQwODU1LWFy/dHdvcmsuanBn.jpg",
+  "podcast": "Laravel News Podcast",
+  "audioUrl": "https://media.transistor.fm/9beec894/b3d8bd72.mp3",
+  "duration": "2339",
+  "episode": "59",
+  "season": "",
+  "creatorId": "laravel-news"
+}

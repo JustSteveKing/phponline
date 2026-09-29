@@ -1,0 +1,14 @@
+{
+  "id": "laravel/blog-deploying-soketi-to-laravel-forge-part-2",
+  "title": "Deploying Soketi to Laravel Forge - Part 2",
+  "link": "https://laravel.com/blog/deploying-soketi-to-laravel-forge-part-2?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2022-01-11T09:10:00.000Z",
+  "content": "<html><head></head><body>In Part I of this tutorial we learnt how to install and deploy Soketi to our Laravel Forge servers.\n\nCurrently, Soketi is accessible over our server's IP address, behind port 6001. In this post we're going to modify our setup so that we can access our socket server via socket.my-domain.com. We'll do this by using an Nginx reverse proxy.</body></html>",
+  "source": "laravel",
+  "author": "James Brooks",
+  "creatorId": "laravel",
+  "tags": [
+    "laravel",
+    "devops"
+  ]
+}

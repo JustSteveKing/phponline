@@ -1,0 +1,13 @@
+{
+  "id": "spatie/blog-introducing-piper",
+  "title": "Introducing Piper: array and string manipulation with the pipe operator",
+  "link": "https://spatie.be/blog/introducing-piper?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-05-13T12:58:49.000Z",
+  "content": "<html><head></head><body><p>The pipe operator was a great addition in PHP 8.5. It brings the ergonomics of wrapper objects with the composability of standalone functions. Unfortunately, the standard array &amp; string manipulation functions in PHP aren't exactly known for their API consistency, which makes the pipe operator awkward to use. Piper is an attempt to wrap the standard library to make it compatible with the pipe operator.</p>\n\n            </body></html>",
+  "source": "spatie",
+  "author": "Spatie: Blog",
+  "creatorId": "spatie",
+  "tags": [
+    "php8"
+  ]
+}

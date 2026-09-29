@@ -1,0 +1,13 @@
+{
+  "id": "christoph-rumpel/2018-11-sending-laravel-notifications-via-twitter",
+  "title": "Sending Laravel Notifications Via Twitter",
+  "link": "https://christoph-rumpel.com/2018/11/sending-laravel-notifications-via-twitter?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2018-11-09T20:04:28.000Z",
+  "content": "<html><head></head><body>My first and most used Laravel package is the Twitter Channel I made for Laravel Notifications. Today I released a new version of it, and I thought it is an excellent time to share a video about how to use it as well.\n            </body></html>",
+  "source": "christoph-rumpel",
+  "author": "Christoph Rumpel Blog Feed",
+  "creatorId": "christoph-rumpel",
+  "tags": [
+    "laravel"
+  ]
+}

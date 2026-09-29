@@ -1,0 +1,14 @@
+{
+  "id": "northmeetsouth/laravel-11-learnings-nested-validation-and-the-simplicity-of-laravel",
+  "title": "Laravel 11 learnings, nested validation, and the simplicity of Laravel",
+  "link": "https://share.transistor.fm/s/a7ea40d1?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2024-04-23T14:00:00.000Z",
+  "content": "\n        <p>Jake and Michael discuss some of the gotchas upgrading from a previous version of Laravel to 11.x, integrating a React frontend built in parallel to its backend, nested validation, and the simplicity of using a batteries-included framework like Laravel.</p><p><strong>Show links</strong></p><ul><li><a href=\"https://bootcamp.laravel.com\">Laravel Bootcamp</a></li><li><a href=\"https://laracasts.com\">Laracasts</a></li><li><a href=\"https://laravelupandrunning.com/\">Laravel Up and Running</a></li><li><a href=\"https://onramp.dev/en\">Onramp to Laravel</a></li><li><a href=\"https://laravelshift.com\">Laravel Shift</a></li></ul>\n      ",
+  "coverImage": "https://img.transistorcdn.com/gTGjKd44Qy-t3yz9_V60jp8N2Qe5KN4QwfB-5FNuQPM/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9zaG93/LzQ4ODMvMTU3Mjc3/NzAzNi1hcnR3b3Jr/LmpwZw.jpg",
+  "podcast": "NorthMeetSouth",
+  "audioUrl": "https://media.transistor.fm/a7ea40d1/7c444d45.mp3",
+  "duration": "2296",
+  "episode": "154",
+  "season": "",
+  "creatorId": "northmeetsouth"
+}

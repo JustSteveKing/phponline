@@ -1,0 +1,13 @@
+{
+  "id": "christoph-rumpel/2013-5-front-end-performance-part-02-images",
+  "title": "Front-end performance part 02: Images",
+  "link": "https://christoph-rumpel.com/2013/5/front-end-performance-part-02-images?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2013-05-16T20:04:28.000Z",
+  "content": "<html><head></head><body>Since we use lots of images in our designs, it is crucial to talk about them too. We will go through everything you need to know about them, new techniques and how we should treat them. Usually we can improve performance here the most.\n            </body></html>",
+  "source": "christoph-rumpel",
+  "author": "Christoph Rumpel Blog Feed",
+  "creatorId": "christoph-rumpel",
+  "tags": [
+    "performance"
+  ]
+}

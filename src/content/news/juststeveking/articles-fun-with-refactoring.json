@@ -1,0 +1,15 @@
+{
+  "id": "juststeveking/articles-fun-with-refactoring",
+  "title": "Fun with Refactoring",
+  "link": "https://www.juststeveking.com/articles/fun-with-refactoring/?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2022-11-24T00:00:00.000Z",
+  "content": "<html><head></head><body>Master the art of Laravel refactoring with Laravel Shift Blueprint, optimizing code for improved performance and management in a real-world Laravel project.</body></html>",
+  "source": "juststeveking",
+  "author": "Steve McDougall — Articles",
+  "creatorId": "juststeveking",
+  "tags": [
+    "laravel",
+    "performance",
+    "architecture"
+  ]
+}

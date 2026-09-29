@@ -1,0 +1,14 @@
+{
+  "id": "laravel-news-podcast/giving-thanks-global-app-settings-and-opcache",
+  "title": "Giving thanks, global app settings, and OPcache",
+  "link": "https://podcast.laravel-news.com/75?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2018-12-05T12:34:00.000Z",
+  "content": "Jake and Michael discuss all the latest Laravel releases, tutorials, and happenings in the community.",
+  "coverImage": "https://img.transistorcdn.com/GlZ3Phoagjs4zzsc8C-SX-3CgOULzU8KwjxzOUlnWyM/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9lcGlz/b2RlLzE2NDI2My8x/NTc2MzQwOTIxLWFy/dHdvcmsuanBn.jpg",
+  "podcast": "Laravel News Podcast",
+  "audioUrl": "https://media.transistor.fm/e32fecc7/b390f4f4.mp3",
+  "duration": "3157",
+  "episode": "75",
+  "season": "",
+  "creatorId": "laravel-news"
+}

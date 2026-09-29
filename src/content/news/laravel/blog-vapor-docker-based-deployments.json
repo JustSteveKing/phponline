@@ -1,0 +1,13 @@
+{
+  "id": "laravel/blog-vapor-docker-based-deployments",
+  "title": "Vapor: Docker Based Deployments",
+  "link": "https://laravel.com/blog/vapor-docker-based-deployments?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2020-12-16T10:27:00.000Z",
+  "content": "<html><head></head><body>One of the limitations of AWS Lambda is that the deployment size, including layers, must not exceed 250 MB. This is not ideal for large projects that have many composer dependencies. In addition, many...</body></html>",
+  "source": "laravel",
+  "author": "Mohamed Said",
+  "creatorId": "laravel",
+  "tags": [
+    "devops"
+  ]
+}

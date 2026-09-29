@@ -1,0 +1,14 @@
+{
+  "id": "laravel-news-podcast/forge-updates-ubuntu-dns-issues-and-phpstorm-20171",
+  "title": "Forge updates, Ubuntu DNS issues, and PhpStorm 2017.1",
+  "link": "https://podcast.laravel-news.com/34?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2017-03-28T12:00:00.000Z",
+  "content": "Jake and Michael discuss the new Laravel announcements publication, Ubuntu DNS issues, using environment variables in your .env file, and PhpStorm 2017.1",
+  "coverImage": "https://img.transistorcdn.com/PLIffI4ou2ONj7p8jfJVSEML2Dayt_BgeXfzaIs4gBc/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9lcGlz/b2RlLzE2NDIyMi8x/NTc2MzQwNzQ4LWFy/dHdvcmsuanBn.jpg",
+  "podcast": "Laravel News Podcast",
+  "audioUrl": "https://media.transistor.fm/199d389f/f9f20718.mp3",
+  "duration": "2095",
+  "episode": "34",
+  "season": "",
+  "creatorId": "laravel-news"
+}

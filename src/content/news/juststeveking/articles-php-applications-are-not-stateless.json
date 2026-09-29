@@ -1,0 +1,11 @@
+{
+  "id": "juststeveking/articles-php-applications-are-not-stateless",
+  "title": "Your PHP application is not stateless",
+  "link": "https://www.juststeveking.com/articles/php-applications-are-not-stateless/?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-02-05T00:00:00.000Z",
+  "content": "<html><head></head><body>Understanding statelessness in PHP: filesystem assumptions, session state, and building truly stateless applications with Zero Trust principles.</body></html>",
+  "source": "juststeveking",
+  "author": "Steve McDougall — Articles",
+  "creatorId": "juststeveking",
+  "tags": []
+}

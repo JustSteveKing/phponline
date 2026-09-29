@@ -1,0 +1,13 @@
+{
+  "id": "juststeveking/articles-relay-fiber-native-http-for-modern-php",
+  "title": "Relay: Building a Fiber-Native HTTP Layer for Modern PHP",
+  "link": "https://www.juststeveking.com/articles/relay-fiber-native-http-for-modern-php/?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-02-03T00:00:00.000Z",
+  "content": "<html><head></head><body>Explore the design and implementation of Relay, a new HTTP transport layer for PHP 8.5+.</body></html>",
+  "source": "juststeveking",
+  "author": "Steve McDougall — Articles",
+  "creatorId": "juststeveking",
+  "tags": [
+    "php8"
+  ]
+}

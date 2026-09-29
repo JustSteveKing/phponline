@@ -1,0 +1,13 @@
+{
+  "id": "juststeveking/articles-automating-your-openapi-documentation",
+  "title": "Automating your OpenAPI Documentation",
+  "link": "https://www.juststeveking.com/articles/automating-your-openapi-documentation/?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2022-10-21T00:00:00.000Z",
+  "content": "<html><head></head><body>Learn to automate API documentation in Laravel with a design-first approach using OpenAPI, Scribe, and efficient pagination in this practical tutorial.</body></html>",
+  "source": "juststeveking",
+  "author": "Steve McDougall — Articles",
+  "creatorId": "juststeveking",
+  "tags": [
+    "laravel"
+  ]
+}

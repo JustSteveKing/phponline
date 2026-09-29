@@ -1,0 +1,14 @@
+{
+  "id": "laravel-news-podcast/laracon-us-2019-speaker-interview-freek-van-der-herten",
+  "title": "Laracon US 2019 Speaker Interview - Freek Van der Herten",
+  "link": "https://podcast.laravel-news.com/95?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2019-09-10T14:30:00.000Z",
+  "content": "Bill Condo interviews Freek Van der Herten at Laracon US 2019 in New York.",
+  "coverImage": "https://img.transistorcdn.com/kRZf4OiGeUQBe3AyZArMjlNrg0GPAayZJF6vteeSrp4/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9lcGlz/b2RlLzE2NDI4My8x/NTc2MzQxMDA2LWFy/dHdvcmsuanBn.jpg",
+  "podcast": "Laravel News Podcast",
+  "audioUrl": "https://media.transistor.fm/fa8e63db/bf12411c.mp3",
+  "duration": "639",
+  "episode": "95",
+  "season": "",
+  "creatorId": "laravel-news"
+}

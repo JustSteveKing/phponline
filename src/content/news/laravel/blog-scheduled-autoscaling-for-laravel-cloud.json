@@ -1,0 +1,14 @@
+{
+  "id": "laravel/blog-scheduled-autoscaling-for-laravel-cloud",
+  "title": "Scheduled Autoscaling for Laravel Cloud",
+  "link": "https://laravel.com/blog/scheduled-autoscaling-for-laravel-cloud?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-03-25T17:36:27.000Z",
+  "content": "<html><head></head><body>You can now [define a scaling schedule on Laravel Cloud](https://laravel.com/cloud/docs/compute#scheduled-autoscaling) and let it handle the rest. Set your autoscaling limits once for each traffic win...</body></html>",
+  "source": "laravel",
+  "author": "Laravel Team",
+  "creatorId": "laravel",
+  "tags": [
+    "laravel",
+    "devops"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "laravel/blog-vapor-api-gateway-vs-load-balancers",
+  "title": "Vapor: API Gateway vs Load Balancers",
+  "link": "https://laravel.com/blog/vapor-api-gateway-vs-load-balancers?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2021-06-16T13:00:00.000Z",
+  "content": "<html><head></head><body>When using an AWS serverless infrastructure powered by Vapor, you have three different options to consider when determining how to route traffic to your application: API Gateway v1, API Gateway v2, and Load Balancers. In this article, we are going to compare these three options in terms of performance, pricing, and features.</body></html>",
+  "source": "laravel",
+  "author": "Nuno Maduro",
+  "creatorId": "laravel",
+  "tags": [
+    "performance",
+    "devops"
+  ]
+}

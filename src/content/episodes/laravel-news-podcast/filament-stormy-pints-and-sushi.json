@@ -1,0 +1,14 @@
+{
+  "id": "laravel-news-podcast/filament-stormy-pints-and-sushi",
+  "title": "Filament, stormy pints, and sushi",
+  "link": "https://podcast.laravel-news.com/197?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2023-08-10T14:00:00.000Z",
+  "content": "\n        <p>Jake and Michael discuss all the latest Laravel releases, tutorials, and happenings in the community.</p><p>This episode is sponsored by <a href=\"https://honeybadger.io/?ref=laravelnewspodcast\">Honeybadger</a> - combining error monitoring, uptime monitoring and check-in monitoring into a single, easy to use platform and making you a DevOps hero.</p><p></p><ul><li>(02:45) - Laravel 10.16 released</li>\n<li>(07:51) - Take part in the State of Laravel survey 2023</li>\n<li>(09:38) - Laravel Prompts is now available in Laravel 10.17</li>\n<li>(12:46) - Filament v3 just launched</li>\n<li>(15:13) - Livewire Volt has a new class-based API</li>\n<li>(19:50) - Inertia vs Livewire</li>\n<li>(22:47) - PhpStorm now has built-in support for Laravel Pint</li>\n<li>(24:49) - Laravel Sushi gets a new landing page</li>\n<li>(25:48) - PHPSandbox - Build, prototype, and share PHP apps in seconds</li>\n<li>(27:58) - Sponsor: Honeybadger</li>\n<li>(28:53) - Level Up gamification package for Laravel</li>\n<li>(31:26) - Genesis is a starter kit for the TALL stack</li>\n<li>(33:19) - Bolt is a Laravel form builder for the TALL stack</li>\n<li>(35:23) - Learn Livewire 3, Volt, and Folio by building a podcast player</li>\n<li>(36:58) - PATH settings for Laravel</li>\n<li>(39:17) - NativePHP tutorial: Building a Mac MenuBar application</li>\n</ul><br><strong>Show links</strong><ul><li><a href=\"https://laravel-news.com/laravel-sushi\">Learn Laravel Sushi - the array driver for Eloquent</a></li></ul>\n      ",
+  "coverImage": "https://img.transistorcdn.com/qmJ1PPS58Dv5ZdzfP2OsERDEhhL_6EPX8Tjmyurk5f0/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9zaG93/LzY0MDUvMTY5NDc4/NzE0OS1hcnR3b3Jr/LmpwZw.jpg",
+  "podcast": "Laravel News Podcast",
+  "audioUrl": "https://media.transistor.fm/331faf9d/1f502c39.mp3",
+  "duration": "2459",
+  "episode": "197",
+  "season": "",
+  "creatorId": "laravel-news"
+}

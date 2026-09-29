@@ -1,0 +1,13 @@
+{
+  "id": "juststeveking/articles-pattern-first-trap-php",
+  "title": "The Pattern-First Trap in PHP",
+  "link": "https://www.juststeveking.com/articles/pattern-first-trap-php/?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-02-15T00:00:00.000Z",
+  "content": "<html><head></head><body>Why starting with design patterns too early can overcomplicate PHP apps, and a practical way to design from constraints instead.</body></html>",
+  "source": "juststeveking",
+  "author": "Steve McDougall — Articles",
+  "creatorId": "juststeveking",
+  "tags": [
+    "architecture"
+  ]
+}

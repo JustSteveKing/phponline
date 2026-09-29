@@ -1,0 +1,13 @@
+{
+  "id": "juststeveking/articles-working-with-third-party-services-in-laravel",
+  "title": "Working with third party services in Laravel",
+  "link": "https://www.juststeveking.com/articles/working-with-third-party-services-in-laravel/?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2021-04-30T00:00:00.000Z",
+  "content": "<html><head></head><body>Learn how to work with 3rd party services in Laravel, focusing on connecting to the PingPing API. Improve your Laravel skills today!</body></html>",
+  "source": "juststeveking",
+  "author": "Steve McDougall — Articles",
+  "creatorId": "juststeveking",
+  "tags": [
+    "laravel"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "rfc/message-132426",
+  "title": "PREG_THROW_ON_ERROR",
+  "link": "https://externals.io/message/132426?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-09-04T17:00:04.000Z",
+  "content": "<html><head></head><body>[RFC] [VOTE] PREG_THROW_ON_ERROR</body></html>",
+  "source": "rfc",
+  "author": "#externals - Latest RFC Threads",
+  "status": "RFC",
+  "creatorId": "internals",
+  "tags": [
+    "internals"
+  ]
+}

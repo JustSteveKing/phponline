@@ -1,0 +1,14 @@
+{
+  "id": "laravel/blog-improving-laravel-application-security-with-aikido",
+  "title": "Improving Laravel Application Security with Aikido",
+  "link": "https://laravel.com/blog/improving-laravel-application-security-with-aikido?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2024-07-08T14:30:00.000Z",
+  "content": "<html><head></head><body>As your Laravel application grows, managing security objectives becomes more challenging, especially for small teams or solo developers. Today, Laravel has teamed up with Aikido to provide a seamless solution for securing your Laravel application. With Aikido, Laravel developers using Forge can effortlessly scan for and identify potential security vulnerabilities, all in less than 1 minute.</body></html>",
+  "source": "laravel",
+  "author": "James Brooks",
+  "creatorId": "laravel",
+  "tags": [
+    "laravel",
+    "security"
+  ]
+}

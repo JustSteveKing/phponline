@@ -1,0 +1,14 @@
+{
+  "id": "laravel/blog-forge-multiple-php-installations",
+  "title": "Forge: Multiple PHP Installations",
+  "link": "https://laravel.com/blog/forge-multiple-php-installations?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2020-07-07T10:03:00.000Z",
+  "content": "<html><head></head><body>Today we're pleased to announce that [Laravel Forge](https://forge.laravel.com/) now supports managing multiple versions of PHP on a single server! This new feature is available to all Forge subscript...</body></html>",
+  "source": "laravel",
+  "author": "James Brooks",
+  "creatorId": "laravel",
+  "tags": [
+    "laravel",
+    "devops"
+  ]
+}

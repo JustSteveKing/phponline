@@ -1,0 +1,14 @@
+{
+  "id": "juststeveking/articles-querying-records-in-our-domain",
+  "title": "Querying Records in our Domain",
+  "link": "https://www.juststeveking.com/articles/querying-records-in-our-domain/?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2022-05-03T00:00:00.000Z",
+  "content": "<html><head></head><body>Learn how to leverage Laravel DDD for efficient record queries. Simplify read actions in your application.</body></html>",
+  "source": "juststeveking",
+  "author": "Steve McDougall — Articles",
+  "creatorId": "juststeveking",
+  "tags": [
+    "laravel",
+    "architecture"
+  ]
+}

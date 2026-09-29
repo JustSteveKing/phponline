@@ -1,0 +1,14 @@
+{
+  "id": "laravel/blog-laravel-php-8-support",
+  "title": "Laravel: PHP 8 Support",
+  "link": "https://laravel.com/blog/laravel-php-8-support?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2020-11-26T15:21:00.000Z",
+  "content": "<html><head></head><body>PHP 8 has been officially released! We've been hard at work behind the scenes to provide support for all our libraries so that upgrading to PHP 8 with Laravel is easy.</body></html>",
+  "source": "laravel",
+  "author": "Dries Vints",
+  "creatorId": "laravel",
+  "tags": [
+    "laravel",
+    "php8"
+  ]
+}

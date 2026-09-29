@@ -1,0 +1,13 @@
+{
+  "id": "laravel/blog-vapor-load-balancer-security-policy-updates",
+  "title": "Vapor: Load Balancer Security Policy Updates",
+  "link": "https://laravel.com/blog/vapor-load-balancer-security-policy-updates?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2020-11-17T12:10:00.000Z",
+  "content": "<html><head></head><body>Beginning today, all new load balancers will use a security policy that no longer supports TLS 1.0 and TLS 1.1.</body></html>",
+  "source": "laravel",
+  "author": "Nuno Maduro",
+  "creatorId": "laravel",
+  "tags": [
+    "security"
+  ]
+}

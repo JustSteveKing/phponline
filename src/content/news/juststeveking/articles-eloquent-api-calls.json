@@ -1,0 +1,13 @@
+{
+  "id": "juststeveking/articles-eloquent-api-calls",
+  "title": "Eloquent API Calls",
+  "link": "https://www.juststeveking.com/articles/eloquent-api-calls/?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2022-12-09T00:00:00.000Z",
+  "content": "<html><head></head><body>Discover advanced techniques for API integration in Laravel, focusing on configuring GitHub API calls, utilizing Enums, and creating efficient client resources.</body></html>",
+  "source": "juststeveking",
+  "author": "Steve McDougall — Articles",
+  "creatorId": "juststeveking",
+  "tags": [
+    "laravel"
+  ]
+}

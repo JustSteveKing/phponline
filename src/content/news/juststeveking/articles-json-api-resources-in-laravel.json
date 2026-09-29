@@ -1,0 +1,13 @@
+{
+  "id": "juststeveking/articles-json-api-resources-in-laravel",
+  "title": "JSON API Resources in Laravel",
+  "link": "https://www.juststeveking.com/articles/json-api-resources-in-laravel/?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2022-08-09T00:00:00.000Z",
+  "content": "<html><head></head><body>Master JSON API Resources in Laravel. Learn to create consistent, compliant API responses with Tim MacDonald's package.</body></html>",
+  "source": "juststeveking",
+  "author": "Steve McDougall — Articles",
+  "creatorId": "juststeveking",
+  "tags": [
+    "laravel"
+  ]
+}

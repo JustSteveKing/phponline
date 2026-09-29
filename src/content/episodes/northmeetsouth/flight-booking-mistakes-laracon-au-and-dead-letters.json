@@ -1,0 +1,14 @@
+{
+  "id": "northmeetsouth/flight-booking-mistakes-laracon-au-and-dead-letters",
+  "title": "Flight booking mistakes, Laracon AU, and dead letters",
+  "link": "https://share.transistor.fm/s/3b8e2253?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-04-09T15:00:00.000Z",
+  "content": "\n        <p>In this episode, Michael and Jake catch up ahead of Laracon and share a wild travel story involving flight changes, third-party booking headaches, and expensive rebooking.</p><p>Jake then shares a fun personal highlight: attending the NCAA Men's Basketball Championship and watching Michigan win.</p><p>The conversation shifts into development work, where Jake dives into building a centralised system for managing failed Laravel jobs across multiple applications. He explains the challenges of aggregating failed jobs without Horizon, how they built a custom package to expose APIs for inspecting and retrying jobs, and the nuances of Laravel's queue system.</p><p>They also explore ideas for turning this work into a Laracon talk, emphasising practical, experience-driven content over purely technical deep dives.</p><p><strong>Show Links</strong></p><ul><li><a href=\"https://laracon.au\">Laracon AU</a></li><li><a href=\"https://horizon.laravel.com\">Laravel Horizon</a></li><li><a href=\"https://sentry.io\">Sentry</a></li><li><a href=\"https://aws.amazon.com/what-is/dead-letter-queue/\">Dead Letter Queue</a></li></ul>\n<ul><li>(00:00) - Introduction and road to episode 200\r</li>\n<li>(01:00) - Laracon plans and travel setup\r</li>\n<li>(02:00) - Flight booking disaster and schedule change\r</li>\n<li>(06:00) - Rebooking flights and unexpected costs\r</li>\n<li>(09:00) - Lessons learned with third-party bookings\r</li>\n<li>(10:00) - Michigan wins NCAA championship\r</li>\n<li>(12:30) - Midwest geography and personal background\r</li>\n<li>(12:45) - Building a centralized failed jobs system\r</li>\n<li>(15:30) - Challenges with retries and tracking failures\r</li>\n<li>(16:40) - The \"Dead Letter\" package and API approach\r</li>\n<li>(23:20) - Turning real-world problems into Laracon talks\r</li>\n<li>(48:20) - Wrapping up and outro</li>\n</ul>\n      ",
+  "coverImage": "https://img.transistorcdn.com/gTGjKd44Qy-t3yz9_V60jp8N2Qe5KN4QwfB-5FNuQPM/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9zaG93/LzQ4ODMvMTU3Mjc3/NzAzNi1hcnR3b3Jr/LmpwZw.jpg",
+  "podcast": "NorthMeetSouth",
+  "audioUrl": "https://media.transistor.fm/3b8e2253/4bfd8fa3.mp3",
+  "duration": "2961",
+  "episode": "190",
+  "season": "",
+  "creatorId": "northmeetsouth"
+}

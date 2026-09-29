@@ -1,0 +1,14 @@
+{
+  "id": "laravel-news-podcast/laravel-model-factories",
+  "title": "Laravel Model Factories",
+  "link": "https://podcast.laravel-news.com/2?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2015-10-21T03:03:00.000Z",
+  "content": "LN02: This episode discusses Laravel Model Factories, Blade Directives, and more!",
+  "coverImage": "https://img.transistorcdn.com/23S05AxrvCB41Odk3WL3TFXoRATp2GRIpBxBN2tA8XI/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9lcGlz/b2RlLzE2NDE5MC8x/NTc2MzQwNjE1LWFy/dHdvcmsuanBn.jpg",
+  "podcast": "Laravel News Podcast",
+  "audioUrl": "https://media.transistor.fm/5a81dbf5/c5af22af.mp3",
+  "duration": "1325",
+  "episode": "2",
+  "season": "",
+  "creatorId": "laravel-news"
+}

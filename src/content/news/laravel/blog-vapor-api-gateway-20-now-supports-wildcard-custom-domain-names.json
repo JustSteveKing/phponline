@@ -1,0 +1,11 @@
+{
+  "id": "laravel/blog-vapor-api-gateway-20-now-supports-wildcard-custom-domain-names",
+  "title": "Vapor: API Gateway 2.0 now supports wildcard custom domain names",
+  "link": "https://laravel.com/blog/vapor-api-gateway-20-now-supports-wildcard-custom-domain-names?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2020-08-12T06:00:00.000Z",
+  "content": "<html><head></head><body>Amazon just announced that API Gateway 2.0 now supports wildcard custom domain names.\n\nWith this new feature, you can now combine a wildcard domain...</body></html>",
+  "source": "laravel",
+  "author": "Nuno Maduro",
+  "creatorId": "laravel",
+  "tags": []
+}

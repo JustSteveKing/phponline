@@ -1,0 +1,13 @@
+{
+  "id": "laravel/blog-forge-removal-of-beanstalkd",
+  "title": "Forge: Removing \"beanstalkd\"",
+  "link": "https://laravel.com/blog/forge-removal-of-beanstalkd?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2020-05-20T13:20:00.000Z",
+  "content": "<html><head></head><body>Beginning today, Forge will no longer install [beanstalkd](https://beanstalkd.github.io/) on new servers.\n\nWe have noted an increase in provisioning failures due to the beanstalkd service failing. In...</body></html>",
+  "source": "laravel",
+  "author": "James Brooks",
+  "creatorId": "laravel",
+  "tags": [
+    "devops"
+  ]
+}

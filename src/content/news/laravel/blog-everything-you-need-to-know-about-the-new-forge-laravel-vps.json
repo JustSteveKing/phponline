@@ -1,0 +1,14 @@
+{
+  "id": "laravel/blog-everything-you-need-to-know-about-the-new-forge-laravel-vps",
+  "title": "Everything You Need to Know About the New Forge & Laravel VPS",
+  "link": "https://laravel.com/blog/everything-you-need-to-know-about-the-new-forge-laravel-vps?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2025-10-01T13:25:00.000Z",
+  "content": "<html><head></head><body>Optimized for PHP and beyond, the new Forge comes with instant provisioning via Laravel VPS, zero-downtime deployments, automated SSL, and a modern UI.\n</body></html>",
+  "source": "laravel",
+  "author": "James Brooks",
+  "creatorId": "laravel",
+  "tags": [
+    "laravel",
+    "devops"
+  ]
+}

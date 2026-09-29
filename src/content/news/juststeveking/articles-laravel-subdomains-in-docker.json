@@ -1,0 +1,15 @@
+{
+  "id": "juststeveking/articles-laravel-subdomains-in-docker",
+  "title": "Laravel subdomains in Docker",
+  "link": "https://www.juststeveking.com/articles/laravel-subdomains-in-docker/?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2022-06-07T00:00:00.000Z",
+  "content": "<html><head></head><body>Learn how to set up subdomain support for your Laravel app using Docker. Configure Nginx, Redis, MySQL, and Traefik for seamless subdomain management.</body></html>",
+  "source": "juststeveking",
+  "author": "Steve McDougall — Articles",
+  "creatorId": "juststeveking",
+  "tags": [
+    "laravel",
+    "databases",
+    "devops"
+  ]
+}

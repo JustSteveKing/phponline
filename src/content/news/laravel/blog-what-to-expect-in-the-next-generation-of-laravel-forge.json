@@ -1,0 +1,14 @@
+{
+  "id": "laravel/blog-what-to-expect-in-the-next-generation-of-laravel-forge",
+  "title": "What to Expect in the Next Generation of Laravel Forge",
+  "link": "https://laravel.com/blog/what-to-expect-in-the-next-generation-of-laravel-forge?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2025-09-10T14:35:24.000Z",
+  "content": "<html><head></head><body>The next generation of Laravel Forge eliminates deployment anxiety with zero-downtime updates, Laravel VPS, and robust developer experience tools.</body></html>",
+  "source": "laravel",
+  "author": "James Brooks",
+  "creatorId": "laravel",
+  "tags": [
+    "laravel",
+    "devops"
+  ]
+}

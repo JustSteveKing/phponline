@@ -1,0 +1,13 @@
+{
+  "id": "juststeveking/articles-nobody-wants-to-touch-that-model",
+  "title": "Nobody Wants To Touch That Model",
+  "link": "https://www.juststeveking.com/articles/nobody-wants-to-touch-that-model/?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-08-26T00:00:00.000Z",
+  "content": "<html><head></head><body>Every Laravel codebase has a model people route around. Counting its lines is the least useful thing you can do to it, and extracting traits is how the count gets hidden rather than fixed.</body></html>",
+  "source": "juststeveking",
+  "author": "Steve McDougall — Articles",
+  "creatorId": "juststeveking",
+  "tags": [
+    "laravel"
+  ]
+}

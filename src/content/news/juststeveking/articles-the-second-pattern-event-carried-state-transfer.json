@@ -1,0 +1,11 @@
+{
+  "id": "juststeveking/articles-the-second-pattern-event-carried-state-transfer",
+  "title": "The Second Pattern: Event-Carried State Transfer",
+  "link": "https://www.juststeveking.com/articles/the-second-pattern-event-carried-state-transfer/?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-09-03T00:00:00.000Z",
+  "content": "<html><head></head><body>A consumer that receives an ID and immediately asks you for the record has not been decoupled from you. It has been given a slightly slower way to call your API.</body></html>",
+  "source": "juststeveking",
+  "author": "Steve McDougall — Articles",
+  "creatorId": "juststeveking",
+  "tags": []
+}

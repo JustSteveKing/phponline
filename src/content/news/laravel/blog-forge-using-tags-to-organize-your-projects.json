@@ -1,0 +1,14 @@
+{
+  "id": "laravel/blog-forge-using-tags-to-organize-your-projects",
+  "title": "Forge: Using Tags To Organize Your Projects",
+  "link": "https://laravel.com/blog/forge-using-tags-to-organize-your-projects?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2021-03-05T15:44:00.000Z",
+  "content": "<html><head></head><body>As your server infrastructure and number of sites grows, finding the right server or site can become increasingly cumbersome. Thankfully, Laravel Forge makes managing your infrastructure easier with t...</body></html>",
+  "source": "laravel",
+  "author": "James Brooks",
+  "creatorId": "laravel",
+  "tags": [
+    "laravel",
+    "devops"
+  ]
+}

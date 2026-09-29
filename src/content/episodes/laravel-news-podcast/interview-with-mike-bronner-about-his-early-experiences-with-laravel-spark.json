@@ -1,0 +1,14 @@
+{
+  "id": "laravel-news-podcast/interview-with-mike-bronner-about-his-early-experiences-with-laravel-spark",
+  "title": "Interview with Mike Bronner about his early experiences with Laravel Spark",
+  "link": "https://podcast.laravel-news.com/15?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2016-05-03T13:00:00.000Z",
+  "content": "LN15: Jack reads the news and interviews Mike Bronner while Eric takes a much needed week off.",
+  "coverImage": "https://img.transistorcdn.com/DG7bagcZDZqn7BkBCrMUMlVQXVRPxCbA0YQdsTmaioc/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9lcGlz/b2RlLzE2NDIwMy8x/NTc2MzQwNjY1LWFy/dHdvcmsuanBn.jpg",
+  "podcast": "Laravel News Podcast",
+  "audioUrl": "https://media.transistor.fm/d9c43fbb/010978b2.mp3",
+  "duration": "1614",
+  "episode": "15",
+  "season": "",
+  "creatorId": "laravel-news"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "php/2025-09-08-1",
+  "title": "PHPKonf 2025 Baku",
+  "link": "https://www.php.net/conferences/index.php?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev#2025-09-08-1",
+  "pubDate": "2025-09-08T06:53:09.000Z",
+  "content": "<html><head></head><body><div type=\"xhtml\"><div xmlns=\"http://www.w3.org/1999/xhtml\"><p>\n            PHPKonf 2025 will take place on October 26, 2025 in Baku, Azerbaijan, bringing together PHP developers,\n            software engineers, and technology enthusiasts from the local and international community.\n        </p><p>\n            This one-day conference will feature practical talks and case studies on PHP and its ecosystem,\n            including frameworks such as Laravel and Symfony, as well as modern practices in testing,\n            security, architecture, and performance optimization.\n        </p><p>\n            Participants will have the opportunity to connect with experienced speakers,\n            exchange knowledge with peers, and explore real-world solutions to everyday development challenges.\n        </p><p>\n            With support from local tech organizations and the broader PHP community,\n            PHPKonf 2025 aims to strengthen the professional network of developers\n            in the region and inspire collaboration on open source and enterprise projects.\n        </p><p><strong>Official website:</strong><a href=\"https://phpkonf.az/\">https://phpkonf.az/</a></p></div></div></body></html>",
+  "source": "php",
+  "author": "PHP.net news & announcements",
+  "creatorId": "php-net",
+  "tags": [
+    "laravel",
+    "symfony",
+    "security",
+    "performance",
+    "testing",
+    "architecture"
+  ]
+}

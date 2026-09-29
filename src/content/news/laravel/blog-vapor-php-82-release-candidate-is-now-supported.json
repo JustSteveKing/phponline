@@ -1,0 +1,13 @@
+{
+  "id": "laravel/blog-vapor-php-82-release-candidate-is-now-supported",
+  "title": "Vapor: PHP 8.2 Release Candidate Is Now Supported",
+  "link": "https://laravel.com/blog/vapor-php-82-release-candidate-is-now-supported?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2022-10-17T13:14:00.000Z",
+  "content": "<html><head></head><body>Starting today, you may use PHP 8.2 Release Candidates in your Vapor environments. To get started, simply specify \"php-8.2:al2\" as your preferred runtime in your \"vapor.yml\" configuration file.</body></html>",
+  "source": "laravel",
+  "author": "Joe Dixon",
+  "creatorId": "laravel",
+  "tags": [
+    "php8"
+  ]
+}

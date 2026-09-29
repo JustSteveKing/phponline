@@ -1,0 +1,17 @@
+{
+  "id": "php/id2017-10-19-1",
+  "title": "ScotlandPHP",
+  "link": "http://php.net/conferences/index.php?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev#id2017-10-19-1",
+  "pubDate": "2017-10-19T17:46:40.000Z",
+  "content": "<html><head></head><body><div type=\"xhtml\"><div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Scotland's Original and Best PHP Conference</p><p>Saturday 4th November 2017, EICC, Edinburgh</p><p>2 Tracks, 14 World Class Speakers, 2 Social Events, 1 Amazing Day!</p><p><a href=\"https://conference.scotlandphp.co.uk\">More Information...</a></p><p>Follow us on twitter: <a href=\"https://www.twitter.com/scotlandphp\">@scotlandphp</a></p><ul><li>Josh Holmes MICROSOFT - Opening Keynote: “Rise of the Machines”</li><li>Adam Culp ZEND  - “Clean Application Development”</li><li>Amanda Folson NEXMO - “Open Source for Closed Source Companies”</li><li>Ciaran McNulty INVIQA - “Behat Best Practices”</li><li>Christian Lück CONSULTANT  - “Pushing the Limits of PHP with ReactPHP”</li><li>Craig McCreath MTC - “Refactoring Large Legacy Applications with Laravel”</li><li>Dave Stokes ORACLE - “MySQL 8: A New Beginning”</li><li>David McKay CONSULTANT - “What even is ‘Cloud Native’?”</li><li>Matt Brunt VIVA IT - “Content Security Policies: Let's Break Stuff”</li><li>Renato Mefi ENRISE - “GraphQL is right in front of us, let's do it!”</li><li>Seb Heuer KARTENMACHEREI  - ”The Myth of Untestable Code”</li><li>Terrence Ryan GOOGLE  - “Containing Chaos with Kubernetes”</li><li>Thomas Shone BOOKING.COM - ”Security Theatre: The State of Online Security”</li><li>Meri Williams MOO.COM  - Closing Keynote: “Creating Space to be Awesome”</li></ul></div></div></body></html>",
+  "source": "php",
+  "author": "PHP.net news & announcements",
+  "creatorId": "php-net",
+  "tags": [
+    "laravel",
+    "security",
+    "architecture",
+    "databases",
+    "devops"
+  ]
+}

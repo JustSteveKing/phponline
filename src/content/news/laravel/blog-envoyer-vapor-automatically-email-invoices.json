@@ -1,0 +1,11 @@
+{
+  "id": "laravel/blog-envoyer-vapor-automatically-email-invoices",
+  "title": "Envoyer & Vapor: Automatically Email Invoices",
+  "link": "https://laravel.com/blog/envoyer-vapor-automatically-email-invoices?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2020-12-22T08:00:00.000Z",
+  "content": "<html><head></head><body>Beginning today, you may provide a list of email addresses that you would like to receive invoice PDFs when your Envoyer and Vapor subscriptions successfully renews.</body></html>",
+  "source": "laravel",
+  "author": "Nuno Maduro",
+  "creatorId": "laravel",
+  "tags": []
+}

@@ -1,0 +1,11 @@
+{
+  "id": "laravel/blog-vapor-introducing-custom-asset-domains",
+  "title": "Vapor: Introducing Custom Asset Domains",
+  "link": "https://laravel.com/blog/vapor-introducing-custom-asset-domains?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2022-10-20T14:57:00.000Z",
+  "content": "<html><head></head><body>In the latest release of Vapor, we've made it possible for you to serve your assets via a custom domain.</body></html>",
+  "source": "laravel",
+  "author": "Joe Dixon",
+  "creatorId": "laravel",
+  "tags": []
+}

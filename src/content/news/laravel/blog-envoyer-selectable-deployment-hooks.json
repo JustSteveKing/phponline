@@ -1,0 +1,13 @@
+{
+  "id": "laravel/blog-envoyer-selectable-deployment-hooks",
+  "title": "Envoyer: Selectable Deployment Hooks",
+  "link": "https://laravel.com/blog/envoyer-selectable-deployment-hooks?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2020-12-16T15:20:00.000Z",
+  "content": "<html><head></head><body>Envoyer's powerful deployment hook system allows you to create bespoke deployment plans for your projects. Envoy can install your dependencies and compile your assets or even interact with third-party...</body></html>",
+  "source": "laravel",
+  "author": "James Brooks",
+  "creatorId": "laravel",
+  "tags": [
+    "devops"
+  ]
+}

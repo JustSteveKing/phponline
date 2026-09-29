@@ -1,0 +1,15 @@
+{
+  "id": "rfc/message-132488",
+  "title": "array_str_contains: Removal of performance benchmark tests",
+  "link": "https://externals.io/message/132488?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-09-13T19:40:23.000Z",
+  "content": "<html><head></head><body>[RFC Update] array_str_contains(): Removal of performance benchmark tests</body></html>",
+  "source": "rfc",
+  "author": "#externals - Latest RFC Threads",
+  "status": "RFC",
+  "creatorId": "internals",
+  "tags": [
+    "performance",
+    "internals"
+  ]
+}

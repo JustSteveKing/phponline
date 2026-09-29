@@ -1,0 +1,13 @@
+{
+  "id": "juststeveking/articles-async-php",
+  "title": "Fibers Plus the Polling API: What Async PHP Actually Looks Like Now",
+  "link": "https://www.juststeveking.com/articles/async-php/?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-07-01T00:00:00.000Z",
+  "content": "<html><head></head><body>Fibers give PHP concurrency. The Polling API gives it native epoll and kqueue. Here's how to build on both, with honest benchmarks.</body></html>",
+  "source": "juststeveking",
+  "author": "Steve McDougall — Articles",
+  "creatorId": "juststeveking",
+  "tags": [
+    "performance"
+  ]
+}

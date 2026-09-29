@@ -1,0 +1,14 @@
+{
+  "id": "laravel-news-podcast/precognition-faking-stripe-and-debugging-blade",
+  "title": "Precognition, faking Stripe, and debugging Blade",
+  "link": "https://podcast.laravel-news.com/193?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2023-06-06T14:00:00.000Z",
+  "content": "\n        <p>Jake and Michael discuss all the latest Laravel releases, tutorials, and happenings in the community.</p><p>This episode is sponsored by <a href=\"https://honeybadger.io/?ref=laravelnewspodcast\">Honeybadger</a> - combining error monitoring, uptime monitoring and check-in monitoring into a single, easy to use platform and making you a DevOps hero.</p><p></p><ul><li>(06:10) - Laravel 10.12 released</li>\n<li>(13:22) - Laravel 10.13 released</li>\n<li>(18:11) - Laravel Precognition updates are here</li>\n<li>(23:18) - FakerPHP Stripe provider</li>\n<li>(24:58) - Uploadcare filesystem adapter for Laravel</li>\n<li>(28:35) - Sponsor: Honeybadger</li>\n<li>(29:48) - Add debug comments to your rendered Blade templates</li>\n<li>(31:25) - Extra checks for Laravel Server Monitor</li>\n</ul>\n      ",
+  "coverImage": "https://img.transistorcdn.com/qmJ1PPS58Dv5ZdzfP2OsERDEhhL_6EPX8Tjmyurk5f0/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9zaG93/LzY0MDUvMTY5NDc4/NzE0OS1hcnR3b3Jr/LmpwZw.jpg",
+  "podcast": "Laravel News Podcast",
+  "audioUrl": "https://media.transistor.fm/d434305e/975fbb28.mp3",
+  "duration": "2146",
+  "episode": "193",
+  "season": "",
+  "creatorId": "laravel-news"
+}

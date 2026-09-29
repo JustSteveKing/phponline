@@ -1,0 +1,14 @@
+{
+  "id": "juststeveking/articles-behavioral-driven-development",
+  "title": "Behavioural Driven Development in Laravel",
+  "link": "https://www.juststeveking.com/articles/behavioral-driven-development/?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2022-09-06T00:00:00.000Z",
+  "content": "<html><head></head><body>Discover how Laravel can embrace BDD with the 'Given When Then' approach, uniting teams and creating a ubiquitous testing language without new syntax.</body></html>",
+  "source": "juststeveking",
+  "author": "Steve McDougall — Articles",
+  "creatorId": "juststeveking",
+  "tags": [
+    "laravel",
+    "testing"
+  ]
+}

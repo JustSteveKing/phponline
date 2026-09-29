@@ -1,0 +1,15 @@
+{
+  "id": "php/id2021-10-26-1",
+  "title": "PHP workshop for 2 days with Shopware, Sylius, PHPUnit and Codeception in Duisburg",
+  "link": "https://www.php.net/conferences/index.php?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev#id2021-10-26-1",
+  "pubDate": "2021-10-26T12:18:02.000Z",
+  "content": "<html><head></head><body><div type=\"xhtml\"><div xmlns=\"http://www.w3.org/1999/xhtml\">\n     We will do live coding workshop for 2 days with core developers in Duisburg.\n     Together with the wireless keyboard we will learn about Symfony entities in Shopware plugin, PHPUnit integration tests, headless API in Sylius and Codeception testing.\n     See the  for more details.\n     \n    <a href=\"https://nevercodealone.de/nca-conference-duisburg\">event page</a></div></div></body></html>",
+  "source": "php",
+  "author": "PHP.net news & announcements",
+  "creatorId": "php-net",
+  "tags": [
+    "symfony",
+    "testing",
+    "internals"
+  ]
+}

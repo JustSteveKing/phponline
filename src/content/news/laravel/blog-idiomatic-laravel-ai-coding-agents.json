@@ -1,0 +1,13 @@
+{
+  "id": "laravel/blog-idiomatic-laravel-ai-coding-agents",
+  "title": "AI coding agents pass tests. Can they write idiomatic Laravel?",
+  "link": "https://laravel.com/blog/idiomatic-laravel-ai-coding-agents?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-07-24T15:28:00.000Z",
+  "content": "<html><head></head><body>AI coding agents can now pass every Laravel Boost eval. Next up: measuring idiomatic Laravel and correct code per token.</body></html>",
+  "source": "laravel",
+  "author": "Pushpak Chhajed",
+  "creatorId": "laravel",
+  "tags": [
+    "laravel"
+  ]
+}

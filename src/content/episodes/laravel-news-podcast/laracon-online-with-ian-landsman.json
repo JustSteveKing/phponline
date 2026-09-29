@@ -1,0 +1,14 @@
+{
+  "id": "laravel-news-podcast/laracon-online-with-ian-landsman",
+  "title": "Laracon Online with Ian Landsman",
+  "link": "https://podcast.laravel-news.com/31?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2017-02-14T15:00:00.000Z",
+  "content": "In this episode, Jacob and Michael are joined by Ian Landsman to discuss the exciting new conference venture Laracon Online.",
+  "coverImage": "https://img.transistorcdn.com/WEciEhafW5FMSH2KFF0MHUk8ebqJORxVMKROP_YtQKc/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9lcGlz/b2RlLzE2NDIxOS8x/NTc2MzQwNzM1LWFy/dHdvcmsuanBn.jpg",
+  "podcast": "Laravel News Podcast",
+  "audioUrl": "https://media.transistor.fm/3cca45a8/90a466bf.mp3",
+  "duration": "3141",
+  "episode": "31",
+  "season": "",
+  "creatorId": "laravel-news"
+}

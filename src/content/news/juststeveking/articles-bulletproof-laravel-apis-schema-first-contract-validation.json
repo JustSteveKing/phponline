@@ -1,0 +1,14 @@
+{
+  "id": "juststeveking/articles-bulletproof-laravel-apis-schema-first-contract-validation",
+  "title": "Building Bulletproof Laravel APIs using Schema-First Contract Validation",
+  "link": "https://www.juststeveking.com/articles/bulletproof-laravel-apis-schema-first-contract-validation/?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-07-20T00:00:00.000Z",
+  "content": "<html><head></head><body>Stop letting undocumented fields into your Laravel API. Write the JSON Schema first, then enforce it in middleware, DTOs, and your Pest test suite.</body></html>",
+  "source": "juststeveking",
+  "author": "Steve McDougall — Articles",
+  "creatorId": "juststeveking",
+  "tags": [
+    "laravel",
+    "testing"
+  ]
+}

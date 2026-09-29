@@ -1,0 +1,16 @@
+{
+  "id": "laravel/blog-laravel-ai-agents-now-support-mcp-servers",
+  "title": "Laravel AI Agents Now Support MCP Servers",
+  "link": "https://laravel.com/blog/laravel-ai-agents-now-support-mcp-servers?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-06-09T17:40:24.000Z",
+  "content": "<html><head></head><body>Connect any Laravel AI agent to an MCP server using the Laravel AI SDK and MCP. Supports bearer and OAuth auth, STDIO and HTTP transports, and built-in caching.</body></html>",
+  "source": "laravel",
+  "author": "Pushpak Chhajed",
+  "creatorId": "laravel",
+  "tags": [
+    "laravel",
+    "security",
+    "performance",
+    "devops"
+  ]
+}

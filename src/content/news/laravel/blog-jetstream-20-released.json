@@ -1,0 +1,13 @@
+{
+  "id": "laravel/blog-jetstream-20-released",
+  "title": "Jetstream 2.0 Released",
+  "link": "https://laravel.com/blog/jetstream-20-released?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2021-01-05T19:37:00.000Z",
+  "content": "<html><head></head><body>Today I'm excited to announce the release of [Laravel Jetstream 2.0](https://jetstream.laravel.com)! This release of Jetstream adds several highly requested features to the application starter kit, in...</body></html>",
+  "source": "laravel",
+  "author": "Taylor Otwell",
+  "creatorId": "laravel",
+  "tags": [
+    "laravel"
+  ]
+}

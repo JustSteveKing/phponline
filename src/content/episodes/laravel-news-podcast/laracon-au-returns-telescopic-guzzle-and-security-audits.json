@@ -1,0 +1,14 @@
+{
+  "id": "laravel-news-podcast/laracon-au-returns-telescopic-guzzle-and-security-audits",
+  "title": "Laracon AU returns, telescopic guzzle, and security audits",
+  "link": "https://podcast.laravel-news.com/190?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2023-04-26T14:00:00.000Z",
+  "content": "\n        <p>Jake and Michael discuss all the latest Laravel releases, tutorials, and happenings in the community.</p><p>This episode is sponsored by <a href=\"https://honeybadger.io/?ref=laravelnewspodcast\">Honeybadger</a> - combining error monitoring, uptime monitoring and check-in monitoring into a single, easy to use platform and making you a DevOps hero.</p><p></p><ul><li>(02:02) - Laravel 10.7 released</li>\n<li>(08:20) - Laravel 10.8 released</li>\n<li>(15:22) - Laracon AU is returning in 2023!</li>\n<li>(17:21) - Convert HEIC images to JPEG in PHP</li>\n<li>(20:11) - Lunar headless e-commerce for Laravel</li>\n<li>(22:09) - Laravel validate package with over 35 pre-built rules</li>\n<li>(23:34) - Sponsor: Honeybadger</li>\n<li>(24:39) - Laravel FFMpeg tools</li>\n<li>(28:03) - Laravel Telescope Guzzle watcher</li>\n<li>(30:15) - Generate string acronyms with this Laravel macro</li>\n<li>(32:44) - Going past actions in Laravel</li>\n<li>(34:23) - Top 10 Laravel audit security issues</li>\n</ul>\n      ",
+  "coverImage": "https://img.transistorcdn.com/qmJ1PPS58Dv5ZdzfP2OsERDEhhL_6EPX8Tjmyurk5f0/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9zaG93/LzY0MDUvMTY5NDc4/NzE0OS1hcnR3b3Jr/LmpwZw.jpg",
+  "podcast": "Laravel News Podcast",
+  "audioUrl": "https://media.transistor.fm/516be0ab/4f14d872.mp3",
+  "duration": "2326",
+  "episode": "190",
+  "season": "",
+  "creatorId": "laravel-news"
+}

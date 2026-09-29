@@ -1,0 +1,14 @@
+{
+  "id": "northmeetsouth/bringing-tests-into-vanilla-php-apps-trust-over-process-and-seeding-tests",
+  "title": "Bringing tests into vanilla PHP apps, trust over process, and seeding tests",
+  "link": "https://share.transistor.fm/s/7381cc53?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2021-10-11T15:00:00.000Z",
+  "content": "In this episode, Jake and Michael discuss the all the work to consider before introducing tests to a vanilla PHP app, trusting people over adding layers of process, and seeing data in your tests and migrations.",
+  "coverImage": "https://img.transistorcdn.com/gTGjKd44Qy-t3yz9_V60jp8N2Qe5KN4QwfB-5FNuQPM/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9zaG93/LzQ4ODMvMTU3Mjc3/NzAzNi1hcnR3b3Jr/LmpwZw.jpg",
+  "podcast": "NorthMeetSouth",
+  "audioUrl": "https://media.transistor.fm/7381cc53/387d8a50.mp3",
+  "duration": "2918",
+  "episode": "105",
+  "season": "",
+  "creatorId": "northmeetsouth"
+}

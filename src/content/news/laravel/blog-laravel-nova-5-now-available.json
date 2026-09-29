@@ -1,0 +1,14 @@
+{
+  "id": "laravel/blog-laravel-nova-5-now-available",
+  "title": "Laravel Nova 5.0 Now Available",
+  "link": "https://laravel.com/blog/laravel-nova-5-now-available?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2024-12-17T16:40:00.000Z",
+  "content": "<html><head></head><body>Laravel Nova 5.0 is now ready for upgrade. This release focuses on modernizing Nova's core dependencies while introducing several useful features to improve resource management and field handling.</body></html>",
+  "source": "laravel",
+  "author": "Cynthia Bell McGills",
+  "creatorId": "laravel",
+  "tags": [
+    "laravel",
+    "internals"
+  ]
+}

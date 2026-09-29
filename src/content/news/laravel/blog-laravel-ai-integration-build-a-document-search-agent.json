@@ -1,0 +1,13 @@
+{
+  "id": "laravel/blog-laravel-ai-integration-build-a-document-search-agent",
+  "title": "Laravel AI Integration: Build a Document Search Agent",
+  "link": "https://laravel.com/blog/laravel-ai-integration-build-a-document-search-agent?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-05-08T12:54:52.000Z",
+  "content": "<html><head></head><body>Learn how to build a document search agent with the Laravel AI SDK. Upload files, generate vector embeddings, and stream answers to the browser in real time.</body></html>",
+  "source": "laravel",
+  "author": "Laravel Team",
+  "creatorId": "laravel",
+  "tags": [
+    "laravel"
+  ]
+}

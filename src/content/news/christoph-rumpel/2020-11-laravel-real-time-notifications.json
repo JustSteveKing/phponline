@@ -1,0 +1,13 @@
+{
+  "id": "christoph-rumpel/2020-11-laravel-real-time-notifications",
+  "title": "Laravel Real-Time Notifications",
+  "link": "https://christoph-rumpel.com/2020/11/laravel-real-time-notifications?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2020-11-13T20:04:28.000Z",
+  "content": "<html><head></head><body>In this post, we will look at how we can send real-time notifications with Laravel, the Laravel WebSockets package, and Laravel Echo.\n            </body></html>",
+  "source": "christoph-rumpel",
+  "author": "Christoph Rumpel Blog Feed",
+  "creatorId": "christoph-rumpel",
+  "tags": [
+    "laravel"
+  ]
+}

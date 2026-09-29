@@ -1,0 +1,13 @@
+{
+  "id": "juststeveking/articles-the-art-of-keeping-business-logic-honest",
+  "title": "The Art Of Keeping Business Logic Honest",
+  "link": "https://www.juststeveking.com/articles/the-art-of-keeping-business-logic-honest/?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-05-20T00:00:00.000Z",
+  "content": "<html><head></head><body>Use state machines and workflow engines in Laravel to keep business rules explicit, auditable, and resilient across async processes.</body></html>",
+  "source": "juststeveking",
+  "author": "Steve McDougall — Articles",
+  "creatorId": "juststeveking",
+  "tags": [
+    "laravel"
+  ]
+}

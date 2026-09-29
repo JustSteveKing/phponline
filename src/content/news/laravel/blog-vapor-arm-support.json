@@ -1,0 +1,15 @@
+{
+  "id": "laravel/blog-vapor-arm-support",
+  "title": "Vapor: Arm Architecture Support",
+  "link": "https://laravel.com/blog/vapor-arm-support?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2023-04-17T14:22:00.000Z",
+  "content": "<html><head></head><body>Today we're super pumped to announce Arm powered runtimes on Vapor. Powered by AWS Graviton 2 processors, applications will see up to 20% better performance at a 20% cost reduction.</body></html>",
+  "source": "laravel",
+  "author": "Joe Dixon",
+  "creatorId": "laravel",
+  "tags": [
+    "performance",
+    "architecture",
+    "devops"
+  ]
+}

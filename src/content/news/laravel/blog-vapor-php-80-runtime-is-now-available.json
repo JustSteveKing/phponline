@@ -1,0 +1,13 @@
+{
+  "id": "laravel/blog-vapor-php-80-runtime-is-now-available",
+  "title": "Vapor: PHP 8.0 Runtime Is Now Available",
+  "link": "https://laravel.com/blog/vapor-php-80-runtime-is-now-available?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2020-11-25T14:45:00.000Z",
+  "content": "<html><head></head><body>As you may know, Vapor allows you to specify which PHP version a given environment runs on. Of course, we want you to be able to use the latest PHP features as soon as possible. Beginning today, you may now specify \"php-8.0\" as your application's runtime.</body></html>",
+  "source": "laravel",
+  "author": "Nuno Maduro",
+  "creatorId": "laravel",
+  "tags": [
+    "php8"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "juststeveking/articles-your-first-erd",
+  "title": "Your First ERD",
+  "link": "https://www.juststeveking.com/articles/your-first-erd/?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-05-18T00:00:00.000Z",
+  "content": "<html><head></head><body>Map entities and relationships before you write migrations so your schema starts on solid ground.</body></html>",
+  "source": "juststeveking",
+  "author": "Steve McDougall — Articles",
+  "creatorId": "juststeveking",
+  "tags": [
+    "architecture"
+  ]
+}

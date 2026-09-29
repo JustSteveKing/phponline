@@ -1,0 +1,13 @@
+{
+  "id": "laravel/blog-laravel-refreshing-artisan",
+  "title": "Laravel: Refreshing Artisan",
+  "link": "https://laravel.com/blog/laravel-refreshing-artisan?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2022-07-19T13:00:00.000Z",
+  "content": "<html><head></head><body>On today's release of Laravel v9.21.0, we’re bringing you a fresh new look for Artisan: a brand new console output on the vast majority of Laravel commands that deliveries a better console experience, and displays more information in commands such as \"migrate\" or \"queue:work\".</body></html>",
+  "source": "laravel",
+  "author": "Nuno Maduro",
+  "creatorId": "laravel",
+  "tags": [
+    "laravel"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "laravel/blog-forge-streaming-backups",
+  "title": "Forge: Streaming Backups & More",
+  "link": "https://laravel.com/blog/forge-streaming-backups?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2020-11-24T14:38:00.000Z",
+  "content": "<html><head></head><body>Since launching Forge's Database Backup feature [back in February](https://blog.laravel.com/forge-database-backups-now-supported), our customers have created thousands of backup configurations, which...</body></html>",
+  "source": "laravel",
+  "author": "James Brooks",
+  "creatorId": "laravel",
+  "tags": [
+    "laravel",
+    "databases"
+  ]
+}

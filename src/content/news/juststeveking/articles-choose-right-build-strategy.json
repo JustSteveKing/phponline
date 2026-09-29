@@ -1,0 +1,13 @@
+{
+  "id": "juststeveking/articles-choose-right-build-strategy",
+  "title": "How to choose the right build strategy for your application",
+  "link": "https://www.juststeveking.com/articles/choose-right-build-strategy/?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-02-24T00:00:00.000Z",
+  "content": "<html><head></head><body>Compare Nixpacks, Buildpacks, and Dockerfiles on Sevalla so you can pick the right build strategy for your stack, control needs, and deployment workflow.</body></html>",
+  "source": "juststeveking",
+  "author": "Steve McDougall — Articles",
+  "creatorId": "juststeveking",
+  "tags": [
+    "devops"
+  ]
+}

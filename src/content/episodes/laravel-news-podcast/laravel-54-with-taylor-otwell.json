@@ -1,0 +1,14 @@
+{
+  "id": "laravel-news-podcast/laravel-54-with-taylor-otwell",
+  "title": "Laravel 5.4 with Taylor Otwell",
+  "link": "https://podcast.laravel-news.com/30?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2017-01-31T13:20:00.000Z",
+  "content": "Jake and Michael take the reigns for their very first Laravel News podcast with a bang, tackling all the big new features in the just-released Laravel 5.4, with the help of Taylor Otwell.",
+  "coverImage": "https://img.transistorcdn.com/z7dDIGo9JWhxHQ1W-O7o6muioDhW8r_IaeYA3u8GXYw/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9lcGlz/b2RlLzE2NDIxOC8x/NTc2MzQwNzMxLWFy/dHdvcmsuanBn.jpg",
+  "podcast": "Laravel News Podcast",
+  "audioUrl": "https://media.transistor.fm/243d4dc7/299bbb7a.mp3",
+  "duration": "3494",
+  "episode": "30",
+  "season": "",
+  "creatorId": "laravel-news"
+}

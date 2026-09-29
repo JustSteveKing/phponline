@@ -1,0 +1,14 @@
+{
+  "id": "laravel-news-podcast/origin-stories-guzzler-and-mix-aliases",
+  "title": "Origin stories, Guzzler, and Mix aliases",
+  "link": "https://podcast.laravel-news.com/82?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2019-05-07T14:30:00.000Z",
+  "content": "Jake and Michael discuss all the latest Laravel releases, tutorials, and happenings in the community.",
+  "coverImage": "https://img.transistorcdn.com/4hUGhMIxbiK_c8YHNywkOQgm5G9BCMNobibS8aIfpNk/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9lcGlz/b2RlLzE2NDI3MC8x/NTc2MzQwOTQ5LWFy/dHdvcmsuanBn.jpg",
+  "podcast": "Laravel News Podcast",
+  "audioUrl": "https://media.transistor.fm/e7a967ac/75d3a36e.mp3",
+  "duration": "2780",
+  "episode": "82",
+  "season": "",
+  "creatorId": "laravel-news"
+}

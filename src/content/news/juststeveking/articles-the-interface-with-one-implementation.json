@@ -1,0 +1,11 @@
+{
+  "id": "juststeveking/articles-the-interface-with-one-implementation",
+  "title": "The Interface With One Implementation",
+  "link": "https://www.juststeveking.com/articles/the-interface-with-one-implementation/?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-08-26T00:00:00.000Z",
+  "content": "<html><head></head><body>You added it so the thing could be swapped out later. Later arrived and nothing was. Counting implementations is the wrong test, and where the interface lives tells you far more.</body></html>",
+  "source": "juststeveking",
+  "author": "Steve McDougall — Articles",
+  "creatorId": "juststeveking",
+  "tags": []
+}

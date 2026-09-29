@@ -1,0 +1,13 @@
+{
+  "id": "christoph-rumpel/2017-9-build-a-facebook-chatbot-with-laravel-and-botman-studio",
+  "title": "Build a Facebook Messenger chatbot in Laravel with BotMan Studio 2.0",
+  "link": "https://christoph-rumpel.com/2017/9/build-a-facebook-chatbot-with-laravel-and-botman-studio?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2017-09-03T20:04:28.000Z",
+  "content": "<html><head></head><body>With BotMan it is easy to set up a Facebook chatbot. This week the new 2.0 version was released. We will check out how to set up a Facebook Messenger chatbot in this new version with BotMan Studio step by step.\n            </body></html>",
+  "source": "christoph-rumpel",
+  "author": "Christoph Rumpel Blog Feed",
+  "creatorId": "christoph-rumpel",
+  "tags": [
+    "laravel"
+  ]
+}

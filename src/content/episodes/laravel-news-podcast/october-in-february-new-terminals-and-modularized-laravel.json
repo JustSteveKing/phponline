@@ -1,0 +1,14 @@
+{
+  "id": "laravel-news-podcast/october-in-february-new-terminals-and-modularized-laravel",
+  "title": "October in February, new terminals, and modularized Laravel",
+  "link": "https://podcast.laravel-news.com/209?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2024-02-29T15:00:00.000Z",
+  "content": "\n        <p>Jake and Michael discuss all the latest Laravel releases, tutorials, and happenings in the community.</p><p>This episode is sponsored by <a href=\"https://sentry.io\">Sentry</a> - code breaks, fix it faster. Don't just observe, take action today!</p><p></p><ul><li>(06:33) - With Laravel 10.44 you can add Model Scopes and Observers using PHP Attributes </li>\n<li>(13:45) - October CMS v3.6 Ships Today, Full of New Features </li>\n<li>(17:13) - PhpStorm is getting a brand new terminal </li>\n<li>(20:53) - Laracon EU Videos are now out </li>\n<li>(22:24) - Easy management of your application settings with Setting Pro</li>\n<li>(25:52) - Create elegant Discord bots with Laracord</li>\n<li>(29:13) - Tempo: The easiest way to work with dates in JavaScript</li>\n<li>(30:04) - Handle money transactions in Eloquent with Laravel Wallet</li>\n<li>(31:39) - Modularize your Laravel application with the Modular package</li>\n<li>(34:13) - Use Google's Gemini AI in Laravel</li>\n<li>(34:59) - Add Kanban boards to your Laravel app in seconds</li>\n<li>(36:02) - Essential plugins for PHPStorm users</li>\n<li>(37:30) - Six essential plugins for Visual Studio Code</li>\n</ul>\n      ",
+  "coverImage": "https://img.transistorcdn.com/qmJ1PPS58Dv5ZdzfP2OsERDEhhL_6EPX8Tjmyurk5f0/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9zaG93/LzY0MDUvMTY5NDc4/NzE0OS1hcnR3b3Jr/LmpwZw.jpg",
+  "podcast": "Laravel News Podcast",
+  "audioUrl": "https://media.transistor.fm/c011fc3e/617c41cb.mp3",
+  "duration": "2342",
+  "episode": "209",
+  "season": "",
+  "creatorId": "laravel-news"
+}

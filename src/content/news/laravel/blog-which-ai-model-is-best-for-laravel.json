@@ -1,0 +1,14 @@
+{
+  "id": "laravel/blog-which-ai-model-is-best-for-laravel",
+  "title": "Which AI Model Is Best for Laravel?",
+  "link": "https://laravel.com/blog/which-ai-model-is-best-for-laravel?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-03-18T14:47:42.000Z",
+  "content": "<html><head></head><body>We benchmarked 6 AI models on 17 real Laravel tasks, with and without Laravel Boost. See which model wins, which fails, and by how much.</body></html>",
+  "source": "laravel",
+  "author": "Pushpak Chhajed",
+  "creatorId": "laravel",
+  "tags": [
+    "laravel",
+    "performance"
+  ]
+}

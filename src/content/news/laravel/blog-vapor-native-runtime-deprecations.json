@@ -1,0 +1,11 @@
+{
+  "id": "laravel/blog-vapor-native-runtime-deprecations",
+  "title": "Vapor: Native Runtime Deprecations",
+  "link": "https://laravel.com/blog/vapor-native-runtime-deprecations?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2023-06-07T11:22:00.000Z",
+  "content": "<html><head></head><body>Today, we’re announcing the deprecation of a number of our native runtimes and wanted to take the opportunity to communicate what this looks like both now and moving forward.</body></html>",
+  "source": "laravel",
+  "author": "Joe Dixon",
+  "creatorId": "laravel",
+  "tags": []
+}

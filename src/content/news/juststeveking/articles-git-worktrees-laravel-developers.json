@@ -1,0 +1,13 @@
+{
+  "id": "juststeveking/articles-git-worktrees-laravel-developers",
+  "title": "The overlooked Git feature every Laravel developer should be using",
+  "link": "https://www.juststeveking.com/articles/git-worktrees-laravel-developers/?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-02-18T00:00:00.000Z",
+  "content": "<html><head></head><body>Use Git worktrees to maintain multiple isolated Laravel environments simultaneously without stashing or reinstalling dependencies.</body></html>",
+  "source": "juststeveking",
+  "author": "Steve McDougall — Articles",
+  "creatorId": "juststeveking",
+  "tags": [
+    "laravel"
+  ]
+}

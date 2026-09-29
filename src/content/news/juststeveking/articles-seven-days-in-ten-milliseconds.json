@@ -1,0 +1,11 @@
+{
+  "id": "juststeveking/articles-seven-days-in-ten-milliseconds",
+  "title": "Seven Days in Ten Milliseconds",
+  "link": "https://www.juststeveking.com/articles/seven-days-in-ten-milliseconds/?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-08-03T00:00:00.000Z",
+  "content": "<html><head></head><body>A workflow that sleeps for three days is not a workflow you can test by waiting. Owning the clock, asserting on absence, and the races you only get one shot at.</body></html>",
+  "source": "juststeveking",
+  "author": "Steve McDougall — Articles",
+  "creatorId": "juststeveking",
+  "tags": []
+}

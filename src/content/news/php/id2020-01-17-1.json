@@ -1,0 +1,16 @@
+{
+  "id": "php/id2020-01-17-1",
+  "title": "SunshinePHP 2020",
+  "link": "http://php.net/conferences/index.php?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev#id2020-01-17-1",
+  "pubDate": "2020-01-17T00:00:01.000Z",
+  "content": "<html><head></head><body><div type=\"xhtml\"><div xmlns=\"http://www.w3.org/1999/xhtml\"><p>In February 2020 come to Miami, Florida and escape the cold to learn more about PHP and speak with other developers, like you, to see what others are doing. The  has been announced, and we've assembled a great line-up with the most current PHP related topics for you.<a href=\"http://sunshinephp.com/speakers\" title=\"SunshinePHP 2020 Speaker List\">SunshinePHP 2020 speaker list</a></p><p>Topics include:</p><p>Come celebrate our 8th year from February 6th to 8th, 2020 in sunny Miami, Florida. There will be a full tutorial day featuring 3-hour sessions followed by 2 days of 1-hour talks and inspirational keynotes.</p><p>Register now! <a href=\"http://sunshinephp.com/register\" title=\"SunshinePHP\">SunshinePHP.com</a></p><ul><li>API Development</li><li>Middleware</li><li>Security</li><li>Blockchain</li><li>DevOps</li><li>Progressive Web Apps (PWA)</li><li>Continuous Delivery</li><li>Databases</li><li>Javascript</li><li>PHP Core</li><li>Unit Testing</li><li>UI/UX</li><li>Async PHP</li><li>Scalability</li><li>Team Development</li></ul></div></div></body></html>",
+  "source": "php",
+  "author": "PHP.net news & announcements",
+  "creatorId": "php-net",
+  "tags": [
+    "security",
+    "testing",
+    "internals",
+    "databases"
+  ]
+}

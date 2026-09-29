@@ -1,0 +1,14 @@
+{
+  "id": "laravel/blog-a-better-way-to-build-mcp-servers-with-laravel",
+  "title": "A better way to build MCP servers with Laravel",
+  "link": "https://laravel.com/blog/a-better-way-to-build-mcp-servers-with-laravel?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-09-11T12:01:00.000Z",
+  "content": "<html><head></head><body>Every MCP tool loads on every request. Laravel MCP 1.0 fixes that with searchable tool catalogs: the same payload for 10 or 100 tools.</body></html>",
+  "source": "laravel",
+  "author": "Pushpak Chhajed",
+  "creatorId": "laravel",
+  "tags": [
+    "laravel",
+    "devops"
+  ]
+}

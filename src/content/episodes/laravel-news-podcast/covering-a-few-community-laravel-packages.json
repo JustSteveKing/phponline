@@ -1,0 +1,14 @@
+{
+  "id": "laravel-news-podcast/covering-a-few-community-laravel-packages",
+  "title": "Covering a few community Laravel packages",
+  "link": "https://podcast.laravel-news.com/13?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2016-04-05T16:00:00.000Z",
+  "content": "LN13: Laravel Exception Reporter, Chrome Bandwidth limiter, Chrome extension to generate Laravel tests, Jigsaw, Helpspot Vault, Fixing MySql Memory, Sparkwatch, Taxes, Jack runs into a laravel problem that Eric helps with.",
+  "coverImage": "https://img.transistorcdn.com/A3TWh01Q1nA10WD9KblQJEE86PQRUHyjDrW6J-l7ixI/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9lcGlz/b2RlLzE2NDIwMS8x/NTc2MzQwNjU2LWFy/dHdvcmsuanBn.jpg",
+  "podcast": "Laravel News Podcast",
+  "audioUrl": "https://media.transistor.fm/b8c64f81/a3c067c5.mp3",
+  "duration": "2299",
+  "episode": "13",
+  "season": "",
+  "creatorId": "laravel-news"
+}

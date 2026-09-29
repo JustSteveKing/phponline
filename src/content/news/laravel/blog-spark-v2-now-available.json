@@ -1,0 +1,13 @@
+{
+  "id": "laravel/blog-spark-v2-now-available",
+  "title": "Spark 2.0 Now Available!",
+  "link": "https://laravel.com/blog/spark-v2-now-available?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2022-04-12T14:33:00.000Z",
+  "content": "<html><head></head><body>We're happy to announce that Spark 2.0 is now available!\n\nSpark Stripe 2.0 includes support for [Cashier Stripe](https://github.com/laravel/cashier-stripe) v13, offering the latest compatibility enhan...</body></html>",
+  "source": "laravel",
+  "author": "Dries Vints",
+  "creatorId": "laravel",
+  "tags": [
+    "laravel"
+  ]
+}

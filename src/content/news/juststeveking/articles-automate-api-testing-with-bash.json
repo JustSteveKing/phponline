@@ -1,0 +1,14 @@
+{
+  "id": "juststeveking/articles-automate-api-testing-with-bash",
+  "title": "Automate local API testing with Bash",
+  "link": "https://www.juststeveking.com/articles/automate-api-testing-with-bash/?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2025-12-16T00:00:00.000Z",
+  "content": "<html><head></head><body>This article shows how to automate a complete authentication workflow using Bash, curl, and jq.</body></html>",
+  "source": "juststeveking",
+  "author": "Steve McDougall — Articles",
+  "creatorId": "juststeveking",
+  "tags": [
+    "security",
+    "testing"
+  ]
+}

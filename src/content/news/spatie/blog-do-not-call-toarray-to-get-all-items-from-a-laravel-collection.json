@@ -1,0 +1,13 @@
+{
+  "id": "spatie/blog-do-not-call-toarray-to-get-all-items-from-a-laravel-collection",
+  "title": "Do not call toArray to get all items from a Laravel Collection",
+  "link": "https://spatie.be/blog/do-not-call-toarray-to-get-all-items-from-a-laravel-collection?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2025-05-19T13:25:07.000Z",
+  "content": "<html><head></head><body><p>Laravel's <code>toArray</code> collection method might not return what you might expect.</p>\n\n            </body></html>",
+  "source": "spatie",
+  "author": "Spatie: Blog",
+  "creatorId": "spatie",
+  "tags": [
+    "laravel"
+  ]
+}

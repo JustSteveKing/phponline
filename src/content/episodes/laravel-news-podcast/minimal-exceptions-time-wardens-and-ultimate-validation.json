@@ -1,0 +1,14 @@
+{
+  "id": "laravel-news-podcast/minimal-exceptions-time-wardens-and-ultimate-validation",
+  "title": "Minimal exceptions, time wardens, and ultimate validation",
+  "link": "https://podcast.laravel-news.com/216?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2024-06-06T14:00:00.000Z",
+  "content": "\n        <p>Jake and Michael discuss all the latest Laravel releases, tutorials, and happenings in the community.</p><p>This episode is sponsored by Mailtrap, an Email Delivery Platform that developers love. An email-sending solution with industry-best analytics, SMTP, and email API, SDKs for major programming languages, and 24/7 human support. Try for Free at <a href=\"https://l.rw.rw/laravelnews\">MAILTRAP.IO</a></p><p><strong>Show links</strong></p><ul><li><a href=\"https://laravel-news.com/laravel-11-8-0\">A New Validation Rule and the Ability to Manually Fail a Command in Laravel 11.8 </a></li><li><a href=\"https://laravel-news.com/laravel-11-9-0\">A New Minimal Default Exception Page With Dark Mode Support in Laravel 11.9 </a></li><li><a href=\"https://x.com/ProjektGopher\">Len Woodward</a> announces <a href=\"https://x.com/ProjektGopher/status/1795078752877293894\">Conductor</a> - the PHP version of <a href=\"https://docs.npmjs.com/cli/v8/commands/npx\">npx</a></li><li><a href=\"https://laravel-news.com/laravel-11-10-0\">Use a Closure with updateOrInsert() in Laravel 11.10 </a></li><li><a href=\"https://laravel-news.com/eloquent-joinwith\">Eloquent JoinWith Package for Laravel </a></li><li><a href=\"https://laravel-news.com/laravel-top\">Real Time Command Line Monitoring With Laravel Top </a></li><li><a href=\"https://laravel-news.com/laravel-db-auditor\">Audit MySQL Databases in Laravel With the DB Auditor Package </a></li><li><a href=\"https://laravel-news.com/time-warden\">Monitor Code Processing Time in PHP with Time Warden </a></li><li><a href=\"https://laravel-news.com/additional-env-files-in-laravel\">Configuring Laravel With Additional Environment Files </a></li><li><a href=\"https://laravel-news.com/eloquent-factories-with-phpunit-data-providers\">Using Eloquent Factories With PHPUnit Data Providers </a></li><li><a href=\"https://laravel-news.com/laravel-validation\">The ultimate guide to Laravel Validation </a></li></ul>\n      ",
+  "coverImage": "https://img.transistorcdn.com/qmJ1PPS58Dv5ZdzfP2OsERDEhhL_6EPX8Tjmyurk5f0/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9zaG93/LzY0MDUvMTY5NDc4/NzE0OS1hcnR3b3Jr/LmpwZw.jpg",
+  "podcast": "Laravel News Podcast",
+  "audioUrl": "https://media.transistor.fm/4f0e8f4f/2d23a18e.mp3",
+  "duration": "1891",
+  "episode": "216",
+  "season": "",
+  "creatorId": "laravel-news"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "laravel/blog-deploying-your-nuxtjs-site-to-laravel-forge",
+  "title": "Deploying Your Nuxt.js Site To Laravel Forge",
+  "link": "https://laravel.com/blog/deploying-your-nuxtjs-site-to-laravel-forge?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2021-06-18T10:09:00.000Z",
+  "content": "<html><head></head><body>Nuxt.js is a framework for generating static websites using Vue.js. Today we’re we're going to explore how to deploy your Nuxt.js application with [Laravel Forge](https://forge.laravel.com).\n\nIf you'r...</body></html>",
+  "source": "laravel",
+  "author": "James Brooks",
+  "creatorId": "laravel",
+  "tags": [
+    "laravel"
+  ]
+}

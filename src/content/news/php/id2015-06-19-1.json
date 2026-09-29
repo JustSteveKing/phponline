@@ -1,0 +1,15 @@
+{
+  "id": "php/id2015-06-19-1",
+  "title": "ZendCon 2015",
+  "link": "http://php.net/conferences/index.php?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev#id2015-06-19-1",
+  "pubDate": "2015-06-19T10:00:00.000Z",
+  "content": "<html><head></head><body><div type=\"xhtml\"><div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Announcing ZendCon 2015, the global PHP conference, happening at the exciting Hard Rock Hotel &amp; Casino in Las Vegas, Nevada. It will start with a full day of tutorials on October 19th and then continue with inspirational keynotes and breakout sessions through the 22nd.</p><p>The conference will feature many of the top developers and speakers in the PHP space to deliver dedicated tracks centered around Zend Framework, Symfony, Laravel, WordPress, Joomla!, Drupal, and Magento. We will also host additional tracks for PHP best practices, PHP architecture, IBM i, and PHP 7.</p><p>We look forward to seeing you in Las Vegas in October. <a href=\"http://www.zendcon.com/\">http://www.zendcon.com/</a></p></div></div></body></html>",
+  "source": "php",
+  "author": "PHP.net news & announcements",
+  "creatorId": "php-net",
+  "tags": [
+    "laravel",
+    "symfony",
+    "architecture"
+  ]
+}

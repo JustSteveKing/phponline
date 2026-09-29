@@ -1,0 +1,13 @@
+{
+  "id": "laravel/blog-inertia-v3-whats-changed-since-the-first-beta",
+  "title": "Inertia v3: What's Changed Since the First Beta",
+  "link": "https://laravel.com/blog/inertia-v3-whats-changed-since-the-first-beta?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-03-25T17:07:23.000Z",
+  "content": "<html><head></head><body>What changed in Inertia v3 since the first beta: simpler layout props, Vite 8 support, a withApp callback, and new Blade components.</body></html>",
+  "source": "laravel",
+  "author": "Pascal Baljet",
+  "creatorId": "laravel",
+  "tags": [
+    "laravel"
+  ]
+}

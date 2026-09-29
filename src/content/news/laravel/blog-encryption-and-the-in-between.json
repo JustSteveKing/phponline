@@ -1,0 +1,15 @@
+{
+  "id": "laravel/blog-encryption-and-the-in-between",
+  "title": "Encryption and the In-between",
+  "link": "https://laravel.com/blog/encryption-and-the-in-between?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2024-04-04T12:32:00.000Z",
+  "content": "<html><head></head><body>Last year, we introduced a simple but surprisingly useful feature to Laravel Forge: the ability to add notes to servers.\n\nWhile checking the uptake of this feature, we noticed that customers were ofte...</body></html>",
+  "source": "laravel",
+  "author": "James Brooks",
+  "creatorId": "laravel",
+  "tags": [
+    "laravel",
+    "security",
+    "devops"
+  ]
+}

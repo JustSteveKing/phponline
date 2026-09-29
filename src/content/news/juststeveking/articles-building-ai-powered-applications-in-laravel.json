@@ -1,0 +1,13 @@
+{
+  "id": "juststeveking/articles-building-ai-powered-applications-in-laravel",
+  "title": "Building AI Powered Applications in Laravel",
+  "link": "https://www.juststeveking.com/articles/building-ai-powered-applications-in-laravel/?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2025-12-12T00:00:00.000Z",
+  "content": "<html><head></head><body>This guide walks through prompt organization, structured outputs, and AI-discoverable capabilities using Prism and Laravel MCP.</body></html>",
+  "source": "juststeveking",
+  "author": "Steve McDougall — Articles",
+  "creatorId": "juststeveking",
+  "tags": [
+    "laravel"
+  ]
+}

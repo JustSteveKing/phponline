@@ -1,0 +1,13 @@
+{
+  "id": "juststeveking/articles-controlling-code-quality-when-an-agent-writes-your-laravel",
+  "title": "Controlling Code Quality When an Agent Writes Your Laravel",
+  "link": "https://www.juststeveking.com/articles/controlling-code-quality-when-an-agent-writes-your-laravel/?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-08-17T00:00:00.000Z",
+  "content": "<html><head></head><body>Specs, ADRs and path-scoped rules. The three layers of context I build around an agent so it writes Laravel the way my codebase does, not the way every tutorial does.</body></html>",
+  "source": "juststeveking",
+  "author": "Steve McDougall — Articles",
+  "creatorId": "juststeveking",
+  "tags": [
+    "laravel"
+  ]
+}

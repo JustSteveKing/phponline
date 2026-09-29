@@ -1,0 +1,14 @@
+{
+  "id": "christoph-rumpel/2015-9-new-acl-features-in-laravel",
+  "title": "New ACL features in Laravel 5.1.11",
+  "link": "https://christoph-rumpel.com/2015/9/new-acl-features-in-laravel?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2015-09-08T20:04:28.000Z",
+  "content": "<html><head></head><body>Since the Laravel 5.1.11 release it is providing some great new authorization features. Let's dive right in.\n            </body></html>",
+  "source": "christoph-rumpel",
+  "author": "Christoph Rumpel Blog Feed",
+  "creatorId": "christoph-rumpel",
+  "tags": [
+    "laravel",
+    "security"
+  ]
+}

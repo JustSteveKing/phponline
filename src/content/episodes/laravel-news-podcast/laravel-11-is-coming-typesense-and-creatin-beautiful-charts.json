@@ -1,0 +1,14 @@
+{
+  "id": "laravel-news-podcast/laravel-11-is-coming-typesense-and-creatin-beautiful-charts",
+  "title": "Laravel 11 is coming, Typesense, and creatin beautiful charts",
+  "link": "https://podcast.laravel-news.com/207?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2024-02-01T15:00:00.000Z",
+  "content": "\n        <p>Jake and Michael discuss all the latest Laravel releases, tutorials, and happenings in the community.</p><p><strong>Show links</strong></p><ul><li><a href=\"https://typesense.org/typesense-vs-algolia-vs-elasticsearch-vs-meilisearch/\">Compare Algolia vs ElasticSearch vs Meilisearch vs Typesense</a></li><li><a href=\"https://getaspen.io/\">Aspen - The ultimate free API testing tool for macOS with AI integration</a></li></ul><p><br></p><ul><li>(02:02) - Laravel 10.41 - Conditional Job Chains, a Number::spell() Threshold, Configurable model:prune Path, and More </li>\n<li>(06:46) - Laravel 10.42 - Global Defaults for the HTTP Client, a Max Validation Rule for Passwords, and more </li>\n<li>(09:43) - Laravel Scout Adds Typesense, A Lightening-fast Open-source Search </li>\n<li>(12:59) - Laravel 11 Introduces the Dumpable Trait</li>\n<li>(14:46) - Eager Load Limit is Coming to Laravel 11 </li>\n<li>(18:12) - Dive into the Streamlined Directory Structure in Laravel 11 </li>\n<li>(23:14) - Meet Aspen: Speedier &amp; Smarter API Testing, Outshining Postman and Insomnia </li>\n<li>(26:53) - Laravel Live UK </li>\n<li>(28:25) - Write Tabular Assertions with Pest and PHPUnit </li>\n<li>(30:39) - Create Beautiful Charts in Filament With the Apex Charts Plugin </li>\n<li>(31:50) - Generate Tailwind Utility Stylesheets on Demand with Curlwind </li>\n<li>(34:16) - Download Over 1,500 Google Fonts in Your Laravel Project </li>\n<li>(35:17) - Create Dynamic Discounts with Custom Conditions on Laravel With the Discountify Package </li>\n<li>(37:46) - Handling Bulk Imports in Filament </li>\n</ul>\n      ",
+  "coverImage": "https://img.transistorcdn.com/qmJ1PPS58Dv5ZdzfP2OsERDEhhL_6EPX8Tjmyurk5f0/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9zaG93/LzY0MDUvMTY5NDc4/NzE0OS1hcnR3b3Jr/LmpwZw.jpg",
+  "podcast": "Laravel News Podcast",
+  "audioUrl": "https://media.transistor.fm/b2a3f00a/0e7bb388.mp3",
+  "duration": "2387",
+  "episode": "207",
+  "season": "",
+  "creatorId": "laravel-news"
+}

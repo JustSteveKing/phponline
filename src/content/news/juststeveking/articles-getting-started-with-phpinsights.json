@@ -1,0 +1,14 @@
+{
+  "id": "juststeveking/articles-getting-started-with-phpinsights",
+  "title": "Getting started with PHPInsights",
+  "link": "https://www.juststeveking.com/articles/getting-started-with-phpinsights/?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2023-02-16T00:00:00.000Z",
+  "content": "<html><head></head><body>Use PHPInsights to enhance PHP code in Laravel and others - A guide to optimal code style and architecture.</body></html>",
+  "source": "juststeveking",
+  "author": "Steve McDougall — Articles",
+  "creatorId": "juststeveking",
+  "tags": [
+    "laravel",
+    "architecture"
+  ]
+}

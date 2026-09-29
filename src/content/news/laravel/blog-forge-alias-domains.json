@@ -1,0 +1,13 @@
+{
+  "id": "laravel/blog-forge-alias-domains",
+  "title": "Forge Alias Domains",
+  "link": "https://laravel.com/blog/forge-alias-domains?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2019-01-22T15:55:00.000Z",
+  "content": "<html><head></head><body>Beginning today, you may associate multiple top-level, root domains with a single Forge site. To get started, add the aliases on the \"Meta\" tab of your site's management panel:\n\n![](https://laravel-bl...</body></html>",
+  "source": "laravel",
+  "author": "Taylor Otwell",
+  "creatorId": "laravel",
+  "tags": [
+    "laravel"
+  ]
+}
