@@ -1,5 +1,6 @@
 import fs from "node:fs";
 import path from "node:path";
+import { createHash } from "node:crypto";
 import { fileURLToPath } from "node:url";
 import satori from "satori";
 import { Resvg } from "@resvg/resvg-js";
@@ -27,6 +28,33 @@ import { PODCAST_FEEDS, YOUTUBE_CHANNELS } from "../config/feeds";
 
 const WIDTH = 1200;
 const HEIGHT = 630;
+
+/**
+ * Where rendered images are kept between builds.
+ *
+ * This exact path is the point. Cloudflare Workers Builds cannot cache
+ * arbitrary directories: it caches the package manager store plus one known
+ * path per framework, and for Astro that path is node_modules/.astro. Putting
+ * the cache anywhere else, dist included, means it is thrown away between
+ * builds and every image is rendered again.
+ *
+ * So a warm build copies and a cold build renders. A full cold render is
+ * about five minutes here and roughly thirteen on Cloudflare's two-core
+ * builder, which fits inside their timeout today. It will not fit forever, at
+ * twenty new items a day. The answer then is rendering at request time on a
+ * Worker, not dropping images for older articles: people link to the archive,
+ * and that is the whole point of having one.
+ */
+const CACHE_DIR = path.join("node_modules", ".astro", "og");
+
+/**
+ * Bump to invalidate every cached image at once.
+ *
+ * The cache key is the content of a card, so a changed headline re-renders on
+ * its own. It cannot see a change to the template below, which is what this
+ * is for.
+ */
+const TEMPLATE_VERSION = "1";
 
 const STATIC_PAGES = [
   { id: "home", title: "The PHP Community Pulse", source: "Home" },
@@ -173,6 +201,9 @@ export default function ogImages(): AstroIntegration {
 
         const root = process.cwd();
         const outDir = path.join(fileURLToPath(dir), "og");
+        const cacheDir = path.join(root, CACHE_DIR);
+
+        fs.mkdirSync(cacheDir, { recursive: true });
 
         // Imported at the top rather than here: by astro:build:done Vite's
         // module runner is closed, and a dynamic import throws.
@@ -196,25 +227,58 @@ export default function ogImages(): AstroIntegration {
           path.join(root, "src", "assets", "fonts", "inter-latin-900-normal.woff"),
         );
 
-        let written = 0;
+        let rendered = 0;
+        let reused = 0;
+        const live = new Set<string>();
 
         for (const card of all) {
           if (!card.id || !card.title) continue;
 
+          const source = card.source ?? "phponline.dev";
+
+          // Keyed on what the image shows rather than on the id, so an item
+          // whose headline changes gets a new image instead of keeping a
+          // stale one for ever.
+          const key = createHash("sha256")
+            .update(`${TEMPLATE_VERSION}\u0000${card.title}\u0000${source}`)
+            .digest("hex");
+
+          const cached = path.join(cacheDir, `${key}.png`);
+          live.add(`${key}.png`);
+
+          if (!fs.existsSync(cached)) {
+            const svg = await satori(template(card.title, source) as any, {
+              width: WIDTH,
+              height: HEIGHT,
+              fonts: [{ name: "Inter", data: fontData, weight: 400, style: "normal" }],
+            });
+
+            fs.writeFileSync(cached, new Resvg(svg).render().asPng());
+            rendered++;
+          } else {
+            reused++;
+          }
+
           const target = path.join(outDir, `${card.id}.png`);
           fs.mkdirSync(path.dirname(target), { recursive: true });
-
-          const svg = await satori(template(card.title, card.source ?? "phponline.dev") as any, {
-            width: WIDTH,
-            height: HEIGHT,
-            fonts: [{ name: "Inter", data: fontData, weight: 400, style: "normal" }],
-          });
-
-          fs.writeFileSync(target, new Resvg(svg).render().asPng());
-          written++;
+          fs.copyFileSync(cached, target);
         }
 
-        logger.info(`Generated ${written} Open Graph images`);
+        // Superseded entries, from headlines that changed or a template bump.
+        // Without this the cache only grows, and Cloudflare evicts the whole
+        // project at 10GB, which would throw away the useful entries too.
+        let pruned = 0;
+        for (const file of fs.readdirSync(cacheDir)) {
+          if (file.endsWith(".png") && !live.has(file)) {
+            fs.unlinkSync(path.join(cacheDir, file));
+            pruned++;
+          }
+        }
+
+        logger.info(
+          `Open Graph images: ${rendered} rendered, ${reused} reused from cache` +
+            (pruned ? `, ${pruned} stale entries pruned` : ""),
+        );
       },
     },
   };
