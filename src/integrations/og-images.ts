@@ -54,7 +54,7 @@ const CACHE_DIR = path.join("node_modules", ".astro", "og");
  * its own. It cannot see a change to the template below, which is what this
  * is for.
  */
-const TEMPLATE_VERSION = "1";
+const TEMPLATE_VERSION = "2";
 
 const STATIC_PAGES = [
   { id: "home", title: "The PHP Community Pulse", source: "Home" },
@@ -82,7 +82,7 @@ function template(title: string, source: string) {
         justifyContent: "center",
         backgroundColor: "#0f172a",
         backgroundImage:
-          "radial-gradient(circle at top right, #e53e3e33, transparent), radial-gradient(circle at bottom left, #e53e3e11, transparent)",
+          "radial-gradient(circle at top right, #6a5da833, transparent), radial-gradient(circle at bottom left, #6a5da811, transparent)",
         padding: "80px",
         fontFamily: "Inter",
       },
@@ -96,7 +96,7 @@ function template(title: string, source: string) {
                 type: "div",
                 props: {
                   style: {
-                    backgroundColor: "#e53e3e",
+                    backgroundColor: "#6a5da8",
                     padding: "8px 16px",
                     borderRadius: "100px",
                     color: "white",
@@ -143,11 +143,11 @@ function template(title: string, source: string) {
           props: {
             style: { marginTop: "auto", display: "flex", alignItems: "center", gap: "12px" },
             children: [
-              { type: "div", props: { style: { width: "40px", height: "2px", backgroundColor: "#e53e3e" } } },
+              { type: "div", props: { style: { width: "40px", height: "2px", backgroundColor: "#9c92cf" } } },
               {
                 type: "div",
                 props: {
-                  style: { color: "#e53e3e", fontSize: "20px", fontWeight: "bold" },
+                  style: { color: "#9c92cf", fontSize: "20px", fontWeight: "bold" },
                   children: "The pulse of the PHP ecosystem",
                 },
               },
