@@ -8,7 +8,6 @@
   "scripts": {
     "dev": "astro dev",
     "build": "astro build",
-    "index-algolia": "bun scripts/index-algolia.ts",
     "validate-config": "bun scripts/validate-config.ts",
     "generate-default-cover": "bun scripts/generate-default-cover.ts",
     "generate-favicons": "bun scripts/generate-favicons.ts",
@@ -20,7 +19,6 @@
     "sync": "bun run validate-config && bun run ingest"
   },
   "dependencies": {
-    "@algolia/client-search": "^5.49.2",
     "@astrojs/check": "^0.9.10",
     "@astrojs/rss": "^4.0.19",
     "@astrojs/sitemap": "^3.7.4",
@@ -29,7 +27,6 @@
     "@fontsource-variable/newsreader": "^5.3.0",
     "@resvg/resvg-js": "^2.6.2",
     "@tailwindcss/vite": "^4.2.2",
-    "algoliasearch": "^5.49.2",
     "astro": "^7.3.5",
     "cheerio": "^1.2.0",
     "clsx": "^2.1.1",
@@ -42,6 +39,7 @@
   },
   "devDependencies": {
     "@tailwindcss/typography": "^0.5.19",
-    "@types/node": "^25.5.0"
+    "@types/node": "^25.5.0",
+    "pagefind": "^1.5.2"
   }
 }

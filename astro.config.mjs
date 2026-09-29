@@ -1,18 +1,12 @@
 // @ts-check
 import tailwindcss from "@tailwindcss/vite";
-import { defineConfig, envField } from "astro/config";
+import { defineConfig } from "astro/config";
 import svelte from "@astrojs/svelte";
 import sitemap from "@astrojs/sitemap";
 import ogImages from "./src/integrations/og-images";
+import pagefind from "./src/integrations/pagefind";
 
 export default defineConfig({
-  env: {
-    schema: {
-      PUBLIC_ALGOLIA_APP_ID: envField.string({ context: "client", access: "public", optional: true }),
-      PUBLIC_ALGOLIA_SEARCH_KEY: envField.string({ context: "client", access: "public", optional: true }),
-      ALGOLIA_WRITE_API_KEY: envField.string({ context: "server", access: "secret", optional: true }),
-    },
-  },
   image: {
     // Allows Astro to optimize images from these specific hosts
     remotePatterns: [
@@ -32,5 +26,5 @@ export default defineConfig({
     plugins: [tailwindcss()],
   },
 
-  integrations: [svelte(), sitemap(), ogImages()],
+  integrations: [svelte(), sitemap(), ogImages(), pagefind()],
 });

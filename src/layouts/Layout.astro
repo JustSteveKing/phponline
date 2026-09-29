@@ -6,7 +6,6 @@ import Navigation from "@/components/layout/Navigation.astro";
 import Player from "@/components/interactive/Player.svelte";
 import SearchPalette from "@/components/interactive/SearchPalette.svelte";
 import { PAGES } from "@/config/pages";
-import { PUBLIC_ALGOLIA_APP_ID, PUBLIC_ALGOLIA_SEARCH_KEY } from "astro:env/client";
 
 interface Props {
     title?: string;
@@ -14,6 +13,14 @@ interface Props {
     ogImage?: string;
     canonical?: string;
     sd?: object;
+    /**
+     * Whether this page belongs in the search index.
+     *
+     * Paginated listings do not. Archive page 74 is a wall of other pages'
+     * headlines, so it matches almost any query and competes with the
+     * article somebody actually wanted.
+     */
+    indexed?: boolean;
 }
 
 const { 
@@ -21,7 +28,8 @@ const {
     description = PAGES.home.description,
     ogImage = PAGES.home.ogImage,
     canonical,
-    sd
+    sd,
+    indexed = true
 } = Astro.props;
 
 const siteUrl = "https://phponline.dev";
@@ -88,16 +96,12 @@ const sdArray = Array.isArray(sd) ? sd : sd ? [sd] : [];
             Skip to content
         </a>
         <Navigation />
-        <main id="main-content" class="flex-grow max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 w-full outline-hidden">
+        <main id="main-content" data-pagefind-body={indexed ? true : undefined} data-pagefind-ignore={indexed ? undefined : true} class="flex-grow max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 w-full outline-hidden">
             <slot />
         </main>
         <Footer />
         <Player client:load />
-        <SearchPalette 
-            client:load 
-            appId={PUBLIC_ALGOLIA_APP_ID} 
-            searchKey={PUBLIC_ALGOLIA_SEARCH_KEY} 
-        />
+        <SearchPalette client:load />
 
         <!-- Cloudflare Web Analytics -->
         <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "d263349729c84ef79b33b723f19eb624"}'></script>

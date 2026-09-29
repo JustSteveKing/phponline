@@ -1,16 +1,6 @@
 <script lang="ts">
     import { onMount } from "svelte";
     import { fade, fly } from "svelte/transition";
-    import { liteClient as algoliasearch } from "algoliasearch/lite";
-
-    // Props
-    interface Props {
-        appId?: string;
-        searchKey?: string;
-    }
-    let { appId, searchKey } = $props<Props>();
-
-    const INDEX_NAME = "phponline_content";
 
     let isOpen = $state(false);
     let query = $state("");
@@ -18,30 +8,103 @@
     let selectedIndex = $state(0);
     let isSearching = $state(false);
 
-    // Initialize client only once or when keys change
-    const client = $derived(appId && searchKey ? algoliasearch(appId, searchKey) : null);
+    /**
+     * Pagefind is loaded from the built output, not bundled.
+     *
+     * It does not exist until `astro build` has written it, so Vite must be
+     * told to keep its hands off the import or a dev server fails to resolve
+     * it and the whole component dies. In dev there is simply no search.
+     */
+    let pagefind: any = null;
+    let unavailable = $state(false);
+
+    async function loadPagefind() {
+        if (pagefind) return pagefind;
+
+        try {
+            // Held in a variable on purpose. @vite-ignore is ignored for a
+            // string literal, so Vite still tries to resolve the path at
+            // build time and fails, because it will not exist until this
+            // build has finished writing it.
+            const entry = "/pagefind/pagefind.js";
+            pagefind = await import(/* @vite-ignore */ entry);
+            await pagefind.options({ excerptLength: 24 });
+            return pagefind;
+        } catch {
+            unavailable = true;
+            return null;
+        }
+    }
+
+    /**
+     * What kind of thing a result is, read from its path.
+     *
+     * Pagefind could carry this as page metadata, but that would mean a
+     * data-pagefind-meta attribute on every template. The URL already says
+     * it, and the URL is generated from the same ids the collections use.
+     */
+    function describe(url: string): { type: string; source?: string } {
+        const parts = url.replace(/^\//, "").replace(/\/$/, "").split("/");
+
+        switch (parts[0]) {
+            case "news":
+                return parts[1] === "topic"
+                    ? { type: "Topic" }
+                    : { type: "Article", source: parts[1] };
+            case "podcasts":
+                return { type: "Episode", source: parts[1] };
+            case "videos":
+                return { type: "Video", source: parts[1] === "watch" ? parts[2] : parts[1] };
+            case "creators":
+                return { type: "Creator" };
+            case "rfcs":
+                return { type: "RFC" };
+            case "events":
+                return { type: "Event" };
+            default:
+                return { type: "Page" };
+        }
+    }
 
     async function search() {
-        if (!query.trim() || !client) {
+        if (!query.trim()) {
+            results = [];
+            return;
+        }
+
+        const pf = await loadPagefind();
+        if (!pf) {
             results = [];
             return;
         }
 
         isSearching = true;
         try {
-            const { results: searchResults } = await client.search({
-                requests: [
-                    {
-                        indexName: INDEX_NAME,
-                        query: query,
-                        hitsPerPage: 8,
-                    },
-                ],
+            const response = await pf.search(query);
+
+            // Pagefind returns pointers; the payload is fetched per result,
+            // which is what keeps the index cheap to load.
+            const top = await Promise.all(
+                response.results.slice(0, 8).map((r: any) => r.data()),
+            );
+
+            results = top.map((hit: any) => {
+                const { type, source } = describe(hit.url);
+
+                return {
+                    url: hit.url,
+                    title: hit.meta?.title ?? hit.url,
+                    description: hit.excerpt?.replace(/<[^>]*>/g, "") ?? "",
+                    image: hit.meta?.image,
+                    type,
+                    source,
+                };
             });
-            results = (searchResults[0] as any).hits;
+
             selectedIndex = 0;
         } catch (error) {
             console.error("Search error:", error);
+            results = [];
         } finally {
             isSearching = false;
         }
@@ -87,10 +150,6 @@
     onMount(() => {
         window.addEventListener("keydown", handleKeydown);
         window.addEventListener("open-search", () => (isOpen = true));
-
-        if (!appId || !searchKey) {
-            console.warn("⚠️ Algolia keys are missing in SearchPalette. Check your .env file.");
-        }
 
         return () => {
             window.removeEventListener("keydown", handleKeydown);
@@ -181,8 +240,7 @@
                     </div>
                 </div>
                 <div class="flex items-center gap-2">
-                    <span class="text-meta font-medium text-ink-400 italic">Search by</span>
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/6/69/Algolia_logo.svg" alt="Algolia" class="h-3 opacity-50 grayscale" />
+                    <span class="text-meta font-medium text-ink-400">Searching this site only</span>
                 </div>
             </div>
         </div>
