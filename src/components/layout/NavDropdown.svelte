@@ -57,7 +57,7 @@
     <button
         type="button"
         onclick={toggle}
-        class="flex items-center gap-1.5 text-sm font-bold transition-all py-2 focus:outline-hidden {isActive ? 'text-red-600' : 'text-slate-500 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white'}"
+        class="flex items-center gap-1.5 text-sm font-bold transition-all py-2 focus:outline-hidden {isActive ? 'text-php-600' : 'text-ink-500 dark:text-ink-400 hover:text-ink-900 dark:hover:text-white'}"
         aria-expanded={isOpen}
         aria-haspopup="true"
     >
@@ -80,7 +80,7 @@
 
     {#if isOpen}
         <div
-            class="absolute left-0 mt-2 w-48 rounded-2xl bg-white dark:bg-slate-900 border border-slate-100 dark:border-slate-800 shadow-2xl z-50 overflow-hidden"
+            class="absolute left-0 mt-2 w-48 rounded-2xl bg-white dark:bg-ink-900 border border-ink-100 dark:border-ink-800 shadow-2xl z-50 overflow-hidden"
             transition:fly={{ y: 10, duration: 200 }}
             role="menu"
             aria-orientation="vertical"
@@ -90,7 +90,7 @@
                     <a
                         href={item.href}
                         onclick={close}
-                        class="block px-4 py-2.5 rounded-xl text-xs font-bold transition-all {currentPath === item.href ? 'bg-red-50 dark:bg-red-950/20 text-red-600' : 'text-slate-600 dark:text-slate-400 hover:bg-slate-50 dark:hover:bg-slate-800 hover:text-slate-900 dark:hover:text-white'}"
+                        class="block px-4 py-2.5 rounded-xl text-xs font-bold transition-all {currentPath === item.href ? 'bg-php-50 dark:bg-php-950/20 text-php-600' : 'text-ink-600 dark:text-ink-400 hover:bg-ink-50 dark:hover:bg-ink-800 hover:text-ink-900 dark:hover:text-white'}"
                         role="menuitem"
                     >
                         {item.name}

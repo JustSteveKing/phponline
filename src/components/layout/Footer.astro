@@ -42,7 +42,7 @@ const footerLinks = [
 ---
 
 <footer
-    class="mt-32 border-t border-slate-900 dark:border-white bg-white dark:bg-slate-900 pt-16 pb-8"
+    class="mt-32 border-t border-ink-900 dark:border-white bg-white dark:bg-ink-900 pt-16 pb-8"
 >
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div
@@ -53,7 +53,7 @@ const footerLinks = [
                     <Logo class="h-8 w-auto" />
                 </a>
                 <p
-                    class="text-slate-900 dark:text-white font-medium leading-relaxed max-w-sm mb-6"
+                    class="text-ink-900 dark:text-white font-medium leading-relaxed max-w-sm mb-6"
                 >
                     The modern homepage for the PHP community. Aggregating the
                     best news, RFCs, podcasts, and articles from across the
@@ -69,7 +69,7 @@ const footerLinks = [
                         ></span>
                     </span>
                     <span
-                        class="text-xs font-bold text-slate-900 dark:text-white uppercase tracking-widest"
+                        class="text-xs font-bold text-ink-900 dark:text-white uppercase tracking-widest"
                         >Systems Operational</span
                     >
                 </div>
@@ -78,7 +78,7 @@ const footerLinks = [
             {
                 footerLinks.map((column) => (
                     <div>
-                        <h3 class="font-black text-slate-900 dark:text-white uppercase tracking-widest text-xs mb-6">
+                        <h3 class="font-black text-ink-900 dark:text-white uppercase tracking-widest text-xs mb-6">
                             {column.title}
                         </h3>
                         <ul class="space-y-4">
@@ -86,7 +86,7 @@ const footerLinks = [
                                 <li>
                                     <a
                                         href={link.href}
-                                        class="text-sm font-medium text-slate-900 dark:text-white hover:text-red-600 transition-colors"
+                                        class="text-sm font-medium text-ink-900 dark:text-white hover:text-php-600 transition-colors"
                                     >
                                         {link.name}
                                     </a>
@@ -99,9 +99,9 @@ const footerLinks = [
         </div>
 
         <div
-            class="pt-8 border-t border-slate-900 dark:border-slate-100 flex flex-col md:flex-row items-center justify-between gap-4"
+            class="pt-8 border-t border-ink-900 dark:border-ink-100 flex flex-col md:flex-row items-center justify-between gap-4"
         >
-            <p class="text-slate-900 dark:text-white text-sm font-medium">
+            <p class="text-ink-900 dark:text-white text-sm font-medium">
                 &copy; {currentYear} PHP Online. An open source community project.
             </p>
             <div class="flex items-center gap-6">
@@ -109,7 +109,7 @@ const footerLinks = [
                     href="https://github.com/juststeveking/phponline"
                     target="_blank"
                     rel="noopener noreferrer"
-                    class="text-slate-900 dark:text-white hover:text-red-600 transition-colors"
+                    class="text-ink-900 dark:text-white hover:text-php-600 transition-colors"
                     aria-label="Visit PHP Online on GitHub"
                 >
                     <svg
@@ -131,7 +131,7 @@ const footerLinks = [
                     href="https://x.com/juststeveking"
                     target="_blank"
                     rel="noopener noreferrer"
-                    class="text-slate-900 dark:text-white hover:text-red-600 transition-colors"
+                    class="text-ink-900 dark:text-white hover:text-php-600 transition-colors"
                     aria-label="Follow Steve McDougall on X (formerly Twitter)"
                 >
                     <svg

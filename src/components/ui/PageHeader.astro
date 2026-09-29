@@ -11,13 +11,13 @@ const { title, description, badge, align = "left" } = Astro.props;
 
 <header
 	class:list={[
-		"relative mb-16 pt-8 pb-12 border-b border-slate-100 dark:border-slate-800/60",
+		"relative mb-16 pt-8 pb-12 border-b border-ink-100 dark:border-ink-800/60",
 		align === "center" && "text-center",
 	]}
 >
     <!-- Subtle accent element -->
     <div class:list={[
-        "absolute -left-4 top-8 w-1.5 h-12 bg-red-600 rounded-full hidden md:block shadow-[0_0_15px_rgba(229,62,62,0.4)]",
+        "absolute -left-4 top-8 w-1.5 h-12 bg-php-600 rounded-full hidden md:block shadow-[0_0_15px_rgba(229,62,62,0.4)]",
         align === "center" && "left-1/2 -translate-x-1/2 -top-4 w-12 h-1.5"
     ]}></div>
 
@@ -26,19 +26,19 @@ const { title, description, badge, align = "left" } = Astro.props;
         align === "center" && "mx-auto"
     ]}>
         {badge && (
-            <span class="inline-block px-3 py-1 rounded-full bg-red-50 dark:bg-red-950/30 text-red-600 dark:text-red-500 text-[10px] font-black uppercase tracking-[0.2em] mb-6 border border-red-100/50 dark:border-red-900/30">
+            <span class="inline-block px-3 py-1 rounded-full bg-php-50 dark:bg-php-950/30 text-php-600 dark:text-php-400 text-meta font-semibold uppercase tracking-wide mb-6 border border-php-100/50 dark:border-php-900/30">
                 {badge}
             </span>
         )}
 		
-		<h1 class="text-4xl md:text-6xl font-black tracking-tight text-slate-900 dark:text-white mb-6 leading-[1.1] uppercase">
+		<h1 class="text-4xl md:text-6xl font-black tracking-tight text-ink-900 dark:text-white mb-6 leading-[1.1] uppercase">
 			{title.split(" ").map((word, i, arr) => (
-				<span class={i === arr.length - 1 && arr.length > 1 ? "text-red-600 dark:text-red-500" : ""}>{word}{" "}</span>
+				<span class={i === arr.length - 1 && arr.length > 1 ? "text-php-600 dark:text-php-400" : ""}>{word}{" "}</span>
 			))}
 		</h1>
 		
 		{description && (
-            <p class="text-lg md:text-xl text-slate-500 dark:text-slate-400 font-medium max-w-2xl leading-relaxed">
+            <p class="text-lg md:text-xl text-ink-500 dark:text-ink-400 font-medium max-w-2xl leading-relaxed">
                 {description}
             </p>
         )}

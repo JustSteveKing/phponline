@@ -84,12 +84,12 @@ const breadcrumbs = {
                 <SectionHeading title="Podcast Episodes" />
                 <div class="grid grid-cols-1 gap-4">
                     {sortedEpisodes.map((episode: CollectionEntry<"episodes">) => (
-                        <a href={`/podcasts/${slugify(episode.data.podcast)}`} class="p-6 bg-white dark:bg-slate-900 border border-slate-100 dark:border-slate-800 rounded-2xl flex items-center justify-between hover:border-red-200 transition-all group">
+                        <a href={`/podcasts/${slugify(episode.data.podcast)}`} class="p-6 bg-white dark:bg-ink-900 border border-ink-100 dark:border-ink-800 rounded-2xl flex items-center justify-between hover:border-php-200 transition-all group">
                             <div class="min-w-0">
-                                <h3 class="font-bold text-slate-900 dark:text-white truncate group-hover:text-red-600 transition-colors uppercase text-sm">{episode.data.title}</h3>
-                                <p class="text-xs text-slate-400 mt-1 uppercase font-black tracking-widest">{episode.data.pubDate.toLocaleDateString()}</p>
+                                <h3 class="font-bold text-ink-900 dark:text-white truncate group-hover:text-php-600 transition-colors uppercase text-sm">{episode.data.title}</h3>
+                                <p class="text-xs text-ink-400 mt-1 uppercase font-black tracking-widest">{episode.data.pubDate.toLocaleDateString()}</p>
                             </div>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="text-slate-200 group-hover:text-red-600 transition-all"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="text-ink-200 group-hover:text-php-600 transition-all"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
                         </a>
                     ))}
                 </div>

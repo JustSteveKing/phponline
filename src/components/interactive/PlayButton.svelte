@@ -26,9 +26,9 @@
 
 <button
     on:click|preventDefault={handlePlay}
-    class="group relative flex items-center gap-3 px-6 py-3 rounded-full font-black uppercase tracking-[0.15em] text-[10px] transition-all duration-300 active:scale-95 overflow-hidden border-2 {active
-        ? 'bg-slate-900 border-slate-900 text-white'
-        : 'bg-white border-red-600 text-red-600 hover:bg-red-600 hover:text-white'}"
+    class="group relative flex items-center gap-3 px-6 py-3 rounded-full font-semibold uppercase tracking-[0.15em] text-meta transition-all duration-300 active:scale-95 overflow-hidden border-2 {active
+        ? 'bg-ink-900 border-ink-900 text-white'
+        : 'bg-white border-php-600 text-php-600 hover:bg-php-600 hover:text-white'}"
     aria-label={active ? "Pause" : "Play"}
 >
     <!-- Progress Background Fill -->

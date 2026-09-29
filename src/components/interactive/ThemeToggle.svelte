@@ -27,7 +27,7 @@
 
 <button
     onclick={toggleTheme}
-    class="p-2.5 rounded-xl bg-slate-100 dark:bg-[#0f172a] text-slate-500 dark:text-slate-400 hover:text-red-600 dark:hover:text-red-500 transition-all border border-slate-200/60 dark:border-slate-800/50 shadow-sm"
+    class="p-2.5 rounded-xl bg-ink-100 dark:bg-[var(--color-ink-900)] text-ink-500 dark:text-ink-400 hover:text-php-600 dark:hover:text-php-600 transition-all border border-ink-200/60 dark:border-ink-800/50 shadow-sm"
     aria-label="Toggle theme"
 >
     {#if theme === 'light'}

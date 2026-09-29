@@ -13,7 +13,7 @@ const slug = creatorId || slugify(label);
 
 // Generate a consistent but unique background for each creator (fallback)
 const gradients = [
-    "from-red-500 to-rose-600",
+    "from-php-600 to-rose-600",
     "from-blue-500 to-indigo-600",
     "from-emerald-500 to-teal-600",
     "from-amber-500 to-orange-600",
@@ -27,7 +27,7 @@ const gradient = gradients[index];
 
 <a
     href={`/creators/${slug}`}
-    class="group relative flex items-center gap-4 p-4 pr-8 bg-white dark:bg-[#0f172a] rounded-full border border-slate-100 dark:border-slate-800/50 hover:border-red-200 dark:hover:border-red-900/30 hover:shadow-2xl hover:shadow-red-500/10 transition-all duration-500 hover:-translate-y-1"
+    class="group relative flex items-center gap-4 p-4 pr-8 bg-white dark:bg-[var(--color-ink-900)] rounded-full border border-ink-100 dark:border-ink-800/50 hover:border-php-200 dark:hover:border-php-900/30 hover:shadow-2xl hover:shadow-php-600/10 transition-all duration-500 hover:-translate-y-1"
 >
     <!-- Avatar / Initial -->
     <div class={`relative w-12 h-12 rounded-full overflow-hidden flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform duration-500 ${!avatar ? `bg-linear-to-br ${gradient} text-white font-black text-xl` : ''}`}>
@@ -39,10 +39,10 @@ const gradient = gradients[index];
     </div>
 
     <div class="flex flex-col">
-        <span class="text-sm font-black text-slate-900 dark:text-white uppercase tracking-tight group-hover:text-red-600 transition-colors">
+        <span class="text-sm font-black text-ink-900 dark:text-white uppercase tracking-tight group-hover:text-php-600 transition-colors">
             {label}
         </span>
-        <span class="text-[10px] font-bold text-slate-400 uppercase tracking-widest">
+        <span class="text-meta font-medium text-ink-400 uppercase tracking-wide">
             {count} Videos
         </span>
     </div>

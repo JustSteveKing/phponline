@@ -74,12 +74,12 @@ const regularItems = page.data.slice(3);
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-10 gap-y-12">
                 {
                     regularItems.map((item) => (
-                        <div class="flex flex-col border-t border-slate-100 pt-8 group">
+                        <div class="flex flex-col border-t border-ink-100 pt-8 group">
                             <NewsCard item={item} />
                             <div class="mt-auto pt-6 px-2 opacity-60 group-hover:opacity-100 transition-opacity">
                                 <a
                                     href={`/news/${item.id}`}
-                                    class="text-[10px] font-black uppercase tracking-widest text-red-600 flex items-center gap-1"
+                                    class="text-meta font-semibold uppercase tracking-wide text-php-600 flex items-center gap-1"
                                 >
                                     Read Summary
                                     <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14" /><path d="m12 5 7 7-7 7" /></svg>

@@ -2,7 +2,86 @@
 
 @plugin "@tailwindcss/typography";
 
+/* Self-hosted, so the site does not depend on a font CDN being up and there
+   is no third party watching who reads it. Both are variable, so the whole
+   weight range costs one file each. */
+@import "@fontsource-variable/newsreader";
+@import "@fontsource-variable/inter";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+/*
+ * The design tokens for phponline.dev.
+ *
+ * Deliberately not the juststeveking brand. This is a community institution
+ * and should not wear one person's identity, which is also why the accent is
+ * PHP's own colour rather than anything from .repos/brand.
+ *
+ * Every value here is defined once. The old stylesheet was nineteen lines of
+ * stock Tailwind, so the palette lived scattered across two dozen components
+ * as slate-900 and red-600, which is how a design ends up impossible to
+ * change.
+ */
+@theme {
+  /* PHP purple, anchored on the ecosystem's own #777BB4.
+     That exact value is 3.98:1 on white, so it fails AA as text and is used
+     only for large type and decoration. 600 carries text on light (5.38:1)
+     and 400 on dark (6.84:1). */
+  --color-php-50: #f5f4fb;
+  --color-php-100: #ebe9f7;
+  --color-php-200: #d9d5ef;
+  --color-php-300: #bdb6e1;
+  --color-php-400: #9c92cf;
+  --color-php-500: #7f74bc;
+  --color-php-600: #6a5da8;
+  --color-php-700: #584c8c;
+  --color-php-800: #493f72;
+  --color-php-900: #3d355d;
+  --color-php-950: #262038;
+
+  /* Neutrals with a trace of the accent's hue in them, so greys sit with the
+     purple instead of next to it. Stock slate is faintly blue and fought it. */
+  --color-ink-50: #faf9fb;
+  --color-ink-100: #f3f2f5;
+  --color-ink-200: #e7e5ec;
+  --color-ink-300: #cfccd8;
+  --color-ink-400: #9c98ab;
+  --color-ink-500: #736f82;
+  --color-ink-600: #565265;
+  --color-ink-700: #423e4e;
+  --color-ink-800: #2b2835;
+  --color-ink-900: #1a1823;
+  --color-ink-950: #0e0d14;
+
+  --color-paper: #fbfaf9;
+
+  /* Newsreader for anything that is a headline, Inter for anything that is
+     an interface. An aggregator is a publication, and publications set
+     headlines in a serif. */
+  --font-serif: "Newsreader Variable", "Newsreader", ui-serif, Georgia, serif;
+  --font-sans: "Inter Variable", "Inter", ui-sans-serif, system-ui, sans-serif;
+
+  /* Metadata used to be 9px, font-black, uppercase and wide-tracked, on every
+     card. This is the replacement: readable, and it stops shouting. */
+  --text-meta: 0.75rem;
+  --text-meta--line-height: 1.1rem;
+  --text-meta--letter-spacing: 0.01em;
+}
+
 @layer base {
+  html {
+    font-family: var(--font-sans);
+  }
+
+  h1,
+  h2,
+  h3,
+  .font-display {
+    font-family: var(--font-serif);
+    font-optical-sizing: auto;
+    letter-spacing: -0.015em;
+  }
+
   .prose {
     @apply dark:prose-invert transition-colors duration-300;
   }
@@ -15,5 +94,27 @@
     height: auto !important;
     aspect-ratio: 16 / 9;
     @apply rounded-2xl my-8;
+  }
+}
+
+@layer components {
+  /* One definition for the label that sits above every card title. It was
+     repeated inline in a dozen components, each free to drift. */
+  .meta {
+    font-family: var(--font-sans);
+    font-size: var(--text-meta);
+    line-height: var(--text-meta--line-height);
+    letter-spacing: var(--text-meta--letter-spacing);
+    font-weight: 500;
+    @apply text-ink-500 dark:text-ink-400;
+  }
+
+  .meta-accent {
+    font-family: var(--font-sans);
+    font-size: var(--text-meta);
+    line-height: var(--text-meta--line-height);
+    letter-spacing: var(--text-meta--letter-spacing);
+    font-weight: 600;
+    @apply text-php-600 dark:text-php-400;
   }
 }

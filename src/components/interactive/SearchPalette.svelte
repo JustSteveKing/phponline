@@ -107,25 +107,25 @@
         transition:fade={{ duration: 200 }}
         onclick={() => (isOpen = false)}
     >
-        <div class="fixed inset-0 bg-slate-900/60 backdrop-blur-sm"></div>
+        <div class="fixed inset-0 bg-ink-900/60 backdrop-blur-sm"></div>
 
         <div
-            class="relative w-full max-w-2xl bg-white dark:bg-[#0f172a] rounded-2xl shadow-2xl border border-slate-200 dark:border-slate-800 overflow-hidden"
+            class="relative w-full max-w-2xl bg-white dark:bg-[var(--color-ink-900)] rounded-2xl shadow-2xl border border-ink-200 dark:border-ink-800 overflow-hidden"
             transition:fly={{ y: -20, duration: 300 }}
             onclick={(e) => e.stopPropagation()}
         >
             <!-- Search Input -->
-            <div class="relative flex items-center p-4 border-b border-slate-100 dark:border-slate-800">
-                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="text-slate-400"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+            <div class="relative flex items-center p-4 border-b border-ink-100 dark:border-ink-800">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="text-ink-400"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
                 <input
                     type="text"
                     bind:value={query}
                     placeholder="Search news, RFCs, creators..."
-                    class="w-full bg-transparent border-none outline-hidden px-4 text-lg font-medium text-slate-900 dark:text-white placeholder:text-slate-400"
+                    class="w-full bg-transparent border-none outline-hidden px-4 text-lg font-medium text-ink-900 dark:text-white placeholder:text-ink-400"
                     autofocus
                 />
-                <div class="flex items-center gap-1.5 px-2 py-1 bg-slate-100 dark:bg-slate-800 rounded-md">
-                    <span class="text-[10px] font-black text-slate-500 uppercase tracking-widest">ESC</span>
+                <div class="flex items-center gap-1.5 px-2 py-1 bg-ink-100 dark:bg-ink-800 rounded-md">
+                    <span class="text-meta font-semibold text-ink-500 uppercase tracking-wide">ESC</span>
                 </div>
             </div>
 
@@ -135,53 +135,53 @@
                     {#each results as hit, i}
                         <a
                             href={hit.url}
-                            class="flex items-start gap-4 p-4 rounded-xl transition-all {selectedIndex === i ? 'bg-red-50 dark:bg-red-950/20 ring-1 ring-red-200 dark:ring-red-900/50' : 'hover:bg-slate-50 dark:hover:bg-slate-800/50'}"
+                            class="flex items-start gap-4 p-4 rounded-xl transition-all {selectedIndex === i ? 'bg-php-50 dark:bg-php-950/20 ring-1 ring-php-200 dark:ring-php-900/50' : 'hover:bg-ink-50 dark:hover:bg-ink-800/50'}"
                             onmouseenter={() => (selectedIndex = i)}
                         >
                             {#if hit.image}
-                                <img src={hit.image} alt={hit.title} loading="lazy" decoding="async" class="w-12 h-12 rounded-lg object-cover bg-slate-100 dark:bg-slate-800 shrink-0" />
+                                <img src={hit.image} alt={hit.title} loading="lazy" decoding="async" class="w-12 h-12 rounded-lg object-cover bg-ink-100 dark:bg-ink-800 shrink-0" />
                             {:else}
-                                <div class="w-12 h-12 rounded-lg bg-red-100 dark:bg-red-900/20 flex items-center justify-center shrink-0">
-                                    <span class="text-red-600 font-black uppercase text-xs">{hit.type[0]}</span>
+                                <div class="w-12 h-12 rounded-lg bg-php-100 dark:bg-php-900/20 flex items-center justify-center shrink-0">
+                                    <span class="text-php-600 font-black uppercase text-xs">{hit.type[0]}</span>
                                 </div>
                             {/if}
                             <div class="flex-1 min-w-0">
                                 <div class="flex items-center gap-2 mb-1">
-                                    <span class="text-[10px] font-black uppercase tracking-widest text-red-600 dark:text-red-500">{hit.type}</span>
+                                    <span class="text-meta font-semibold uppercase tracking-wide text-php-600 dark:text-php-400">{hit.type}</span>
                                     {#if hit.source}
-                                        <span class="text-[10px] font-bold text-slate-400 uppercase tracking-widest">• {hit.source}</span>
+                                        <span class="text-meta font-medium text-ink-400 uppercase tracking-wide">• {hit.source}</span>
                                     {/if}
                                 </div>
-                                <h4 class="text-sm font-bold text-slate-900 dark:text-white mb-1 line-clamp-1">{hit.title}</h4>
-                                <p class="text-xs text-slate-500 dark:text-slate-400 line-clamp-1">{hit.description}</p>
+                                <h4 class="text-sm font-bold text-ink-900 dark:text-white mb-1 line-clamp-1">{hit.title}</h4>
+                                <p class="text-xs text-ink-500 dark:text-ink-400 line-clamp-1">{hit.description}</p>
                             </div>
                         </a>
                     {/each}
                 {:else if query && !isSearching}
                     <div class="p-12 text-center">
-                        <div class="w-16 h-16 bg-slate-50 dark:bg-slate-800 rounded-full flex items-center justify-center mx-auto mb-4">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-slate-400"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+                        <div class="w-16 h-16 bg-ink-50 dark:bg-ink-800 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-ink-400"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
                         </div>
-                        <p class="text-slate-900 dark:text-white font-bold">No results found for "{query}"</p>
-                        <p class="text-sm text-slate-500 mt-1">Try a different keyword or category.</p>
+                        <p class="text-ink-900 dark:text-white font-bold">No results found for "{query}"</p>
+                        <p class="text-sm text-ink-500 mt-1">Try a different keyword or category.</p>
                     </div>
                 {/if}
             </div>
 
             <!-- Footer -->
-            <div class="p-4 border-t border-slate-100 dark:border-slate-800 bg-slate-50 dark:bg-slate-900/50 flex items-center justify-between">
+            <div class="p-4 border-t border-ink-100 dark:border-ink-800 bg-ink-50 dark:bg-ink-900/50 flex items-center justify-between">
                 <div class="flex items-center gap-4">
                     <div class="flex items-center gap-1.5">
-                        <span class="text-[10px] font-black text-slate-400">↑↓</span>
-                        <span class="text-[10px] font-bold text-slate-500">Navigate</span>
+                        <span class="text-meta font-semibold text-ink-400">↑↓</span>
+                        <span class="text-meta font-medium text-ink-500">Navigate</span>
                     </div>
                     <div class="flex items-center gap-1.5">
-                        <span class="text-[10px] font-black text-slate-400">↵</span>
-                        <span class="text-[10px] font-bold text-slate-500">Select</span>
+                        <span class="text-meta font-semibold text-ink-400">↵</span>
+                        <span class="text-meta font-medium text-ink-500">Select</span>
                     </div>
                 </div>
                 <div class="flex items-center gap-2">
-                    <span class="text-[10px] font-bold text-slate-400 italic">Search by</span>
+                    <span class="text-meta font-medium text-ink-400 italic">Search by</span>
                     <img src="https://upload.wikimedia.org/wikipedia/commons/6/69/Algolia_logo.svg" alt="Algolia" class="h-3 opacity-50 grayscale" />
                 </div>
             </div>

@@ -163,6 +163,14 @@ export default function ogImages(): AstroIntegration {
     name: "og-images",
     hooks: {
       "astro:build:done": async ({ dir, logger }) => {
+        // Rendering 1,823 images takes five minutes, which is fine on a
+        // deploy and intolerable when you are changing a colour. Anything
+        // that only needs the HTML can skip them.
+        if (process.env.SKIP_OG) {
+          logger.info("SKIP_OG set, not rendering Open Graph images");
+          return;
+        }
+
         const root = process.cwd();
         const outDir = path.join(fileURLToPath(dir), "og");
 

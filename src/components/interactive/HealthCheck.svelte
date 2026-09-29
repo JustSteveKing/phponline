@@ -11,9 +11,9 @@
   );
 </script>
 
-<div class="bg-white border border-slate-200 rounded-3xl p-6 shadow-sm">
+<div class="bg-white border border-ink-200 rounded-3xl p-6 shadow-sm">
   <div class="flex items-center gap-3 mb-4">
-    <div class="p-2 bg-red-100 rounded-lg text-red-600">
+    <div class="p-2 bg-php-100 rounded-lg text-php-600">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="20"
@@ -25,12 +25,12 @@
         ><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10" /></svg
       >
     </div>
-    <h3 class="font-bold text-slate-900">PHP Health Check</h3>
+    <h3 class="font-bold text-ink-900">PHP Health Check</h3>
   </div>
 
   <select
     bind:value={selectedVersion}
-    class="w-full bg-slate-50 border border-slate-200 rounded-xl px-4 py-3 text-sm font-semibold outline-none focus:ring-2 focus:ring-red-500"
+    class="w-full bg-ink-50 border border-ink-200 rounded-xl px-4 py-3 text-sm font-semibold outline-none focus:ring-2 focus:ring-php-600"
   >
     <option value="">Select Version</option>
     {#each Object.keys(phpStatus) as v}
@@ -39,10 +39,10 @@
   </select>
 
   {#if info}
-    <div class="mt-6 pt-6 border-t border-slate-100 space-y-3 transition-all">
+    <div class="mt-6 pt-6 border-t border-ink-100 space-y-3 transition-all">
       <div class="flex justify-between items-center">
         <span
-          class="text-xs font-bold text-slate-400 uppercase tracking-tighter"
+          class="text-xs font-bold text-ink-400 uppercase tracking-tighter"
           >Support Status</span
         >
         <span class="text-xs font-black uppercase {info.color}"
@@ -52,7 +52,7 @@
 
       <div class="flex justify-between items-center">
         <span
-          class="text-xs font-bold text-slate-400 uppercase tracking-tighter"
+          class="text-xs font-bold text-ink-400 uppercase tracking-tighter"
           >Initial Release</span
         >
         <span class="text-sm font-mono font-bold">{info.initialRelease}</span>
@@ -60,7 +60,7 @@
 
       <div class="flex justify-between items-center">
         <span
-          class="text-xs font-bold text-slate-400 uppercase tracking-tighter"
+          class="text-xs font-bold text-ink-400 uppercase tracking-tighter"
           >Active Until</span
         >
         <span class="text-sm font-mono font-bold">{info.activeUntil}</span>
@@ -68,7 +68,7 @@
 
       <div class="flex justify-between items-center">
         <span
-          class="text-xs font-bold text-slate-400 uppercase tracking-tighter"
+          class="text-xs font-bold text-ink-400 uppercase tracking-tighter"
           >Security Until</span
         >
         <span class="text-sm font-mono font-bold">{info.securityUntil}</span>
@@ -76,7 +76,7 @@
 
       {#if info.status === "eol"}
         <div
-          class="mt-4 p-3 bg-red-50 rounded-xl border border-red-100 text-[11px] text-red-700 font-medium"
+          class="mt-4 p-3 bg-php-50 rounded-xl border border-php-100 text-[11px] text-php-700 font-medium"
         >
           ⚠️ <strong>EOL:</strong> This version is no longer receiving security
           updates.
