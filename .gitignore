@@ -1,6 +1,12 @@
 # build output
 dist/
 
+# Open Graph images. Derived from content this repository already holds, and
+# rebuilt by src/integrations/og-images.ts into dist on every build. They were
+# committed until 2026-09-29: 2,622 files and 270MB of a 516MB repository,
+# growing every three hours.
+public/og/
+
 # generated types
 .astro/
 

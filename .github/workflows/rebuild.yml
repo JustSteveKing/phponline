@@ -1,18 +1,18 @@
-name: Scheduled Content Sync & Rebuild
+name: Scheduled Content Sync
 
 on:
   schedule:
     - cron: "0 */3 * * *" # Every 3 hours
   workflow_dispatch:
 
-# One run at a time. Two overlapping runs would ingest the same feeds into the
+# One at a time. Two overlapping runs would ingest the same feeds into the
 # same files and race each other to push.
 concurrency:
-  group: rebuild
+  group: content-sync
   cancel-in-progress: false
 
 jobs:
-  rebuild:
+  sync:
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -35,43 +35,34 @@ jobs:
       - name: Install dependencies
         run: bun install --frozen-lockfile
 
-      # validate-config, ingest, generate-og, build. Ingest writes what the
-      # feeds hold into src/content, and the build reads those files rather
-      # than the network, so a feed being down costs its new items and
-      # nothing that has already been collected.
-      - name: Ingest and build
-        run: bun run prepare
+      # Ingest only. This job does not build.
+      #
+      # It used to: it ran the whole build every three hours and then threw
+      # the output away, because dist was never uploaded anywhere. Cloudflare
+      # builds and deploys from the push, so building here would render every
+      # page and every Open Graph image a second time to no purpose.
+      - name: Ingest feeds
+        run: bun run sync
 
-      # The archive is committed before the deploy, because it is the thing
-      # that cannot be refetched. Anything that has scrolled out of a feed
-      # exists only here.
-      - name: Commit new content
+      # The push is the deploy. Nothing else here talks to Cloudflare.
+      #
+      # These commits used to carry [skip ci], which Cloudflare honours, so
+      # every automated run was skipped and the site went unpublished from
+      # 4 May to 29 September while all of them reported success. The marker
+      # is gone, deliberately, and must not come back.
+      - name: Commit and push new content
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           git add .
           if ! git diff --cached --quiet; then
-            git commit -m "chore: automated content rebuild [skip ci]"
+            git commit -m "content: automated feed sync"
             git push origin main
           else
-            echo "No changes to commit"
+            echo "Nothing new in any feed."
           fi
 
-      # The step this workflow was missing. It built the site every three
-      # hours and threw it away: dist was never uploaded, and the commit says
-      # [skip ci], so Cloudflare's git integration skipped it too. The site
-      # went unpublished from 4 May to 29 September while every run passed.
-      #
-      # [skip ci] stays, and is now deliberate rather than accidental: this
-      # job deploys, so a second build triggered by the push would be a
-      # duplicate.
-      - name: Deploy to Cloudflare
-        run: bun run deploy
-        env:
-          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-
-      # Last, so that one dead feed does not stop everything else being
-      # published, and does not pass quietly either.
+      # Last, so one dead feed cannot stop everything else being published
+      # and cannot pass quietly either.
       - name: Report any feed failures
         run: bun run report-ingest

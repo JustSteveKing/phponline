@@ -3,6 +3,7 @@ import tailwindcss from "@tailwindcss/vite";
 import { defineConfig, envField } from "astro/config";
 import svelte from "@astrojs/svelte";
 import sitemap from "@astrojs/sitemap";
+import ogImages from "./src/integrations/og-images";
 
 export default defineConfig({
   env: {
@@ -31,5 +32,5 @@ export default defineConfig({
     plugins: [tailwindcss()],
   },
 
-  integrations: [svelte(), sitemap()],
+  integrations: [svelte(), sitemap(), ogImages()],
 });
