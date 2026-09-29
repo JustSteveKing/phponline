@@ -1,21 +1,29 @@
 name: Scheduled Content Sync & Rebuild
+
 on:
   schedule:
     - cron: "0 */3 * * *" # Every 3 hours
-  workflow_dispatch: # Allows you to trigger it manually
+  workflow_dispatch:
+
+# One run at a time. Two overlapping runs would ingest the same feeds into the
+# same files and race each other to push.
+concurrency:
+  group: rebuild
+  cancel-in-progress: false
 
 jobs:
   rebuild:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Setup Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v6
         with:
           node-version: 22
 
@@ -27,10 +35,17 @@ jobs:
       - name: Install dependencies
         run: bun install --frozen-lockfile
 
-      - name: Run Rebuild (Prepare)
+      # validate-config, ingest, generate-og, build. Ingest writes what the
+      # feeds hold into src/content, and the build reads those files rather
+      # than the network, so a feed being down costs its new items and
+      # nothing that has already been collected.
+      - name: Ingest and build
         run: bun run prepare
 
-      - name: Commit and push changes
+      # The archive is committed before the deploy, because it is the thing
+      # that cannot be refetched. Anything that has scrolled out of a feed
+      # exists only here.
+      - name: Commit new content
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
@@ -41,3 +56,22 @@ jobs:
           else
             echo "No changes to commit"
           fi
+
+      # The step this workflow was missing. It built the site every three
+      # hours and threw it away: dist was never uploaded, and the commit says
+      # [skip ci], so Cloudflare's git integration skipped it too. The site
+      # went unpublished from 4 May to 29 September while every run passed.
+      #
+      # [skip ci] stays, and is now deliberate rather than accidental: this
+      # job deploys, so a second build triggered by the push would be a
+      # duplicate.
+      - name: Deploy to Cloudflare
+        run: bun run deploy
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+
+      # Last, so that one dead feed does not stop everything else being
+      # published, and does not pass quietly either.
+      - name: Report any feed failures
+        run: bun run report-ingest
