@@ -1,0 +1,15 @@
+{
+  "id": "laravel-news/mailbox-for-laravel",
+  "title": "Mailbox for Laravel: Preview and Test Rendered Email",
+  "link": "https://laravel-news.com/mailbox-for-laravel?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "coverImage": "https://picperf.io/https://laravelnews.s3.amazonaws.com/featured-images/Mailbox-for-Laravel-LN.png",
+  "pubDate": "2026-09-30T02:43:35.000Z",
+  "content": "<html><head></head><body><p><a href=\"https://laravel-news.com/mailbox-for-laravel\"></a></p>\n                                        <hr>\n\n                    <p>Mailbox for Laravel captures outgoing mail in a local dashboard and lets you test rendered HTML, recipients, and attachments with fluent assertions.</p>\n\n                    <p>The post <a href=\"https://laravel-news.com/mailbox-for-laravel\">Mailbox for Laravel: Preview and Test Rendered Email</a> appeared first on <a href=\"https://laravel-news.com\">Laravel News</a>.</p>\n                    <p>Join the <a href=\"https://laravel-news.com/newsletter\">Laravel Newsletter</a> to get <a href=\"https://laravel-news.com\">Laravel</a> articles like this directly in your inbox.</p>\n\n                    </body></html>",
+  "source": "laravel-news",
+  "author": "Yannick Lyn Fatt",
+  "creatorId": "laravel-news",
+  "tags": [
+    "laravel",
+    "testing"
+  ]
+}
