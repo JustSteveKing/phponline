@@ -1,0 +1,14 @@
+{
+  "id": "symfony/blog-new-in-symfony-8-2-sudo-mode",
+  "title": "New in Symfony 8.2: Sudo Mode",
+  "link": "https://symfony.com/blog/new-in-symfony-8-2-sudo-mode?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-09-30T07:17:00.000Z",
+  "content": "<html><head></head><body>In Symfony, IS_AUTHENTICATED_FULLY is the strongest check about how users logged in.\nHowever, it tells you how the session started, not when. A user who logged\nin with their password eight hours ago and left the laptop unlocked is still\nfully authenticated,…</body></html>",
+  "source": "Symfony",
+  "author": " Javier Eguiluz ",
+  "creatorId": "symfony",
+  "tags": [
+    "symfony",
+    "security"
+  ]
+}
