@@ -1,0 +1,15 @@
+{
+  "id": "laravel-news/laravel-ai-mcp-security-advisories",
+  "title": "Laravel AI SDK and Laravel MCP Security Fixes: Update Now",
+  "link": "https://laravel-news.com/laravel-ai-mcp-security-advisories?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "coverImage": "https://picperf.io/https://laravelnews.s3.amazonaws.com/featured-images/2026-09-30-laravel-ai-mcp-security-advisories.png",
+  "pubDate": "2026-09-30T17:11:12.000Z",
+  "content": "<html><head></head><body><p><a href=\"https://laravel-news.com/laravel-ai-mcp-security-advisories\"></a></p>\n                                        <hr>\n\n                    <p>Security advisories for the Laravel AI SDK and Laravel MCP fix an SSRF bug and an OAuth redirect issue. Here are the affected versions and how to update.</p>\n\n                    <p>The post <a href=\"https://laravel-news.com/laravel-ai-mcp-security-advisories\">Laravel AI SDK and Laravel MCP Security Fixes: Update Now</a> appeared first on <a href=\"https://laravel-news.com\">Laravel News</a>.</p>\n                    <p>Join the <a href=\"https://laravel-news.com/newsletter\">Laravel Newsletter</a> to get <a href=\"https://laravel-news.com\">Laravel</a> articles like this directly in your inbox.</p>\n\n                    </body></html>",
+  "source": "laravel-news",
+  "author": "Eric L. Barnes",
+  "creatorId": "laravel-news",
+  "tags": [
+    "laravel",
+    "security"
+  ]
+}
