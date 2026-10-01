@@ -1,0 +1,14 @@
+{
+  "id": "laravel-news/laravel-model-defaults",
+  "title": "Laravel 14 Adds a defaults Method to Eloquent Models",
+  "link": "https://laravel-news.com/laravel-model-defaults?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "coverImage": "https://picperf.io/https://laravelnews.s3.amazonaws.com/featured-images/laravel-14-featured.png",
+  "pubDate": "2026-09-30T22:23:38.000Z",
+  "content": "<html><head></head><body><p><a href=\"https://laravel-news.com/laravel-model-defaults\"></a></p>\n                                        <hr>\n\n                    <p>Laravel 14 adds a defaults() method to Eloquent models, so default attribute values can use config, feature flags, and dates instead of constant expressions.</p>\n\n                    <p>The post <a href=\"https://laravel-news.com/laravel-model-defaults\">Laravel 14 Adds a defaults() Method to Eloquent Models</a> appeared first on <a href=\"https://laravel-news.com\">Laravel News</a>.</p>\n                    <p>Join the <a href=\"https://laravel-news.com/newsletter\">Laravel Newsletter</a> to get <a href=\"https://laravel-news.com\">Laravel</a> articles like this directly in your inbox.</p>\n\n                    </body></html>",
+  "source": "laravel-news",
+  "author": "Paul Redmond",
+  "creatorId": "laravel-news",
+  "tags": [
+    "laravel"
+  ]
+}

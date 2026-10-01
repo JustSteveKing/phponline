@@ -1,0 +1,14 @@
+{
+  "id": "juststeveking/articles-building-a-home-education-platform-with-laravel",
+  "title": "Building a home-education platform with Laravel 13, Inertia and React, and shipping it to Laravel Cloud",
+  "link": "https://www.juststeveking.com/articles/building-a-home-education-platform-with-laravel/?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-10-01T00:00:00.000Z",
+  "content": "<html><head></head><body>A Laravel 13, Inertia and React platform for home educating my son: an append-only learning record, a planner, AI kept on a short lead, and what Laravel Cloud asked of the code.</body></html>",
+  "source": "juststeveking",
+  "author": "Steve McDougall — Articles",
+  "creatorId": "juststeveking",
+  "tags": [
+    "laravel",
+    "devops"
+  ]
+}
