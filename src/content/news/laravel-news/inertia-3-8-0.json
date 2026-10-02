@@ -1,0 +1,14 @@
+{
+  "id": "laravel-news/inertia-3-8-0",
+  "title": "WhenMounted and BigInt Props in Inertia.js v3.8",
+  "link": "https://laravel-news.com/inertia-3-8-0?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "coverImage": "https://picperf.io/https://laravelnews.s3.amazonaws.com/featured-images/inertia-v3-featured.png",
+  "pubDate": "2026-10-02T02:38:16.000Z",
+  "content": "<html><head></head><body><p><a href=\"https://laravel-news.com/inertia-3-8-0\"></a></p>\n                                        <hr>\n\n                    <p>Inertia.js v3.8 adds a WhenMounted component for browser-only code under SSR, BigInt support for large integer props, Form callback fixes, and more.</p>\n\n                    <p>The post <a href=\"https://laravel-news.com/inertia-3-8-0\">WhenMounted and BigInt Props in Inertia.js v3.8</a> appeared first on <a href=\"https://laravel-news.com\">Laravel News</a>.</p>\n                    <p>Join the <a href=\"https://laravel-news.com/newsletter\">Laravel Newsletter</a> to get <a href=\"https://laravel-news.com\">Laravel</a> articles like this directly in your inbox.</p>\n\n                    </body></html>",
+  "source": "laravel-news",
+  "author": "Paul Redmond",
+  "creatorId": "laravel-news",
+  "tags": [
+    "laravel"
+  ]
+}

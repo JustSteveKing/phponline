@@ -1,0 +1,14 @@
+{
+  "id": "laravel/blog-laravel-september-product-updates",
+  "title": "Laravel September product updates",
+  "link": "https://laravel.com/blog/laravel-september-product-updates?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-10-02T11:57:00.000Z",
+  "content": "<html><head></head><body>Laravel Cloud added isolated preview environments and request metrics. The framework added per-tenant AI keys and semantic search. See what's new in September.</body></html>",
+  "source": "laravel",
+  "author": "Laravel Team",
+  "creatorId": "laravel",
+  "tags": [
+    "laravel",
+    "devops"
+  ]
+}
