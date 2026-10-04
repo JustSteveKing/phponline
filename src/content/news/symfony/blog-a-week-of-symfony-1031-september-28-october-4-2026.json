@@ -1,0 +1,13 @@
+{
+  "id": "symfony/blog-a-week-of-symfony-1031-september-28-october-4-2026",
+  "title": "A Week of Symfony #1031",
+  "link": "https://symfony.com/blog/a-week-of-symfony-1031-september-28-october-4-2026?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-10-04T07:39:00.000Z",
+  "content": "<html><head></head><body>This week, Symfony 6.4.47, 7.4.20, and 8.1.8 were released, along with Symfony Reprise 1.3.0. Meanwhile, we continued introducing Symfony 8.2 features, including OpenID Connect login, PGP/MIME signed and encrypted emails, sudo mode, more flexible serialization…</body></html>",
+  "source": "Symfony",
+  "author": " Javier Eguiluz ",
+  "creatorId": "symfony",
+  "tags": [
+    "symfony"
+  ]
+}
