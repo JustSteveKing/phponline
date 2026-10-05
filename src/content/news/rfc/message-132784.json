@@ -1,0 +1,14 @@
+{
+  "id": "rfc/message-132784",
+  "title": "Add PASSWORD_BCRYPT_SHA256 to password_hash",
+  "link": "https://externals.io/message/132784?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-10-05T09:20:29.000Z",
+  "content": "<html><head></head><body>[RFC] Add PASSWORD_BCRYPT_SHA256 to password_hash</body></html>",
+  "source": "rfc",
+  "author": "#externals - Latest RFC Threads",
+  "status": "RFC",
+  "creatorId": "internals",
+  "tags": [
+    "internals"
+  ]
+}
