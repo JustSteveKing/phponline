@@ -1,0 +1,13 @@
+{
+  "id": "symfony/blog-new-in-symfony-8-2-relative-ordering-for-listeners-and-services",
+  "title": "New in Symfony 8.2: Relative Ordering for Listeners and Services",
+  "link": "https://symfony.com/blog/new-in-symfony-8-2-relative-ordering-for-listeners-and-services?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-10-06T07:23:00.000Z",
+  "content": "<html><head></head><body>Contributed by\n                    Nicolas Grekas\n                                         in\n                                    #66012\n                    ,…</body></html>",
+  "source": "Symfony",
+  "author": " Javier Eguiluz ",
+  "creatorId": "symfony",
+  "tags": [
+    "symfony"
+  ]
+}
