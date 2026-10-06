@@ -1,0 +1,14 @@
+{
+  "id": "laravel-news/decide-with-jev-three-questions-in-one-request-with-the-laravel-ai-sdk",
+  "title": "Decide with Jev: Three Questions in One Request with the Laravel AI SDK",
+  "link": "https://laravel-news.com/decide-with-jev-three-questions-in-one-request-with-the-laravel-ai-sdk?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-10-05T20:46:25.000Z",
+  "content": "<html><head></head><body><iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/3oJddn6sU9U\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen=\"\"></iframe>\n                                        <hr>\n\n                    <p>A single yes or no doesn't tell you much about a draft. In this episode of Decide with Jev, we ask Jev three questions in one request and get back a Boolean, a choice and a score. Then we read every part of each answer in PHP.</p>\n\n                    <p>The post <a href=\"https://laravel-news.com/decide-with-jev-three-questions-in-one-request-with-the-laravel-ai-sdk\">Decide with Jev: Three Questions in One Request with the Laravel AI SDK</a> appeared first on <a href=\"https://laravel-news.com\">Laravel News</a>.</p>\n                    <p>Join the <a href=\"https://laravel-news.com/newsletter\">Laravel Newsletter</a> to get <a href=\"https://laravel-news.com\">Laravel</a> articles like this directly in your inbox.</p>\n\n                    </body></html>",
+  "source": "laravel-news",
+  "author": "Harris Raftopoulos",
+  "creatorId": "laravel-news",
+  "tags": [
+    "laravel",
+    "internals"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "laravel-news/grant-laravel-roles-permissions",
+  "title": "Grant: Enum-Based Roles and Permissions for Laravel",
+  "link": "https://laravel-news.com/grant-laravel-roles-permissions?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "coverImage": "https://picperf.io/https://laravelnews.s3.amazonaws.com/featured-images/Grant-LN.png",
+  "pubDate": "2026-10-05T21:49:41.000Z",
+  "content": "<html><head></head><body><p><a href=\"https://laravel-news.com/grant-laravel-roles-permissions\"></a></p>\n                                        <hr>\n\n                    <p>Grant defines Laravel roles and permissions with PHP enums, stores role assignments in the database, and checks access through Laravel's Gate.</p>\n\n                    <p>The post <a href=\"https://laravel-news.com/grant-laravel-roles-permissions\">Grant: Enum-Based Roles and Permissions for Laravel</a> appeared first on <a href=\"https://laravel-news.com\">Laravel News</a>.</p>\n                    <p>Join the <a href=\"https://laravel-news.com/newsletter\">Laravel Newsletter</a> to get <a href=\"https://laravel-news.com\">Laravel</a> articles like this directly in your inbox.</p>\n\n                    </body></html>",
+  "source": "laravel-news",
+  "author": "Yannick Lyn Fatt",
+  "creatorId": "laravel-news",
+  "tags": [
+    "laravel",
+    "databases"
+  ]
+}

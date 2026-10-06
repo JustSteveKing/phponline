@@ -1,0 +1,13 @@
+{
+  "id": "juststeveking/articles-sending-and-receiving-webhooks-in-laravel",
+  "title": "Sending And Receiving Webhooks In Laravel",
+  "link": "https://www.juststeveking.com/articles/sending-and-receiving-webhooks-in-laravel/?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-10-06T00:00:00.000Z",
+  "content": "<html><head></head><body>A webhook is a contract between two codebases that never meet. Both ends of it in plain Laravel: what to sign, how long to retry, and how the receiver avoids doing the work twice.</body></html>",
+  "source": "juststeveking",
+  "author": "Steve McDougall — Articles",
+  "creatorId": "juststeveking",
+  "tags": [
+    "laravel"
+  ]
+}
