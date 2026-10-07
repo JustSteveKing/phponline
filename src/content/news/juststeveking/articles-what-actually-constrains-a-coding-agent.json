@@ -1,0 +1,13 @@
+{
+  "id": "juststeveking/articles-what-actually-constrains-a-coding-agent",
+  "title": "What Actually Constrains a Coding Agent",
+  "link": "https://www.juststeveking.com/articles/what-actually-constrains-a-coding-agent/?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-10-07T00:00:00.000Z",
+  "content": "<html><head></head><body>I had fifteen agents build the same Laravel and Slim API. Written decisions mattered most, the framework second, PSRs barely at all, and Laravel already ships the first.</body></html>",
+  "source": "juststeveking",
+  "author": "Steve McDougall — Articles",
+  "creatorId": "juststeveking",
+  "tags": [
+    "laravel"
+  ]
+}

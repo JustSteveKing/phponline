@@ -1,0 +1,13 @@
+{
+  "id": "juststeveking/articles-how-to-write-specs-rfcs-and-adrs",
+  "title": "How to Write Specs, RFCs and ADRs",
+  "link": "https://www.juststeveking.com/articles/how-to-write-specs-rfcs-and-adrs/?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-10-07T00:00:00.000Z",
+  "content": "<html><head></head><body>Spec driven development in practice: what an RFC, an ADR and a spec are each for, the templates I use, and one feature taken through all three from a blank page.</body></html>",
+  "source": "juststeveking",
+  "author": "Steve McDougall — Articles",
+  "creatorId": "juststeveking",
+  "tags": [
+    "internals"
+  ]
+}
