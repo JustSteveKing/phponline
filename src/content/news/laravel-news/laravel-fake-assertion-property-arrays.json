@@ -1,0 +1,16 @@
+{
+  "id": "laravel-news/laravel-fake-assertion-property-arrays",
+  "title": "Laravel Fake Assertions Now Accept Property Arrays",
+  "link": "https://laravel-news.com/laravel-fake-assertion-property-arrays?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "coverImage": "https://picperf.io/https://laravelnews.s3.amazonaws.com/featured-images/laravel-fake-assertions-array.png",
+  "pubDate": "2026-10-07T20:51:26.000Z",
+  "content": "<html><head></head><body><p><a href=\"https://laravel-news.com/laravel-fake-assertion-property-arrays\"></a></p>\n                                        <hr>\n\n                    <p>Laravel 13.35 lets assertPushed(), assertDispatched(), and assertSentTo() take an array of expected properties in place of a callback.</p>\n\n                    <p>The post <a href=\"https://laravel-news.com/laravel-fake-assertion-property-arrays\">Laravel Fake Assertions Now Accept Property Arrays</a> appeared first on <a href=\"https://laravel-news.com\">Laravel News</a>.</p>\n                    <p>Join the <a href=\"https://laravel-news.com/newsletter\">Laravel Newsletter</a> to get <a href=\"https://laravel-news.com\">Laravel</a> articles like this directly in your inbox.</p>\n\n                    </body></html>",
+  "source": "laravel-news",
+  "author": "Paul Redmond",
+  "creatorId": "laravel-news",
+  "tags": [
+    "laravel",
+    "security",
+    "testing"
+  ]
+}
