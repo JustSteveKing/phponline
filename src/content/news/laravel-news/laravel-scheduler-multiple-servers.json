@@ -1,0 +1,15 @@
+{
+  "id": "laravel-news/laravel-scheduler-multiple-servers",
+  "title": "Running Laravel's Scheduler on Multiple Servers",
+  "link": "https://laravel-news.com/laravel-scheduler-multiple-servers?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "coverImage": "https://picperf.io/https://laravelnews.s3.amazonaws.com/featured-images/laravel-scheduler-multiple-servers-featured.png",
+  "pubDate": "2026-10-08T22:14:01.000Z",
+  "content": "<html><head></head><body><p><a href=\"https://laravel-news.com/laravel-scheduler-multiple-servers\"></a></p>\n                                        <hr>\n\n                    <p>Laravel 13.35 adds Schedule::alwaysOnOneServer() to run every task once across servers, and a way for long scheduled commands to stop during a deploy.</p>\n\n                    <p>The post <a href=\"https://laravel-news.com/laravel-scheduler-multiple-servers\">Running Laravel's Scheduler on Multiple Servers</a> appeared first on <a href=\"https://laravel-news.com\">Laravel News</a>.</p>\n                    <p>Join the <a href=\"https://laravel-news.com/newsletter\">Laravel Newsletter</a> to get <a href=\"https://laravel-news.com\">Laravel</a> articles like this directly in your inbox.</p>\n\n                    </body></html>",
+  "source": "laravel-news",
+  "author": "Paul Redmond",
+  "creatorId": "laravel-news",
+  "tags": [
+    "laravel",
+    "devops"
+  ]
+}

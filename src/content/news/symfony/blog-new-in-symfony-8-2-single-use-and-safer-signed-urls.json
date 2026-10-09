@@ -1,0 +1,13 @@
+{
+  "id": "symfony/blog-new-in-symfony-8-2-single-use-and-safer-signed-urls",
+  "title": "New in Symfony 8.2: Single-Use and Safer Signed URLs",
+  "link": "https://symfony.com/blog/new-in-symfony-8-2-single-use-and-safer-signed-urls?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-10-09T07:19:00.000Z",
+  "content": "<html><head></head><body>Signed URLs let you share links that can't be tampered with, such as password\nreset links, email confirmation links or download links. Symfony provides the\nUriSigner utility to create and check them, and login links to log in\nusers without a password. Symfony…</body></html>",
+  "source": "Symfony",
+  "author": " Javier Eguiluz ",
+  "creatorId": "symfony",
+  "tags": [
+    "symfony"
+  ]
+}
