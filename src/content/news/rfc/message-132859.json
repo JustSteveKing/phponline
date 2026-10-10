@@ -1,0 +1,14 @@
+{
+  "id": "rfc/message-132859",
+  "title": "Single binary for CLI and FPM",
+  "link": "https://externals.io/message/132859?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-10-10T08:47:09.000Z",
+  "content": "<html><head></head><body>[RFC] Single binary for CLI and FPM</body></html>",
+  "source": "rfc",
+  "author": "#externals - Latest RFC Threads",
+  "status": "RFC",
+  "creatorId": "internals",
+  "tags": [
+    "internals"
+  ]
+}
