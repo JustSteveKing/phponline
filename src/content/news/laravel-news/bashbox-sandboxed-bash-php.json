@@ -1,0 +1,14 @@
+{
+  "id": "laravel-news/bashbox-sandboxed-bash-php",
+  "title": "BashBox: A Sandboxed Bash Interpreter for AI Agents in PHP",
+  "link": "https://laravel-news.com/bashbox-sandboxed-bash-php?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "coverImage": "https://picperf.io/https://laravelnews.s3.amazonaws.com/featured-images/php-bashbox-laravel-ai-sdk-featured.png",
+  "pubDate": "2026-10-11T22:53:21.000Z",
+  "content": "<html><head></head><body><p><a href=\"https://laravel-news.com/bashbox-sandboxed-bash-php\"></a></p>\n                                        <hr>\n\n                    <p>BashBox runs AI-generated bash scripts in pure PHP, with a virtual filesystem, execution limits, and opt-in network access. No exec or proc_open calls.</p>\n\n                    <p>The post <a href=\"https://laravel-news.com/bashbox-sandboxed-bash-php\">BashBox: A Sandboxed Bash Interpreter for AI Agents in PHP</a> appeared first on <a href=\"https://laravel-news.com\">Laravel News</a>.</p>\n                    <p>Join the <a href=\"https://laravel-news.com/newsletter\">Laravel Newsletter</a> to get <a href=\"https://laravel-news.com\">Laravel</a> articles like this directly in your inbox.</p>\n\n                    </body></html>",
+  "source": "laravel-news",
+  "author": "Paul Redmond",
+  "creatorId": "laravel-news",
+  "tags": [
+    "laravel"
+  ]
+}
