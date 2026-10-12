@@ -1,0 +1,14 @@
+{
+  "id": "laravel-news/puzzleparty",
+  "title": "Look What You Helped Me Build",
+  "link": "https://laravel-news.com/puzzleparty?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "coverImage": "https://picperf.io/https://laravelnews.s3.amazonaws.com/featured-images/Screenshot 2026-10-03 at 2.18.38 PM.png",
+  "pubDate": "2026-10-12T12:10:20.000Z",
+  "content": "<html><head></head><body><p><a href=\"https://laravel-news.com/puzzleparty\"></a></p>\n                                        <hr>\n\n                    <p>Puzzle Party isn't a game. It's a place to play the games you're already playing --- Wordle, Connections, Strands, crosswords, and other daily\npuzzles --- with people you already know.</p>\n\n                    <p>The post <a href=\"https://laravel-news.com/puzzleparty\">Look What You Helped Me Build</a> appeared first on <a href=\"https://laravel-news.com\">Laravel News</a>.</p>\n                    <p>Join the <a href=\"https://laravel-news.com/newsletter\">Laravel Newsletter</a> to get <a href=\"https://laravel-news.com\">Laravel</a> articles like this directly in your inbox.</p>\n\n                    </body></html>",
+  "source": "laravel-news",
+  "author": "Andy Drexler",
+  "creatorId": "laravel-news",
+  "tags": [
+    "laravel"
+  ]
+}
