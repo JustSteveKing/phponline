@@ -1,0 +1,14 @@
+{
+  "id": "laravel-news/inertia-3-9-0",
+  "title": "Pause Polling in Background Tabs in Inertia.js v3.9",
+  "link": "https://laravel-news.com/inertia-3-9-0?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "coverImage": "https://picperf.io/https://laravelnews.s3.amazonaws.com/featured-images/inertia-v3-featured.png",
+  "pubDate": "2026-10-12T23:59:10.000Z",
+  "content": "<html><head></head><body><p><a href=\"https://laravel-news.com/inertia-3-9-0\"></a></p>\n                                        <hr>\n\n                    <p>Inertia.js v3.9 adds a background option to pause polling in hidden tabs, a navigate event type for history restores, and fixes for back navigation.</p>\n\n                    <p>The post <a href=\"https://laravel-news.com/inertia-3-9-0\">Pause Polling in Background Tabs in Inertia.js v3.9</a> appeared first on <a href=\"https://laravel-news.com\">Laravel News</a>.</p>\n                    <p>Join the <a href=\"https://laravel-news.com/newsletter\">Laravel Newsletter</a> to get <a href=\"https://laravel-news.com\">Laravel</a> articles like this directly in your inbox.</p>\n\n                    </body></html>",
+  "source": "laravel-news",
+  "author": "Paul Redmond",
+  "creatorId": "laravel-news",
+  "tags": [
+    "laravel"
+  ]
+}
