@@ -1,0 +1,14 @@
+{
+  "id": "laravel-news/laravel-13-36-0",
+  "title": "Rule Builders for Every Validation Rule in Laravel 13.36",
+  "link": "https://laravel-news.com/laravel-13-36-0?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "coverImage": "https://picperf.io/https://laravelnews.s3.amazonaws.com/featured-images/laravel-13-featured.png",
+  "pubDate": "2026-10-14T00:06:57.000Z",
+  "content": "<html><head></head><body><p><a href=\"https://laravel-news.com/laravel-13-36-0\"></a></p>\n                                        <hr>\n\n                    <p>Laravel 13.36 adds Rule:: builders for the remaining validation rules, DB::olap() for PlanetScale, and an option to reset sticky connections between queue jobs.</p>\n\n                    <p>The post <a href=\"https://laravel-news.com/laravel-13-36-0\">Rule Builders for Every Validation Rule in Laravel 13.36</a> appeared first on <a href=\"https://laravel-news.com\">Laravel News</a>.</p>\n                    <p>Join the <a href=\"https://laravel-news.com/newsletter\">Laravel Newsletter</a> to get <a href=\"https://laravel-news.com\">Laravel</a> articles like this directly in your inbox.</p>\n\n                    </body></html>",
+  "source": "laravel-news",
+  "author": "Paul Redmond",
+  "creatorId": "laravel-news",
+  "tags": [
+    "laravel"
+  ]
+}
