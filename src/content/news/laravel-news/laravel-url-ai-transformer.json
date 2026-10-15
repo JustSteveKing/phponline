@@ -1,0 +1,14 @@
+{
+  "id": "laravel-news/laravel-url-ai-transformer",
+  "title": "Laravel URL AI Transformer: Extract Structured Data From URLs",
+  "link": "https://laravel-news.com/laravel-url-ai-transformer?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "coverImage": "https://picperf.io/https://laravelnews.s3.amazonaws.com/featured-images/laravel-url-ai-transformer-featured.png",
+  "pubDate": "2026-10-14T23:29:42.000Z",
+  "content": "<html><head></head><body><p><a href=\"https://laravel-news.com/laravel-url-ai-transformer\"></a></p>\n                                        <hr>\n\n                    <p>Spatie's Laravel URL AI Transformer fetches web pages, runs them through Laravel AI agents, and stores JSON-LD, summaries, or schema-validated data.</p>\n\n                    <p>The post <a href=\"https://laravel-news.com/laravel-url-ai-transformer\">Laravel URL AI Transformer: Extract Structured Data From URLs</a> appeared first on <a href=\"https://laravel-news.com\">Laravel News</a>.</p>\n                    <p>Join the <a href=\"https://laravel-news.com/newsletter\">Laravel Newsletter</a> to get <a href=\"https://laravel-news.com\">Laravel</a> articles like this directly in your inbox.</p>\n\n                    </body></html>",
+  "source": "laravel-news",
+  "author": "Paul Redmond",
+  "creatorId": "laravel-news",
+  "tags": [
+    "laravel"
+  ]
+}
