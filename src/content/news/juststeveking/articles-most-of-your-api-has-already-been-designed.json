@@ -1,0 +1,14 @@
+{
+  "id": "juststeveking/articles-most-of-your-api-has-already-been-designed",
+  "title": "Most of Your API Has Already Been Designed",
+  "link": "https://www.juststeveking.com/articles/most-of-your-api-has-already-been-designed/?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-10-15T00:00:00.000Z",
+  "content": "<html><head></head><body>Error formats, retries, lost updates, webhook signing: the IETF has already answered them. api-toolbox brings those answers to Laravel, one RFC per feature.</body></html>",
+  "source": "juststeveking",
+  "author": "Steve McDougall — Articles",
+  "creatorId": "juststeveking",
+  "tags": [
+    "laravel",
+    "internals"
+  ]
+}

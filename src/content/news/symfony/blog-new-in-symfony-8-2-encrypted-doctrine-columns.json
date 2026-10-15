@@ -1,0 +1,14 @@
+{
+  "id": "symfony/blog-new-in-symfony-8-2-encrypted-doctrine-columns",
+  "title": "New in Symfony 8.2: Encrypted Doctrine Columns",
+  "link": "https://symfony.com/blog/new-in-symfony-8-2-encrypted-doctrine-columns?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-10-15T08:46:00.000Z",
+  "content": "<html><head></head><body>The new KeyManagement component includes a Doctrine DBAL bridge with an\nEncryptedType that encrypts any column with envelope encryption. You need\na separate Doctrine type for each combination of key and value type, registered\nbefore the first query runs.…</body></html>",
+  "source": "Symfony",
+  "author": " Javier Eguiluz ",
+  "creatorId": "symfony",
+  "tags": [
+    "symfony",
+    "security"
+  ]
+}

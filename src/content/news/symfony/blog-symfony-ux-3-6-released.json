@@ -1,0 +1,13 @@
+{
+  "id": "symfony/blog-symfony-ux-3-6-released",
+  "title": "Symfony UX 3.6 released",
+  "link": "https://symfony.com/blog/symfony-ux-3-6-released?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-10-15T07:00:00.000Z",
+  "content": "<html><head></head><body>Symfony UX 3.6 is out, with more than 100 pull requests merged since 3.5.1. It\nadds three experimental packages, UX Inspector, UX Image and UX Router, aligns\nthe Shadcn kit of the UX Toolkit with the Nova style, and runs every Toolkit\nrecipe in a real browser,…</body></html>",
+  "source": "Symfony",
+  "author": " Hugo Alliaume ",
+  "creatorId": "symfony",
+  "tags": [
+    "symfony"
+  ]
+}
