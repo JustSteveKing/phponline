@@ -1,0 +1,14 @@
+{
+  "id": "rfc/message-132875",
+  "title": "Case-insensitive extension names in ini_get_all",
+  "link": "https://externals.io/message/132875?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-10-16T16:51:23.000Z",
+  "content": "<html><head></head><body>[RFC] Case-insensitive extension names in ini_get_all()</body></html>",
+  "source": "rfc",
+  "author": "#externals - Latest RFC Threads",
+  "status": "RFC",
+  "creatorId": "internals",
+  "tags": [
+    "internals"
+  ]
+}
