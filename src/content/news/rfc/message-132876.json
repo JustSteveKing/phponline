@@ -1,0 +1,14 @@
+{
+  "id": "rfc/message-132876",
+  "title": "PDO binary parameter support",
+  "link": "https://externals.io/message/132876?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-10-16T19:34:15.000Z",
+  "content": "<html><head></head><body>[RFC] PDO binary parameter support</body></html>",
+  "source": "rfc",
+  "author": "#externals - Latest RFC Threads",
+  "status": "RFC",
+  "creatorId": "internals",
+  "tags": [
+    "internals"
+  ]
+}
