@@ -1,0 +1,14 @@
+{
+  "id": "rfc/message-132873",
+  "title": "Throw exception for invalid characters in number base functions",
+  "link": "https://externals.io/message/132873?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-10-16T07:41:29.000Z",
+  "content": "<html><head></head><body>[RFC] [VOTE] Throw exception for invalid characters in number base functions</body></html>",
+  "source": "rfc",
+  "author": "#externals - Latest RFC Threads",
+  "status": "RFC",
+  "creatorId": "internals",
+  "tags": [
+    "internals"
+  ]
+}

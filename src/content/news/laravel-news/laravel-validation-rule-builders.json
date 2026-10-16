@@ -1,0 +1,14 @@
+{
+  "id": "laravel-news/laravel-validation-rule-builders",
+  "title": "Fluent Rule Builders for All Laravel Validation Rules",
+  "link": "https://laravel-news.com/laravel-validation-rule-builders?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "coverImage": "https://picperf.io/https://laravelnews.s3.amazonaws.com/featured-images/laravel-validation-rule-builders-featured.png",
+  "pubDate": "2026-10-16T02:05:10.000Z",
+  "content": "<html><head></head><body><p><a href=\"https://laravel-news.com/laravel-validation-rule-builders\"></a></p>\n                                        <hr>\n\n                    <p>Laravel 13.36 adds Rule:: methods for required_with, accepted_if, url, uuid, distinct, and the other string-only validation rules, with IDE autocompletion.</p>\n\n                    <p>The post <a href=\"https://laravel-news.com/laravel-validation-rule-builders\">Fluent Rule Builders for All Laravel Validation Rules</a> appeared first on <a href=\"https://laravel-news.com\">Laravel News</a>.</p>\n                    <p>Join the <a href=\"https://laravel-news.com/newsletter\">Laravel Newsletter</a> to get <a href=\"https://laravel-news.com\">Laravel</a> articles like this directly in your inbox.</p>\n\n                    </body></html>",
+  "source": "laravel-news",
+  "author": "Paul Redmond",
+  "creatorId": "laravel-news",
+  "tags": [
+    "laravel"
+  ]
+}
