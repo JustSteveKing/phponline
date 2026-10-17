@@ -1,0 +1,13 @@
+{
+  "id": "wendell-adriel/blog-when-retries-make-things-worse-protecting-your-system-from-overload",
+  "title": "When Retries Make Things Worse: Protecting Your System From Overload",
+  "link": "https://wendelladriel.com/blog/when-retries-make-things-worse-protecting-your-system-from-overload?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-10-17T00:00:00.000Z",
+  "content": "<html><head></head><body>How a slow dependency becomes an outage, and how deadlines, concurrency limits, retry budgets, and jitter protect useful work. A practical deep dive with PHP examples and a controlled overload test design.</body></html>",
+  "source": "wendell-adriel",
+  "author": "Wendell Adriel <contact@wendelladriel.com>",
+  "creatorId": "wendell-adriel",
+  "tags": [
+    "performance"
+  ]
+}
