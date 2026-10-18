@@ -1,0 +1,15 @@
+{
+  "id": "symfony/blog-a-week-of-symfony-1033-october-12-18-2026",
+  "title": "A Week of Symfony #1033",
+  "link": "https://symfony.com/blog/a-week-of-symfony-1033-october-12-18-2026?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-10-18T07:11:00.000Z",
+  "content": "<html><head></head><body>This week, Symfony 5.4.54, 6.4.48, 7.4.21, and 8.1.9 maintenance versions were released, along with three security fixes for HttpFoundation, ExpressionLanguage, and Yaml. We also released Symfony UX 3.6, which adds three experimental packages: UX Inspector,…</body></html>",
+  "source": "Symfony",
+  "author": " Javier Eguiluz ",
+  "creatorId": "symfony",
+  "tags": [
+    "symfony",
+    "security",
+    "internals"
+  ]
+}
