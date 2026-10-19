@@ -1,0 +1,14 @@
+{
+  "id": "rfc/message-132880",
+  "title": "Scope: per-request state for long-running and async PHP",
+  "link": "https://externals.io/message/132880?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-10-19T13:24:59.000Z",
+  "content": "<html><head></head><body>[RFC karma request] Scope: per-request state (superglobals, locale, timezone) for long-running and async PHP</body></html>",
+  "source": "rfc",
+  "author": "#externals - Latest RFC Threads",
+  "status": "RFC",
+  "creatorId": "internals",
+  "tags": [
+    "internals"
+  ]
+}

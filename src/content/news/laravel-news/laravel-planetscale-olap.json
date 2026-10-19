@@ -1,0 +1,14 @@
+{
+  "id": "laravel-news/laravel-planetscale-olap",
+  "title": "Run Large PlanetScale Queries in Laravel With DB::olap",
+  "link": "https://laravel-news.com/laravel-planetscale-olap?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "coverImage": "https://picperf.io/https://laravelnews.s3.amazonaws.com/featured-images/laravel-planetscale-olap-featured-2.png",
+  "pubDate": "2026-10-19T02:22:57.000Z",
+  "content": "<html><head></head><body><p><a href=\"https://laravel-news.com/laravel-planetscale-olap\"></a></p>\n                                        <hr>\n\n                    <p>Laravel's new DB::olap() method runs PlanetScale and Vitess queries in OLAP mode to get past the 100,000 row limit, then switches the connection back.</p>\n\n                    <p>The post <a href=\"https://laravel-news.com/laravel-planetscale-olap\">Run Large PlanetScale Queries in Laravel With DB::olap()</a> appeared first on <a href=\"https://laravel-news.com\">Laravel News</a>.</p>\n                    <p>Join the <a href=\"https://laravel-news.com/newsletter\">Laravel Newsletter</a> to get <a href=\"https://laravel-news.com\">Laravel</a> articles like this directly in your inbox.</p>\n\n                    </body></html>",
+  "source": "laravel-news",
+  "author": "Paul Redmond",
+  "creatorId": "laravel-news",
+  "tags": [
+    "laravel"
+  ]
+}
