@@ -1,0 +1,13 @@
+{
+  "id": "juststeveking/articles-a-laravel-api-starter-kit-that-keeps-its-promises",
+  "title": "A Laravel API Starter Kit That Keeps Its Promises",
+  "link": "https://www.juststeveking.com/articles/a-laravel-api-starter-kit-that-keeps-its-promises/?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-10-20T00:00:00.000Z",
+  "content": "<html><head></head><body>Starter kits are right on the day you install them and drift from then on. Kit now checks its own promises in CI, so the docs, spec, errors and dependencies stay true.</body></html>",
+  "source": "juststeveking",
+  "author": "Steve McDougall — Articles",
+  "creatorId": "juststeveking",
+  "tags": [
+    "laravel"
+  ]
+}
