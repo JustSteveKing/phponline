@@ -1,0 +1,11 @@
+{
+  "id": "juststeveking/articles-an-example-app-that-needs-its-features",
+  "title": "An Example App That Needs Its Features",
+  "link": "https://www.juststeveking.com/articles/an-example-app-that-needs-its-features/?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-10-21T00:00:00.000Z",
+  "content": "<html><head></head><body>Flagpole is a feature flag service built on kit, where every HTTP standard is there because the domain needs it. Building it found four bugs that kit's own tests never caught.</body></html>",
+  "source": "juststeveking",
+  "author": "Steve McDougall — Articles",
+  "creatorId": "juststeveking",
+  "tags": []
+}
