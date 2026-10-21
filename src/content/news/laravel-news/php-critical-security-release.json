@@ -1,0 +1,15 @@
+{
+  "id": "laravel-news/php-critical-security-release",
+  "title": "Critical PHP Security Release Coming Tomorrow",
+  "link": "https://laravel-news.com/php-critical-security-release?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "coverImage": "https://picperf.io/https://laravelnews.s3.amazonaws.com/featured-images/php-critical-security-release-featured.png",
+  "pubDate": "2026-10-21T01:52:52.000Z",
+  "content": "<html><head></head><body><p><a href=\"https://laravel-news.com/php-critical-security-release\"></a></p>\n                                        <hr>\n\n                    <p>The PHP security team will ship a release on October 21, 2026 at 14:00 UTC that fixes two critical vulnerabilities, both rated CVSS 9.2. Plan your upgrade now.</p>\n\n                    <p>The post <a href=\"https://laravel-news.com/php-critical-security-release\">Critical PHP Security Release Coming Tomorrow (October 21)</a> appeared first on <a href=\"https://laravel-news.com\">Laravel News</a>.</p>\n                    <p>Join the <a href=\"https://laravel-news.com/newsletter\">Laravel Newsletter</a> to get <a href=\"https://laravel-news.com\">Laravel</a> articles like this directly in your inbox.</p>\n\n                    </body></html>",
+  "source": "laravel-news",
+  "author": "Paul Redmond",
+  "creatorId": "laravel-news",
+  "tags": [
+    "laravel",
+    "security"
+  ]
+}
