@@ -1,6 +1,6 @@
 {
   "id": "laravel/blog-add-email-to-any-laravel-cloud-environment-with-the-resend",
-  "title": "Add email to any Laravel Cloud environment with the Resend",
+  "title": "Add email to any Laravel Cloud environment with Resend",
   "link": "https://laravel.com/blog/add-email-to-any-laravel-cloud-environment-with-the-resend?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
   "pubDate": "2026-10-14T22:12:00.000Z",
   "content": "<html><head></head><body>Resend is now a first-party Laravel Cloud integration. Connect once, verify a domain, and attach email to an environment like any other resource.</body></html>",
