@@ -3,7 +3,7 @@
   "title": "PHP Security Releases Fix Two Critical RCE Vulnerabilities",
   "link": "https://laravel-news.com/php-critical-rce-security-releases?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
   "coverImage": "https://picperf.io/https://laravelnews.s3.amazonaws.com/featured-images/php-critical-security-release-featured.png",
-  "pubDate": "2026-10-21T13:56:42.000Z",
+  "pubDate": "2026-10-22T02:23:28.000Z",
   "content": "<html><head></head><body><p><a href=\"https://laravel-news.com/php-critical-rce-security-releases\"></a></p>\n                                        <hr>\n\n                    <p>PHP 8.5.12, 8.4.27, 8.3.36, and 8.2.35 fix two critical vulnerabilities that allow unauthenticated remote code execution. Here's who's at risk and how to update.</p>\n\n                    <p>The post <a href=\"https://laravel-news.com/php-critical-rce-security-releases\">PHP Security Releases Fix Two Critical RCE Vulnerabilities</a> appeared first on <a href=\"https://laravel-news.com\">Laravel News</a>.</p>\n                    <p>Join the <a href=\"https://laravel-news.com/newsletter\">Laravel Newsletter</a> to get <a href=\"https://laravel-news.com\">Laravel</a> articles like this directly in your inbox.</p>\n\n                    </body></html>",
   "source": "laravel-news",
   "author": "Eric L. Barnes",
