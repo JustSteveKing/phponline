@@ -1,0 +1,11 @@
+{
+  "id": "wendell-adriel/blog-building-a-link-checker-in-go-without-overwhelming-the-network",
+  "title": "Building a Link Checker in Go Without Overwhelming the Network",
+  "link": "https://wendelladriel.com/blog/building-a-link-checker-in-go-without-overwhelming-the-network?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-10-22T00:00:00.000Z",
+  "content": "<html><head></head><body>Build a runnable Go link checker with a shared HTTP client, bounded workers, paced requests, cancellation, and local tests. Learn to distinguish broken links from failures that need another look.</body></html>",
+  "source": "wendell-adriel",
+  "author": "Wendell Adriel <contact@wendelladriel.com>",
+  "creatorId": "wendell-adriel",
+  "tags": []
+}

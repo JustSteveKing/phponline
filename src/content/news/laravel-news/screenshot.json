@@ -1,0 +1,14 @@
+{
+  "id": "laravel-news/screenshot",
+  "title": "Screenshot: Capture Images and PDFs with PHP and Laravel",
+  "link": "https://laravel-news.com/screenshot?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "coverImage": "https://picperf.io/https://laravelnews.s3.amazonaws.com/featured-images/Screenshot-LN.png",
+  "pubDate": "2026-10-21T22:07:29.000Z",
+  "content": "<html><head></head><body><p><a href=\"https://laravel-news.com/screenshot\"></a></p>\n                                        <hr>\n\n                    <p>Screenshot captures HTML, Blade views, and web pages as PNG, JPEG, or PDF files with Chrome, then saves them locally or to Laravel filesystem disks.</p>\n\n                    <p>The post <a href=\"https://laravel-news.com/screenshot\">Screenshot: Capture Images and PDFs with PHP and Laravel</a> appeared first on <a href=\"https://laravel-news.com\">Laravel News</a>.</p>\n                    <p>Join the <a href=\"https://laravel-news.com/newsletter\">Laravel Newsletter</a> to get <a href=\"https://laravel-news.com\">Laravel</a> articles like this directly in your inbox.</p>\n\n                    </body></html>",
+  "source": "laravel-news",
+  "author": "Yannick Lyn Fatt",
+  "creatorId": "laravel-news",
+  "tags": [
+    "laravel"
+  ]
+}

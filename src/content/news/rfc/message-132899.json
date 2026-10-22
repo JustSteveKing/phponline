@@ -1,0 +1,14 @@
+{
+  "id": "rfc/message-132899",
+  "title": "Pattern Matching — missing keys and strict int",
+  "link": "https://externals.io/message/132899?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-10-22T12:30:14.000Z",
+  "content": "<html><head></head><body>[RFC] Pattern Matching — missing keys and strict int</body></html>",
+  "source": "rfc",
+  "author": "#externals - Latest RFC Threads",
+  "status": "RFC",
+  "creatorId": "internals",
+  "tags": [
+    "internals"
+  ]
+}
