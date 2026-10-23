@@ -1,0 +1,13 @@
+{
+  "id": "laravel-news/decide-with-jev-turn-ai-answers-into-decisions-with-php-rules",
+  "title": "Decide with Jev: Turn AI Answers into Decisions with PHP Rules",
+  "link": "https://laravel-news.com/decide-with-jev-turn-ai-answers-into-decisions-with-php-rules?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-10-23T09:08:28.000Z",
+  "content": "<html><head></head><body><iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/YZkn3Tv4A_k\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen=\"\"></iframe>\n                                        <hr>\n\n                    <p>Jev can answer three questions about a draft, but the model should not decide what happens next. In episode 3 of Decide with Jev, we write a small PHP class that turns those answers into one label. When the answers are unclear, the draft goes to a person.</p>\n\n                    <p>The post <a href=\"https://laravel-news.com/decide-with-jev-turn-ai-answers-into-decisions-with-php-rules\">Decide with Jev: Turn AI Answers into Decisions with PHP Rules</a> appeared first on <a href=\"https://laravel-news.com\">Laravel News</a>.</p>\n                    <p>Join the <a href=\"https://laravel-news.com/newsletter\">Laravel Newsletter</a> to get <a href=\"https://laravel-news.com\">Laravel</a> articles like this directly in your inbox.</p>\n\n                    </body></html>",
+  "source": "laravel-news",
+  "author": "Harris Raftopoulos",
+  "creatorId": "laravel-news",
+  "tags": [
+    "laravel"
+  ]
+}
