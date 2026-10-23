@@ -1,0 +1,15 @@
+{
+  "id": "laravel-news/volker-dusch-php-rce-disclosure",
+  "title": "Volker Dusch on the PHP RCE Vulnerabilities and Disclosure",
+  "link": "https://laravel-news.com/volker-dusch-php-rce-disclosure?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "coverImage": "https://picperf.io/https://laravelnews.s3.amazonaws.com/featured-images/PHP2SHELL.png",
+  "pubDate": "2026-10-23T15:41:26.000Z",
+  "content": "<html><head></head><body><p><a href=\"https://laravel-news.com/volker-dusch-php-rce-disclosure\"></a></p>\n                                        <hr>\n\n                    <p>Volker Dusch of the PHP Foundation explains how the two critical PHP RCE vulnerabilities were found, fixed, and disclosed, plus the leak and the broken embargo.</p>\n\n                    <p>The post <a href=\"https://laravel-news.com/volker-dusch-php-rce-disclosure\">Volker Dusch on the PHP RCE Vulnerabilities and Disclosure</a> appeared first on <a href=\"https://laravel-news.com\">Laravel News</a>.</p>\n                    <p>Join the <a href=\"https://laravel-news.com/newsletter\">Laravel Newsletter</a> to get <a href=\"https://laravel-news.com\">Laravel</a> articles like this directly in your inbox.</p>\n\n                    </body></html>",
+  "source": "laravel-news",
+  "author": "Eric L. Barnes",
+  "creatorId": "laravel-news",
+  "tags": [
+    "laravel",
+    "internals"
+  ]
+}
