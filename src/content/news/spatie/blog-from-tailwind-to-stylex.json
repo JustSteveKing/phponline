@@ -1,0 +1,11 @@
+{
+  "id": "spatie/blog-from-tailwind-to-stylex",
+  "title": "From Tailwind to StyleX",
+  "link": "https://spatie.be/blog/from-tailwind-to-stylex?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-10-23T06:48:04.000Z",
+  "content": "<html><head></head><body><p>I tried moving a side project from Tailwind to StyleX, mainly to see whether its more explicit approach to styling works better with LLMs. I still find Tailwind faster to write by hand, but StyleX made me notice the value of having things like CSS properties, tokens, variants, and component styling conventions represented directly in the code. This post is mostly about those trade-offs, and why the extra verbosity bothers me less now that an LLM is doing more of the mechanical typing.</p>\n\n            </body></html>",
+  "source": "spatie",
+  "author": "Spatie: Blog",
+  "creatorId": "spatie",
+  "tags": []
+}
