@@ -1,0 +1,13 @@
+{
+  "id": "php/2026-10-23-1",
+  "title": "Informational advisory: Session upload progress",
+  "link": "https://www.php.net/index.php?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev#2026-10-23-1",
+  "pubDate": "2026-10-23T10:12:28.000Z",
+  "content": "<html><head></head><body><div type=\"xhtml\"><div xmlns=\"http://www.w3.org/1999/xhtml\"><p>\n        We suggest you set  until the\n        next regular bugfix release, to fully protect from an unlikely RCE vector.\n        This setting was already listed as a mitigation in the\n        \n        advisory for CVE-2026-109619 published on Oct 21st, 2026. If you applied it\n        then, keep it in place and no further action is needed.\n      <code>session.upload_progress.enabled=0</code><a href=\"https://github.com/php/php-src/security/advisories/GHSA-6wmf-4rv5-p3rp\">GHSA-6wmf-4rv5-p3rp</a></p><p>\n        The issue can only occur under an unusual combination of configuration and\n        application code. An application must set\n         to  or\n         in its configuration and then switch it to\n         at runtime with  before calling\n        . Session upload progress must also still be\n        enabled. Applications that never change the serialize handler at runtime can\n        keep the feature enabled. Since this setup is unlikely in practice, we are\n        handling it in the regular release cycle and will publish a full advisory for\n        CVE-2026-115560 with the next release.\n      <code>session.serialize_handler</code><code>php_binary</code><code>php_serialize</code><code>php</code><code>ini_set()</code><code>session_start()</code></p></div></div></body></html>",
+  "source": "php",
+  "author": "PHP.net news & announcements",
+  "creatorId": "php-net",
+  "tags": [
+    "security"
+  ]
+}
