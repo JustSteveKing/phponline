@@ -1,0 +1,14 @@
+{
+  "id": "rfc/message-132913",
+  "title": "Paren-less access to scalar extension methods )",
+  "link": "https://externals.io/message/132913?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-10-24T09:33:53.000Z",
+  "content": "<html><head></head><body>[RFC] Paren-less access to scalar extension methods ('a,b'-&gt;arr as sugar for 'a,b'-&gt;arr())</body></html>",
+  "source": "rfc",
+  "author": "#externals - Latest RFC Threads",
+  "status": "RFC",
+  "creatorId": "internals",
+  "tags": [
+    "internals"
+  ]
+}
