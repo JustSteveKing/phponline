@@ -1,0 +1,13 @@
+{
+  "id": "symfony/blog-a-week-of-symfony-1034-october-19-25-2026",
+  "title": "A Week of Symfony #1034",
+  "link": "https://symfony.com/blog/a-week-of-symfony-1034-october-19-25-2026?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-10-25T08:19:00.000Z",
+  "content": "<html><head></head><body>This week, development activity focused on polishing and fixing the new features of the upcoming Symfony 8.2 version. In addition, we showcased some of them, including the new JsonSchema component, signed Messenger transports, safer HTML in translations,…</body></html>",
+  "source": "Symfony",
+  "author": " Javier Eguiluz ",
+  "creatorId": "symfony",
+  "tags": [
+    "symfony"
+  ]
+}

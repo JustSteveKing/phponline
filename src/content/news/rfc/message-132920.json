@@ -1,0 +1,15 @@
+{
+  "id": "rfc/message-132920",
+  "title": "Formalization moratorium after PHP2Shell : independent implementations in Rocq/Agda/K/Redex",
+  "link": "https://externals.io/message/132920?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-10-25T08:30:17.000Z",
+  "content": "<html><head></head><body>[RFC Idea] Formalization moratorium after PHP2Shell (CVE-2026-109618/109619): independent implementations in Rocq/Agda/K/Redex</body></html>",
+  "source": "rfc",
+  "author": "#externals - Latest RFC Threads",
+  "status": "RFC",
+  "creatorId": "internals",
+  "tags": [
+    "security",
+    "internals"
+  ]
+}
