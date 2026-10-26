@@ -1,0 +1,13 @@
+{
+  "id": "juststeveking/articles-an-audit-log-you-cannot-quietly-edit",
+  "title": "An Audit Log You Cannot Quietly Edit",
+  "link": "https://www.juststeveking.com/articles/an-audit-log-you-cannot-quietly-edit/?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-10-26T00:00:00.000Z",
+  "content": "<html><head></head><body>A hash chain makes editing your audit log expensive, and only becomes evidence once a hash lives somewhere the editor can't reach. Built in Laravel, traps included.</body></html>",
+  "source": "juststeveking",
+  "author": "Steve McDougall — Articles",
+  "creatorId": "juststeveking",
+  "tags": [
+    "laravel"
+  ]
+}

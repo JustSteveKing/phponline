@@ -1,0 +1,15 @@
+{
+  "id": "laravel-news/nativephp-mobile-security-advisories",
+  "title": "NativePHP Mobile Security Advisories: Update to 4.6.1",
+  "link": "https://laravel-news.com/nativephp-mobile-security-advisories?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "coverImage": "https://picperf.io/https://laravelnews.s3.amazonaws.com/featured-images/NativePHP-First-Security-Advisories-LN.png",
+  "pubDate": "2026-10-26T02:31:21.000Z",
+  "content": "<html><head></head><body><p><a href=\"https://laravel-news.com/nativephp-mobile-security-advisories\"></a></p>\n                                        <hr>\n\n                    <p>NativePHP published seven security advisories for its mobile package, plus rebuilt PHP binaries for this week's PHP CVEs. Update to 4.6.1 or 3.3.11 and rebuild.</p>\n\n                    <p>The post <a href=\"https://laravel-news.com/nativephp-mobile-security-advisories\">NativePHP Mobile Security Advisories: Update to 4.6.1</a> appeared first on <a href=\"https://laravel-news.com\">Laravel News</a>.</p>\n                    <p>Join the <a href=\"https://laravel-news.com/newsletter\">Laravel Newsletter</a> to get <a href=\"https://laravel-news.com\">Laravel</a> articles like this directly in your inbox.</p>\n\n                    </body></html>",
+  "source": "laravel-news",
+  "author": "Yannick Lyn Fatt",
+  "creatorId": "laravel-news",
+  "tags": [
+    "laravel",
+    "security"
+  ]
+}
