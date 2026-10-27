@@ -1,0 +1,14 @@
+{
+  "id": "laravel-news/filament-5-8-0",
+  "title": "Deferred Schema Loading in Filament v5.8",
+  "link": "https://laravel-news.com/filament-5-8-0?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "coverImage": "https://picperf.io/https://laravelnews.s3.amazonaws.com/featured-images/filament-8.5-featured.png",
+  "pubDate": "2026-10-26T23:33:43.000Z",
+  "content": "<html><head></head><body><p><a href=\"https://laravel-news.com/filament-5-8-0\"></a></p>\n                                        <hr>\n\n                    <p>Filament v5.8 adds deferLoading() for sections, tabs, wizards, and repeater items, plus session-persisted table grouping and lifecycle hooks in traits.</p>\n\n                    <p>The post <a href=\"https://laravel-news.com/filament-5-8-0\">Deferred Schema Loading in Filament v5.8</a> appeared first on <a href=\"https://laravel-news.com\">Laravel News</a>.</p>\n                    <p>Join the <a href=\"https://laravel-news.com/newsletter\">Laravel Newsletter</a> to get <a href=\"https://laravel-news.com\">Laravel</a> articles like this directly in your inbox.</p>\n\n                    </body></html>",
+  "source": "laravel-news",
+  "author": "Paul Redmond",
+  "creatorId": "laravel-news",
+  "tags": [
+    "laravel"
+  ]
+}

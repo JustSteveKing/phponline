@@ -1,0 +1,13 @@
+{
+  "id": "symfony/blog-new-in-symfony-8-2-generics-and-stricter-types-in-the-serializer",
+  "title": "New in Symfony 8.2: Generics and Stricter Types in the Serializer",
+  "link": "https://symfony.com/blog/new-in-symfony-8-2-generics-and-stricter-types-in-the-serializer?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-10-27T08:12:00.000Z",
+  "content": "<html><head></head><body>The Serializer component relies on the TypeInfo component to know the\ntype of each property it denormalizes. Symfony 8.2 makes both components\nunderstand more of the types you already write in your PHPDoc, such as generics\nand arrays of union types, and makes…</body></html>",
+  "source": "Symfony",
+  "author": " Javier Eguiluz ",
+  "creatorId": "symfony",
+  "tags": [
+    "symfony"
+  ]
+}

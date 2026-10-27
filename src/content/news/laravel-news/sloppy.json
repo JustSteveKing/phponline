@@ -1,0 +1,14 @@
+{
+  "id": "laravel-news/sloppy",
+  "title": "Sloppy: Static Analysis for AI-Written PHP",
+  "link": "https://laravel-news.com/sloppy?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "coverImage": "https://picperf.io/https://laravelnews.s3.amazonaws.com/featured-images/Sloppy-LN.png",
+  "pubDate": "2026-10-26T02:32:21.000Z",
+  "content": "<html><head></head><body><p><a href=\"https://laravel-news.com/sloppy\"></a></p>\n                                        <hr>\n\n                    <p>Sloppy checks AI-written PHP for swallowed exceptions, query loops, and unfinished code, with coding-agent hooks and reviews focused on new findings.</p>\n\n                    <p>The post <a href=\"https://laravel-news.com/sloppy\">Sloppy: Static Analysis for AI-Written PHP</a> appeared first on <a href=\"https://laravel-news.com\">Laravel News</a>.</p>\n                    <p>Join the <a href=\"https://laravel-news.com/newsletter\">Laravel Newsletter</a> to get <a href=\"https://laravel-news.com\">Laravel</a> articles like this directly in your inbox.</p>\n\n                    </body></html>",
+  "source": "laravel-news",
+  "author": "Yannick Lyn Fatt",
+  "creatorId": "laravel-news",
+  "tags": [
+    "laravel"
+  ]
+}
