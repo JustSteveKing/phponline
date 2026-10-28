@@ -1,0 +1,13 @@
+{
+  "id": "juststeveking/articles-most-of-your-sdk-has-already-been-designed-too",
+  "title": "Most of Your SDK Has Already Been Designed, Too",
+  "link": "https://www.juststeveking.com/articles/most-of-your-sdk-has-already-been-designed-too/?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-10-28T00:00:00.000Z",
+  "content": "<html><head></head><body>Retries, rate limits, pagination, lost updates: the API already tells your client what to do. sdk-toolbox makes a PHP SDK listen, one RFC at a time.</body></html>",
+  "source": "juststeveking",
+  "author": "Steve McDougall — Articles",
+  "creatorId": "juststeveking",
+  "tags": [
+    "internals"
+  ]
+}
