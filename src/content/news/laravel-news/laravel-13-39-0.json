@@ -1,0 +1,14 @@
+{
+  "id": "laravel-news/laravel-13-39-0",
+  "title": "Scheduled Session Garbage Collection in Laravel 13.39",
+  "link": "https://laravel-news.com/laravel-13-39-0?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "coverImage": "https://picperf.io/https://laravelnews.s3.amazonaws.com/featured-images/laravel-13-featured.png",
+  "pubDate": "2026-10-27T22:35:05.000Z",
+  "content": "<html><head></head><body><p><a href=\"https://laravel-news.com/laravel-13-39-0\"></a></p>\n                                        <hr>\n\n                    <p>Laravel 13.39 adds a session:garbage-collect command for scheduled session cleanup, keyless models with #[Table(key: false)], and durations on JobAttempted.</p>\n\n                    <p>The post <a href=\"https://laravel-news.com/laravel-13-39-0\">Scheduled Session Garbage Collection in Laravel 13.39</a> appeared first on <a href=\"https://laravel-news.com\">Laravel News</a>.</p>\n                    <p>Join the <a href=\"https://laravel-news.com/newsletter\">Laravel Newsletter</a> to get <a href=\"https://laravel-news.com\">Laravel</a> articles like this directly in your inbox.</p>\n\n                    </body></html>",
+  "source": "laravel-news",
+  "author": "Paul Redmond",
+  "creatorId": "laravel-news",
+  "tags": [
+    "laravel"
+  ]
+}

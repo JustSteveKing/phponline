@@ -1,0 +1,14 @@
+{
+  "id": "symfony/blog-new-in-symfony-8-2-security-expressions-everywhere",
+  "title": "New in Symfony 8.2: Security Expressions Everywhere",
+  "link": "https://symfony.com/blog/new-in-symfony-8-2-security-expressions-everywhere?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-10-28T08:26:00.000Z",
+  "content": "<html><head></head><body>Security expressions let you use functions such as is_granted() and\nis_authenticated() to define complex access rules in access_control,\n#[IsGranted] and other security features. Symfony 8.2 makes these\nfunctions available in more expressions, such as validation…</body></html>",
+  "source": "Symfony",
+  "author": " Javier Eguiluz ",
+  "creatorId": "symfony",
+  "tags": [
+    "symfony",
+    "security"
+  ]
+}
