@@ -1,0 +1,11 @@
+{
+  "id": "juststeveking/articles-both-ends-of-the-wire",
+  "title": "Both Ends of the Wire",
+  "link": "https://www.juststeveking.com/articles/both-ends-of-the-wire/?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-10-29T00:00:00.000Z",
+  "content": "<html><head></head><body>I built a small CRM API on api-toolbox and its SDK on sdk-toolbox, in one repository, tested against each other. My own two libraries disagreed within a day.</body></html>",
+  "source": "juststeveking",
+  "author": "Steve McDougall — Articles",
+  "creatorId": "juststeveking",
+  "tags": []
+}

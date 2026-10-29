@@ -1,0 +1,14 @@
+{
+  "id": "laravel-news/pollora-wordpress-laravel",
+  "title": "Pollora: Run WordPress Inside a Laravel Application",
+  "link": "https://laravel-news.com/pollora-wordpress-laravel?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "coverImage": "https://picperf.io/https://laravelnews.s3.amazonaws.com/featured-images/pollora-wordpress-laravel-featured.png",
+  "pubDate": "2026-10-29T03:46:20.000Z",
+  "content": "<html><head></head><body><p><a href=\"https://laravel-news.com/pollora-wordpress-laravel\"></a></p>\n                                        <hr>\n\n                    <p>Pollora runs WordPress inside Laravel, with Route::wp() routing on conditional tags, Blade themes, and PHP attributes for post types and hooks.</p>\n\n                    <p>The post <a href=\"https://laravel-news.com/pollora-wordpress-laravel\">Pollora: Run WordPress Inside a Laravel Application</a> appeared first on <a href=\"https://laravel-news.com\">Laravel News</a>.</p>\n                    <p>Join the <a href=\"https://laravel-news.com/newsletter\">Laravel Newsletter</a> to get <a href=\"https://laravel-news.com\">Laravel</a> articles like this directly in your inbox.</p>\n\n                    </body></html>",
+  "source": "laravel-news",
+  "author": "Paul Redmond",
+  "creatorId": "laravel-news",
+  "tags": [
+    "laravel"
+  ]
+}
