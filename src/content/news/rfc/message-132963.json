@@ -1,0 +1,14 @@
+{
+  "id": "rfc/message-132963",
+  "title": "Add PASSWORD_BCRYPT_WRAP",
+  "link": "https://externals.io/message/132963?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-10-29T20:06:42.000Z",
+  "content": "<html><head></head><body>[RFC][Discussion] Add PASSWORD_BCRYPT_WRAP</body></html>",
+  "source": "rfc",
+  "author": "#externals - Latest RFC Threads",
+  "status": "RFC",
+  "creatorId": "internals",
+  "tags": [
+    "internals"
+  ]
+}
