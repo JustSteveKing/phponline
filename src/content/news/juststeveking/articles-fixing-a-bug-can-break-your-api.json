@@ -1,0 +1,11 @@
+{
+  "id": "juststeveking/articles-fixing-a-bug-can-break-your-api",
+  "title": "Fixing a Bug Can Be a Breaking Change",
+  "link": "https://www.juststeveking.com/articles/fixing-a-bug-can-break-your-api/?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-10-29T00:00:00.000Z",
+  "content": "<html><head></head><body>Your consumers built against your behaviour, not your documentation. Correcting a bug they worked around is an outage you shipped on purpose.</body></html>",
+  "source": "juststeveking",
+  "author": "Steve McDougall — Articles",
+  "creatorId": "juststeveking",
+  "tags": []
+}
