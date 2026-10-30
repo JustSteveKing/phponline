@@ -1,0 +1,13 @@
+{
+  "id": "juststeveking/articles-you-cant-deprecate-a-field-with-a-header",
+  "title": "You Can't Deprecate a Field With a Header",
+  "link": "https://www.juststeveking.com/articles/you-cant-deprecate-a-field-with-a-header/?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-10-30T00:00:00.000Z",
+  "content": "<html><head></head><body>RFC 9745's Deprecation header covers whole resources, so a field changing shape has no HTTP signal. Where that deprecation goes instead, and where the header is exactly right.</body></html>",
+  "source": "juststeveking",
+  "author": "Steve McDougall — Articles",
+  "creatorId": "juststeveking",
+  "tags": [
+    "internals"
+  ]
+}
