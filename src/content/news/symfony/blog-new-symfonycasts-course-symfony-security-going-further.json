@@ -1,0 +1,14 @@
+{
+  "id": "symfony/blog-new-symfonycasts-course-symfony-security-going-further",
+  "title": "New SymfonyCasts Course: Symfony Security - Going Further",
+  "link": "https://symfony.com/blog/new-symfonycasts-course-symfony-security-going-further?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-11-02T10:00:00.000Z",
+  "content": "<html><head></head><body>You've mastered the basics of Symfony Security: authentication, authorization,\nroles, and voters. But what about those tricky, real-world security requirements\nthat go beyond a simple login form?\n\nThat's where our latest SymfonyCasts course comes in:\n\nSymfony…</body></html>",
+  "source": "Symfony",
+  "author": " Kevin Bond ",
+  "creatorId": "symfony",
+  "tags": [
+    "symfony",
+    "security"
+  ]
+}

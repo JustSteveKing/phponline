@@ -1,0 +1,13 @@
+{
+  "id": "symfony/blog-new-in-symfony-8-2-validated-and-compiled-expressions",
+  "title": "New in Symfony 8.2: Validated and Compiled Expressions",
+  "link": "https://symfony.com/blog/new-in-symfony-8-2-validated-and-compiled-expressions?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-11-02T08:26:00.000Z",
+  "content": "<html><head></head><body>The ExpressionLanguage component powers many Symfony features: the\n#[IsGranted] and #[Cache] attributes, access_control rules, workflow\nguards, and more. Symfony 8.2 makes these expressions faster, safer, and\nreports their errors before they reach production.…</body></html>",
+  "source": "Symfony",
+  "author": " Javier Eguiluz ",
+  "creatorId": "symfony",
+  "tags": [
+    "symfony"
+  ]
+}
