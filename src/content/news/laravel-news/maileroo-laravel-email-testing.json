@@ -1,0 +1,15 @@
+{
+  "id": "laravel-news/maileroo-laravel-email-testing",
+  "title": "Email Sending and Testing for Laravel in One Account",
+  "link": "https://laravel-news.com/maileroo-laravel-email-testing?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "coverImage": "https://picperf.io/https://laravelnews.s3.amazonaws.com/featured-images/hero-image-laravel-news.png",
+  "pubDate": "2026-11-02T14:27:31.000Z",
+  "content": "<html><head></head><body><p><a href=\"https://laravel-news.com/maileroo-laravel-email-testing\"></a></p>\n                                        <hr>\n\n                    <p>Send real mail from Laravel and catch test emails in one Maileroo account: SMTP sink, spam and dark-mode checks, and automated tests in CI.</p>\n\n                    <p>The post <a href=\"https://laravel-news.com/maileroo-laravel-email-testing\">Email Sending and Testing for Laravel in One Account</a> appeared first on <a href=\"https://laravel-news.com\">Laravel News</a>.</p>\n                    <p>Join the <a href=\"https://laravel-news.com/newsletter\">Laravel Newsletter</a> to get <a href=\"https://laravel-news.com\">Laravel</a> articles like this directly in your inbox.</p>\n\n                    </body></html>",
+  "source": "laravel-news",
+  "author": "Eric L. Barnes",
+  "creatorId": "laravel-news",
+  "tags": [
+    "laravel",
+    "testing"
+  ]
+}
