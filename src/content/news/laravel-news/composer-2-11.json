@@ -1,0 +1,15 @@
+{
+  "id": "laravel-news/composer-2-11",
+  "title": "Cooldown Dependency Policy now in Composer 2.11",
+  "link": "https://laravel-news.com/composer-2-11?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "coverImage": "https://picperf.io/https://laravelnews.s3.amazonaws.com/featured-images/Composer-2.11-LN.png",
+  "pubDate": "2026-11-03T03:20:08.000Z",
+  "content": "<html><head></head><body><p><a href=\"https://laravel-news.com/composer-2-11\"></a></p>\n                                        <hr>\n\n                    <p>Composer 2.11 can hold back newly published package versions for a set period before installing them. It also ships six security fixes and faster resolution.</p>\n\n                    <p>The post <a href=\"https://laravel-news.com/composer-2-11\">Cooldown Dependency Policy now in Composer 2.11</a> appeared first on <a href=\"https://laravel-news.com\">Laravel News</a>.</p>\n                    <p>Join the <a href=\"https://laravel-news.com/newsletter\">Laravel Newsletter</a> to get <a href=\"https://laravel-news.com\">Laravel</a> articles like this directly in your inbox.</p>\n\n                    </body></html>",
+  "source": "laravel-news",
+  "author": "Yannick Lyn Fatt",
+  "creatorId": "laravel-news",
+  "tags": [
+    "laravel",
+    "security"
+  ]
+}
