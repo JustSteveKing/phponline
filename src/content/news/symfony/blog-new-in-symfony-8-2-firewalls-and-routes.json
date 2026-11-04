@@ -1,0 +1,13 @@
+{
+  "id": "symfony/blog-new-in-symfony-8-2-firewalls-and-routes",
+  "title": "New in Symfony 8.2: Firewalls and Routes",
+  "link": "https://symfony.com/blog/new-in-symfony-8-2-firewalls-and-routes?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-11-04T08:32:00.000Z",
+  "content": "<html><head></head><body>Symfony 8.2 connects firewalls and routes more closely: routes can choose\ntheir firewall, you can load the routes of all firewalls with a single import,\nand redirecting anonymous users to a login page no longer requires a custom class.\n\nSelecting the Firewall…</body></html>",
+  "source": "Symfony",
+  "author": " Javier Eguiluz ",
+  "creatorId": "symfony",
+  "tags": [
+    "symfony"
+  ]
+}
