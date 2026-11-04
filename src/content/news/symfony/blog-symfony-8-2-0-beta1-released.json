@@ -1,0 +1,13 @@
+{
+  "id": "symfony/blog-symfony-8-2-0-beta1-released",
+  "title": "Symfony 8.2.0-BETA1 released",
+  "link": "https://symfony.com/blog/symfony-8-2-0-beta1-released?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-11-04T12:41:20.000Z",
+  "content": "<html><head></head><body>Symfony 8.2.0-BETA1 has just been released.\nThis is a pre-release version of Symfony 8.2. If you want to test it\nin your own applications before its final release, run the following commands:\n\n        \n        1\n2\n3\n        $ composer config minimum-stability…</body></html>",
+  "source": "Symfony",
+  "author": " Fabien Potencier ",
+  "creatorId": "symfony",
+  "tags": [
+    "symfony"
+  ]
+}

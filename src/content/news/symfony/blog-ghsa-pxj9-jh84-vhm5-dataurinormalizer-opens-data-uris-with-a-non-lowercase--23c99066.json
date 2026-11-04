@@ -1,0 +1,14 @@
+{
+  "id": "symfony/blog-ghsa-pxj9-jh84-vhm5-dataurinormalizer-opens-data-uris-with-a-non-lowercase-scheme-as-local-files",
+  "title": "GHSA-pxj9-jh84-vhm5: DataUriNormalizer Opens Data URIs With a Non-Lowercase Scheme as Local Files",
+  "link": "https://symfony.com/blog/ghsa-pxj9-jh84-vhm5-dataurinormalizer-opens-data-uris-with-a-non-lowercase-scheme-as-local-files?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-11-04T11:54:00.000Z",
+  "content": "<html><head></head><body>Affected versions\nSymfony Serializer versions &lt;5.4.56, &gt;=6, &lt;6.4.50, &gt;=7, &lt;7.4.23, &gt;=8, &lt;8.1.11 are affected by this security issue.\nThe issue has been fixed in Symfony Serializer 5.4.56, 6.4.50, 7.4.23, 8.1.11.\n\n\nDescription\nDataUriNormalizer::denormalize()…</body></html>",
+  "source": "Symfony",
+  "author": " Fabien Potencier ",
+  "creatorId": "symfony",
+  "tags": [
+    "symfony",
+    "security"
+  ]
+}

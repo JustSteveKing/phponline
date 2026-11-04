@@ -1,0 +1,14 @@
+{
+  "id": "symfony/blog-ghsa-6prc-h956-hxjq-filesystem-path-treats-any-prefix-before-as-a-root-letting-paths-escape-their-base-directory",
+  "title": "GHSA-6prc-h956-hxjq: Filesystem Path Treats Any Prefix Before \"://\" as a Root, Letting Paths Escape Their Base Directory",
+  "link": "https://symfony.com/blog/ghsa-6prc-h956-hxjq-filesystem-path-treats-any-prefix-before-as-a-root-letting-paths-escape-their-base-directory?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-11-04T11:54:00.000Z",
+  "content": "<html><head></head><body>Affected versions\nSymfony Filesystem versions &gt;=5.4.0, &lt;5.4.56, &gt;=6, &lt;6.4.50, &gt;=7, &lt;7.4.23, &gt;=8, &lt;8.1.11 are affected by this security issue.\nThe issue has been fixed in Symfony Filesystem 5.4.56, 6.4.50, 7.4.23, 8.1.11.\n\n\nDescription…</body></html>",
+  "source": "Symfony",
+  "author": " Fabien Potencier ",
+  "creatorId": "symfony",
+  "tags": [
+    "symfony",
+    "security"
+  ]
+}

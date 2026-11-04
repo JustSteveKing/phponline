@@ -1,0 +1,15 @@
+{
+  "id": "symfony/blog-ghsa-3h27-hjv7-fqjx-path-rules-enforced-in-front-of-php-can-be-bypassed-by-appending-the-path-to-the-script-name",
+  "title": "GHSA-3h27-hjv7-fqjx: Path Rules Enforced in Front of PHP Can Be Bypassed by Appending the Path to the Script Name",
+  "link": "https://symfony.com/blog/ghsa-3h27-hjv7-fqjx-path-rules-enforced-in-front-of-php-can-be-bypassed-by-appending-the-path-to-the-script-name?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-11-04T11:54:00.000Z",
+  "content": "<html><head></head><body>Affected versions\nSymfony HTTP Foundation versions &gt;=5.4.50, &lt;5.4.56, &gt;=6.4.29, &lt;6.4.50, &gt;=7.3.7, &lt;7.4.23, &gt;=8, &lt;8.1.11 are affected by this security issue.\nThe issue has been fixed in Symfony HTTP Foundation 5.4.56, 6.4.50, 7.4.23,…</body></html>",
+  "source": "Symfony",
+  "author": " Fabien Potencier ",
+  "creatorId": "symfony",
+  "tags": [
+    "symfony",
+    "security",
+    "internals"
+  ]
+}

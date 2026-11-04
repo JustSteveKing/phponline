@@ -1,0 +1,14 @@
+{
+  "id": "symfony/blog-ghsa-8f57-m8wj-x65w-programmatic-logins-skip-the-checkpostauth-method-of-user-checkers",
+  "title": "GHSA-8f57-m8wj-x65w: Programmatic Logins Skip the checkPostAuth Method of User Checkers",
+  "link": "https://symfony.com/blog/ghsa-8f57-m8wj-x65w-programmatic-logins-skip-the-checkpostauth-method-of-user-checkers?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-11-04T11:54:00.000Z",
+  "content": "<html><head></head><body>Affected versions\nSymfony Security HTTP versions &lt;5.4.56, &gt;=6, &lt;6.4.50, &gt;=7, &lt;7.4.23, &gt;=8, &lt;8.1.11 are affected by this security issue.\nThe issue has been fixed in Symfony Security HTTP 5.4.56, 6.4.50, 7.4.23, 8.1.11.\n\n\nDescription\nSecurity::login()…</body></html>",
+  "source": "Symfony",
+  "author": " Fabien Potencier ",
+  "creatorId": "symfony",
+  "tags": [
+    "symfony",
+    "security"
+  ]
+}
