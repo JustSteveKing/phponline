@@ -1,0 +1,14 @@
+{
+  "id": "symfony/blog-symfony-ux-3-7-released",
+  "title": "Symfony UX 3.7 released",
+  "link": "https://symfony.com/blog/symfony-ux-3-7-released?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-11-05T09:06:00.000Z",
+  "content": "<html><head></head><body>Symfony UX 3.7 is out, with more than 100 pull requests merged since 3.6. It\nadds UX CSS, an experimental package that turns design tokens into atomic CSS,\ntwo self-hosted image servers to UX Image, and takes the UX Toolkit out of\nexperimental. LiveComponent…</body></html>",
+  "source": "Symfony",
+  "author": " Hugo Alliaume ",
+  "creatorId": "symfony",
+  "tags": [
+    "symfony",
+    "devops"
+  ]
+}
