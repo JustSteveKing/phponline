@@ -1,0 +1,11 @@
+{
+  "id": "juststeveking/articles-setting-up-a-laptop-that-isnt-mine",
+  "title": "Setting Up A Laptop That Isn't Mine",
+  "link": "https://www.juststeveking.com/articles/setting-up-a-laptop-that-isnt-mine/?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-11-05T00:00:00.000Z",
+  "content": "<html><head></head><body>A new role came with a MacBook that belongs to someone else, so I started my dotfiles again, gave the work its own Obsidian vault, and let mise choose between Homebrew's PHP builds.</body></html>",
+  "source": "juststeveking",
+  "author": "Steve McDougall — Articles",
+  "creatorId": "juststeveking",
+  "tags": []
+}

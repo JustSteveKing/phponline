@@ -1,0 +1,14 @@
+{
+  "id": "laravel-news/laravel-storage-dedupler",
+  "title": "Prevent Duplicate File Uploads With Laravel Storage Dedupler",
+  "link": "https://laravel-news.com/laravel-storage-dedupler?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "coverImage": "https://picperf.io/https://laravelnews.s3.amazonaws.com/featured-images/Laravel-Storage-Dedupler-LN.png",
+  "pubDate": "2026-11-03T23:56:25.000Z",
+  "content": "<html><head></head><body><p><a href=\"https://laravel-news.com/laravel-storage-dedupler\"></a></p>\n                                        <hr>\n\n                    <p>Laravel Storage Dedupler uses SHA-1 hashes to prevent duplicate file storage, attach files to Eloquent models, and analyse existing directories.</p>\n\n                    <p>The post <a href=\"https://laravel-news.com/laravel-storage-dedupler\">Prevent Duplicate File Uploads With Laravel Storage Dedupler</a> appeared first on <a href=\"https://laravel-news.com\">Laravel News</a>.</p>\n                    <p>Join the <a href=\"https://laravel-news.com/newsletter\">Laravel Newsletter</a> to get <a href=\"https://laravel-news.com\">Laravel</a> articles like this directly in your inbox.</p>\n\n                    </body></html>",
+  "source": "laravel-news",
+  "author": "Yannick Lyn Fatt",
+  "creatorId": "laravel-news",
+  "tags": [
+    "laravel"
+  ]
+}

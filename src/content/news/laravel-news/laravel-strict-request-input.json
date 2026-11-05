@@ -1,0 +1,14 @@
+{
+  "id": "laravel-news/laravel-strict-request-input",
+  "title": "Strict Request Input Casting in Laravel",
+  "link": "https://laravel-news.com/laravel-strict-request-input?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "coverImage": "https://picperf.io/https://laravelnews.s3.amazonaws.com/featured-images/laravel-strict-request-input-featured.png",
+  "pubDate": "2026-11-05T01:18:05.000Z",
+  "content": "<html><head></head><body><p><a href=\"https://laravel-news.com/laravel-strict-request-input\"></a></p>\n                                        <hr>\n\n                    <p>Laravel 13.40 adds a strict flag to the request integer(), boolean(), float(), and string() helpers, so bad input returns your default instead of 0 or an error.</p>\n\n                    <p>The post <a href=\"https://laravel-news.com/laravel-strict-request-input\">Strict Request Input Casting in Laravel</a> appeared first on <a href=\"https://laravel-news.com\">Laravel News</a>.</p>\n                    <p>Join the <a href=\"https://laravel-news.com/newsletter\">Laravel Newsletter</a> to get <a href=\"https://laravel-news.com\">Laravel</a> articles like this directly in your inbox.</p>\n\n                    </body></html>",
+  "source": "laravel-news",
+  "author": "Paul Redmond",
+  "creatorId": "laravel-news",
+  "tags": [
+    "laravel"
+  ]
+}
