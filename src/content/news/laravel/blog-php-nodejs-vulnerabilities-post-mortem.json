@@ -1,0 +1,15 @@
+{
+  "id": "laravel/blog-php-nodejs-vulnerabilities-post-mortem",
+  "title": "Post Mortem: Patching the PHP and Node.js Vulnerabilities",
+  "link": "https://laravel.com/blog/php-nodejs-vulnerabilities-post-mortem?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-11-04T19:15:00.000Z",
+  "content": "<html><head></head><body>How we patched every Laravel Cloud app in place within about 27 hours of the PHP and Node.js disclosures, what broke on Forge, Envoyer, and Vapor, and what we are changing.</body></html>",
+  "source": "laravel",
+  "author": "Aaron Francis",
+  "creatorId": "laravel",
+  "tags": [
+    "laravel",
+    "security",
+    "devops"
+  ]
+}
