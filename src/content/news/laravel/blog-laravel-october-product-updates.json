@@ -1,0 +1,15 @@
+{
+  "id": "laravel/blog-laravel-october-product-updates",
+  "title": "Laravel October Product Updates",
+  "link": "https://laravel.com/blog/laravel-october-product-updates?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-11-04T23:42:00.000Z",
+  "content": "<html><head></head><body>Resend email on Laravel Cloud, QUERY routes in the Laravel framework, and PHP security advisories in Forge. Here's everything that shipped in October.</body></html>",
+  "source": "laravel",
+  "author": "Laravel Team",
+  "creatorId": "laravel",
+  "tags": [
+    "laravel",
+    "security",
+    "devops"
+  ]
+}
