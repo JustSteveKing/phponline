@@ -1,0 +1,14 @@
+{
+  "id": "symfony/blog-a-week-of-symfony-1036-november-2-8-2026",
+  "title": "A Week of Symfony #1036",
+  "link": "https://symfony.com/blog/a-week-of-symfony-1036-november-2-8-2026?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-11-08T08:41:00.000Z",
+  "content": "<html><head></head><body>This week, Symfony 5.4.56, 6.4.50, 7.4.23, and 8.1.11 maintenance versions were released with many security fixes for components such as Routing, Serializer, Config, and HtmlSanitizer. We also published the first beta of Symfony 8.2 so you can test it before…</body></html>",
+  "source": "Symfony",
+  "author": " Javier Eguiluz ",
+  "creatorId": "symfony",
+  "tags": [
+    "symfony",
+    "security"
+  ]
+}
