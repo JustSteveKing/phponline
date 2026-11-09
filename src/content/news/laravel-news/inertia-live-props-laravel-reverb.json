@@ -1,0 +1,14 @@
+{
+  "id": "laravel-news/inertia-live-props-laravel-reverb",
+  "title": "Real-Time Inertia Props With Laravel Reverb",
+  "link": "https://laravel-news.com/inertia-live-props-laravel-reverb?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "coverImage": "https://picperf.io/https://laravelnews.s3.amazonaws.com/featured-images/inertia-reverb-live-props-featured.png",
+  "pubDate": "2026-11-09T03:00:10.000Z",
+  "content": "<html><head></head><body><p><a href=\"https://laravel-news.com/inertia-live-props-laravel-reverb\"></a></p>\n                                        <hr>\n\n                    <p>Update Inertia page props in real time with live props and Laravel Reverb. Broadcast an event, and every open page reloads the prop without polling.</p>\n\n                    <p>The post <a href=\"https://laravel-news.com/inertia-live-props-laravel-reverb\">Real-Time Inertia Props With Laravel Reverb</a> appeared first on <a href=\"https://laravel-news.com\">Laravel News</a>.</p>\n                    <p>Join the <a href=\"https://laravel-news.com/newsletter\">Laravel Newsletter</a> to get <a href=\"https://laravel-news.com\">Laravel</a> articles like this directly in your inbox.</p>\n\n                    </body></html>",
+  "source": "laravel-news",
+  "author": "Paul Redmond",
+  "creatorId": "laravel-news",
+  "tags": [
+    "laravel"
+  ]
+}
