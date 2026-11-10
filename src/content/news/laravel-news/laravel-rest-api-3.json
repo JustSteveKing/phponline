@@ -1,0 +1,14 @@
+{
+  "id": "laravel-news/laravel-rest-api-3",
+  "title": "Laravel Rest Api 3.0: Typed Fields, Metrics, and OpenAPI Docs",
+  "link": "https://laravel-news.com/laravel-rest-api-3?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "coverImage": "https://picperf.io/https://laravelnews.s3.amazonaws.com/featured-images/laravel-rest-api-3-abrbprv1.png",
+  "pubDate": "2026-11-10T13:33:18.000Z",
+  "content": "<html><head></head><body><p><a href=\"https://laravel-news.com/laravel-rest-api-3\"></a></p>\n                                        <hr>\n\n                    <p>Laravel Rest Api 3.0 rebuilds the package around typed fields, adds metric endpoints and write confirmations, and documents your API with Scramble.</p>\n\n                    <p>The post <a href=\"https://laravel-news.com/laravel-rest-api-3\">Laravel Rest Api 3.0: Typed Fields, Metrics, and OpenAPI Docs</a> appeared first on <a href=\"https://laravel-news.com\">Laravel News</a>.</p>\n                    <p>Join the <a href=\"https://laravel-news.com/newsletter\">Laravel Newsletter</a> to get <a href=\"https://laravel-news.com\">Laravel</a> articles like this directly in your inbox.</p>\n\n                    </body></html>",
+  "source": "laravel-news",
+  "author": "Eric L. Barnes",
+  "creatorId": "laravel-news",
+  "tags": [
+    "laravel"
+  ]
+}
