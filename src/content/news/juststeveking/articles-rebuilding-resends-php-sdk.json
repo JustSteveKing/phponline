@@ -1,0 +1,11 @@
+{
+  "id": "juststeveking/articles-rebuilding-resends-php-sdk",
+  "title": "Rebuilding Resend's PHP SDK",
+  "link": "https://www.juststeveking.com/articles/rebuilding-resends-php-sdk/?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-11-11T00:00:00.000Z",
+  "content": "<html><head></head><body>I rebuilt part of Resend's official PHP SDK on sdk-toolbox and ran both against the same failures. The rebuild handles what goes wrong better. The official one is still better to use.</body></html>",
+  "source": "juststeveking",
+  "author": "Steve McDougall — Articles",
+  "creatorId": "juststeveking",
+  "tags": []
+}
