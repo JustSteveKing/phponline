@@ -1,0 +1,14 @@
+{
+  "id": "laravel-news/laravel-13-42-0",
+  "title": "UUID Request Input and Migration Failure Events in Laravel 13.42",
+  "link": "https://laravel-news.com/laravel-13-42-0?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "coverImage": "https://picperf.io/https://laravelnews.s3.amazonaws.com/featured-images/laravel-13-featured.png",
+  "pubDate": "2026-11-11T00:02:52.000Z",
+  "content": "<html><head></head><body><p><a href=\"https://laravel-news.com/laravel-13-42-0\"></a></p>\n                                        <hr>\n\n                    <p>Laravel 13.42 adds uuid() and ulid() input helpers, a MigrationFailed event, skip reasons for scheduled tasks, and Uri::origin() for comparing URL origins.</p>\n\n                    <p>The post <a href=\"https://laravel-news.com/laravel-13-42-0\">UUID Request Input and Migration Failure Events in Laravel 13.42</a> appeared first on <a href=\"https://laravel-news.com\">Laravel News</a>.</p>\n                    <p>Join the <a href=\"https://laravel-news.com/newsletter\">Laravel Newsletter</a> to get <a href=\"https://laravel-news.com\">Laravel</a> articles like this directly in your inbox.</p>\n\n                    </body></html>",
+  "source": "laravel-news",
+  "author": "Paul Redmond",
+  "creatorId": "laravel-news",
+  "tags": [
+    "laravel"
+  ]
+}
