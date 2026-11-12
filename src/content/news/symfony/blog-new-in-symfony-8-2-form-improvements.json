@@ -1,0 +1,13 @@
+{
+  "id": "symfony/blog-new-in-symfony-8-2-form-improvements",
+  "title": "New in Symfony 8.2: Form Improvements",
+  "link": "https://symfony.com/blog/new-in-symfony-8-2-form-improvements?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-11-12T08:06:00.000Z",
+  "content": "<html><head></head><body>Symfony 8.2 brings many improvements to the Form component, from new form\ntypes and options to more flexible multi-step forms and form events.\n\nDefining Ranges with BoundsType…</body></html>",
+  "source": "Symfony",
+  "author": " Javier Eguiluz ",
+  "creatorId": "symfony",
+  "tags": [
+    "symfony"
+  ]
+}
