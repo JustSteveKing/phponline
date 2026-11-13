@@ -1,0 +1,14 @@
+{
+  "id": "laravel-news/laravel-ai-sdk-1-4",
+  "title": "Laravel AI SDK 1.4 Lets Agents Recover From Tool Failures",
+  "link": "https://laravel-news.com/laravel-ai-sdk-1-4?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "coverImage": "https://picperf.io/https://laravelnews.s3.amazonaws.com/featured-images/Laravel-AI-Featured-LN.png",
+  "pubDate": "2026-11-12T23:39:51.000Z",
+  "content": "<html><head></head><body><p><a href=\"https://laravel-news.com/laravel-ai-sdk-1-4\"></a></p>\n                                        <hr>\n\n                    <p>Laravel AI SDK 1.4 sends tool exceptions back to the model instead of ending the run, and lets agent fakes resume tool approvals in tests.</p>\n\n                    <p>The post <a href=\"https://laravel-news.com/laravel-ai-sdk-1-4\">Laravel AI SDK 1.4 Lets Agents Recover From Tool Failures</a> appeared first on <a href=\"https://laravel-news.com\">Laravel News</a>.</p>\n                    <p>Join the <a href=\"https://laravel-news.com/newsletter\">Laravel Newsletter</a> to get <a href=\"https://laravel-news.com\">Laravel</a> articles like this directly in your inbox.</p>\n\n                    </body></html>",
+  "source": "laravel-news",
+  "author": "Paul Redmond",
+  "creatorId": "laravel-news",
+  "tags": [
+    "laravel"
+  ]
+}
