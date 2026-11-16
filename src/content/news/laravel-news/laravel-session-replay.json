@@ -1,0 +1,14 @@
+{
+  "id": "laravel-news/laravel-session-replay",
+  "title": "Session Replay for Laravel: Self-Hosted Browser Recordings",
+  "link": "https://laravel-news.com/laravel-session-replay?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "coverImage": "https://picperf.io/https://laravelnews.s3.amazonaws.com/featured-images/laravel-session-replay-featured.png",
+  "pubDate": "2026-11-12T23:41:11.000Z",
+  "content": "<html><head></head><body><p><a href=\"https://laravel-news.com/laravel-session-replay\"></a></p>\n                                        <hr>\n\n                    <p>Session Replay records browser sessions in your Laravel app with rrweb, stores them on your own disk, and marks errors and failed Livewire requests.</p>\n\n                    <p>The post <a href=\"https://laravel-news.com/laravel-session-replay\">Session Replay for Laravel: Self-Hosted Browser Recordings</a> appeared first on <a href=\"https://laravel-news.com\">Laravel News</a>.</p>\n                    <p>Join the <a href=\"https://laravel-news.com/newsletter\">Laravel Newsletter</a> to get <a href=\"https://laravel-news.com\">Laravel</a> articles like this directly in your inbox.</p>\n\n                    </body></html>",
+  "source": "laravel-news",
+  "author": "Paul Redmond",
+  "creatorId": "laravel-news",
+  "tags": [
+    "laravel"
+  ]
+}
