@@ -1,0 +1,15 @@
+{
+  "id": "laravel-news/durable-workflow-laravel",
+  "title": "Durable Workflow: Long-Running Workflows for Laravel",
+  "link": "https://laravel-news.com/durable-workflow-laravel?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "coverImage": "https://picperf.io/https://laravelnews.s3.amazonaws.com/featured-images/Durable-Workflow-LN.png",
+  "pubDate": "2026-11-16T03:04:17.000Z",
+  "content": "<html><head></head><body><p><a href=\"https://laravel-news.com/durable-workflow-laravel\"></a></p>\n                                        <hr>\n\n                    <p>Durable Workflow runs long-running Laravel workflows on your own database, queues, and cache. Learn how it records progress and coordinates background work.</p>\n\n                    <p>The post <a href=\"https://laravel-news.com/durable-workflow-laravel\">Durable Workflow: Long-Running Workflows for Laravel</a> appeared first on <a href=\"https://laravel-news.com\">Laravel News</a>.</p>\n                    <p>Join the <a href=\"https://laravel-news.com/newsletter\">Laravel Newsletter</a> to get <a href=\"https://laravel-news.com\">Laravel</a> articles like this directly in your inbox.</p>\n\n                    </body></html>",
+  "source": "laravel-news",
+  "author": "Yannick Lyn Fatt",
+  "creatorId": "laravel-news",
+  "tags": [
+    "laravel",
+    "databases"
+  ]
+}
