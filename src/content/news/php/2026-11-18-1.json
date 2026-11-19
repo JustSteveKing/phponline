@@ -1,0 +1,13 @@
+{
+  "id": "php/2026-11-18-1",
+  "title": "Upcoming Critical PHP Security Release",
+  "link": "https://www.php.net/index.php?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev#2026-11-18-1",
+  "pubDate": "2026-11-18T17:09:51.000Z",
+  "content": "<html><head></head><body><div type=\"xhtml\"><div xmlns=\"http://www.w3.org/1999/xhtml\"><p>\n        The PHP security team announces upcoming security releases\n        \n      <b>scheduled for Thursday, 19 November 2026, between 14:00 and\n        14:30 UTC.</b></p><p>\n        These releases are part of PHP’s regular four-week release cycle\n        and will address security vulnerabilities affecting all supported\n        PHP versions. The highest severity is .\n      <b>CRITICAL</b></p><p>\n        The issues rated CRITICAL require either non-default configuration\n        or uncommon setups.\n      </p><p>\n        Users are strongly encouraged to prepare to upgrade promptly once\n        the releases become available. Technical details and fixed version\n        numbers will be published alongside the releases.\n      </p><p>\n        Thank you for helping us keep PHP secure.\n      </p></div></div></body></html>",
+  "source": "php",
+  "author": "PHP.net news & announcements",
+  "creatorId": "php-net",
+  "tags": [
+    "security"
+  ]
+}
