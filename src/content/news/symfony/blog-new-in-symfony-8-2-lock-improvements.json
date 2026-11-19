@@ -1,0 +1,14 @@
+{
+  "id": "symfony/blog-new-in-symfony-8-2-lock-improvements",
+  "title": "New in Symfony 8.2: Lock Improvements",
+  "link": "https://symfony.com/blog/new-in-symfony-8-2-lock-improvements?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-11-19T08:17:00.000Z",
+  "content": "<html><head></head><body>The Lock component provides exclusive access to shared resources through many\nstores: files, semaphores, Redis, databases, etc. Symfony 8.2 added a\n#[Lock] attribute for controllers and also improves the stores themselves,\nfocusing on database advisory locks:…</body></html>",
+  "source": "Symfony",
+  "author": " Javier Eguiluz ",
+  "creatorId": "symfony",
+  "tags": [
+    "symfony",
+    "databases"
+  ]
+}
