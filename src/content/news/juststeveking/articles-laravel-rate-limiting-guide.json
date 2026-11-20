@@ -1,0 +1,13 @@
+{
+  "id": "juststeveking/articles-laravel-rate-limiting-guide",
+  "title": "Laravel Rate Limiting Guide",
+  "link": "https://www.juststeveking.com/articles/laravel-rate-limiting-guide/?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-11-20T00:00:00.000Z",
+  "content": "<html><head></head><body>Rate limiting a Laravel 13 API from both ends: switching it on, keying and layering limits, a 429 a client can act on, the IETF RateLimit headers, and a client that waits instead of hammering.</body></html>",
+  "source": "juststeveking",
+  "author": "Steve McDougall — Articles",
+  "creatorId": "juststeveking",
+  "tags": [
+    "laravel"
+  ]
+}

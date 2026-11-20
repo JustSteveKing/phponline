@@ -1,0 +1,13 @@
+{
+  "id": "juststeveking/articles-your-api-key-is-in-your-stack-trace",
+  "title": "Your API Key Is in Your Stack Trace",
+  "link": "https://www.juststeveking.com/articles/your-api-key-is-in-your-stack-trace/?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-11-20T00:00:00.000Z",
+  "content": "<html><head></head><body>With one PHP setting off, every frame of an exception's trace keeps its arguments, and an SDK's authenticated request goes with them. Where keys leak, why production hides it, and how to stop it.</body></html>",
+  "source": "juststeveking",
+  "author": "Steve McDougall — Articles",
+  "creatorId": "juststeveking",
+  "tags": [
+    "security"
+  ]
+}

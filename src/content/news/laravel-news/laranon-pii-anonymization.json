@@ -1,0 +1,14 @@
+{
+  "id": "laravel-news/laranon-pii-anonymization",
+  "title": "Laranon: Reversible PII Anonymization for Laravel and LLMs",
+  "link": "https://laravel-news.com/laranon-pii-anonymization?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "coverImage": "https://picperf.io/https://laravelnews.s3.amazonaws.com/featured-images/Laranon-LN.png",
+  "pubDate": "2026-11-20T01:44:50.000Z",
+  "content": "<html><head></head><body><p><a href=\"https://laravel-news.com/laranon-pii-anonymization\"></a></p>\n                                        <hr>\n\n                    <p>Laranon finds personal data in Laravel apps and replaces it with tokens before it reaches an LLM, then puts the real values back in the model's reply.</p>\n\n                    <p>The post <a href=\"https://laravel-news.com/laranon-pii-anonymization\">Laranon: Reversible PII Anonymization for Laravel and LLMs</a> appeared first on <a href=\"https://laravel-news.com\">Laravel News</a>.</p>\n                    <p>Join the <a href=\"https://laravel-news.com/newsletter\">Laravel Newsletter</a> to get <a href=\"https://laravel-news.com\">Laravel</a> articles like this directly in your inbox.</p>\n\n                    </body></html>",
+  "source": "laravel-news",
+  "author": "Yannick Lyn Fatt",
+  "creatorId": "laravel-news",
+  "tags": [
+    "laravel"
+  ]
+}
