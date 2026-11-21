@@ -1,0 +1,13 @@
+{
+  "id": "php/2026-11-19-5",
+  "title": "PHP 8.6.0 Released!",
+  "link": "https://www.php.net/index.php?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev#2026-11-19-5",
+  "pubDate": "2026-11-19T14:01:00.000Z",
+  "content": "<html><head></head><body><div type=\"xhtml\"><div xmlns=\"http://www.w3.org/1999/xhtml\"><p>The PHP development team announces the immediate availability of PHP 8.6.0. This release marks a major update to the PHP language.</p><p>PHP 8.6 comes with numerous improvements and new features such as:</p><p>See  for more highlights and examples.<a href=\"https://www.php.net/releases/8.6/en.php\">what’s new in PHP 8.6</a></p><p>\n  Source downloads for PHP 8.6.0 are available on our .\n  Windows source and binaries are available on the .\n  The list of changes is recorded in the .\n<a href=\"https://www.php.net/downloads.php?source=Y\">downloads page</a><a href=\"https://www.php.net/downloads.php?os=windows\">Windows downloads page</a><a href=\"https://www.php.net/ChangeLog-8.php#8.6.0\">ChangeLog</a></p><p>\n  The  in the PHP Manual lists new features and backward-incompatible changes in detail.\n<a href=\"https://www.php.net/manual/en/migration86.php\">migration guide</a></p><p>Kudos to all the contributors and supporters!</p><ul><li>Partial Function Application</li><li>Default values for readonly properties</li><li>New  API for monitoring streams<code>Io\\Poll</code></li><li>New  function<code>clamp()</code></li><li>New  class<code>\\Time\\Duration</code></li><li>New  enum<code>SortDirection</code></li></ul></div></div></body></html>",
+  "source": "php",
+  "author": "PHP.net news & announcements",
+  "creatorId": "php-net",
+  "tags": [
+    "php8"
+  ]
+}
