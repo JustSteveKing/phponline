@@ -1,0 +1,14 @@
+{
+  "id": "symfony/blog-a-week-of-symfony-1038-november-16-22-2026",
+  "title": "A Week of Symfony #1038",
+  "link": "https://symfony.com/blog/a-week-of-symfony-1038-november-16-22-2026?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-11-22T09:09:00.000Z",
+  "content": "<html><head></head><body>This week, we announced that Symfony is now a CVE Numbering Authority, so we now assign the CVE IDs of Symfony, Twig and our other projects ourselves. Meanwhile, we kept publishing articles about Symfony 8.2 features, such as Tui improvements, smarter controller…</body></html>",
+  "source": "Symfony",
+  "author": " Javier Eguiluz ",
+  "creatorId": "symfony",
+  "tags": [
+    "symfony",
+    "security"
+  ]
+}
