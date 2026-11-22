@@ -1,0 +1,13 @@
+{
+  "id": "symfony/blog-new-in-symfony-8-2-new-mailer-and-notifier-bridges",
+  "title": "New in Symfony 8.2: New Mailer and Notifier Bridges",
+  "link": "https://symfony.com/blog/new-in-symfony-8-2-new-mailer-and-notifier-bridges?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-11-22T08:22:00.000Z",
+  "content": "<html><head></head><body>Symfony provides more than 100 ready-to-use bridges to send emails and\nnotifications through third-party services. From major platforms like Google,\nMicrosoft, and Amazon to smaller regional providers, they let you switch\nservices by changing a DSN.\nIn Symfony…</body></html>",
+  "source": "Symfony",
+  "author": " Javier Eguiluz ",
+  "creatorId": "symfony",
+  "tags": [
+    "symfony"
+  ]
+}
