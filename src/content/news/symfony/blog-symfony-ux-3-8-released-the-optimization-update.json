@@ -1,0 +1,14 @@
+{
+  "id": "symfony/blog-symfony-ux-3-8-released-the-optimization-update",
+  "title": "Symfony UX 3.8 released: The Optimization Update",
+  "link": "https://symfony.com/blog/symfony-ux-3-8-released-the-optimization-update?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-11-23T12:01:00.000Z",
+  "content": "<html><head></head><body>Symfony UX 3.8 is out, two and a half weeks after 3.7. It adds UX Upload, a\ncva() function to UX CSS, and moves the Shadcn kit of the UX Toolkit onto\nthe native APIs of the browser.\nIt is also the optimization update: 60 of its 91 pull requests make a package…</body></html>",
+  "source": "Symfony",
+  "author": " Hugo Alliaume ",
+  "creatorId": "symfony",
+  "tags": [
+    "symfony",
+    "performance"
+  ]
+}

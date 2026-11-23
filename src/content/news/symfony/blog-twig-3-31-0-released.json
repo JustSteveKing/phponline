@@ -1,0 +1,13 @@
+{
+  "id": "symfony/blog-twig-3-31-0-released",
+  "title": "Twig 3.31.0 released",
+  "link": "https://symfony.com/blog/twig-3-31-0-released?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-11-23T16:36:00.000Z",
+  "content": "<html><head></head><body>Twig 3.31.0 is out. It adds a collate() function to sort strings in the\nalphabetical order of a language, lets you mark a Markup value as safe for\nsome escaping strategies only, makes attribute-based extensions easier to\nwrite and to load lazily, and makes…</body></html>",
+  "source": "Symfony",
+  "author": " Fabien Potencier ",
+  "creatorId": "symfony",
+  "tags": [
+    "symfony"
+  ]
+}

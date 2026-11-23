@@ -1,0 +1,14 @@
+{
+  "id": "symfony/blog-new-in-symfony-8-2-cache-improvements",
+  "title": "New in Symfony 8.2: Cache Improvements",
+  "link": "https://symfony.com/blog/new-in-symfony-8-2-cache-improvements?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-11-23T16:01:00.000Z",
+  "content": "<html><head></head><body>The Cache component stores the results of expensive operations in many\nbackends: files, Redis, Valkey, Memcached, databases, etc. Symfony 8.2 makes it\nsimpler to choose that backend, makes cache tags faster when using a database\nand reports a kind of failure…</body></html>",
+  "source": "Symfony",
+  "author": " Javier Eguiluz ",
+  "creatorId": "symfony",
+  "tags": [
+    "symfony",
+    "databases"
+  ]
+}

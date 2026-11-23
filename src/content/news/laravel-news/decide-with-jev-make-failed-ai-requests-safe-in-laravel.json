@@ -1,0 +1,13 @@
+{
+  "id": "laravel-news/decide-with-jev-make-failed-ai-requests-safe-in-laravel",
+  "title": "Decide with Jev: Make Failed AI Requests Safe in Laravel",
+  "link": "https://laravel-news.com/decide-with-jev-make-failed-ai-requests-safe-in-laravel?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-11-22T20:04:08.000Z",
+  "content": "<html><head></head><body><iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/Bb6eopXCDsY\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen=\"\"></iframe>\n                                        <hr>\n\n                    <p>If an AI request fails, the old result should not stay on the screen looking like a pass. In episode 5 of Decide with Jev, every failed check becomes a new run marked needs review, and bad input stops in PHP before it reaches the model.</p>\n\n                    <p>The post <a href=\"https://laravel-news.com/decide-with-jev-make-failed-ai-requests-safe-in-laravel\">Decide with Jev: Make Failed AI Requests Safe in Laravel</a> appeared first on <a href=\"https://laravel-news.com\">Laravel News</a>.</p>\n                    <p>Join the <a href=\"https://laravel-news.com/newsletter\">Laravel Newsletter</a> to get <a href=\"https://laravel-news.com\">Laravel</a> articles like this directly in your inbox.</p>\n\n                    </body></html>",
+  "source": "laravel-news",
+  "author": "Harris Raftopoulos",
+  "creatorId": "laravel-news",
+  "tags": [
+    "laravel"
+  ]
+}
