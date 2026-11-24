@@ -1,0 +1,14 @@
+{
+  "id": "symfony/blog-twig-3-31-1-released",
+  "title": "Twig 3.31.1 released",
+  "link": "https://symfony.com/blog/twig-3-31-1-released?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-11-24T12:34:00.000Z",
+  "content": "<html><head></head><body>Twig 3.31.1 is a security release that fixes nine vulnerabilities, seven of\nthem in the sandbox. This post also covers two more, which 3.31.0 already fixed.\nApplications that don't render sandboxed templates are only exposed to two of\nthese issues. One is…</body></html>",
+  "source": "Symfony",
+  "author": " Fabien Potencier ",
+  "creatorId": "symfony",
+  "tags": [
+    "symfony",
+    "security"
+  ]
+}

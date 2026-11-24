@@ -1,0 +1,13 @@
+{
+  "id": "symfony/blog-twig-4-0-0-beta1-released",
+  "title": "Twig 4.0.0-beta1 released",
+  "link": "https://symfony.com/blog/twig-4-0-0-beta1-released?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-11-24T13:34:00.000Z",
+  "content": "<html><head></head><body>Six months after the first alpha, Twig 4.0 reaches beta. Since then, the 3.x\nbranch has deprecated many legacy behaviors, and this beta removes them all:\nsandboxed templates get an environment of their own, macros become as strict as\nfunctions, and several…</body></html>",
+  "source": "Symfony",
+  "author": " Fabien Potencier ",
+  "creatorId": "symfony",
+  "tags": [
+    "symfony"
+  ]
+}
