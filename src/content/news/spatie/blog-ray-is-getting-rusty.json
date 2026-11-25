@@ -1,0 +1,13 @@
+{
+  "id": "spatie/blog-ray-is-getting-rusty",
+  "title": "Ray is getting rusty!",
+  "link": "https://spatie.be/blog/ray-is-getting-rusty?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-11-25T09:27:19.000Z",
+  "content": "<html><head></head><body><p>We rewrote Ray in Rust with the help of AI. The performance improvements are staggering. Ray is now faster, uses less memory and is more secure. And the best part? It's a free upgrade!</p>\n\n            </body></html>",
+  "source": "spatie",
+  "author": "Spatie: Blog",
+  "creatorId": "spatie",
+  "tags": [
+    "performance"
+  ]
+}
