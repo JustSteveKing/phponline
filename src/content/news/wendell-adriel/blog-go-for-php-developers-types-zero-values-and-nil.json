@@ -1,0 +1,11 @@
+{
+  "id": "wendell-adriel/blog-go-for-php-developers-types-zero-values-and-nil",
+  "title": "Go for PHP Developers: Types, Zero Values, and Nil",
+  "link": "https://wendelladriel.com/blog/go-for-php-developers-types-zero-values-and-nil?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-11-26T00:00:00.000Z",
+  "content": "<html><head></head><body>Compare PHP type declarations with Go variables, type inference, and explicit conversions. Learn how zero values and nil distinguish an unknown word count from an empty article.</body></html>",
+  "source": "wendell-adriel",
+  "author": "Wendell Adriel <contact@wendelladriel.com>",
+  "creatorId": "wendell-adriel",
+  "tags": []
+}
