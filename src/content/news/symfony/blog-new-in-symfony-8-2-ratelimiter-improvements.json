@@ -1,0 +1,13 @@
+{
+  "id": "symfony/blog-new-in-symfony-8-2-ratelimiter-improvements",
+  "title": "New in Symfony 8.2: RateLimiter Improvements",
+  "link": "https://symfony.com/blog/new-in-symfony-8-2-ratelimiter-improvements?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-11-27T16:05:00.000Z",
+  "content": "<html><head></head><body>The RateLimiter component controls how often an action can happen in your\napplication. Symfony 8.2 makes it possible to create limiters at runtime and\nadds many features to the #[RateLimit] attribute introduced in Symfony 8.1.\n\nBuilding Rate Limiters at Runtime…</body></html>",
+  "source": "Symfony",
+  "author": " Javier Eguiluz ",
+  "creatorId": "symfony",
+  "tags": [
+    "symfony"
+  ]
+}
