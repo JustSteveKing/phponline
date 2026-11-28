@@ -1,0 +1,14 @@
+{
+  "id": "symfony/blog-symfony-ux-4-0-could-leave-stimulus-and-hotwire",
+  "title": "Symfony UX 4.0 Could Leave Stimulus and Hotwire",
+  "link": "https://symfony.com/blog/symfony-ux-4-0-could-leave-stimulus-and-hotwire?utm_source=phponline.dev&utm_medium=referral&utm_campaign=phponline.dev",
+  "pubDate": "2026-11-28T09:08:00.000Z",
+  "content": "<html><head></head><body>We used the Hackday of SymfonyCon Warsaw 2026 to announce what we would like\nSymfony UX 4.0 to be: a UX that no longer depends on Stimulus, Turbo or\nthe rest of the Hotwire ecosystem.\nNothing is decided yet. The proposal is an RFC, symfony/ux#4387, and this…</body></html>",
+  "source": "Symfony",
+  "author": " Hugo Alliaume ",
+  "creatorId": "symfony",
+  "tags": [
+    "symfony",
+    "internals"
+  ]
+}
